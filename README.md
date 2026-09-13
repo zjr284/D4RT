@@ -1,4 +1,4 @@
-# D4RT 论文复现与本科科研起点
+# D4RT 论文复现
 
 本仓库是依据 [CVPR 2026 论文](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html)及其附录构建的**非官方、缩小版研究原型**。它实现了视频编码、五元组查询、独立 cross-attention 解码、多任务预测和基于预测点的相机配准，并用可控合成场景验证端到端流程。
 
