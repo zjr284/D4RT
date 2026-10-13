@@ -17,3 +17,5 @@
 - `source_gt_control_summary.json`：第八轮同预算、同校准规则的纯首帧GT公平对照。
 
 - `fresh_video_confirmation_summary.json`：第九轮40段未使用视频的冻结确认（保留负结果）。
+
+- `frozen_error_audit_summary.json`：第十轮冻结输出错误分解及独立训练视频覆盖审计。

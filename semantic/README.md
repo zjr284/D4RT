@@ -80,3 +80,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第八轮公平首帧GT基线完成，见 [协议](OVIS_SOURCE_GT_PROTOCOL.md)和[结果](OVIS_SOURCE_GT_RESULTS.md)。相同2000步与验证校准下，SAM前景/背景方案相对纯GT在三个种子均改善。下一轮应固定模型，在原100段之外的未使用视频复核。
 
 第九轮未使用视频确认完成，见 [协议](OVIS_FRESH_CONFIRMATION_PROTOCOL.md)和[结果](OVIS_FRESH_CONFIRMATION_RESULTS.md)。40段新视频上，SAM前景/背景优于只补前景但低于纯GT，此前超越GT的收益没有复现。后续优先分析冻结错误输出并重新设计独立确认。
+
+第十轮冻结错误/覆盖审计完成，见 [协议](OVIS_ERROR_AUDIT_PROTOCOL.md)和[结果](OVIS_ERROR_AUDIT_RESULTS.md)。校准后主要错误是前景类间混淆；SAM没有增加任何类别的独立训练视频，六个仅覆盖单视频的类别在确认集F1均为零。覆盖与性能并非单调关系，后续需新划分训练验证。
