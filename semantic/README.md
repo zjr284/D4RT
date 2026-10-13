@@ -70,3 +70,7 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第三轮完成源时间与前景类别采样的 2×2、三种子实验，见 [固定协议](OVIS_SAMPLING_PROTOCOL.md)和[结果与机制诊断](OVIS_SAMPLING_RESULTS.md)。两项采样修正均未恢复第一轮前景性能，下一步需区分监督覆盖与冻结表征限制。
 
 第四轮真值诊断已完成，见 [协议](OVIS_ORACLE_PROTOCOL.md)和[结果](OVIS_ORACLE_RESULTS.md)。原查询标签修正及八帧完整真值覆盖均未恢复测试表现；相同类别的训练/测试召回率差距提示优先检查跨视频泛化。
+
+第五轮完成分类头×训练预算诊断，见 [协议](OVIS_HEAD_BUDGET_PROTOCOL.md)和[结果](OVIS_HEAD_BUDGET_RESULTS.md)。线性头延长至2000步在三个种子都改善，跨视频泛化差距仍大；下一轮应在统一预算下回到弱监督方案。
+
+第六轮统一预算弱监督复核完成，见 [协议](OVIS_WEAKLABEL_BUDGET_PROTOCOL.md)和[结果](OVIS_WEAKLABEL_BUDGET_RESULTS.md)。线性2000步同时改善两方案，但背景恢复、前景受损在所有配对种子中仍存在；下一步优先验证背景分数校准。
