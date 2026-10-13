@@ -84,3 +84,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十轮冻结错误/覆盖审计完成，见 [协议](OVIS_ERROR_AUDIT_PROTOCOL.md)和[结果](OVIS_ERROR_AUDIT_RESULTS.md)。校准后主要错误是前景类间混淆；SAM没有增加任何类别的独立训练视频，六个仅覆盖单视频的类别在确认集F1均为零。覆盖与性能并非单调关系，后续需新划分训练验证。
 
 第十一轮等视频数覆盖干预完成，见 [协议](OVIS_VIDEO_COVERAGE_PROTOCOL.md)和[结果](OVIS_VIDEO_COVERAGE_RESULTS.md)。全25类至少3段源帧查询覆盖未改善确认宏F1；SAM相对各自GT基线在三种子都改善，但验证到确认的泛化差距仍大。全部查询、预算、模型输出与验证选择独立核验通过；下一步审计冻结类别错误并评估表征控制。
+
+第十二轮冻结跨视频审计完成，见 [协议](OVIS_TRANSFER_AUDIT_PROTOCOL.md)和[结果](OVIS_TRANSFER_AUDIT_RESULTS.md)。14个共同类的训练源帧宏召回约78%–87%，确认源帧约9.5%–14.9%；Bear在覆盖组训练召回超96%但确认仍为零。源时间变化和训练类别缺失不足以解释全部失败，下一步预注册独立语义特征控制；本轮是描述性诊断，未训练或重新校准。
