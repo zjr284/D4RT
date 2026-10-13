@@ -1,0 +1,1925 @@
+{
+  "protocol": {
+    "version": 1,
+    "analysis": "frozen inference interface correctness; no new generalization confirmation",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "clip_selection": "first3 round15 confirmation clips, no score-based selection",
+    "cached_queries_per_clip": 64,
+    "query_selection": "equally spaced indices in existing2048 query cache",
+    "extra_queries": "eight source times, corners, center and fractional coordinates",
+    "background_offset": -1.75,
+    "training_updates": 0,
+    "calibration_updates": 0,
+    "reference": "original D4RT exact input batch and same CUDA BF16 autocast",
+    "time_change": "t_tgt+1 and t_cam+3 modulo8, source fields unchanged",
+    "geometry_requirement": "bitwise equality for all six outputs",
+    "semantic_time_requirement": "bitwise equality",
+    "online_cache_differences": "report all errors and label changes without score-based adjustment",
+    "input_precision": "primary float32 RGB, diagnostic BF16 RGB on first clip",
+    "performance": "one sequential invocation per case, original geometry first; not throughput benchmark",
+    "real_batch_size": 1,
+    "unit_batch_size": 2,
+    "previously_processed_video_count_unchanged": 420,
+    "selected_arm": "coverage80_sam_background",
+    "input_sha256": {
+      "semantic_artifacts/dino_sam_control/summary.json": "2f6c65f6275d62eb62fbd2edd3d8de3fa4d1698c16feedcc8f91b2623832675c",
+      "semantic_artifacts/dino_sam_control/verification.json": "3adc197ad1f31b4a630a00d3e2671f2aa724646710da71fd53576e00f110e271",
+      "semantic_artifacts/dino_sam_control/coverage80_sam_background/dinov2/runs/linear_seed0.pt": "e5f703d9f0b5d150060e7dfeea91393f9941b7b6c410d627b8415f981de358e5",
+      "semantic_artifacts/dino_sam_control/coverage80_sam_background/dinov2/runs/linear_seed1.pt": "351bdc1db434fe7a9f3d8e68e9eda4c19dfb1ce2f19db721a90a0634cc821153",
+      "semantic_artifacts/dino_sam_control/coverage80_sam_background/dinov2/runs/linear_seed2.pt": "5057fe2029d3cc6438e43767405cd559737e16e2ad645fa3ff3f202674d43657",
+      "semantic_artifacts/dino_sam_control/features/dinov2/confirmation/153.npz": "0b4dc3133ebdac0c074226273ec729f8896c69ed7b50268bcfb2bb86ff22be9d",
+      "semantic_artifacts/dino_sam_control/features/dinov2/confirmation/52.npz": "a759a1f55f0ca455d1a35934a357f4b728e96ed484a522f3b6874ab7b2a4eca8",
+      "semantic_artifacts/dino_sam_control/features/dinov2/confirmation/395.npz": "514a519ad3209dcdc2ce55c85bc58f1eb0266207f836375fa35d9a6a4dfceb14",
+      "semantic_artifacts/ovis/train/994ed763/img_0000001.jpg": "e57ea8bf449f0174d97ca91edb6cb0cd453f192eb47629b25f4c7fbf94f1d7dd",
+      "semantic_artifacts/ovis/train/994ed763/img_0000002.jpg": "2b66d7bc5dc8f59b34652246a2242e084fd3d8ebf25ec9281f3a4e280c9b4609",
+      "semantic_artifacts/ovis/train/994ed763/img_0000003.jpg": "76102a9f6d1ff1c73490c8eae74f289dab05e02d597e616f87894c2d38705519",
+      "semantic_artifacts/ovis/train/994ed763/img_0000004.jpg": "6fa7ff8597a76f72d3edec701c91389ce61c80864830afbbb0ac55182f0e16c0",
+      "semantic_artifacts/ovis/train/994ed763/img_0000005.jpg": "2231083a8d6831d2c2963aa6ac2558ef0c8db431089d63bb457a5dac8f66813d",
+      "semantic_artifacts/ovis/train/994ed763/img_0000006.jpg": "b78868a8b48dc5d18ec74e28f3e9cf5985b8fa888b2c83e094bc9c76b43ed08a",
+      "semantic_artifacts/ovis/train/994ed763/img_0000007.jpg": "7cc99ce4458355c5a0763dd1bc5675fce746cbf5aba08c02b328e77fd45e446c",
+      "semantic_artifacts/ovis/train/994ed763/img_0000008.jpg": "359bf0b9d7c55fcc72fed12cee0b736f3fbd32632a7918f766facb61cfe2bcbc",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000001.jpg": "d455f1216ba8a09f95a8599d9915aa49b49cdb68554ccdd5e8c8aa02c342f926",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000002.jpg": "56861986d5e137954bf6cbc691a584a46dc6825461cc177ed1af1a12605c3dea",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000003.jpg": "857ac7dc722f080f1bf47d54d44df005276d21314d0c23bfb4ac5504e9ecdb9d",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000004.jpg": "3fd35ca3170e6f088a452b770c44e457bc5d8c1a077606ca646e0191df2a74ee",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000005.jpg": "3447070d803e29a705c9fcf6786c15872580644e9a18eefbce58e5c55ed6d52b",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000006.jpg": "408578ea00f50ffaa29c4d8d033d25eb51b363adc029fd2f82bf9864d42a9bff",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000007.jpg": "05eb8673945f5257371943b501cd65a407cb708fa611e116139b42d4224757fa",
+      "semantic_artifacts/ovis/train/cfd946b2/img_0000008.jpg": "925137f321504a8a3f4334072fdfd5d1d16ef31d08eca84e69aa73b9de6174e5",
+      "semantic_artifacts/ovis/train/bc844942/img_0000001.jpg": "479b3939ea146059a7cf2dca946ee7e65666417824de7e03a5a5860efd4201b3",
+      "semantic_artifacts/ovis/train/bc844942/img_0000002.jpg": "8965ebafa7f32ed1d5234cb3cb082919cfe1df5b73905a666d0ad0fcf829f069",
+      "semantic_artifacts/ovis/train/bc844942/img_0000003.jpg": "54203f2f0cdd60e3b3285287b0d8e013933122335c8a20116583c8aea577d0f1",
+      "semantic_artifacts/ovis/train/bc844942/img_0000004.jpg": "7b548fef3a86bb9c7eb5acf27edc4ca6f2e087a8488152edd2e61402062a715e",
+      "semantic_artifacts/ovis/train/bc844942/img_0000005.jpg": "dfc4770f556cf9b07cb2cc58e9a3b97ad4d1b54fa043960a536d5479edef2989",
+      "semantic_artifacts/ovis/train/bc844942/img_0000006.jpg": "26912b44668ce6aaecaa42b7f4be260ef9296089936ce30377683f36d2d3d0a2",
+      "semantic_artifacts/ovis/train/bc844942/img_0000007.jpg": "de7c363643da20e9bea5d8660b50adffe7809a9f0ed4cf1085ba3518e59c8ede",
+      "semantic_artifacts/ovis/train/bc844942/img_0000008.jpg": "e898778f5f84129dc692b0cd67216c45e30a3460971a2702115f41c952069d45"
+    },
+    "inherited_protocol": {
+      "version": 1,
+      "arms": [
+        "random80_source_gt",
+        "random80_sam_background",
+        "coverage80_source_gt",
+        "coverage80_sam_background"
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "confirmation_seed": 20261017,
+      "confirmation_videos": 40,
+      "train_videos_each": 80,
+      "validation_videos": 20,
+      "new_training": "only two SAM arms, six new heads; source-GT heads and offsets frozen",
+      "frozen_gt_offset": -1.5,
+      "features": "unchanged round13 frozen DINOv2 ViT-S/14 patch recipe",
+      "source_features": "copy exact existing source-GT query feature values into SAM source prefix",
+      "teacher": "reuse round11 SAM2.1 tiny labels, masks and confidence rules unchanged; later GT never filters labels",
+      "steps": 2000,
+      "optimizer": "AdamW lr=0.001 weight_decay=0.01",
+      "batch": "128 foreground + 128 background, uniform within group",
+      "selection": "raw validation macro F1 every50 steps, ties earlier",
+      "calibration_grid": [
+        -8.0,
+        -7.75,
+        -7.5,
+        -7.25,
+        -7.0,
+        -6.75,
+        -6.5,
+        -6.25,
+        -6.0,
+        -5.75,
+        -5.5,
+        -5.25,
+        -5.0,
+        -4.75,
+        -4.5,
+        -4.25,
+        -4.0,
+        -3.75,
+        -3.5,
+        -3.25,
+        -3.0,
+        -2.75,
+        -2.5,
+        -2.25,
+        -2.0,
+        -1.75,
+        -1.5,
+        -1.25,
+        -1.0,
+        -0.75,
+        -0.5,
+        -0.25,
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0,
+        2.25,
+        2.5,
+        2.75,
+        3.0,
+        3.25,
+        3.5,
+        3.75,
+        4.0,
+        4.25,
+        4.5,
+        4.75,
+        5.0,
+        5.25,
+        5.5,
+        5.75,
+        6.0,
+        6.25,
+        6.5,
+        6.75,
+        7.0,
+        7.25,
+        7.5,
+        7.75,
+        8.0
+      ],
+      "calibration_selection": "one shared offset per label arm, maximize mean validation macro F1 over three seeds",
+      "confirmation_after_model_and_offset_freeze": true,
+      "source_metadata_previously_inspected": true,
+      "bootstrap_seed": 20261017,
+      "bootstrap_repetitions": 2000,
+      "pretraining_ovis_overlap": "unknown",
+      "manifest_sha256": "8261275b507c740e27b8c9d4505326c3b91bae8a6f5d1fa1530f086ae4885669",
+      "inherited_feature_coverage_protocol": {
+        "version": 1,
+        "analysis": "2x2 source-GT feature x equal-size video selection",
+        "arms": [
+          "random80_d4rt",
+          "coverage80_d4rt",
+          "random80_dinov2",
+          "coverage80_dinov2"
+        ],
+        "confirmation_seed": 20261016,
+        "confirmation_videos": 40,
+        "train_videos_each": 80,
+        "validation_videos": 20,
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "new_training_arm": "coverage80_dinov2",
+        "frozen_offsets": {
+          "random80_d4rt": -1.25,
+          "coverage80_d4rt": -0.75,
+          "random80_dinov2": -1.5
+        },
+        "feature_recipe": "unchanged from round13 official frozen DINOv2 ViT-S/14 patch feature",
+        "optimizer": "AdamW lr=0.001 weight_decay=0.01",
+        "steps": 2000,
+        "sampling": "128 foreground + 128 background, uniform within group",
+        "selection": "raw validation macro F1 every 50 steps, tie earlier",
+        "calibration_grid": [
+          -8.0,
+          -7.75,
+          -7.5,
+          -7.25,
+          -7.0,
+          -6.75,
+          -6.5,
+          -6.25,
+          -6.0,
+          -5.75,
+          -5.5,
+          -5.25,
+          -5.0,
+          -4.75,
+          -4.5,
+          -4.25,
+          -4.0,
+          -3.75,
+          -3.5,
+          -3.25,
+          -3.0,
+          -2.75,
+          -2.5,
+          -2.25,
+          -2.0,
+          -1.75,
+          -1.5,
+          -1.25,
+          -1.0,
+          -0.75,
+          -0.5,
+          -0.25,
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          2.25,
+          2.5,
+          2.75,
+          3.0,
+          3.25,
+          3.5,
+          3.75,
+          4.0,
+          4.25,
+          4.5,
+          4.75,
+          5.0,
+          5.25,
+          5.5,
+          5.75,
+          6.0,
+          6.25,
+          6.5,
+          6.75,
+          7.0,
+          7.25,
+          7.5,
+          7.75,
+          8.0
+        ],
+        "calibration_selection": "one shared offset per label arm, maximize mean validation macro F1 over three seeds",
+        "confirmation_after_all_selection": true,
+        "source_metadata_previously_inspected": true,
+        "interaction": "(DINO coverage - DINO random) - (D4RT coverage - D4RT random)",
+        "bootstrap_seed": 20261016,
+        "bootstrap_repetitions": 2000,
+        "pretraining_ovis_overlap": "unknown",
+        "manifest_sha256": "d70d68e8ec7de39cc8e677d72c2527a3e73c765a6cedec39431da6188ba13155",
+        "frozen_checkpoint_sha256": {
+          "random80_d4rt_0": "e4f22f872812e0f8df96de87e3f678369c2cf913cf24daa0fc7c1bf643697021",
+          "random80_d4rt_1": "e23bcd268bc3b3c016a00ecb2c56d836a879a21e744c8f2896b4b47dd691cacc",
+          "random80_d4rt_2": "30d63f97139f62747b794a00f18480a3f6d346296f6f48a769f024ee65a346f4",
+          "coverage80_d4rt_0": "59ebad37260663b651293d90a4a1df8b70a6da7dba12036a6f57c6466e219d9d",
+          "coverage80_d4rt_1": "08d412f72d80d4c4b1c6dce2a11bc5f5f65717df9701939cf6e51df1b7267fca",
+          "coverage80_d4rt_2": "2282f1aed1edc300f14a42bbcd7c4e118e088c6718c43de81229b96b61bbbad6",
+          "random80_dinov2_0": "6b2dfe49ccae30432cb304dc57a52c562c5bd10516015d80114d08aef97a93a5",
+          "random80_dinov2_1": "2aa654d23710b285c7397b5641388a74ad3bef6d0193291d33ad2016de6f321f",
+          "random80_dinov2_2": "282a364b6df807604bf9ee8491f2c5c0c292addb320d278d01fd727bd8fb02a5"
+        },
+        "round11_summary_sha256": "f1eb601ea7e912850e32cfbb3f4f13a28c3d80a4056376a7a6cb609cb8acb2b5",
+        "round13_summary_sha256": "4e1d2be56b10e02ba429ccc6dad42929322c6fc748bda7e523ae867455901f65",
+        "inherited_feature_protocol": {
+          "version": 1,
+          "confirmation_seed": 20261015,
+          "confirmation_videos": 40,
+          "training_videos": 80,
+          "validation_videos": 20,
+          "arms": [
+            "d4rt",
+            "dinov2"
+          ],
+          "baseline": "frozen round11 validation-selected random80_source_gt; no repeated training",
+          "dinov2": "official ViT-S/14, frozen, final normalized patch tokens, no pretrained head",
+          "dinov2_input": "shared 128x128 RGB -> bicubic 224x224; ImageNet mean/std; no GT masks/crops/prompts",
+          "patch_sampling": "bilinear at 128-pixel centers, align_corners=False, border padding",
+          "feature_dims": {
+            "d4rt": 1280,
+            "dinov2": 384
+          },
+          "feature_storage": "float16",
+          "supervision": "source-frame GT only, identical query metadata",
+          "head": "linear",
+          "steps": 2000,
+          "seeds": [
+            0,
+            1,
+            2
+          ],
+          "batch": "128 foreground + 128 background uniform queries",
+          "optimizer": "AdamW lr=0.001 weight_decay=0.01",
+          "checkpoint_selection": "raw validation macro F1 every 50 steps; ties earlier checkpoint",
+          "calibration_grid": [
+            -8.0,
+            -7.75,
+            -7.5,
+            -7.25,
+            -7.0,
+            -6.75,
+            -6.5,
+            -6.25,
+            -6.0,
+            -5.75,
+            -5.5,
+            -5.25,
+            -5.0,
+            -4.75,
+            -4.5,
+            -4.25,
+            -4.0,
+            -3.75,
+            -3.5,
+            -3.25,
+            -3.0,
+            -2.75,
+            -2.5,
+            -2.25,
+            -2.0,
+            -1.75,
+            -1.5,
+            -1.25,
+            -1.0,
+            -0.75,
+            -0.5,
+            -0.25,
+            0.0,
+            0.25,
+            0.5,
+            0.75,
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0,
+            2.25,
+            2.5,
+            2.75,
+            3.0,
+            3.25,
+            3.5,
+            3.75,
+            4.0,
+            4.25,
+            4.5,
+            4.75,
+            5.0,
+            5.25,
+            5.5,
+            5.75,
+            6.0,
+            6.25,
+            6.5,
+            6.75,
+            7.0,
+            7.25,
+            7.5,
+            7.75,
+            8.0
+          ],
+          "calibration_selection": "one shared offset per label arm, maximize mean validation macro F1 over three seeds",
+          "frozen_d4rt_offset": -1.25,
+          "bootstrap_seed": 20261015,
+          "bootstrap_repetitions": 2000,
+          "confirmation_never_selects_parameters": true,
+          "source_category_metadata_previously_inspected": true,
+          "pretraining_ovis_image_overlap": "unknown, cannot establish disjoint pretraining data",
+          "manifest_sha256": "54eb6a0e510960a86b7eeebe92d0244c6359c19275e31438b8823f1df93cf981",
+          "dinov2_weight_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+          "dinov2_source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+          "d4rt_backbone_sha256": "1f63305422fdc2000b057fbbc1d37459ac1a8063bbfcd0e3b7d473f5485943f5",
+          "d4rt_model_config_sha256": "c0b51efbb79ffacc16fdb78e2cf78a5759bc22b2a11a1eb7890d109e4af8f9eb",
+          "frozen_baseline_checkpoint_sha256": {
+            "0": "e4f22f872812e0f8df96de87e3f678369c2cf913cf24daa0fc7c1bf643697021",
+            "1": "e23bcd268bc3b3c016a00ecb2c56d836a879a21e744c8f2896b4b47dd691cacc",
+            "2": "30d63f97139f62747b794a00f18480a3f6d346296f6f48a769f024ee65a346f4"
+          },
+          "reused_d4rt_features_sha256": {
+            "train": "50df116f2aa4585a2c734c02904d181657508bf903d2fd147bb98cb6b837cf77",
+            "val": "d1bfa1d2cd275effb16080b6bd34c812b980bd8e2f8c30d5d008bf08a49c15bc"
+          },
+          "annotation_sha256": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38"
+        }
+      },
+      "frozen_gt_checkpoint_sha256": {
+        "random80_0": "6b2dfe49ccae30432cb304dc57a52c562c5bd10516015d80114d08aef97a93a5",
+        "random80_1": "2aa654d23710b285c7397b5641388a74ad3bef6d0193291d33ad2016de6f321f",
+        "random80_2": "282a364b6df807604bf9ee8491f2c5c0c292addb320d278d01fd727bd8fb02a5",
+        "coverage80_0": "814f954ed77701151b94d183182eccf76f2e8864f07f2bbb820cdc858e0aeefe",
+        "coverage80_1": "44a6743a5711b73a0b441be6f9ca3e862937a6349de486468e0922f4cfb2a874",
+        "coverage80_2": "f7678de27e667e887b827b70f54a3f532382a28a634f82394d7d864fe37d9973"
+      },
+      "round14_summary_sha256": "0c63e5d2b94c6d836a3e0788364630f5847faf448f36c7c2b8850c48d8154928",
+      "teacher_sha256": "f4cc7b8dd70909b4aee7a4474f2509017d5ae924311d23aaa16a31c7f5f13d25",
+      "teacher_query_sha256": "8d53cad66a110096450bd32d0c92eb22f5d4cd8878ff0887188495e00a764437"
+    }
+  },
+  "cases": [
+    {
+      "video_id": 153,
+      "seed": 0,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.7502937869976449,
+        "peak_cuda_allocated_bytes": 2483345920,
+        "peak_cuda_reserved_bytes": 2667577344
+      },
+      "full_interface_cost": {
+        "seconds": 0.15215612499741837,
+        "peak_cuda_allocated_bytes": 2491910656,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 153,
+      "seed": 1,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.7502937869976449,
+        "peak_cuda_allocated_bytes": 2483345920,
+        "peak_cuda_reserved_bytes": 2667577344
+      },
+      "full_interface_cost": {
+        "seconds": 0.0708878730001743,
+        "peak_cuda_allocated_bytes": 2492788736,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 153,
+      "seed": 2,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.7502937869976449,
+        "peak_cuda_allocated_bytes": 2483345920,
+        "peak_cuda_reserved_bytes": 2667577344
+      },
+      "full_interface_cost": {
+        "seconds": 0.07041947499965318,
+        "peak_cuda_allocated_bytes": 2492788736,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 52,
+      "seed": 0,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.05646992299807607,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07007712599806837,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 52,
+      "seed": 1,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.05646992299807607,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07083520400192356,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 52,
+      "seed": 2,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.05646992299807607,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07012126900008298,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 395,
+      "seed": 0,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.056369122001342475,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07183135199738899,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 395,
+      "seed": 1,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.056369122001342475,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07511555000019143,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    },
+    {
+      "video_id": 395,
+      "seed": 2,
+      "cache_query_indices": [
+        0,
+        32,
+        64,
+        96,
+        128,
+        160,
+        192,
+        224,
+        256,
+        288,
+        320,
+        352,
+        384,
+        416,
+        448,
+        480,
+        512,
+        544,
+        576,
+        608,
+        640,
+        672,
+        704,
+        736,
+        768,
+        800,
+        832,
+        864,
+        896,
+        928,
+        960,
+        992,
+        1024,
+        1056,
+        1088,
+        1120,
+        1152,
+        1184,
+        1216,
+        1248,
+        1280,
+        1312,
+        1344,
+        1376,
+        1408,
+        1440,
+        1472,
+        1504,
+        1536,
+        1568,
+        1600,
+        1632,
+        1664,
+        1696,
+        1728,
+        1760,
+        1792,
+        1824,
+        1856,
+        1888,
+        1920,
+        1952,
+        1984,
+        2016
+      ],
+      "query_count": 72,
+      "geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "changed_time_geometry": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "semantic_time": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_features": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_raw_logits": {
+        "bitwise_equal": true,
+        "max_absolute_difference": 0.0,
+        "mean_absolute_difference": 0.0
+      },
+      "online_vs_cached_label_changes": 0,
+      "semantic_head_reload_bitwise_equal": true,
+      "base_forward_cost": {
+        "seconds": 0.056369122001342475,
+        "peak_cuda_allocated_bytes": 2484443136,
+        "peak_cuda_reserved_bytes": 2688548864
+      },
+      "full_interface_cost": {
+        "seconds": 0.07035103499947581,
+        "peak_cuda_allocated_bytes": 2492792832,
+        "peak_cuda_reserved_bytes": 2688548864
+      }
+    }
+  ],
+  "input_precision_diagnostic": [
+    {
+      "video_id": 153,
+      "seed": 0,
+      "geometry_unchanged_for_same_bf16_input": true,
+      "float32_vs_bf16_raw_logits": {
+        "bitwise_equal": false,
+        "max_absolute_difference": 0.11940622329711914,
+        "mean_absolute_difference": 0.022543638944625854
+      },
+      "float32_vs_bf16_label_changes": 1,
+      "query_count": 72
+    },
+    {
+      "video_id": 153,
+      "seed": 1,
+      "geometry_unchanged_for_same_bf16_input": true,
+      "float32_vs_bf16_raw_logits": {
+        "bitwise_equal": false,
+        "max_absolute_difference": 0.12885236740112305,
+        "mean_absolute_difference": 0.02298353984951973
+      },
+      "float32_vs_bf16_label_changes": 1,
+      "query_count": 72
+    },
+    {
+      "video_id": 153,
+      "seed": 2,
+      "geometry_unchanged_for_same_bf16_input": true,
+      "float32_vs_bf16_raw_logits": {
+        "bitwise_equal": false,
+        "max_absolute_difference": 0.12089276313781738,
+        "mean_absolute_difference": 0.02250516787171364
+      },
+      "float32_vs_bf16_label_changes": 0,
+      "query_count": 72
+    }
+  ],
+  "verification": {
+    "all_108_original_and_changed_geometry_fields_bitwise_equal": true,
+    "all_nine_semantic_time_checks_bitwise_equal": true,
+    "all_three_heads_reload_bitwise_equal": true,
+    "all_inputs_and_checkpoint_hashes_unchanged": true,
+    "all_model_parameters_frozen": true,
+    "no_training_calibration_or_new_confirmation": true
+  },
+  "limits": [
+    "three already-observed clips, 192 cache points plus24 extra points, three model seeds",
+    "CUDA real B1 only; B2 verified with deterministic unit stubs",
+    "geometry equivalence is not an independent geometry-accuracy benchmark",
+    "online/cache and BF16 RGB differences reported without adjusting models"
+  ]
+}

@@ -33,3 +33,6 @@
 
 - `dino_sam_control_summary.json`：第十五轮固定DINOv2的源帧GT/SAM监督、两训练集三种子及新40段确认。
 - `dino_sam_control_verification.json`：第十五轮教师查询、源帧特征前缀、十二模型输出、采样预算及类别视频覆盖核验。
+
+- `dino_interface_probe_summary.json`：第十六轮三个种子的真实几何/语义接口、时间一致性、输入精度及运行成本。
+- `dino_interface_probe_verification.json`：第十六轮案例闭合、帧/缓存/头/骨干指纹和运行环境记录。

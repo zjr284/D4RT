@@ -1,0 +1,19 @@
+{
+  "summary_sha256": "b2e18cf6f78db5cfd93c62d74d2f79d9d51294087e8d4d0902ffc60d14a75997",
+  "foundation_sha256_after_probe": {
+    "semantic_artifacts/weights/dinov2_vits14_pretrain.pth": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "/home/kkk/code/D4RT/external/open-d4rt/checkpoints/OpenD4RT_32CLIP_9Dataset_NoAUG/opend4rt.ckpt": "1f63305422fdc2000b057fbbc1d37459ac1a8063bbfcd0e3b7d473f5485943f5",
+    "/home/kkk/code/D4RT/external/open-d4rt/checkpoints/OpenD4RT_32CLIP_9Dataset_NoAUG/model.yaml": "c0b51efbb79ffacc16fdb78e2cf78a5759bc22b2a11a1eb7890d109e4af8f9eb"
+  },
+  "verification": {
+    "nine_cases_three_seeds_all_present": true,
+    "geometry_time_reload_checks_and_counts_close": true,
+    "all_recorded_inputs_and_foundations_unchanged": true
+  },
+  "environment": {
+    "torch": "2.14.0+cu130",
+    "cuda_runtime": "13.0",
+    "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "device_total_memory_bytes": 8546484224
+  }
+}
