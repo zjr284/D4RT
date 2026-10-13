@@ -51,3 +51,7 @@
 - `protocol.json`、`relabel_audit.json`、`training_distribution.json`：固定协议、标签修正及查询分布。
 - `features/`、`runs/`：独立的真值特征缓存和六个语义头。
 - `semantic_artifacts/oracle_probe.log`：运行日志。
+
+## 第五轮补充证据
+
+后续 [分类头与预算实验](OVIS_HEAD_BUDGET_RESULTS.md)发现线性头2000步的测试前景宏F1提升至0.0606，三个种子均提高。上述第四轮结论限于500步协议，不能据此排除训练预算限制。泛化差距仍明显。
