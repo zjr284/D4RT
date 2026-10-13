@@ -102,3 +102,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十九轮448完整接口验证完成，见 [协议](OVIS_DINO_448_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_448_INTERFACE_RESULTS.md)。40段全部查询、三种子、真实B=2与旧224兼容共126案例通过，1512组几何数组逐值保持，在线语义分数/类别完全复现；全接口峰值已分配约2960/3568MiB。新增显式448验证选择加载入口，默认224不变。下一轮补448纯GT头，结合冻结模型开展分辨率×SAM监督对照。
 
 第二十轮分辨率×监督2×2完成，见 [协议](OVIS_DINO_RESOLUTION_SAM_PROTOCOL.md)和[结果](OVIS_DINO_RESOLUTION_SAM_RESULTS.md)。新40段448 GT/SAM宏F1为0.6685/0.7071，三种子均提高，28/40视频改善、视频区间高于零；224也有相近SAM收益，分辨率×SAM交互区间跨零。验证仍选448 SAM；下一轮立即进行固定查询标签纠错oracle诊断，不把额外GT方案当可部署弱监督。
+
+第二十一轮标签纠错oracle完成，见 [协议](OVIS_DINO_LABEL_ORACLE_PROTOCOL.md)和[结果](OVIS_DINO_LABEL_ORACLE_RESULTS.md)。固定SAM查询与采样算法，162560个训练标签仅771改变；额外GT纠错后已观察40段宏F1从0.7071到0.6991，两种子下降。保留负结果，不将oracle当弱监督部署候选或新确认。下一轮立即检验保留原JPEG信息的RGB预处理控制。
