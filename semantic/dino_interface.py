@@ -23,8 +23,9 @@ def cuda_bf16(device):
 class DinoSemanticD4RT(nn.Module):
     """Inference-only API: original geometry + calibrated 26-class semantics.
 
-    Pass float32 RGB to retain the original image values; CUDA geometry uses
-    BF16 autocast. The original geometry model receives the exact same batch.
+    Pass float32 RGB, or supply matching float32 ``semantic_video`` alongside
+    the original geometry RGB precision. CUDA geometry uses BF16 autocast.
+    The original geometry model receives the exact same batch.
     Semantic weights stay float32 and quantization matches cached features.
     """
     def __init__(self, published_model, dino_model, background_offset=-1.75):
@@ -102,9 +103,16 @@ class DinoSemanticD4RT(nn.Module):
     @torch.inference_mode()
     def forward(self, batch):
         video = batch['video']; query = batch['query']; self.validate(video, query)
+        semantic_video = batch.get('semantic_video', video)
+        if 'semantic_video' in batch:
+            if not torch.is_tensor(semantic_video) or semantic_video.dtype != torch.float32 or semantic_video.shape != video.shape or semantic_video.device != video.device:
+                raise ValueError('semantic_video must be matching float32 RGB on the geometry device')
+            self.validate(semantic_video, query)
+            if not torch.equal(semantic_video.to(video.dtype), video):
+                raise ValueError('semantic_video must quantize exactly to the geometry RGB')
         with cuda_bf16(video.device): result = dict(self.base(batch))
         if not all(key in result for key in GEOMETRY_KEYS): raise ValueError('Original geometry outputs missing')
-        result.update(self.semantic_outputs(self.semantic_features(video, query)))
+        result.update(self.semantic_outputs(self.semantic_features(semantic_video, query)))
         return result
 
 

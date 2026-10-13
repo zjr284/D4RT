@@ -54,6 +54,16 @@ def main():
     assert not torch.equal(model.semantic_features(video, query), model.semantic_features(video, source_changed))
     assert not torch.equal(result['semantic_raw_logits'][0, 0], result['semantic_raw_logits'][0, 1])
     assert torch.equal(video, rgb) and all(torch.equal(query[k], saved[k]) for k in query)
+    paired = {'video': video.to(torch.bfloat16), 'semantic_video': video, 'query': query}
+    paired_result = model(paired)
+    for k, value in model.base(paired).items(): assert torch.equal(paired_result[k], value)
+    assert torch.equal(paired_result['semantic_logits'], result['semantic_logits'])
+    assert torch.equal(paired['video'], video.to(torch.bfloat16)) and torch.equal(video, rgb)
+    altered_rgb = video.clone(); altered_rgb[0, 0, 0, 0, 0] = .95
+    for semantic_rgb in (altered_rgb, video.to(torch.bfloat16), video[:, :1], video.to('meta')):
+        try: model({**paired, 'semantic_video': semantic_rgb})
+        except ValueError: pass
+        else: raise AssertionError('Invalid paired semantic RGB accepted')
     assert all(not p.requires_grad for p in model.parameters())
     try: model.train()
     except ValueError: pass

@@ -94,3 +94,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十五轮DINOv2下SAM对照完成，见 [协议](OVIS_DINO_SAM_PROTOCOL.md)和[结果](OVIS_DINO_SAM_RESULTS.md)。随机组GT/SAM宏F1为0.5798/0.6238，覆盖组0.6155/0.6322，两组三个种子均改善；视频bootstrap区间均跨零，保留负视频。SAM在此特征下有局部辅助收益，下一步验证语义分支接入D4RT的几何保持和时间一致性。
 
 第十六轮真实推理接口验证完成，见 [协议](OVIS_DINO_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_INTERFACE_RESULTS.md)。三个种子在固定3视频上的六项几何保持、目标/相机时间语义一致性均逐值通过，576次旧缓存类别比较无变化。RGB预先BF16量化会改变少量类别；下一步扩大完整查询与真实批量验证，并固定几何/语义的双RGB精度接口。本轮未训练或产生新泛化确认。
+
+第十七轮完整双精度接口验证完成，见 [协议](OVIS_DINO_FULL_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_FULL_INTERFACE_RESULTS.md)。几何保留BF16、语义保留对应float32图像，在40段已有视频的全部2048查询及真实B=2上，1476组几何数组逐值保持，245760次B=1类别比较无变化，既有宏F1完整复现。下一轮固定骨干比较224/448语义特征网格密度；接口验证不算新泛化确认。
