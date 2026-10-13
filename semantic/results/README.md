@@ -11,3 +11,5 @@
 - `head_budget_probe_summary.json`：第五轮线性/非线性分类头和500/2000步预算诊断。
 
 - `weaklabel_budget_probe_summary.json`：第六轮两种伪标签、分类头与500/2000步预算的复核。
+
+- `background_calibration_summary.json`：第七轮仅验证选择的背景分数校准。

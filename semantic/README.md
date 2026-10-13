@@ -74,3 +74,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第五轮完成分类头×训练预算诊断，见 [协议](OVIS_HEAD_BUDGET_PROTOCOL.md)和[结果](OVIS_HEAD_BUDGET_RESULTS.md)。线性头延长至2000步在三个种子都改善，跨视频泛化差距仍大；下一轮应在统一预算下回到弱监督方案。
 
 第六轮统一预算弱监督复核完成，见 [协议](OVIS_WEAKLABEL_BUDGET_PROTOCOL.md)和[结果](OVIS_WEAKLABEL_BUDGET_RESULTS.md)。线性2000步同时改善两方案，但背景恢复、前景受损在所有配对种子中仍存在；下一步优先验证背景分数校准。
+
+第七轮背景分数校准完成，见 [协议](OVIS_CALIBRATION_PROTOCOL.md)和[结果](OVIS_CALIBRATION_RESULTS.md)。补背景组验证选−2.0偏移，三个种子总体/前景宏F1均改善；下一轮补纯首帧GT校准基线。
