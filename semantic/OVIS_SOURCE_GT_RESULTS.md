@@ -40,3 +40,7 @@
 - `runs/`：GT-only三个轨迹、六个模型；`logits/`：固定验证/测试输出。
 - `semantic_artifacts/source_gt_control.log`、`source_gt_control_resume.log`：训练及修复恢复记录。
 - `semantic/results/source_gt_control_summary.json`：可随Git保存的结果快照。
+
+## 第九轮确认结果
+
+后续 [40段未使用视频确认](OVIS_FRESH_CONFIRMATION_RESULTS.md)没有复现SAM前景/背景优于纯GT的收益：新视频宏F1为0.0844，纯GT为0.0917，三个种子均低于纯GT。上述第八轮结果应限制为旧测试划分内的诊断发现，不能作为普遍收益结论。

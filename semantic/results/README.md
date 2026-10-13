@@ -15,3 +15,5 @@
 - `background_calibration_summary.json`：第七轮仅验证选择的背景分数校准。
 
 - `source_gt_control_summary.json`：第八轮同预算、同校准规则的纯首帧GT公平对照。
+
+- `fresh_video_confirmation_summary.json`：第九轮40段未使用视频的冻结确认（保留负结果）。
