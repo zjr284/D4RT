@@ -40,4 +40,3 @@
 - `runs/`：GT-only三个轨迹、六个模型；`logits/`：固定验证/测试输出。
 - `semantic_artifacts/source_gt_control.log`、`source_gt_control_resume.log`：训练及修复恢复记录。
 - `semantic/results/source_gt_control_summary.json`：可随Git保存的结果快照。
-
