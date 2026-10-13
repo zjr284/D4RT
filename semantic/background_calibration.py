@@ -13,7 +13,7 @@ from semantic.run import atomic_json,classification_metrics
 ROOT=Path('semantic_artifacts/background_calibration')
 ARMS=('positive_only','positive_background')
 PROTOCOL={'version':1,'arms':list(ARMS),'head':'linear','training_budget':2000,'seeds':[0,1,2],
-          'offset_grid':list(np.arange(-8.0,8.001,0.25)),'offset_applied_to':'background logit only',
+          'offset_grid':[float(v) for v in np.arange(-8.0,8.001,0.25)],'offset_applied_to':'background logit only',
           'offset_selection':'one shared offset per label arm, maximize mean validation macro F1 over three seeds',
           'ties':'prefer smallest absolute offset, then negative offset','train_updates':0,
           'test_never_selects_offset':True,'labels_features_checkpoints_unchanged':True}
@@ -36,11 +36,12 @@ def pick_offset(validation_packages,grid):
     return selected,scores
 
 
-def logits_for(arm,seed,split,clips):
-    cache=ROOT/'logits'/f'{arm}_{seed}_{split}.npz';cache.parent.mkdir(parents=True,exist_ok=True)
+def logits_for(arm,seed,split,clips, *, checkpoint_path=None, output_root=None):
+    output_root=ROOT if output_root is None else Path(output_root)
+    cache=output_root/'logits'/f'{arm}_{seed}_{split}.npz';cache.parent.mkdir(parents=True,exist_ok=True)
     if cache.exists():
         with np.load(cache) as p:return {k:p[k].copy() for k in p.files}
-    checkpoint=Path('semantic_artifacts/weaklabel_budget_probe')/arm/'runs'/f'linear_2000_seed{seed}.pt'
+    checkpoint=Path('semantic_artifacts/weaklabel_budget_probe')/arm/'runs'/f'linear_2000_seed{seed}.pt' if checkpoint_path is None else Path(checkpoint_path)
     model=SemanticHead(num_classes=26).to('cuda').eval();model.load_state_dict(torch.load(checkpoint,map_location='cpu',weights_only=True)['model'])
     values=[];labels=[];times=[];videos=[]
     with torch.inference_mode():

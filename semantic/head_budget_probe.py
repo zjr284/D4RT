@@ -84,7 +84,7 @@ def trajectory(kind,seed,features,labels,times,train,val,test,protocol, *, outpu
                              'sampling_histogram_time_class':snapshot['sampling_histogram']}
         checkpoint=output_root/'runs'/f'{kind}_{budget}_seed{seed}.pt';checkpoint.parent.mkdir(parents=True,exist_ok=True)
         temp=checkpoint.with_suffix('.partial.pt')
-        torch.save({'model':snapshot['state'],'head':kind,'num_classes':26,'budget':budget,'seed':seed,'protocol':protocol},temp);temp.replace(checkpoint)
+        torch.save({'model':snapshot['state'],'head':kind,'num_classes':26,'budget':budget,'seed':seed,'protocol':json.loads(json.dumps(protocol))},temp);temp.replace(checkpoint)
         print(kind,seed,budget,'test foreground F1',testing['foreground_macro_f1_present'],flush=True)
     result={'head':kind,'seed':seed,'history':history,'budgets':results,'seconds':time.perf_counter()-started}
     atomic_json(report_path,result);return result

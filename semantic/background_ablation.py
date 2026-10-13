@@ -130,6 +130,9 @@ def diagnostic(model, clips):
     result['per_frame'] = {}
     for frame in range(8):
         selected = t == frame
+        if not selected.any():
+            result['per_frame'][str(frame)] = None
+            continue
         result['per_frame'][str(frame)] = classification_metrics(prediction[selected], target[selected], 26)
     return result
 

@@ -13,3 +13,5 @@
 - `weaklabel_budget_probe_summary.json`：第六轮两种伪标签、分类头与500/2000步预算的复核。
 
 - `background_calibration_summary.json`：第七轮仅验证选择的背景分数校准。
+
+- `source_gt_control_summary.json`：第八轮同预算、同校准规则的纯首帧GT公平对照。
