@@ -98,3 +98,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十七轮完整双精度接口验证完成，见 [协议](OVIS_DINO_FULL_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_FULL_INTERFACE_RESULTS.md)。几何保留BF16、语义保留对应float32图像，在40段已有视频的全部2048查询及真实B=2上，1476组几何数组逐值保持，245760次B=1类别比较无变化，既有宏F1完整复现。下一轮固定骨干比较224/448语义特征网格密度；接口验证不算新泛化确认。
 
 第十八轮224/448分辨率对照完成，见 [协议](OVIS_DINO_RESOLUTION_PROTOCOL.md)和[结果](OVIS_DINO_RESOLUTION_RESULTS.md)。固定骨干、SAM标签、查询及线性预算，新40段确认宏F1从0.6763提高到0.7399，三个种子均提高，37/40视频改善，视频等权差95%区间[0.0301,0.0663]。按验证选定448、偏移−1.5；保留3段负视频及类别/错误类型差异。下一轮验证448分支接入完整D4RT接口，旧224入口继续兼容。
+
+第十九轮448完整接口验证完成，见 [协议](OVIS_DINO_448_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_448_INTERFACE_RESULTS.md)。40段全部查询、三种子、真实B=2与旧224兼容共126案例通过，1512组几何数组逐值保持，在线语义分数/类别完全复现；全接口峰值已分配约2960/3568MiB。新增显式448验证选择加载入口，默认224不变。下一轮补448纯GT头，结合冻结模型开展分辨率×SAM监督对照。

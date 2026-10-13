@@ -59,6 +59,20 @@ def main():
     for k, value in model.base(paired).items(): assert torch.equal(paired_result[k], value)
     assert torch.equal(paired_result['semantic_logits'], result['semantic_logits'])
     assert torch.equal(paired['video'], video.to(torch.bfloat16)) and torch.equal(video, rgb)
+    assert model.feature_size == 224
+    large = DinoSemanticD4RT(FakeGeometry(), FakeDino(), background_offset=-1.5, feature_size=448)
+    large.semantic_head.load_state_dict(model.semantic_head.state_dict())
+    big = large(paired); big_changed = large({**paired, 'query': changed})
+    assert big['semantic_logits'].shape == (2, 3, 26)
+    assert torch.equal(big['semantic_logits'], big_changed['semantic_logits'])
+    for k, value in model.base(paired).items(): assert torch.equal(big[k], value)
+    assert torch.equal(big['semantic_logits'][..., 0], big['semantic_raw_logits'][..., 0]-1.5)
+    assert large({'video': video, 'query': single})['semantic_logits'].shape == (2, 1, 26)
+    assert not torch.equal(large.semantic_features(video, query), large.semantic_features(video, source_changed))
+    for size in (128, 225, 448.0, None):
+        try: DinoSemanticD4RT(FakeGeometry(), FakeDino(), feature_size=size)
+        except ValueError: pass
+        else: raise AssertionError('Unsupported feature size accepted')
     altered_rgb = video.clone(); altered_rgb[0, 0, 0, 0, 0] = .95
     for semantic_rgb in (altered_rgb, video.to(torch.bfloat16), video[:, :1], video.to('meta')):
         try: model({**paired, 'semantic_video': semantic_rgb})
@@ -85,6 +99,10 @@ def main():
         path = Path(folder)/'head.pt'; torch.save({'model': model.semantic_head.state_dict()}, path)
         fresh = DinoSemanticD4RT(FakeGeometry(), FakeDino()).eval(); fresh.load_head(path, file_hash(path))
         assert torch.equal(model(batch)['semantic_logits'], fresh(batch)['semantic_logits'])
+        large_path = Path(folder)/'large_head.pt'; torch.save({'model': large.semantic_head.state_dict()}, large_path)
+        fresh_large = DinoSemanticD4RT(FakeGeometry(), FakeDino(), background_offset=-1.5, feature_size=448)
+        fresh_large.load_head(large_path, file_hash(large_path))
+        assert torch.equal(large(paired)['semantic_logits'], fresh_large(paired)['semantic_logits'])
         try: fresh.load_head(path, '0'*64)
         except ValueError: pass
         else: raise AssertionError('Changed checkpoint accepted')

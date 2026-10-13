@@ -28,10 +28,12 @@ class DinoSemanticD4RT(nn.Module):
     The original geometry model receives the exact same batch.
     Semantic weights stay float32 and quantization matches cached features.
     """
-    def __init__(self, published_model, dino_model, background_offset=-1.75):
+    def __init__(self, published_model, dino_model, background_offset=-1.75, feature_size=224):
         super().__init__()
         if not torch.isfinite(torch.tensor(background_offset)): raise ValueError('Finite background offset required')
+        if not isinstance(feature_size, int) or feature_size not in (224, 448): raise ValueError('Choose feature_size224 or448')
         self.base = published_model; self.dino = dino_model
+        self.feature_size = feature_size
         self.semantic_head = SemanticHead(hidden_dim=384, num_classes=26)
         self.background_offset = float(background_offset)
         self.requires_grad_(False); super().train(False)
@@ -77,11 +79,12 @@ class DinoSemanticD4RT(nn.Module):
         std = torch.tensor([.229, .224, .225], device=video.device)[None, :, None, None]
         all_features = []
         for batch in range(b):
-            image = (F.interpolate(video[batch].float(), size=(224, 224), mode='bicubic', align_corners=False) - mean) / std
+            image = (F.interpolate(video[batch].float(), size=(self.feature_size, self.feature_size), mode='bicubic', align_corners=False) - mean) / std
             with cuda_bf16(video.device):
                 tokens = self.dino.forward_features(image)['x_norm_patchtokens']
-            if tokens.shape != (t, 256, 384): raise ValueError('Expected 16x16 DINOv2 patch tokens with dimension384')
-            tokens = tokens.reshape(t, 16, 16, 384).permute(0, 3, 1, 2).float()
+            grid_size = self.feature_size // 14
+            if tokens.shape != (t, grid_size * grid_size, 384): raise ValueError(f'Expected {grid_size}x{grid_size} DINOv2 patch tokens with dimension384')
+            tokens = tokens.reshape(t, grid_size, grid_size, 384).permute(0, 3, 1, 2).float()
             result = torch.empty((query['u'].shape[1], 384), device=video.device, dtype=torch.float32)
             for source in query['t_src'][batch].unique(sorted=True).tolist():
                 rows = torch.where(query['t_src'][batch] == source)[0]
@@ -138,4 +141,30 @@ def load_selected_adapter(seed=0, device='cuda'):
     dino = dino.to(device).eval()
     adapter = DinoSemanticD4RT(base, dino, summary['results'][arm]['offset']).to(device)
     adapter.load_head(checkpoint(arm, seed), verified['checkpoint_sha256'][f'{arm}_{seed}'])
+    return adapter
+
+
+def load_resolution_selected_adapter(seed=0, device='cuda'):
+    """Load round18 validation selection, keeping the round15 entry compatible."""
+    from semantic.dino_resolution_control import ROOT, ARMS, checkpoint as resolution_checkpoint
+    if seed not in (0, 1, 2): raise ValueError('Choose a preregistered seed0/1/2')
+    summary = json.loads((ROOT/'summary.json').read_text())
+    verified = json.loads((ROOT/'verification.json').read_text())
+    selection = json.loads((ROOT/'frozen_selection.json').read_text())
+    if file_hash(ROOT/'summary.json') != verified['summary_sha256']: raise ValueError('Round18 summary changed')
+    if file_hash(ROOT/'frozen_selection.json') != summary['frozen_selection_sha256']: raise ValueError('Round18 selection changed')
+    scores = {a: sum(r['calibrated_validation']['macro_f1_present'] for r in summary['results'][a]['runs'])/3 for a in ARMS}
+    arm = max(ARMS, key=lambda a: scores[a])
+    if arm != summary['validation_selected_arm'] or arm != selection['validation_selected_arm']: raise ValueError('Round18 validation selection mismatch')
+    if file_hash(WEIGHTS) != summary['protocol']['input_sha256'][str(WEIGHTS)]: raise ValueError('Round18 backbone changed')
+    if subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=VENDOR, text=True).strip() != summary['protocol']['dinov2_source_commit']:
+        raise ValueError('Round18 DINOv2 code changed')
+    if selection['offsets'][arm] != summary['results'][arm]['offset']: raise ValueError('Round18 background offset mismatch')
+    sha = verified['checkpoint_sha256'][f'{arm}_{seed}']
+    if sha != selection['checkpoint_sha256'][f'{arm}_{seed}']: raise ValueError('Round18 checkpoint selection mismatch')
+    # Reuse the strict foundation loader; its default224 behavior remains intact.
+    adapter = load_selected_adapter(seed, device)
+    adapter.feature_size = 224 if arm == 'resolution224' else 448
+    adapter.background_offset = float(selection['offsets'][arm])
+    adapter.load_head(resolution_checkpoint(arm, seed), sha)
     return adapter
