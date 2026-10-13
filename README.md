@@ -66,3 +66,7 @@
 仓库提供普通 Umeyama 基线，以及**非论文原方法**的动态感知加权 Umeyama。后者使用预测置信度、可见性、目标时刻的运动幅度与 IRLS 权重。本次三种子实测**没有稳定改善旋转或 ATE**；不能声称研究假设已成立。`research/dynamic_pose_benchmark.py` 使用**真值运动作为 oracle**，只能检查“有可靠运动线索时鲁棒估计器能否工作”，不能证明 D4RT 预测足够准确。下一步需要按动态物体占比和线索质量做分组压力测试与消融。
 
 详细学习路线见用户提出的 10–12 周计划：先理解几何与论文公式，再完成 tiny 基线，最后围绕一个可检验问题做控制实验。原论文 PDF、附录版 PDF 与中文笔记均保留在仓库中。
+
+## OVIS 查询点语义研究
+
+语义扩展实现和复跑命令见 [semantic/README.md](semantic/README.md)。已完成背景伪标签、源时间/类别采样及真值监督诊断；固定协议和结果报告保存在 `semantic/`，可复核的 JSON 快照见 [semantic/results/README.md](semantic/results/README.md)。

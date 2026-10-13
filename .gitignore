@@ -5,3 +5,5 @@ __pycache__/
 demo_out/
 inspect_out.png
 checkpoints/
+external/open-d4rt/.cache/
+semantic_artifacts/
