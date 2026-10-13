@@ -30,3 +30,6 @@
 
 - `feature_coverage_control_summary.json`：第十四轮D4RT/DINOv2×随机/覆盖80视频训练集的2×2对照和新40段确认。
 - `feature_coverage_control_verification.json`：第十四轮查询、覆盖、十二模型输出、旧模型冻结和新头选择核验。
+
+- `dino_sam_control_summary.json`：第十五轮固定DINOv2的源帧GT/SAM监督、两训练集三种子及新40段确认。
+- `dino_sam_control_verification.json`：第十五轮教师查询、源帧特征前缀、十二模型输出、采样预算及类别视频覆盖核验。

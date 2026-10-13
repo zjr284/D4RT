@@ -119,7 +119,7 @@ def patch_at_queries(tokens, xy, image_size=128):
     return result
 
 
-def cache_dino(manifest, *, path_resolver=source_path):
+def cache_dino(manifest, *, path_resolver=source_path, training_source_only=True):
     tasks = [(s, c) for s in ('train', 'val', 'confirmation') for c in manifest[s]
              if not path_resolver('dinov2', s, c['video_id']).exists()]
     if not tasks: return
@@ -133,11 +133,11 @@ def cache_dino(manifest, *, path_resolver=source_path):
     for split, clip in tasks:
         with np.load(path_resolver('d4rt', split, clip['video_id'])) as p:
             data = {k: p[k].copy() for k in ('labels', 'xy', 't_tgt', 't_cam', 'video_id')}
-        if split == 'train':
+        if split == 'train' and training_source_only:
             mask = data['xy'][:, 2] == 0
             for k in ('labels', 'xy', 't_tgt', 't_cam'): data[k] = data[k][mask]
         video = load_video(clip).to('cuda')
-        if split == 'train': video = video[:1]
+        if split == 'train' and training_source_only: video = video[:1]
         image = (F.interpolate(video, size=(224, 224), mode='bicubic', align_corners=False) - mean) / std
         with torch.inference_mode(), torch.autocast('cuda', dtype=torch.bfloat16):
             tokens = model.forward_features(image)['x_norm_patchtokens'].reshape(len(image), 16, 16, 384).permute(0, 3, 1, 2)

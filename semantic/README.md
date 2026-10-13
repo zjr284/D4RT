@@ -90,3 +90,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十三轮独立语义特征对照完成，见 [协议](OVIS_SEMANTIC_FEATURE_PROTOCOL.md)和[结果](OVIS_SEMANTIC_FEATURE_RESULTS.md)。相同源帧GT与预算下，新40段模型确认的宏F1为D4RT 0.0733、DINOv2 0.5565，三种子均改善、39/40视频改善；前景类间错误显著减少，训练缺失的Bear仍零分。下一步在固定DINOv2特征下重检视频覆盖，再验证语义分支接入查询接口。
 
 第十四轮特征×视频覆盖对照完成，见 [协议](OVIS_FEATURE_COVERAGE_PROTOCOL.md)和[结果](OVIS_FEATURE_COVERAGE_RESULTS.md)。覆盖DINOv2宏F1从随机组0.5056提高到0.5613，Bear从零提高到0.7718；视频等权仅19/40改善，覆盖收益有限定。下一轮固定DINOv2比较有/无SAM传播，复用GT头并冻结新的确认视频。
+
+第十五轮DINOv2下SAM对照完成，见 [协议](OVIS_DINO_SAM_PROTOCOL.md)和[结果](OVIS_DINO_SAM_RESULTS.md)。随机组GT/SAM宏F1为0.5798/0.6238，覆盖组0.6155/0.6322，两组三个种子均改善；视频bootstrap区间均跨零，保留负视频。SAM在此特征下有局部辅助收益，下一步验证语义分支接入D4RT的几何保持和时间一致性。
