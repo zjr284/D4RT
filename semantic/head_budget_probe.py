@@ -45,10 +45,12 @@ def score(model,val):
 
 
 def matched_classes(train_result,test_result):
-    categories=[int(c) for c in test_result['support'] if c!='0']
-    return {'categories':categories,
-            'train_macro_recall':float(np.mean([train_result['per_class_recall'][str(c)] for c in categories])),
-            'test_macro_recall':float(np.mean([test_result['per_class_recall'][str(c)] for c in categories]))}
+    tested=[int(c) for c in test_result['support'] if c!='0']
+    categories=[c for c in tested if str(c) in train_result['support']]
+    missing=[c for c in tested if str(c) not in train_result['support']]
+    return {'categories':categories,'test_foreground_classes_missing_from_training':missing,
+            'train_macro_recall':float(np.mean([train_result['per_class_recall'][str(c)] for c in categories])) if categories else None,
+            'test_macro_recall':float(np.mean([test_result['per_class_recall'][str(c)] for c in categories])) if categories else None}
 
 
 def trajectory(kind,seed,features,labels,times,train,val,test,protocol, *, output_root=None):

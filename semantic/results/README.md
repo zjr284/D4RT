@@ -19,3 +19,6 @@
 - `fresh_video_confirmation_summary.json`：第九轮40段未使用视频的冻结确认（保留负结果）。
 
 - `frozen_error_audit_summary.json`：第十轮冻结输出错误分解及独立训练视频覆盖审计。
+
+- `video_coverage_intervention_summary.json`：第十一轮等80段随机/覆盖训练集×纯GT/SAM四方案、三种子及新40段确认结果。
+- `video_coverage_intervention_verification.json`：第十一轮全部查询、24份权重预算、24份输出及验证选择的独立核验与哈希。
