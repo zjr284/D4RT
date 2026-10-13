@@ -27,3 +27,6 @@
 
 - `semantic_feature_control_summary.json`：第十三轮D4RT冻结查询特征与DINOv2局部图像特征、三种子及40段模型未评价确认。
 - `semantic_feature_control_verification.json`：第十三轮真值查询重建、采样匹配、六模型输出复算和源/后续帧诊断。
+
+- `feature_coverage_control_summary.json`：第十四轮D4RT/DINOv2×随机/覆盖80视频训练集的2×2对照和新40段确认。
+- `feature_coverage_control_verification.json`：第十四轮查询、覆盖、十二模型输出、旧模型冻结和新头选择核验。

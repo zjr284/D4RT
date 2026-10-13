@@ -89,15 +89,17 @@ def save_npz(path, **data):
     np.savez_compressed(temp, **data); temp.replace(path)
 
 
-def cache_new_d4rt(dataset, manifest):
-    missing = [c for c in manifest['confirmation'] if not source_path('d4rt', 'confirmation', c['video_id']).exists()]
+def cache_new_d4rt(dataset, manifest, *, output_root=None):
+    output_root = ROOT if output_root is None else Path(output_root)
+    def destination(vid): return output_root / 'features' / 'd4rt' / 'confirmation' / f'{vid}.npz'
+    missing = [c for c in manifest['confirmation'] if not destination(c['video_id']).exists()]
     if not missing: return
     model = load_model(DEFAULT_VARIANT / 'opend4rt.ckpt', DEFAULT_VARIANT / 'model.yaml').to('cuda', dtype=torch.bfloat16).eval()
     for clip in missing:
         labels = np.stack([dataset.gt_label_map(clip, t) for t in range(8)])
         data = extract(model, clip, labels)
         assert np.isfinite(data['decoded']).all()
-        save_npz(source_path('d4rt', 'confirmation', clip['video_id']), **data)
+        save_npz(destination(clip['video_id']), **data)
         print('cached D4RT confirmation', clip['video_id'], flush=True)
     del model; gc.collect(); torch.cuda.empty_cache()
 
@@ -117,9 +119,9 @@ def patch_at_queries(tokens, xy, image_size=128):
     return result
 
 
-def cache_dino(manifest):
+def cache_dino(manifest, *, path_resolver=source_path):
     tasks = [(s, c) for s in ('train', 'val', 'confirmation') for c in manifest[s]
-             if not source_path('dinov2', s, c['video_id']).exists()]
+             if not path_resolver('dinov2', s, c['video_id']).exists()]
     if not tasks: return
     os.environ['XFORMERS_DISABLED'] = '1'; sys.path.insert(0, str(VENDOR.resolve()))
     from dinov2.hub.backbones import dinov2_vits14
@@ -129,7 +131,7 @@ def cache_dino(manifest):
     mean = torch.tensor([.485, .456, .406], device='cuda')[None, :, None, None]
     std = torch.tensor([.229, .224, .225], device='cuda')[None, :, None, None]
     for split, clip in tasks:
-        with np.load(source_path('d4rt', split, clip['video_id'])) as p:
+        with np.load(path_resolver('d4rt', split, clip['video_id'])) as p:
             data = {k: p[k].copy() for k in ('labels', 'xy', 't_tgt', 't_cam', 'video_id')}
         if split == 'train':
             mask = data['xy'][:, 2] == 0
@@ -141,15 +143,15 @@ def cache_dino(manifest):
             tokens = model.forward_features(image)['x_norm_patchtokens'].reshape(len(image), 16, 16, 384).permute(0, 3, 1, 2)
         with torch.inference_mode(): data['decoded'] = patch_at_queries(tokens, data['xy']).to(torch.float16).cpu().numpy()
         assert np.isfinite(data['decoded']).all()
-        save_npz(source_path('dinov2', split, clip['video_id']), **data)
+        save_npz(path_resolver('dinov2', split, clip['video_id']), **data)
         print('cached DINOv2', split, clip['video_id'], flush=True)
     del model; gc.collect(); torch.cuda.empty_cache()
 
 
-def read_features(arm, split, manifest):
+def read_features(arm, split, manifest, *, path_resolver=source_path):
     clips = []
     for clip in sorted(manifest[split], key=lambda c: str(c['video_id'])):
-        with np.load(source_path(arm, split, clip['video_id'])) as p: data = {k: p[k].copy() for k in p.files}
+        with np.load(path_resolver(arm, split, clip['video_id'])) as p: data = {k: p[k].copy() for k in p.files}
         if split == 'train' and arm == 'd4rt':
             mask = data['xy'][:, 2] == 0
             for k in ('decoded', 'labels', 'xy', 't_tgt', 't_cam'): data[k] = data[k][mask]
@@ -159,8 +161,9 @@ def read_features(arm, split, manifest):
     return clips
 
 
-def train_dino(seed, train, val, protocol):
-    report_path = ROOT / 'dinov2' / 'runs' / f'linear_seed{seed}.json'
+def train_dino(seed, train, val, protocol, *, output_root=None):
+    output_root = ROOT if output_root is None else Path(output_root)
+    report_path = output_root / 'dinov2' / 'runs' / f'linear_seed{seed}.json'
     checkpoint = report_path.with_suffix('.pt')
     if report_path.exists():
         report = json.loads(report_path.read_text())
@@ -189,9 +192,11 @@ def train_dino(seed, train, val, protocol):
     return report
 
 
-def infer(arm, seed, split, clips):
+def infer(arm, seed, split, clips, *, checkpoint_path=None, output_root=None):
     checkpoint = PREVIOUS / BASELINE / 'runs' / f'linear_2000_seed{seed}.pt' if arm == 'd4rt' else ROOT / 'dinov2' / 'runs' / f'linear_seed{seed}.pt'
-    sha = file_hash(checkpoint); path = ROOT / 'logits' / f'{arm}_{seed}_{split}.npz'
+    if checkpoint_path is not None: checkpoint = Path(checkpoint_path)
+    output_root = ROOT if output_root is None else Path(output_root)
+    sha = file_hash(checkpoint); path = output_root / 'logits' / f'{arm}_{seed}_{split}.npz'
     if path.exists():
         with np.load(path) as p: package = {k: p[k].copy() for k in p.files}
         assert str(package['checkpoint_sha256']) == sha
