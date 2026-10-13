@@ -24,3 +24,6 @@
 - `video_coverage_intervention_verification.json`：第十一轮全部查询、24份权重预算、24份输出及验证选择的独立核验与哈希。
 
 - `transfer_error_audit_summary.json`：第十二轮冻结模型的源帧GT拟合、共同14类、源/后续帧错误分解及逐类跨视频诊断。
+
+- `semantic_feature_control_summary.json`：第十三轮D4RT冻结查询特征与DINOv2局部图像特征、三种子及40段模型未评价确认。
+- `semantic_feature_control_verification.json`：第十三轮真值查询重建、采样匹配、六模型输出复算和源/后续帧诊断。

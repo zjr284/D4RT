@@ -86,3 +86,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第十一轮等视频数覆盖干预完成，见 [协议](OVIS_VIDEO_COVERAGE_PROTOCOL.md)和[结果](OVIS_VIDEO_COVERAGE_RESULTS.md)。全25类至少3段源帧查询覆盖未改善确认宏F1；SAM相对各自GT基线在三种子都改善，但验证到确认的泛化差距仍大。全部查询、预算、模型输出与验证选择独立核验通过；下一步审计冻结类别错误并评估表征控制。
 
 第十二轮冻结跨视频审计完成，见 [协议](OVIS_TRANSFER_AUDIT_PROTOCOL.md)和[结果](OVIS_TRANSFER_AUDIT_RESULTS.md)。14个共同类的训练源帧宏召回约78%–87%，确认源帧约9.5%–14.9%；Bear在覆盖组训练召回超96%但确认仍为零。源时间变化和训练类别缺失不足以解释全部失败，下一步预注册独立语义特征控制；本轮是描述性诊断，未训练或重新校准。
+
+第十三轮独立语义特征对照完成，见 [协议](OVIS_SEMANTIC_FEATURE_PROTOCOL.md)和[结果](OVIS_SEMANTIC_FEATURE_RESULTS.md)。相同源帧GT与预算下，新40段模型确认的宏F1为D4RT 0.0733、DINOv2 0.5565，三种子均改善、39/40视频改善；前景类间错误显著减少，训练缺失的Bear仍零分。下一步在固定DINOv2特征下重检视频覆盖，再验证语义分支接入查询接口。
