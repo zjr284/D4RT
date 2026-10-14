@@ -1,0 +1,12 @@
+{
+  "initial_summary_sha256": "0bb1619e7861dbd890f5995b710d65fa0e8f531916249e35020dc3e82372cb22",
+  "initial_summary_path": "semantic_artifacts/dino_instance_audit/summary_initial_metric_note.json",
+  "reason": "Generic bootstrap helper described macro F1; these contrasts estimate video mean instance accuracy.",
+  "original_notes": {
+    "source_gt32_minus_source_gt": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval",
+    "native_sam_minus_source_gt": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval",
+    "lambda0_minus_source_gt": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval"
+  },
+  "corrected_note": "per-video mean sampled-instance query accuracy difference; not pooled macro F1 or all-instance mean confidence interval",
+  "all_numeric_results_inputs_and_model_choices_unchanged": true
+}

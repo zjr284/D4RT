@@ -1,0 +1,19 @@
+{
+  "summary_sha256": "dc7b7b18c3d25c9f34bfc0e2dcd19008be7b079f71670c5553b669f421421a2f",
+  "counts": {
+    "GT_point_associations_recomputed": 27,
+    "frozen_output_statistics_recomputed": 30,
+    "sampled_instances": 141,
+    "multi_frame_sampled_instances": 137,
+    "class_F1_contributions": 16
+  },
+  "verification": {
+    "GT_instances_independently_reassociated_by_point_membership": true,
+    "all_instance_and_weighted_statistics_recomputed": true,
+    "all_majority_consistency_correctness_and_wrong_stable_counts_recomputed": true,
+    "all_contrasts_and_seed35_bootstrap_recomputed": true,
+    "macro_contribution_sum_recomputed": true,
+    "all_registered_inputs_unchanged": true,
+    "metric_note_amendment_preserves_all_numeric_results": true
+  }
+}
