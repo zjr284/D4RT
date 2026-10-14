@@ -104,3 +104,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第二十轮分辨率×监督2×2完成，见 [协议](OVIS_DINO_RESOLUTION_SAM_PROTOCOL.md)和[结果](OVIS_DINO_RESOLUTION_SAM_RESULTS.md)。新40段448 GT/SAM宏F1为0.6685/0.7071，三种子均提高，28/40视频改善、视频区间高于零；224也有相近SAM收益，分辨率×SAM交互区间跨零。验证仍选448 SAM；下一轮立即进行固定查询标签纠错oracle诊断，不把额外GT方案当可部署弱监督。
 
 第二十一轮标签纠错oracle完成，见 [协议](OVIS_DINO_LABEL_ORACLE_PROTOCOL.md)和[结果](OVIS_DINO_LABEL_ORACLE_RESULTS.md)。固定SAM查询与采样算法，162560个训练标签仅771改变；额外GT纠错后已观察40段宏F1从0.7071到0.6991，两种子下降。保留负结果，不将oracle当弱监督部署候选或新确认。下一轮立即检验保留原JPEG信息的RGB预处理控制。
+
+第二十二轮原JPEG RGB对照完成，见 [协议](OVIS_DINO_NATIVE_RGB_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_RGB_RESULTS.md)。GT宏F1从0.5901到0.6769，SAM从0.6200到0.6995，三种子均提高，视频等权区间高于零；按验证选原JPEG GT，不按确认改选SAM。记录并修正bootstrap种子及核验输入布局问题，保留初始汇总。最终40段锁定未评价，下一轮立即验证新输入接口。
