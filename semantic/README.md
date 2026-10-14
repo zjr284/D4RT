@@ -108,3 +108,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第二十二轮原JPEG RGB对照完成，见 [协议](OVIS_DINO_NATIVE_RGB_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_RGB_RESULTS.md)。GT宏F1从0.5901到0.6769，SAM从0.6200到0.6995，三种子均提高，视频等权区间高于零；按验证选原JPEG GT，不按确认改选SAM。记录并修正bootstrap种子及核验输入布局问题，保留初始汇总。最终40段锁定未评价，下一轮立即验证新输入接口。
 
 第二十三轮原JPEG GT接口验证完成，见 [协议](OVIS_DINO_NATIVE_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_INTERFACE_RESULTS.md)。同一原帧生成128几何与448语义RGB并严格来源核对；40段完整查询×三种子及真实B=2的1476组几何数组逐值保持，语义缓存/类别完全复现。下一轮一次性评价已预留最终40，所有选择冻结，不按最终分数改模型。
+
+第二十四轮最终保留40复核完成，见 [协议](OVIS_DINO_FINAL_CONFIRMATION_PROTOCOL.md)和[结果](OVIS_DINO_FINAL_CONFIRMATION_RESULTS.md)。既定native_gt宏F1为0.8218，旧RGB SAM为0.6754，三种子改善、33/40视频改善；两种监督下原JPEG都更好，但本集合SAM低于GT，不能称普遍有效。十二份输出独立核验，不按最终分数改模型；最终集合已消费，仅剩27未模型评价。下一轮立即检验冻结接口缓存效率，不消耗新数据。
