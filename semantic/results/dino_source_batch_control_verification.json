@@ -1,0 +1,123 @@
+{
+  "summary_sha256": "9a583f63270b841306f5b859f0580a2433de89e23770c8e7c71ea0c2c4a36873",
+  "sampling_replay": {
+    "0": {
+      "index_sha256": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+      "class_counts": [
+        32000,
+        2822,
+        1148,
+        2066,
+        1363,
+        1537,
+        734,
+        1450,
+        1239,
+        1022,
+        1715,
+        957,
+        379,
+        1387,
+        485,
+        1119,
+        1449,
+        2217,
+        1318,
+        1445,
+        987,
+        1121,
+        535,
+        820,
+        1421,
+        1264
+      ]
+    },
+    "1": {
+      "index_sha256": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+      "class_counts": [
+        32000,
+        2824,
+        1198,
+        2056,
+        1449,
+        1559,
+        675,
+        1400,
+        1200,
+        1032,
+        1675,
+        945,
+        329,
+        1435,
+        517,
+        1133,
+        1382,
+        2206,
+        1289,
+        1487,
+        1030,
+        1082,
+        576,
+        848,
+        1464,
+        1209
+      ]
+    },
+    "2": {
+      "index_sha256": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2",
+      "class_counts": [
+        32000,
+        2866,
+        1223,
+        2029,
+        1432,
+        1663,
+        673,
+        1392,
+        1175,
+        1077,
+        1719,
+        1024,
+        375,
+        1357,
+        506,
+        1070,
+        1377,
+        2253,
+        1278,
+        1400,
+        945,
+        1138,
+        554,
+        890,
+        1383,
+        1201
+      ]
+    }
+  },
+  "output_sha256": {
+    "semantic_artifacts/dino_source_batch_control/source_gt256/logits/dinov2_0_val.npz": "6ee67509123a8642a3aa874bea0b186f401c4437899a1b2006f0dc6452500043",
+    "semantic_artifacts/dino_source_batch_control/source_gt256/logits/dinov2_1_val.npz": "78940231a139af27593e71bf2fa4947d11e37a65f2ff9e996f5474a3fe76dd9c",
+    "semantic_artifacts/dino_source_batch_control/source_gt256/logits/dinov2_2_val.npz": "588726295c6628cee2458b1f2a3da50799c30c319abf5f8d07e3d11a7aa95e60",
+    "semantic_artifacts/dino_source_batch_control/lambda0/logits/dinov2_0_val.npz": "d8e25f1c584b1b7a2f93d0442bfe692177eea52e35698289c5ac2f8290a441c7",
+    "semantic_artifacts/dino_source_batch_control/lambda0/logits/dinov2_1_val.npz": "25c576ef95a5b568221ad0d0d366d340f980e76a34e54eecf91748004a1953dd",
+    "semantic_artifacts/dino_source_batch_control/lambda0/logits/dinov2_2_val.npz": "0807728f6281afae97950c058888da1718ca227db40ffee860ebdfa56291e6da",
+    "semantic_artifacts/dino_source_batch_control/source_gt32/logits/dinov2_0_val.npz": "de1676f53e16c369fde451833239800ca0f68dd0678fc8b57b79ef9c78b4c11d",
+    "semantic_artifacts/dino_source_batch_control/source_gt32/logits/dinov2_1_val.npz": "9d61f6f76f51c5c0620bb688d45e9069eeaaae935edbae07827ce3c93043f139",
+    "semantic_artifacts/dino_source_batch_control/source_gt32/logits/dinov2_2_val.npz": "64005a68d28f91a7486d387b822a2a6550d471adfdbc01403659b52424f1ac89"
+  },
+  "counts": {
+    "new_heads": 3,
+    "generator_replays": 3,
+    "validation_outputs_recomputed": 9,
+    "confirmation_outputs": 0
+  },
+  "verification": {
+    "sampling_and_exposure_replayed": true,
+    "all_logits_recomputed_bitwise": true,
+    "metrics_recomputed_from_confusion": true,
+    "best_checkpoints_and_calibration_verified": true,
+    "old_inputs_unchanged": true,
+    "no_deployment_change": true
+  }
+}
