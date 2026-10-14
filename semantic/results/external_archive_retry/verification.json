@@ -1,0 +1,13 @@
+{
+  "summary_sha256": "7722481d2a9844b5fd60cee87b8c0f6546164d7f2102b9e00aba4d4449f19132",
+  "failed_range_declared_bytes": 131072,
+  "failed_range_received_bytes": 124964,
+  "missing_bytes": 6108,
+  "verification": {
+    "accepted_header_range_hashed": true,
+    "failed_range_consumption_count_preserved": true,
+    "genuine_EOF_rejected_without_synthesis": true,
+    "no_pilot_or_model_score_claimed": true,
+    "all_registered_inputs_unchanged": true
+  }
+}
