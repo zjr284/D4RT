@@ -1,0 +1,52 @@
+{
+  "summary_sha256": "0b2e10bdc5adbe5a5fd3b7cd4a60db096aa86dda460d1794b262758d232b690a",
+  "sampling_replay": {
+    "0": {
+      "index_sha256": "bcd0a1ef1b74e422c1b2d14f0c334bc327daf03ec99c75cf1f3c0aeba3ab5fed",
+      "source_queries": 64120,
+      "later_queries": 447880
+    },
+    "1": {
+      "index_sha256": "9a75c9d8b851465ff7415786530cda1a66848938fd7401877c33c2abbdcb9f86",
+      "source_queries": 64194,
+      "later_queries": 447806
+    },
+    "2": {
+      "index_sha256": "5d9a981ff07ea34e183999e163c54ae7e4153ea2d6e90af2fbc710cce7769723",
+      "source_queries": 64351,
+      "later_queries": 447649
+    }
+  },
+  "output_sha256": {
+    "semantic_artifacts/dino_label_weight_control/lambda0/logits/dinov2_0_val.npz": "d8e25f1c584b1b7a2f93d0442bfe692177eea52e35698289c5ac2f8290a441c7",
+    "semantic_artifacts/dino_label_weight_control/lambda0/logits/dinov2_1_val.npz": "25c576ef95a5b568221ad0d0d366d340f980e76a34e54eecf91748004a1953dd",
+    "semantic_artifacts/dino_label_weight_control/lambda0/logits/dinov2_2_val.npz": "0807728f6281afae97950c058888da1718ca227db40ffee860ebdfa56291e6da",
+    "semantic_artifacts/dino_label_weight_control/quarter/logits/dinov2_0_val.npz": "ae972ca75bb19aeb14fd9897dbcce1eb7d605c3ebcac32ad2d6b2924cef5af83",
+    "semantic_artifacts/dino_label_weight_control/quarter/logits/dinov2_1_val.npz": "db366293aa82c5c97a100b818b6e88a368e9f587c3d15ff7ad655af6b590d762",
+    "semantic_artifacts/dino_label_weight_control/quarter/logits/dinov2_2_val.npz": "2c5d52f65dd5f3c0dc225a7e6570cdea76f8a17786d1165927ee92e06e79e279",
+    "semantic_artifacts/dino_label_weight_control/half/logits/dinov2_0_val.npz": "0a5c5394d17b4f98801650a10c42e968cac37bb2d822d03510d274758be48698",
+    "semantic_artifacts/dino_label_weight_control/half/logits/dinov2_1_val.npz": "0b2f6672d92acea4ee10be02e7302e9489d5ddc3933a26c7c3e8607aa6f10c01",
+    "semantic_artifacts/dino_label_weight_control/half/logits/dinov2_2_val.npz": "387b416f8cc5f1827bb2760c2bc0d4ec4449534d37597241ab7d523a76f91696",
+    "semantic_artifacts/dino_label_weight_control/one/logits/dinov2_0_val.npz": "23b033975ae64bf913018fc9c9ddc03e20a1c0ddb3cad739e6b41e0a8a7c6d17",
+    "semantic_artifacts/dino_label_weight_control/one/logits/dinov2_1_val.npz": "927716fba760f1fa733ffd98eb911902fc0933825da504a34fd8106a8883adb5",
+    "semantic_artifacts/dino_label_weight_control/one/logits/dinov2_2_val.npz": "eabb126b4b29821bbd2bbb55b130d6042823cc697d3370de3f965111e9eef357",
+    "semantic_artifacts/dino_label_weight_control/source_gt/logits/dinov2_0_val.npz": "6ee67509123a8642a3aa874bea0b186f401c4437899a1b2006f0dc6452500043",
+    "semantic_artifacts/dino_label_weight_control/source_gt/logits/dinov2_1_val.npz": "78940231a139af27593e71bf2fa4947d11e37a65f2ff9e996f5474a3fe76dd9c",
+    "semantic_artifacts/dino_label_weight_control/source_gt/logits/dinov2_2_val.npz": "588726295c6628cee2458b1f2a3da50799c30c319abf5f8d07e3d11a7aa95e60"
+  },
+  "counts": {
+    "new_heads": 9,
+    "sampler_replays": 3,
+    "validation_outputs_recomputed": 15,
+    "training_trajectories_checked": 9,
+    "confirmation_outputs": 0
+  },
+  "verification": {
+    "sampling_indices_counts_and_effective_weights_replayed": true,
+    "all_best_checkpoints_and_calibration_verified": true,
+    "all_logits_recomputed_bitwise": true,
+    "metrics_independently_recomputed_from_confusion": true,
+    "all_old_input_hashes_unchanged": true,
+    "no_deployment_change": true
+  }
+}
