@@ -1,0 +1,19 @@
+{
+  "summary_sha256": "ab69e5a2b50d784a4b7a0e631dfad06f8a14a43322832d65af5b993e19f1bdfb",
+  "counts": {
+    "cases": 12,
+    "strategies": 48,
+    "timed_passes": 144,
+    "timed_model_calls": 2700,
+    "same_block_reference_comparisons": 900
+  },
+  "verification": {
+    "all_cases_strategies_orders_and_timings_present": true,
+    "same_block_reference_bitwise_checks_recorded": true,
+    "all_cross_block_differences_retained": true,
+    "zero_semantic_label_changes": true,
+    "cache_counts_match_calls": true,
+    "all_registered_inputs_unchanged": true
+  },
+  "limit": "Independent record audit; no second timing run or ground-truth geometry evaluation."
+}

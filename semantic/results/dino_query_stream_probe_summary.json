@@ -1,0 +1,3592 @@
+{
+  "protocol": {
+    "round": 27,
+    "analysis": "frozen point-set batching cost and numerical diagnostic, not new generalization",
+    "video_ids": [
+      345,
+      574,
+      573
+    ],
+    "B2_ids": [
+      345,
+      574
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "indices": [
+      0,
+      32,
+      64,
+      96,
+      128,
+      160,
+      192,
+      224,
+      256,
+      288,
+      320,
+      352,
+      384,
+      416,
+      448,
+      480,
+      512,
+      544,
+      576,
+      608,
+      640,
+      672,
+      704,
+      736,
+      768,
+      800,
+      832,
+      864,
+      896,
+      928,
+      960,
+      992,
+      1024,
+      1056,
+      1088,
+      1120,
+      1152,
+      1184,
+      1216,
+      1248,
+      1280,
+      1312,
+      1344,
+      1376,
+      1408,
+      1440,
+      1472,
+      1504,
+      1536,
+      1568,
+      1600,
+      1632,
+      1664,
+      1696,
+      1728,
+      1760,
+      1792,
+      1824,
+      1856,
+      1888,
+      1920,
+      1952,
+      1984,
+      2016
+    ],
+    "sizes": [
+      1,
+      8,
+      32,
+      64
+    ],
+    "timing_repetitions": 3,
+    "strategy_order": "rotate sizes left0/1/2",
+    "background_offset": -1.5,
+    "input_sha256": {
+      "semantic_artifacts/dino_native_rgb_control/summary.json": "23857cedbf9646c4ae3d2cbab879e289850122f99e1ba2f22316defb78312b9f",
+      "semantic_artifacts/dino_native_rgb_control/verification.json": "a00ea1a3069a32909ed00f045e5b783ed396f96b98ce5949a4e962ce31fa6089",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/345.npz": "dd8495f4efb4221bbb4b1eb6b88beefe934a49bf1aa5f7e0f9f351f54d156051",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/574.npz": "48c93d86f5e86af8a7643cdf7e7bce5a506204b5fd676f7a250ba2d0706ca9d6",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/573.npz": "0110bff66b8543a4f0a7168afdc001db125cc98d6300defbf863bf72ecba2f44",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000001.jpg": "c629f9042c4d6beb6915514ee37194010979ca9d7667e14a7286adbf9bdf8da5",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000002.jpg": "57407ce253c0681df32f4406689e6063a5a8680f7ef8dadafc1f929715359e1a",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000003.jpg": "fbdcbe664dc694c0a6ea7456f1bcb229c015606fb55d77ed46d50cf007fe4b24",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000004.jpg": "0350440963a1932d92d4c82f52cab5c4affef4aa17bb666a5e47123d62938cba",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000005.jpg": "2f64ea38127c6bd32ec80212005430b25afd5f7a2f751212d48b0622378de1af",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000006.jpg": "90e2a102f17dc97738dbcf4e4d2cee62897ff05593823d06780af945c62ef573",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000007.jpg": "f36e2b1d0ec2b79800d76f7e8396e090791c7420d29054c48382e27fabe7b4a9",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000008.jpg": "130e20c384166ddfb232d7341a55467108f7389af0bf4b431121850157750771",
+      "semantic_artifacts/ovis/train/277ad883/img_0000001.jpg": "8972359977cdc6f92e27dff2b19b3047325dcfb2f041da48a764f7a16aeaaead",
+      "semantic_artifacts/ovis/train/277ad883/img_0000002.jpg": "882fc6feeab197f2b11dd8eb699ccc10d3c7dd123d83d5d016f0deb953b3fc94",
+      "semantic_artifacts/ovis/train/277ad883/img_0000003.jpg": "454c82e6c8bf1ae7f569840ffa66bfb3c57b2ffd1fb19194d3701fea955a8b14",
+      "semantic_artifacts/ovis/train/277ad883/img_0000004.jpg": "5839a11ba6c00c9c4e3ec9e80adad99695a7630893f80c4cd9a6676f54255205",
+      "semantic_artifacts/ovis/train/277ad883/img_0000005.jpg": "e34500947ff0d4cca960da1157dca2796db1635e6e9cb4b5a4ba21bf3d4a3639",
+      "semantic_artifacts/ovis/train/277ad883/img_0000006.jpg": "ec4bf9f2a26b4ae80dc4a4e6e822e2d7717dc60b8bf06bf05f9a561ee11b0635",
+      "semantic_artifacts/ovis/train/277ad883/img_0000007.jpg": "c848bdadcd5ead1108837bd04d7bf8b8c9596f02a3f45ff6bd225fe69a166c38",
+      "semantic_artifacts/ovis/train/277ad883/img_0000008.jpg": "378a2f6d66c2c96e9b7aeba44278c24a246d1b8ace3f41ce5aa1e46334b97dd2",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000001.jpg": "83d0ef05c58600ca8d7e6e9d109ed6fb695d89d513ca52bd3ab6a988d64842c5",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000002.jpg": "4e7d3375eba49f24aa7d84d748eef708a3203e4c524ab3377c0437a7ed7f1cb7",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000003.jpg": "d535a1480f8dd6520fe03b379d48382109b10e332e209e6ca62c97a985682e26",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000004.jpg": "bb9611f2e3bd8365a9b779a15e7bebab45e2cb0ad00760bb38e876bc2f45cfcb",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000005.jpg": "d2723a194aefc752428630aeba6dc83cd9d103ee2bcb05f76b57f1361e02e821",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000006.jpg": "a09ba2b6a082162318fc23f40b5410b6f22e124a112a4e8a936c2a7152447045",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000007.jpg": "ab453c026ea0e3567edd0dadb7351525a7a8e6ec714cce2d3e51a0b44b1913b7",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000008.jpg": "83dd3f9781c3bcda4a5f891f71900aab92cd281ce728fe0fddb38dcf5fec0d61",
+      "semantic/dino_query_stream_probe.py": "3d67f0c3de85a3c1a1821d31c7a9ec72e66f3022cb630e5cf7492638fe0d0b08",
+      "semantic/OVIS_DINO_QUERY_STREAM_PROTOCOL.md": "43dd15c1825f9301c762dfe3a09b4dde4fd0c11abd33b3f5a1b12f9ccec4725f",
+      "semantic/dino_geometry_cache.py": "dd71fe199bd4d34b1356381aed3375fa8d5e08e18869c2d9094a624886789551",
+      "semantic/dino_native_cache.py": "0861777181e0f8d3e3f1d3c29e28cdba5aa27808c31e200ec1a5fb073b91e01e"
+    }
+  },
+  "cases": [
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 0,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0006163915386423469
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004528045654296875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002242565155029297,
+              "mean_absolute_difference": 0.0004976744530722499
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010888725519180298
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.0770956155047315e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.8130333799999789,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.7531962610000846,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.8311371919999146,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004928906913846731
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010395050048828125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003482818603515625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0029144287109375,
+              "mean_absolute_difference": 0.000630106485914439
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010476758470758796
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 9.5367431640625e-07,
+            "mean_absolute_difference": 2.309680127154934e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.10963656500007346,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.10505748099967605,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.09837727200010704,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0007932981243357062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.000457763671875
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003093719482421875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00176239013671875,
+              "mean_absolute_difference": 0.0004763267934322357
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009490102529525757
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.030888620999576233,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.026098007999280526,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.02756584200051293,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.01690814500034321,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.014313423999738006,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.015593190999425133,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 375,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 300,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 1,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0006163915386423469
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004528045654296875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002242565155029297,
+              "mean_absolute_difference": 0.0004976744530722499
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010888725519180298
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.2537783195275551e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.8473050680004235,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.9801404419995379,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.7844146200004616,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004928906913846731
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010395050048828125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003482818603515625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0029144287109375,
+              "mean_absolute_difference": 0.000630106485914439
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010476758470758796
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.491198358711699e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.11048756200034404,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.11666274100025475,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.09634712200022477,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0007932981243357062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.000457763671875
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003093719482421875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00176239013671875,
+              "mean_absolute_difference": 0.0004763267934322357
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009490102529525757
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.03164697299962427,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.03829292000045825,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.027750571000069613,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.017228269999577606,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.02082239099945582,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.014871017000587017,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 751,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 601,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 2,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0006163915386423469
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004528045654296875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002242565155029297,
+              "mean_absolute_difference": 0.0004976744530722499
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010888725519180298
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.9073486328125e-06,
+            "mean_absolute_difference": 3.073073457926512e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.761988358999588,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.7459898020006221,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.833285574999536,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.004928906913846731
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010395050048828125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003482818603515625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0029144287109375,
+              "mean_absolute_difference": 0.000630106485914439
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010476758470758796
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.9073486328125e-06,
+            "mean_absolute_difference": 3.4257223546774185e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.09577171500041004,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.09265548700022919,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.11036732999946253,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0007932981243357062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.000457763671875
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.003093719482421875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00176239013671875,
+              "mean_absolute_difference": 0.0004763267934322357
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009490102529525757
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.026694103999943763,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.025564769999618875,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.026100883000253816,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.013994199999615375,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.013812295999741764,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.014205929999661748,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 1127,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 902,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 0,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0007882118225097656
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001064300537109375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0033397674560546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0023479461669921875,
+              "mean_absolute_difference": 0.0005196472047828138
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008393923635594547
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.312176263785659e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.7973013800001354,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.8348782709999796,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.8573827290001645,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0016314189415425062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0012454986572265625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030918121337890625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002166748046875,
+              "mean_absolute_difference": 0.0005549655179493129
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011862119426950812
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.5517232415950275e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.09824986999956309,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.0933251360002032,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.09320387600018876,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0010306041222065687
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.000659942626953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.002826690673828125
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0016765594482421875,
+              "mean_absolute_difference": 0.0004892165306955576
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008374850149266422
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.02665647399953741,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.026642798000466428,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.03054016199985199,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.015558424999653653,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.014741433000381221,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.018319983000765205,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 375,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 300,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 1,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0007882118225097656
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001064300537109375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0033397674560546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0023479461669921875,
+              "mean_absolute_difference": 0.0005196472047828138
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008393923635594547
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.3045757302497805e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.8097497139997358,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.7892367160002323,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.7802579350000087,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0016314189415425062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0012454986572265625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030918121337890625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002166748046875,
+              "mean_absolute_difference": 0.0005549655179493129
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011862119426950812
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.5494955480098724e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.100118009999278,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.09931793800024025,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.0990025319997585,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0010306041222065687
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.000659942626953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.002826690673828125
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0016765594482421875,
+              "mean_absolute_difference": 0.0004892165306955576
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008374850149266422
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.028546303999974043,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.029628699000568304,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.024530165999749443,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.015640440999959537,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.01697565299946291,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.014774013999158342,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 751,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 601,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 2,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0007882118225097656
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001064300537109375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0033397674560546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0023479461669921875,
+              "mean_absolute_difference": 0.0005196472047828138
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008393923635594547
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.9073486328125e-06,
+            "mean_absolute_difference": 3.0719317578586924e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.7486558339996918,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.7910356040001716,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.7543961589999526,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0016314189415425062
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0012454986572265625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030918121337890625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002166748046875,
+              "mean_absolute_difference": 0.0005549655179493129
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011862119426950812
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 2.86102294921875e-06,
+            "mean_absolute_difference": 3.4423564443386567e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.10069841700078541,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.0993789439999091,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.0932312989998536,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.0010306041222065687
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.000659942626953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.015625,
+              "mean_absolute_difference": 0.002826690673828125
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0016765594482421875,
+              "mean_absolute_difference": 0.0004892165306955576
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0008374850149266422
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0029296875
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.026983221000591584,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.028146027999355283,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.025790529000005336,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.014673624000351992,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.014724370000294584,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.014293776000158687,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 1127,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 902,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 0,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.000925424974411726
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0011138916015625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00339508056640625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00191497802734375,
+              "mean_absolute_difference": 0.0005057573434896767
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0013178189983591437
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.396633362877765e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.9105474560001312,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.8902642100001685,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.8905567110004995,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.005387544631958008
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001132965087890625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00341033935546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0022640228271484375,
+              "mean_absolute_difference": 0.0005424740957096219
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0014017423382028937
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.687940252599219e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.10573547900003177,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.10344920999978058,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.11792172399964329,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0010623186826705933
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.00061798095703125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00347900390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.001608133316040039,
+              "mean_absolute_difference": 0.0005242800107225776
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011258125305175781
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.027644089999739663,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.02731134999976348,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.028644429000451055,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.015194538000287139,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.01622790800047369,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.01500063100047555,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 375,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 300,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 1,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.000925424974411726
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0011138916015625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00339508056640625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00191497802734375,
+              "mean_absolute_difference": 0.0005057573434896767
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0013178189983591437
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.2496030283036816e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.848884678000104,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.8202247389999684,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.9779962230004458,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.005387544631958008
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001132965087890625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00341033935546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0022640228271484375,
+              "mean_absolute_difference": 0.0005424740957096219
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0014017423382028937
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.53206678735296e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.11885492700002942,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.12405232699984481,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.12010537900005147,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0010623186826705933
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.00061798095703125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00347900390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.001608133316040039,
+              "mean_absolute_difference": 0.0005242800107225776
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011258125305175781
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.030089158000009775,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.031771758000104455,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.03329411400045501,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.01750430099946243,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.01687229799972556,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.019666006000079506,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 751,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 601,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 2,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.000925424974411726
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0011138916015625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00339508056640625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00191497802734375,
+              "mean_absolute_difference": 0.0005057573434896767
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0013178189983591437
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.9073486328125e-06,
+            "mean_absolute_difference": 3.291956716111599e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.839614824999444,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.8175662869998632,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.8597749730006399,
+              "peak_cuda_allocated_bytes": 2503607296,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.005387544631958008
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001132965087890625
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00341033935546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0022640228271484375,
+              "mean_absolute_difference": 0.0005424740957096219
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0014017423382028937
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.9073486328125e-06,
+            "mean_absolute_difference": 3.8723320017197693e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.11264230899996619,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.1052031649996934,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.11023628299972188,
+              "peak_cuda_allocated_bytes": 2503492608,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0010623186826705933
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.00061798095703125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.00347900390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.001608133316040039,
+              "mean_absolute_difference": 0.0005242800107225776
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0011258125305175781
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00390625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.03273711200017715,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.02707188799922733,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.02783795300001657,
+              "peak_cuda_allocated_bytes": 2508708352,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.018390324999927543,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.014182554999933927,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.017383635000442155,
+              "peak_cuda_allocated_bytes": 2518481408,
+              "peak_cuda_reserved_bytes": 2856321024
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 1127,
+        "misses": 1,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 902,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 0,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.002712090965360403
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010900497436523438
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030956268310546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0021820068359375,
+              "mean_absolute_difference": 0.0005378162022680044
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009946923237293959
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.430701613320707e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 2.8421479579992592,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 2.9015485350000745,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 2.9790315540003576,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027658145409077406
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027866363525390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00237274169921875,
+              "mean_absolute_difference": 0.0004898866172879934
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009623467922210693
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0009765625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.430701613320707e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.3517628479994528,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.4508970060005595,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.3595132800001011,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.001244962215423584
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.005859375,
+              "mean_absolute_difference": 0.000904083251953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0032243728637695312
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002742767333984375,
+              "mean_absolute_difference": 0.0005100449780002236
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010513663291931152
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00244140625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.1049121340001875,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.10992356200040376,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.09761156100012158,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.060221006999199744,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.06043743700047344,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.052236621999327326,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 750,
+        "misses": 2,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 300,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 1,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.002712090965360403
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010900497436523438
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030956268310546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0021820068359375,
+              "mean_absolute_difference": 0.0005378162022680044
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009946923237293959
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.520347095469333e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 2.958213216999866,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 2.8675122310005463,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 2.916234782000174,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027658145409077406
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027866363525390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00237274169921875,
+              "mean_absolute_difference": 0.0004898866172879934
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009623467922210693
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0009765625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.430511474609375e-06,
+            "mean_absolute_difference": 2.520347095469333e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.4451871780001966,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.38115133100018284,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.3524936470003013,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.001244962215423584
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.005859375,
+              "mean_absolute_difference": 0.000904083251953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0032243728637695312
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002742767333984375,
+              "mean_absolute_difference": 0.0005100449780002236
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010513663291931152
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00244140625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.11228430099981779,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.10271074600041175,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.12678316599976824,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.05571098600012192,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.056390019999525975,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.07685637699978543,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 1502,
+        "misses": 2,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 601,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 2,
+      "strategies": {
+        "1": {
+          "calls_per_pass": 64,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.002712090965360403
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.0010900497436523438
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0030956268310546875
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0021820068359375,
+              "mean_absolute_difference": 0.0005378162022680044
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009946923237293959
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.001953125
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 2.86102294921875e-06,
+            "mean_absolute_difference": 3.4340393995080376e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 3.146695637000448,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 3.324511851999887,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 3.177641565000158,
+              "peak_cuda_allocated_bytes": 2541318144,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "8": {
+          "calls_per_pass": 8,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027658145409077406
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00390625,
+              "mean_absolute_difference": 0.001094818115234375
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0027866363525390625
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.00237274169921875,
+              "mean_absolute_difference": 0.0004898866172879934
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0009623467922210693
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.0009765625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 2.86102294921875e-06,
+            "mean_absolute_difference": 3.4340393995080376e-07
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.4120369040001606,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.41837082199981523,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.36333243799981574,
+              "peak_cuda_allocated_bytes": 2541353984,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "32": {
+          "calls_per_pass": 2,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.001244962215423584
+            },
+            "uv_2d": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.005859375,
+              "mean_absolute_difference": 0.000904083251953125
+            },
+            "visibility": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.03125,
+              "mean_absolute_difference": 0.0032243728637695312
+            },
+            "displacement": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.002742767333984375,
+              "mean_absolute_difference": 0.0005100449780002236
+            },
+            "normal": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0078125,
+              "mean_absolute_difference": 0.0010513663291931152
+            },
+            "confidence": {
+              "bitwise_equal": false,
+              "max_absolute_difference": 0.0625,
+              "mean_absolute_difference": 0.00244140625
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.11170630200012965,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.16439228299987008,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.10025859100005619,
+              "peak_cuda_allocated_bytes": 2552057856,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        },
+        "64": {
+          "calls_per_pass": 1,
+          "cross_block_geometry": {
+            "xyz_3d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "uv_2d": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "visibility": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "displacement": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "normal": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            },
+            "confidence": {
+              "bitwise_equal": true,
+              "max_absolute_difference": 0.0,
+              "mean_absolute_difference": 0.0
+            }
+          },
+          "cross_block_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "cross_block_label_changes": 0,
+          "same_block_original_reference_bitwise": true,
+          "timings": [
+            {
+              "repetition": 0,
+              "seconds": 0.06176718900042033,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 1,
+              "seconds": 0.1362531159993523,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            },
+            {
+              "repetition": 2,
+              "seconds": 0.0562974349995784,
+              "peak_cuda_allocated_bytes": 2571610112,
+              "peak_cuda_reserved_bytes": 2936012800
+            }
+          ]
+        }
+      },
+      "orders": [
+        [
+          1,
+          8,
+          32,
+          64
+        ],
+        [
+          8,
+          32,
+          64,
+          1
+        ],
+        [
+          32,
+          64,
+          1,
+          8
+        ]
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 2254,
+        "misses": 2,
+        "evictions": 0,
+        "geometry_entries": 1,
+        "geometry_hits": 902,
+        "geometry_misses": 1,
+        "geometry_evictions": 0
+      }
+    }
+  ],
+  "verification": {
+    "same_block_features_and_original_outputs_bitwise_equal": true,
+    "all_preregistered_strategies_and_times_recorded": true,
+    "all_inputs_weights_and_model_choice_unchanged": true,
+    "no_training_calibration_or_new_videos": true
+  },
+  "limits": [
+    "cross-block differences are numerical output changes, not truth geometry accuracy",
+    "warm repeated64point set, not cold or arbitrary production workload"
+  ]
+}
