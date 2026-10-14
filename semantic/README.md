@@ -112,3 +112,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第二十四轮最终保留40复核完成，见 [协议](OVIS_DINO_FINAL_CONFIRMATION_PROTOCOL.md)和[结果](OVIS_DINO_FINAL_CONFIRMATION_RESULTS.md)。既定native_gt宏F1为0.8218，旧RGB SAM为0.6754，三种子改善、33/40视频改善；两种监督下原JPEG都更好，但本集合SAM低于GT，不能称普遍有效。十二份输出独立核验，不按最终分数改模型；最终集合已消费，仅剩27未模型评价。下一轮立即检验冻结接口缓存效率，不消耗新数据。
 
 第二十五轮冻结语义token缓存完成，见 [协议](OVIS_DINO_NATIVE_CACHE_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_CACHE_RESULTS.md)。原/改变时间与源帧/查询子集及头重载输出逐值保持；120对交替计时中B1约0.290→0.088秒、B2约0.971→0.390秒，限于热内容重复查询。来源内容每次核对、缓存有界，不缓存旧分类分数。下一轮立即检验整批几何编码复用。
+
+第二十六轮整批几何编码缓存完成，见 [协议](OVIS_DINO_GEOMETRY_CACHE_PROTOCOL.md)和[结果](OVIS_DINO_GEOMETRY_CACHE_RESULTS.md)。严格区分完整B/T、精度、比例和参数版本，仍用原decode_queries；五变体输出逐值保持，120对计时中B1约0.0887→0.0368秒、B2约0.3784→0.1948秒。下一轮立即检验固定点集分批/逐点成本与浮点差，不消耗新数据。

@@ -1,0 +1,16 @@
+{
+  "summary_sha256": "0ae75f1835d080082f26a817e631c06d7facf9a408d0b4a2660729129021f7fd",
+  "counts": {
+    "cases": 12,
+    "paired_timings": 120,
+    "timed_forwards": 240,
+    "query_aspect_variants_per_case": 5
+  },
+  "verification": {
+    "all_same_input_geometric_and_semantic_variants_bitwise_equal": true,
+    "one_semantic_extraction_per_video": true,
+    "two_geometry_encodes_for_two_aspect_keys_per_case": true,
+    "all_alternating_timings_present": true,
+    "all_registered_inputs_unchanged": true
+  }
+}
