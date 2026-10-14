@@ -1,0 +1,121 @@
+{
+  "summary_sha256": "664cecd6467c32b5c9aaad60868af48ae77aa460806237d8ca8eecc73b962a2b",
+  "sampling_replay": {
+    "0": [
+      {
+        "group": "source",
+        "index_sha256": "b89654b30d68d1dacc5d9c2389c5ac93b5b6170f6bf986867e1fdab7a59e0802",
+        "time_counts": [
+          512000,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "group": "prop",
+        "index_sha256": "a85d82bb6bf22a42b0686ae3d7b30b727a13f09eba32ae3507058dd33b08f739",
+        "time_counts": [
+          0,
+          72783,
+          72995,
+          73162,
+          73271,
+          73033,
+          73723,
+          73033
+        ]
+      }
+    ],
+    "1": [
+      {
+        "group": "source",
+        "index_sha256": "698c1861a6667344b166c384be3760acff9c2b64289811f5e7e336c4cc13c783",
+        "time_counts": [
+          512000,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "group": "prop",
+        "index_sha256": "8614537f6f1c2ef1c6801406ab9fa02420affa0ed137fc613e106f6232a435c1",
+        "time_counts": [
+          0,
+          72836,
+          73064,
+          72772,
+          73411,
+          72942,
+          73758,
+          73217
+        ]
+      }
+    ],
+    "2": [
+      {
+        "group": "source",
+        "index_sha256": "753e5574f25286935febf463b62ed57f531a82f9dc0c3775595001864d44db32",
+        "time_counts": [
+          512000,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "group": "prop",
+        "index_sha256": "479ea5e0eb3e8d4ef44d56b2d9e58c7cf7ee5a4abbe3c70daa50cbf1925d343f",
+        "time_counts": [
+          0,
+          73197,
+          72355,
+          73360,
+          72945,
+          73291,
+          73834,
+          73018
+        ]
+      }
+    ]
+  },
+  "output_sha256": {
+    "semantic_artifacts/dino_gt_exposure_control/source_gt/logits/dinov2_0_val.npz": "6ee67509123a8642a3aa874bea0b186f401c4437899a1b2006f0dc6452500043",
+    "semantic_artifacts/dino_gt_exposure_control/source_gt/logits/dinov2_1_val.npz": "78940231a139af27593e71bf2fa4947d11e37a65f2ff9e996f5474a3fe76dd9c",
+    "semantic_artifacts/dino_gt_exposure_control/source_gt/logits/dinov2_2_val.npz": "588726295c6628cee2458b1f2a3da50799c30c319abf5f8d07e3d11a7aa95e60",
+    "semantic_artifacts/dino_gt_exposure_control/prop_quarter/logits/dinov2_0_val.npz": "9b797a9be251c74046e6c1efce81b77d4d7d354242965953589adecd6d08114a",
+    "semantic_artifacts/dino_gt_exposure_control/prop_quarter/logits/dinov2_1_val.npz": "34061b8bec20c3f8c410180be3f493706a0bc886d34b19ea7288770d42de9f0c",
+    "semantic_artifacts/dino_gt_exposure_control/prop_quarter/logits/dinov2_2_val.npz": "1626b84e43ed8fce9d72584e4438200dc10275c51b51073311bf41f1f47ee560",
+    "semantic_artifacts/dino_gt_exposure_control/prop_one/logits/dinov2_0_val.npz": "fb7f5adf081bde25063421441efeac5b113daf9e9a5c4769c4d918b30ce89ef5",
+    "semantic_artifacts/dino_gt_exposure_control/prop_one/logits/dinov2_1_val.npz": "1e9aac1e45d0508ef366305869e45648d6666218fb0156dc8534c2006c3d80f9",
+    "semantic_artifacts/dino_gt_exposure_control/prop_one/logits/dinov2_2_val.npz": "dce7e21929ef4ff70ea6495397b54643d96b9b93ac812280e0a5e050ed24ec62"
+  },
+  "counts": {
+    "new_heads": 6,
+    "generator_replays": 6,
+    "validation_outputs_recomputed": 9,
+    "confirmation_outputs": 0
+  },
+  "verification": {
+    "both_sampling_generators_replayed": true,
+    "source_GT_exposure_matches_history": true,
+    "best_checkpoints_and_calibration_verified": true,
+    "all_logits_recomputed_bitwise": true,
+    "metrics_recomputed_from_confusion": true,
+    "old_inputs_unchanged": true,
+    "no_deployment_change": true
+  }
+}
