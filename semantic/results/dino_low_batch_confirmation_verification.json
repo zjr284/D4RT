@@ -1,0 +1,56 @@
+{
+  "summary_sha256": "ae430e873c9763066feee4203813398b393b11fe82a9c202cd409e59fe4e5a75",
+  "output_sha256": {
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt/logits/dinov2_0_confirmation.npz": "68a2379079f6ca1bee1f41085215074f1fe7fb6853637430f3b4770b125e85ef",
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt/logits/dinov2_1_confirmation.npz": "17134b50f1bad12627a96222b0657f6749dccee5ce7947706bd550cba5652c42",
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt/logits/dinov2_2_confirmation.npz": "13bb50a5774a7b6ff27a7da2f08f09c09d0da68a8f70ff31ece260f65ea72ba1",
+    "semantic_artifacts/dino_low_batch_confirmation/native_sam/logits/dinov2_0_confirmation.npz": "18c4733a035cad1ca4764062c820e99b4cad7a51e2f5cb45f83c4df8ae4181eb",
+    "semantic_artifacts/dino_low_batch_confirmation/native_sam/logits/dinov2_1_confirmation.npz": "b3c81942a0e24bac28fc0422abd492137d198a876d24268dd73cdd4e73d56101",
+    "semantic_artifacts/dino_low_batch_confirmation/native_sam/logits/dinov2_2_confirmation.npz": "5c2c5daca97633d345167450c01d93625b84117129dff85ffa96755c657911c1",
+    "semantic_artifacts/dino_low_batch_confirmation/lambda0/logits/dinov2_0_confirmation.npz": "0c224245c1a551ed880bb41c4ca601b49ac039fee1c5d2f033b422f4994e55b9",
+    "semantic_artifacts/dino_low_batch_confirmation/lambda0/logits/dinov2_1_confirmation.npz": "228ce0b4d664eced90d83063ea556bf826dcc875764ad23ad60617db54056a51",
+    "semantic_artifacts/dino_low_batch_confirmation/lambda0/logits/dinov2_2_confirmation.npz": "c541552689674b18ddacf25762aad034a5d55a836701cbb1c76950a55fdbc684",
+    "semantic_artifacts/dino_low_batch_confirmation/quarter/logits/dinov2_0_confirmation.npz": "4142d1f9148e80f42da0f310d6a9156333026f7c3846178fe00b236b79de08e3",
+    "semantic_artifacts/dino_low_batch_confirmation/quarter/logits/dinov2_1_confirmation.npz": "15c304ac8f0c44780eeef51d8ebbfd63f2234246872bd3c1006515fef0b464ed",
+    "semantic_artifacts/dino_low_batch_confirmation/quarter/logits/dinov2_2_confirmation.npz": "3d9d8381afb1b778ac9b4e76283df1e185dc5e8a1d6d4c41b1fcee3a333f89f9",
+    "semantic_artifacts/dino_low_batch_confirmation/half/logits/dinov2_0_confirmation.npz": "8fe73f0a11c065ee94de8641d03a462655f13075c1c1f876a265fc68c2396dfa",
+    "semantic_artifacts/dino_low_batch_confirmation/half/logits/dinov2_1_confirmation.npz": "ce170d7eff075b571801859bb60792ad4f05a8f8047fe35c75c987de72ed6934",
+    "semantic_artifacts/dino_low_batch_confirmation/half/logits/dinov2_2_confirmation.npz": "bf2c75078127c6e422184be0306dad09d86754c181e9f958e17ad1ce6303b04a",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_quarter/logits/dinov2_0_confirmation.npz": "0b420cdcbffac3cbb63d94342b9f9d9194c7b45d95c08366ef0c640dcdea87ae",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_quarter/logits/dinov2_1_confirmation.npz": "32b3f1a785a0e6fc0c9ecf59eb0cd4a47c42b7bb4642a904d2b738b2134f715e",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_quarter/logits/dinov2_2_confirmation.npz": "7bb347ad9150248903749f6615757cd3b902cdba463c38db8d2fc22f885c3f0d",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_one/logits/dinov2_0_confirmation.npz": "3f2eef9b62a050afcd0af58ecba0ecc49d788eb65e3a01bfa32f7c60f7b70175",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_one/logits/dinov2_1_confirmation.npz": "499d132c60503da3b695112253162df3836efa2a2163fbe2bacfba6278d60dc9",
+    "semantic_artifacts/dino_low_batch_confirmation/prop_one/logits/dinov2_2_confirmation.npz": "d9ef77711d4adfc25acaeb9fafb81ba7e2d198d7a5b64dddd61e8b9bb5e56e02",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_quarter/logits/dinov2_0_confirmation.npz": "47d8869ee15ebd2212c484e772185f6edcc4089a4dbc2474902ded489f3488a4",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_quarter/logits/dinov2_1_confirmation.npz": "b5578071ae59a0a4c2385cc4b1545490d0b5820433278e4dfcdb075063f41214",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_quarter/logits/dinov2_2_confirmation.npz": "9d66fbcbb93da1f80bbef5d3681454d58c628bc5cb60ec0e993bc51b36555da8",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_one/logits/dinov2_0_confirmation.npz": "002feedddb28382854e168bb40f92f86de01f52efffdc9a3e6cd664b397788a1",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_one/logits/dinov2_1_confirmation.npz": "aff6a22f811fb91f8cc156a902c919b37e2e35c854a61b39028ba0ecf2f59402",
+    "semantic_artifacts/dino_low_batch_confirmation/gt_one/logits/dinov2_2_confirmation.npz": "1d5a1638a663a025733cfd62c83d06794d5b73feb5f68fa14e21e3493162bd3e",
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt32/logits/dinov2_0_confirmation.npz": "38640c0193830814ae184da4bd4b8102c6e039b362a2023dc09a92b23cf50bd5",
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt32/logits/dinov2_1_confirmation.npz": "baed29eb92754e57e206d7ebb31a82074f8a5f03cb830f62d51fc221c629423e",
+    "semantic_artifacts/dino_low_batch_confirmation/source_gt32/logits/dinov2_2_confirmation.npz": "0da99c13c88ea49e235cb8efe216ea9efbbe0e957be8230ee3b83f18d5ee46c9"
+  },
+  "counts": {
+    "new_videos": 27,
+    "frozen_models": 30,
+    "outputs_recomputed": 30,
+    "GT_queries_recomputed": 27,
+    "paired_contrasts_recomputed": 10
+  },
+  "direct_feature_check": {
+    "video_id": 460,
+    "all_features_recomputed_bitwise": true
+  },
+  "verification": {
+    "excluded580_and_all_remaining27_fixed": true,
+    "validation_selection_and_offsets_unchanged": true,
+    "all_GTs_queries_and_metadata_reproduced": true,
+    "all_logits_recomputed_bitwise": true,
+    "all_metrics_and_per_video_outputs_recomputed": true,
+    "all_seed33_bootstrap_and_contrasts_recomputed": true,
+    "all_inputs_weights_and_features_unchanged": true,
+    "no_deployment_change": true
+  }
+}
