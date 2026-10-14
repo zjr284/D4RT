@@ -1,0 +1,10 @@
+{
+  "round": 36,
+  "phase": "module parsing before protocol freeze or network access",
+  "error_type": "SyntaxError",
+  "line": 131,
+  "message": "expected 'else' after 'if' expression",
+  "initial_source_sha256_reconstructed_from_single_syntax_fix": "933090550c6beb7bb2992c16d4ffca5bc50279e86295dbb2a1bc04b44a25a780",
+  "correction": "space after else; py_compile passed",
+  "no_new_data_or_model_outputs_before_correction": true
+}

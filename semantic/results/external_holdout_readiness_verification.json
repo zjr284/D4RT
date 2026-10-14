@@ -1,0 +1,31 @@
+{
+  "summary_sha256": "caa2b15cd95510476073a146ed14ddf4273e388e5bf8c875ee910748e3184db0",
+  "checkpoint_sha256": {
+    "source_gt_0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+    "source_gt_1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+    "source_gt_2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+    "source_gt32_0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+    "source_gt32_1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+    "source_gt32_2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+    "lambda0_0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+    "lambda0_1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+    "lambda0_2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+    "native_sam_0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+    "native_sam_1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+    "native_sam_2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+  },
+  "counts": {
+    "public_response_snapshots_verified": 7,
+    "frozen_source_heads_verified": 12,
+    "new_performance_results": 0
+  },
+  "startup_failure_sha256": "e03278b178f079d24b17c90e601b11ac90d07b9d9a7fbded9382708e4f9098c3",
+  "verification": {
+    "all_public_snapshot_hashes_and_caps_verified": true,
+    "HTTP200_not_mistaken_for_JSON_annotation": true,
+    "all_four_source_choices_offsets_and_weights_unchanged": true,
+    "no_model_scoring_training_or_archive_download": true,
+    "TLS_verification_preserved": true,
+    "startup_failure_and_syntax_correction_preserved": true
+  }
+}

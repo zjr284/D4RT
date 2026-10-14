@@ -1,0 +1,208 @@
+{
+  "protocol": {
+    "round": 36,
+    "analysis": "external metadata/resource preflight; no new performance result",
+    "pages": {
+      "ytvis_home": "https://youtube-vos.org/",
+      "ytvis_dataset": "https://youtube-vos.org/dataset/vis/",
+      "ytvis_terms": "https://youtube-vos.org/dataset/term/",
+      "ytvis_2019_download": "https://codalab.lisn.upsaclay.fr/competitions/6064",
+      "lvvis_author_readme": "https://raw.githubusercontent.com/haochenheheda/LVVIS/main/README.md"
+    },
+    "annotation_endpoints": {
+      "lvvis_validation": "https://drive.google.com/uc?export=download&id=1stPD818M3gv7zUV3UIZG1Suru7Tk54jo",
+      "lvvis_validation_oracle": "https://drive.google.com/uc?export=download&id=1LuOptZe2GjXa-9QuYveidS-e8xkqsapV"
+    },
+    "page_cap_bytes": 4194304,
+    "annotation_cap_bytes": 201326592,
+    "total_cap_bytes": 268435456,
+    "arms": [
+      "source_gt",
+      "source_gt32",
+      "lambda0",
+      "native_sam"
+    ],
+    "frozen_selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "mapping_rule": "lowercase, underscore to space, collapse whitespace; no semantic merges",
+    "unmapped_region_value": -1,
+    "TLS_verification_enabled": true,
+    "model_evaluation_updates": 0,
+    "input_sha256": {
+      "semantic_artifacts/dino_low_batch_confirmation/summary.json": "ae430e873c9763066feee4203813398b393b11fe82a9c202cd409e59fe4e5a75",
+      "semantic_artifacts/dino_low_batch_confirmation/verification.json": "71926454fa0f82db744054b2596a99b9f856ca9e3c272814d7d6b23a3ae6c705",
+      "semantic/external_holdout_readiness.py": "7144bfa81b6ba6554ebfc1090d458803318acf00ee4373e536f0f5146c181219",
+      "semantic/OVIS_EXTERNAL_HOLDOUT_PROTOCOL.md": "4f1626764c24226601b8c7bc83dc518a7c206658f11029cdc9ff1c02156eced2",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "sources": {
+    "ytvis_home": {
+      "source_url": "https://youtube-vos.org/",
+      "status": 200,
+      "final_url_without_transient_query": "https://youtube-vos.org/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8742,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/ytvis_home.bin",
+      "sha256": "bf9adc5cba0596035f48e4e85ced1366a3e0e4767b1524e71bb9be40e27c7264"
+    },
+    "ytvis_dataset": {
+      "source_url": "https://youtube-vos.org/dataset/vis/",
+      "status": 200,
+      "final_url_without_transient_query": "https://youtube-vos.org/dataset/vis/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 13164,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/ytvis_dataset.bin",
+      "sha256": "86b192c62a0c203081129ad29d6e8d6d565cc85dc160e273acbe118b3df0aa3f"
+    },
+    "ytvis_terms": {
+      "source_url": "https://youtube-vos.org/dataset/term/",
+      "status": 200,
+      "final_url_without_transient_query": "https://youtube-vos.org/dataset/term/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 7896,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/ytvis_terms.bin",
+      "sha256": "11574a956c85d65c66a312fb88c5c0253536aebd5e6711248f90a0571692411b"
+    },
+    "ytvis_2019_download": {
+      "source_url": "https://codalab.lisn.upsaclay.fr/competitions/6064",
+      "status": 200,
+      "final_url_without_transient_query": "https://codalab.lisn.upsaclay.fr/competitions/6064",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 55261,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/ytvis_2019_download.bin",
+      "sha256": "e924f55574b36920854b34cf72cb31364b5dab0774253fb2b6cdb3b2f3c16d08"
+    },
+    "lvvis_author_readme": {
+      "source_url": "https://raw.githubusercontent.com/haochenheheda/LVVIS/main/README.md",
+      "status": 200,
+      "final_url_without_transient_query": "https://raw.githubusercontent.com/haochenheheda/LVVIS/main/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 7324,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/lvvis_author_readme.bin",
+      "sha256": "616e027a082f43059bda69d983a02a7025611ff0e9a5a94f39f55f4fba78b31f"
+    },
+    "lvvis_validation": {
+      "source_url": "https://drive.google.com/uc?export=download&id=1stPD818M3gv7zUV3UIZG1Suru7Tk54jo",
+      "status": 200,
+      "final_url_without_transient_query": "https://drive.usercontent.google.com/download",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2467,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/lvvis_validation.bin",
+      "sha256": "f5b44bd651bdfbcc77655fbb5842793772bb4229a35b4316240624f55d794cd0"
+    },
+    "lvvis_validation_oracle": {
+      "source_url": "https://drive.google.com/uc?export=download&id=1LuOptZe2GjXa-9QuYveidS-e8xkqsapV",
+      "status": 200,
+      "final_url_without_transient_query": "https://drive.usercontent.google.com/download",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2473,
+      "path": "semantic_artifacts/external_holdout_readiness/downloads/lvvis_validation_oracle.bin",
+      "sha256": "c9bf66c67dbc7d27c23d9f10bd9b726aaab02b09a5653cce5c360b1671b7d5bf"
+    }
+  },
+  "annotation_audits": {
+    "lvvis_validation": {
+      "parseable_JSON": false,
+      "model_evaluation_ready": false
+    },
+    "lvvis_validation_oracle": {
+      "parseable_JSON": false,
+      "model_evaluation_ready": false
+    }
+  },
+  "resources": {
+    "disk_free_bytes": 934136848384,
+    "disk_total_bytes": 1081101176832,
+    "modules": {
+      "torch": true,
+      "PIL": true,
+      "pycocotools": true,
+      "requests": false,
+      "gdown": false
+    },
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "gpu_total_bytes": 8546484224
+  },
+  "network_bytes_received": 97327,
+  "no_target_model_evaluation": true,
+  "no_video_archive_download": true,
+  "no_credentials_accounts_or_paid_compute_used": true,
+  "deployment_unchanged": "native_gt",
+  "remaining_OVIS_independent_videos": 0,
+  "pending": [
+    "Find readable full annotation schema",
+    "Obtain official selected images",
+    "Screen dataset duplicates",
+    "Preregister fixed confirmation and complete preprocessing verification"
+  ]
+}
