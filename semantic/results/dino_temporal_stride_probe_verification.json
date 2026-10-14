@@ -1,0 +1,46 @@
+{
+  "summary_sha256": "6ba123e38edd3ce2cdfac5e63d269dffb9b3bddf3f96cf1342eb1dc545387d17",
+  "output_sha256": {
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/1/logits/dinov2_0_val.npz": "51c7ebc52fa8ff07807a5cad36e0a986387a7193152967dcd95eb914a0defe5c",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/1/logits/dinov2_1_val.npz": "d9873e86536c13ed9d712a29996b51c8cf9a27382fed9f2c3e2fa5140e486693",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/1/logits/dinov2_2_val.npz": "3a1db525e231d989ba8fe5f9c8d332a5b2e4f9a7616ba4912279740f92ce2290",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/4/logits/dinov2_0_val.npz": "61f684a8c7687ab694192ad4d04d1cbf9c882a47802c83388a6d888bd2f2280f",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/4/logits/dinov2_1_val.npz": "e0d5c8962a308e8fa97676c8876f1eebdc3b758d97dbe51a511625682d8f8913",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt/4/logits/dinov2_2_val.npz": "6f3d7757f6f0b27a279ebac6e531bc0a34cee09280a6a1f8a590032aa90ffbc6",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/1/logits/dinov2_0_val.npz": "87b4c41ad7a30f9653af6b344921e681b49d03e018308060a50da5994838da04",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/1/logits/dinov2_1_val.npz": "2093eff87da9f7f6feaff2fc458a31bf37a867ade9664a4072c45386e08501de",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/1/logits/dinov2_2_val.npz": "52c69cc83b9d1130e72be432f8028e9b42632c6e53123568d184d7960ecd8a60",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/4/logits/dinov2_0_val.npz": "29da08740f13dc5be0c54e13817be267abc698d7b3ab3cc7d132ff569775b150",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/4/logits/dinov2_1_val.npz": "0a7d9b376f93c15215a9e42c5e26e53dc6c43d71d0839853e8d52f6ea6a36b75",
+    "semantic_artifacts/dino_temporal_stride_probe/source_gt32/4/logits/dinov2_2_val.npz": "3d076b5f061ea002e9c643087f2f3adfb6e6983635f38941956fe711c7f64df0",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/1/logits/dinov2_0_val.npz": "6c1a7eea7e5ec4ccfba4137b467b705d177abaf4e1cdd66f8b594976a39fdc0c",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/1/logits/dinov2_1_val.npz": "c48b32931709de43e9f59147889247fd4df1cfb8f48edc9d06ee6813d285cfd3",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/1/logits/dinov2_2_val.npz": "df4df5beb3da9bbfd835273e2d0d0f9c2c6979dfdeafb32bff01242e2b6ba783",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/4/logits/dinov2_0_val.npz": "76d4727a0b0d41caaa5b71281fe768742517410b6640f7e7444ed8f3d5ea55de",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/4/logits/dinov2_1_val.npz": "a2938b7ca017c77a9387a7bcff8c312dc2ab058f818f4e4cfc7fce1b7070a2ed",
+    "semantic_artifacts/dino_temporal_stride_probe/lambda0/4/logits/dinov2_2_val.npz": "cd84cc58f329ac388e21ad640e0bd65c6ca8ab216039c1eebb3547a2080b0ca8",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/1/logits/dinov2_0_val.npz": "e5ee1533a44f53ffd8ee4dbb19ac443b169c2e3e45fa3a447168eeceb10a277b",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/1/logits/dinov2_1_val.npz": "d486e2238e62883da59b191db2d4bd91fe28e9b0659e8fc54de94a88603119f7",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/1/logits/dinov2_2_val.npz": "e602fc25234f2cf71b9ac64470c739b2684615ee060082c5fabcdf943012cb9f",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/4/logits/dinov2_0_val.npz": "ca1002c71c92d5c05232d61c0210926158424ff4eadb3df1622b531e91e70325",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/4/logits/dinov2_1_val.npz": "eef0c68c5c7e98fc543ceb20a6a009150c057593f4a6b7a591663a331e1f56d7",
+    "semantic_artifacts/dino_temporal_stride_probe/native_sam/4/logits/dinov2_2_val.npz": "a4e396ec49b296a2343cbdc2e8ff4e16a89e5d007176a64c3556aad2bbcab322"
+  },
+  "counts": {
+    "known_videos": 18,
+    "query_sets_recomputed": 36,
+    "frozen_outputs_recomputed": 24,
+    "new_independent_videos": 0
+  },
+  "direct_feature_check": {
+    "video_id": 258,
+    "sparse_features_recomputed_bitwise": true
+  },
+  "verification": {
+    "all_dense_sparse_queries_and_global_indices_reproduced": true,
+    "all_logits_and_metrics_recomputed": true,
+    "all_source0_checks_and_paired_common_class_statistics_recomputed": true,
+    "all_registered_inputs_unchanged": true,
+    "no_training_calibration_or_deployment_change": true
+  }
+}
