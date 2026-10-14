@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "round": 38,
+    "source": "https://drive.google.com/uc?export=download&id=1vTYUz_XLOBnYb9e7upJsZM-nQz2S6wDn",
+    "byte_cap": 16777216,
+    "pilot_image": {
+      "file_name": "00000/00000.jpg",
+      "height": 720,
+      "width": 1280,
+      "id": 0
+    },
+    "pilot_video_excluded_from_future_confirmation": "00000",
+    "model_evaluation_updates": 0,
+    "input_sha256": {
+      "semantic_artifacts/external_annotation_acquisition/summary.json": "a66e7643edbd7055e86c309f2504549c34cadeea93e0352fa9527786ef391df8",
+      "semantic_artifacts/external_annotation_acquisition/verification.json": "7eb453e2e6461c096e47bb3691c25171a2c83724b60a72d23d8689e22ac036ae",
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic/external_archive_probe.py": "dac7bd760a5fcddf6f5af8bbdc3af3a38160d8f20924e01f249d2d7d5c0bcd61",
+      "semantic/OVIS_EXTERNAL_ARCHIVE_PROTOCOL.md": "6c77e83e83acba69bf09f8f4465cebce71032684686525e2075306eea83055b0"
+    }
+  },
+  "source_access_error": {
+    "type": "ValueError",
+    "public_range_or_schema_probe_failed": true
+  },
+  "ranges": [
+    {
+      "start": 0,
+      "end": 3,
+      "bytes": 4,
+      "path": "semantic_artifacts/external_archive_probe/ranges/000.bin",
+      "sha256": "8dcc7e601606217f3b754766511182a916b17e9a26a94c9d887104eba92e9bb2"
+    },
+    {
+      "start": 1805314317,
+      "end": 1805445388,
+      "bytes": 131072,
+      "path": "semantic_artifacts/external_archive_probe/ranges/001.bin",
+      "sha256": "d9ffa3d6b3869785c0eefd769a2a31b4fc114b2ca7496903957755e2fa0e0805"
+    }
+  ],
+  "received_bytes": 2361755,
+  "archive_total_bytes": 1805445389,
+  "archive_version": [
+    null,
+    "Mon, 07 Aug 2023 16:46:58 GMT"
+  ],
+  "directory_entries": 0,
+  "pilot_check": null,
+  "no_model_evaluation": true,
+  "no_complete_archive_download": true,
+  "deployment_unchanged": "native_gt",
+  "pending": [
+    "COCO clip adapter and blind video grouping",
+    "OVIS duplicate screening",
+    "Fixed confirmation/reserve and preprocessing verification"
+  ]
+}

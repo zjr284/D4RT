@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "0232f9f7de05ed64562705dc9e20b2f89bf16d455781f8fe5f073ed2442e2398",
+  "accepted_range_count": 2,
+  "archive_end_record_entries": 19978,
+  "declared_directory_bytes": 2229962,
+  "unaccepted_directory_response_bytes": 2228224,
+  "missing_directory_bytes": 1738,
+  "verification": {
+    "all_accepted_range_hashes_and_sizes_verified": true,
+    "archive_end_record_independently_parsed": true,
+    "short_directory_rejected_without_padding_or_trimming": true,
+    "no_pilot_or_model_evaluation_claimed": true,
+    "all_registered_inputs_unchanged": true
+  }
+}
