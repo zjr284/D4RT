@@ -1,0 +1,13 @@
+{
+  "summary_sha256": "481708d979c952759520a213c774657427d6909695e321053af41785724c6c43",
+  "accepted_ranges": 2,
+  "rejected_attempts": 5,
+  "received_bytes": 369171,
+  "independent_replay": null,
+  "verification": {
+    "all_input_fingerprints_unchanged": true,
+    "finite_retry_and_byte_accounting": true,
+    "accepted_bytes_hashed": true,
+    "no_model_score_or_deployment_change": true
+  }
+}
