@@ -106,3 +106,5 @@ with torch.inference_mode(), torch.autocast("cuda", dtype=torch.bfloat16):
 第二十一轮标签纠错oracle完成，见 [协议](OVIS_DINO_LABEL_ORACLE_PROTOCOL.md)和[结果](OVIS_DINO_LABEL_ORACLE_RESULTS.md)。固定SAM查询与采样算法，162560个训练标签仅771改变；额外GT纠错后已观察40段宏F1从0.7071到0.6991，两种子下降。保留负结果，不将oracle当弱监督部署候选或新确认。下一轮立即检验保留原JPEG信息的RGB预处理控制。
 
 第二十二轮原JPEG RGB对照完成，见 [协议](OVIS_DINO_NATIVE_RGB_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_RGB_RESULTS.md)。GT宏F1从0.5901到0.6769，SAM从0.6200到0.6995，三种子均提高，视频等权区间高于零；按验证选原JPEG GT，不按确认改选SAM。记录并修正bootstrap种子及核验输入布局问题，保留初始汇总。最终40段锁定未评价，下一轮立即验证新输入接口。
+
+第二十三轮原JPEG GT接口验证完成，见 [协议](OVIS_DINO_NATIVE_INTERFACE_PROTOCOL.md)和[结果](OVIS_DINO_NATIVE_INTERFACE_RESULTS.md)。同一原帧生成128几何与448语义RGB并严格来源核对；40段完整查询×三种子及真实B=2的1476组几何数组逐值保持，语义缓存/类别完全复现。下一轮一次性评价已预留最终40，所有选择冻结，不按最终分数改模型。
