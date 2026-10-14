@@ -1,0 +1,21 @@
+{
+  "summary_sha256": "e55210e020dad7562af42a657562ed58916522effca21b9de2ca532345b1219c",
+  "counts": {
+    "cases": 4,
+    "saved_strategy_arrays": 144,
+    "reference_arrays": 12,
+    "recomputed_field_deltas": 1728,
+    "timed_passes": 144
+  },
+  "verification": {
+    "all_saved_arrays_hashed_and_finite": true,
+    "all_deltas_independently_recomputed": true,
+    "original_and_fixed_tokens_full64_equal": true,
+    "all_registered_input_hashes_unchanged": true,
+    "all_timings_present": true
+  },
+  "limits": [
+    "Array verification does not repeat GPU timing",
+    "FP32 weights retain BF16 quantization; no geometry ground truth"
+  ]
+}
