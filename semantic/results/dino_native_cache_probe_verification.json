@@ -1,0 +1,16 @@
+{
+  "summary_sha256": "3df39efc2335263f50e926feea8299d4141f67d136ca09a421ca51b8e91f9aaa",
+  "counts": {
+    "cases": 12,
+    "timed_pairs": 120,
+    "timed_forwards": 240,
+    "case_groups_with_first_call": 4
+  },
+  "verification": {
+    "all_same_input_geometry_semantic_checks_bitwise": true,
+    "all_original_time_source_and_subset_cases_present": true,
+    "one_extraction_per_video_head_reload_keeps_tokens": true,
+    "all_alternating_timing_records_present": true,
+    "all_registered_inputs_unchanged": true
+  }
+}

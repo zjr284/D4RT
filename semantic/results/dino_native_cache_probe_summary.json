@@ -1,0 +1,4906 @@
+{
+  "protocol": {
+    "round": 25,
+    "analysis": "frozen cache correctness and paired latency, no new model evaluation or generalization claim",
+    "video_ids": [
+      345,
+      574,
+      573
+    ],
+    "B2_ids": [
+      345,
+      574
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "queries_per_video": 2048,
+    "paired_repetitions": 10,
+    "max_cached_videos": 2,
+    "head": "native_gt",
+    "background_offset": -1.5,
+    "input_sha256": {
+      "semantic_artifacts/dino_native_rgb_control/summary.json": "23857cedbf9646c4ae3d2cbab879e289850122f99e1ba2f22316defb78312b9f",
+      "semantic_artifacts/dino_native_rgb_control/verification.json": "a00ea1a3069a32909ed00f045e5b783ed396f96b98ce5949a4e962ce31fa6089",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/345.npz": "dd8495f4efb4221bbb4b1eb6b88beefe934a49bf1aa5f7e0f9f351f54d156051",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/574.npz": "48c93d86f5e86af8a7643cdf7e7bce5a506204b5fd676f7a250ba2d0706ca9d6",
+      "semantic_artifacts/dino_native_rgb_control/features/native/confirmation/573.npz": "0110bff66b8543a4f0a7168afdc001db125cc98d6300defbf863bf72ecba2f44",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000001.jpg": "c629f9042c4d6beb6915514ee37194010979ca9d7667e14a7286adbf9bdf8da5",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000002.jpg": "57407ce253c0681df32f4406689e6063a5a8680f7ef8dadafc1f929715359e1a",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000003.jpg": "fbdcbe664dc694c0a6ea7456f1bcb229c015606fb55d77ed46d50cf007fe4b24",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000004.jpg": "0350440963a1932d92d4c82f52cab5c4affef4aa17bb666a5e47123d62938cba",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000005.jpg": "2f64ea38127c6bd32ec80212005430b25afd5f7a2f751212d48b0622378de1af",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000006.jpg": "90e2a102f17dc97738dbcf4e4d2cee62897ff05593823d06780af945c62ef573",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000007.jpg": "f36e2b1d0ec2b79800d76f7e8396e090791c7420d29054c48382e27fabe7b4a9",
+      "semantic_artifacts/ovis/train/6adad2f7/img_0000008.jpg": "130e20c384166ddfb232d7341a55467108f7389af0bf4b431121850157750771",
+      "semantic_artifacts/ovis/train/277ad883/img_0000001.jpg": "8972359977cdc6f92e27dff2b19b3047325dcfb2f041da48a764f7a16aeaaead",
+      "semantic_artifacts/ovis/train/277ad883/img_0000002.jpg": "882fc6feeab197f2b11dd8eb699ccc10d3c7dd123d83d5d016f0deb953b3fc94",
+      "semantic_artifacts/ovis/train/277ad883/img_0000003.jpg": "454c82e6c8bf1ae7f569840ffa66bfb3c57b2ffd1fb19194d3701fea955a8b14",
+      "semantic_artifacts/ovis/train/277ad883/img_0000004.jpg": "5839a11ba6c00c9c4e3ec9e80adad99695a7630893f80c4cd9a6676f54255205",
+      "semantic_artifacts/ovis/train/277ad883/img_0000005.jpg": "e34500947ff0d4cca960da1157dca2796db1635e6e9cb4b5a4ba21bf3d4a3639",
+      "semantic_artifacts/ovis/train/277ad883/img_0000006.jpg": "ec4bf9f2a26b4ae80dc4a4e6e822e2d7717dc60b8bf06bf05f9a561ee11b0635",
+      "semantic_artifacts/ovis/train/277ad883/img_0000007.jpg": "c848bdadcd5ead1108837bd04d7bf8b8c9596f02a3f45ff6bd225fe69a166c38",
+      "semantic_artifacts/ovis/train/277ad883/img_0000008.jpg": "378a2f6d66c2c96e9b7aeba44278c24a246d1b8ace3f41ce5aa1e46334b97dd2",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000001.jpg": "83d0ef05c58600ca8d7e6e9d109ed6fb695d89d513ca52bd3ab6a988d64842c5",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000002.jpg": "4e7d3375eba49f24aa7d84d748eef708a3203e4c524ab3377c0437a7ed7f1cb7",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000003.jpg": "d535a1480f8dd6520fe03b379d48382109b10e332e209e6ca62c97a985682e26",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000004.jpg": "bb9611f2e3bd8365a9b779a15e7bebab45e2cb0ad00760bb38e876bc2f45cfcb",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000005.jpg": "d2723a194aefc752428630aeba6dc83cd9d103ee2bcb05f76b57f1361e02e821",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000006.jpg": "a09ba2b6a082162318fc23f40b5410b6f22e124a112a4e8a936c2a7152447045",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000007.jpg": "ab453c026ea0e3567edd0dadb7351525a7a8e6ec714cce2d3e51a0b44b1913b7",
+      "semantic_artifacts/ovis/train/1e75004d/img_0000008.jpg": "83dd3f9781c3bcda4a5f891f71900aab92cd281ce728fe0fddb38dcf5fec0d61",
+      "semantic/dino_native_cache.py": "0861777181e0f8d3e3f1d3c29e28cdba5aa27808c31e200ec1a5fb073b91e01e",
+      "semantic/dino_native_cache_probe.py": "4a8ffe27107e9a346a285daba505bb244f33f36669d8d5656e6fb8140aa5e985",
+      "semantic/OVIS_DINO_NATIVE_CACHE_PROTOCOL.md": "fb8fc2de44abe9dbfe41bcf78dd65340772786ae2f36fe3ccf730e31914ea05b",
+      "tests/test_dino_native_cache.py": "201abd397fef2bd5b6d5f7e1032469e5374b942950443073317b97570eed4d5d"
+    },
+    "additional_query_checks": "target+1 camera+3 mod8; source+1 mod8; first256query subset",
+    "input_content_checked_every_call": true
+  },
+  "cases": [
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 0,
+      "first_cache_cost": {
+        "seconds": 1.265496484000323,
+        "peak_cuda_allocated_bytes": 3106212352,
+        "peak_cuda_reserved_bytes": 3409969152
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.28443017800054804,
+            "peak_cuda_allocated_bytes": 3124506112,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08653573599985975,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08688976499979617,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28996495499995945,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2883115610002278,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08690536399990378,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08731442799944489,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2852269929999238,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2868050040005983,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08702767599970684,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08765783600028954,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.29121464600029867,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.29107321899937233,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08734181899944815,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.0867391410001801,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2893159879995437,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2887845940003899,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08762973200009583,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08645879100004095,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28681533399958425,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 14,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 1,
+      "first_cache_cost": {
+        "seconds": 1.265496484000323,
+        "peak_cuda_allocated_bytes": 3106212352,
+        "peak_cuda_reserved_bytes": 3409969152
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2891842890003318,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08768545800012362,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.087105683000118,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2865930230000231,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.28820997799994075,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08721655200042733,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08806243000071845,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28794498600018414,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2904454509998686,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08580927399998473,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08738379799979157,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28609581500040804,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2911291139998866,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0868140519996814,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08850846299992554,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.29129070799990586,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2887251020001713,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08731333500054461,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08728747599980125,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2884393820004334,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 28,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        345
+      ],
+      "seed": 2,
+      "first_cache_cost": {
+        "seconds": 1.265496484000323,
+        "peak_cuda_allocated_bytes": 3106212352,
+        "peak_cuda_reserved_bytes": 3409969152
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3027336080003806,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08756521099985548,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08730003900018346,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28956070900039776,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2909327620000113,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08732693100046163,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08691716700013785,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28969827000037185,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.28792490999967413,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08739500899991981,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08780720800041308,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2873989949994211,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2891175459999431,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08722816899989994,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08721253500061721,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.28177603099993576,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2908775669993702,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08731653999984701,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.0872957410001618,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2874032619993159,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 42,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 0,
+      "first_cache_cost": {
+        "seconds": 0.20869068800038804,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.21464039900001808,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08563725900057761,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08707445300024119,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2123157270007141,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.4645169689993054,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08890453100048035,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08754218700050842,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.24282635200052027,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2738850329997149,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08894351500021003,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08903420600017853,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.41491722999944614,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.9679829719998452,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.09063640299973486,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09056671200050914,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.30369897199943807,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3620220929997231,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08894057000088651,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08669605900013266,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.275049881999621,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 14,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 1,
+      "first_cache_cost": {
+        "seconds": 0.20869068800038804,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.22561602600035258,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08721076099936909,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08869429400056106,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.22973700300008204,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.22073112599991873,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0866519649998736,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08697997499984922,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.21819317100016633,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2174919660001251,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08615043699956004,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08871369999997114,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2211087089999637,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.22760343900063162,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08696338400022796,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08763413099950412,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.22129732799930935,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2200171370004682,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0880269129993394,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08726155600015773,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.21514991100048064,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 28,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        574
+      ],
+      "seed": 2,
+      "first_cache_cost": {
+        "seconds": 0.20869068800038804,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.39261983200049144,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.09367991300041467,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08767909499965754,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2165372629997364,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.22357801499947527,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08731631099999504,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08715630799997598,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.21676763799951004,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.21703552399958426,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08758963699983724,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09114992300055746,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3562509900002624,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3950174820001848,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.09067306199995073,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09109795499989559,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3638948210000308,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.22682823600007396,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08942776899948512,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09094830300000467,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.22216359300000477,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 42,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 0,
+      "first_cache_cost": {
+        "seconds": 0.29472047699982795,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.36449898299997585,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08797214900005201,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08840882399999828,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2848325859995384,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.29575757600014185,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08774166300008801,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08907325000018318,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.29579271100010374,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.30057268499967904,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08772943099938857,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08865454799979489,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2948680459994648,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2874959070004479,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.1375682540001435,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.0943828109993774,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.4273617520002517,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3718738369998391,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08791759700034163,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08806542500042269,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3817789699996865,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 14,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 1,
+      "first_cache_cost": {
+        "seconds": 0.29472047699982795,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3034588479995364,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08747620200028905,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08769790200040006,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2926245979997475,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.30211194299954514,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0869961250000415,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08888680699965334,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.4746771179998177,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.4045011110001724,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.089792910000142,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09033517399984703,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.4339331969995328,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.2937041679997492,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08857429599993338,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08935561399994185,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.2906851329998972,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.29092662899984134,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08763148599973647,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08838214299976244,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.29630712600010156,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 28,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B1",
+      "video_ids": [
+        573
+      ],
+      "seed": 2,
+      "first_cache_cost": {
+        "seconds": 0.29472047699982795,
+        "peak_cuda_allocated_bytes": 3108879872,
+        "peak_cuda_reserved_bytes": 3414163456
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3098446510002759,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.09649889899992559,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09307019100015168,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.8862636469993959,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.34749426300004416,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08872059299937973,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08900824699958321,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3062218880004366,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.3032096349998028,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0889169239999319,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08841067800040037,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3023189810000986,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.29938029999993887,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.08909059200050251,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.08908869799961394,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3041470260004644,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.30586884900003497,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "cached": {
+            "seconds": 0.0887911769996208,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.09027039100055845,
+            "peak_cuda_allocated_bytes": 3108879872,
+            "peak_cuda_reserved_bytes": 3414163456
+          },
+          "uncached": {
+            "seconds": 0.3055919449998328,
+            "peak_cuda_allocated_bytes": 3125001728,
+            "peak_cuda_reserved_bytes": 3414163456
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 1,
+        "hits": 42,
+        "misses": 1,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 0,
+      "first_cache_cost": {
+        "seconds": 1.230908537999312,
+        "peak_cuda_allocated_bytes": 3747655680,
+        "peak_cuda_reserved_bytes": 4219469824
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 1.4418057589991804,
+            "peak_cuda_allocated_bytes": 3782071296,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3596751029999723,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4046714060004888,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 0.905235330999858,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.9848417169996537,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.36211657999956515,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.3996086950000972,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 0.9579314540005726,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.694835344999774,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3694861240001046,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4172909630005961,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0041301599994767,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7463956020001206,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.36901195000064035,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4234573719995751,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0695325169999705,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7263698759998078,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.36597779499970784,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.41425222199995915,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.2481377710000743,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 28,
+        "misses": 2,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 1,
+      "first_cache_cost": {
+        "seconds": 1.230908537999312,
+        "peak_cuda_allocated_bytes": 3747655680,
+        "peak_cuda_reserved_bytes": 4219469824
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7189657139997507,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.36926038500041614,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.41938223199940694,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.3487055610003154,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.695691882000574,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3759007799999381,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.41482776699922397,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.1606784879995757,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7172269689999666,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.37530218999927456,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.465168717000779,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0292947030002324,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 1.1043971400004011,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.36716614899978595,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4051739499991527,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.1030920149996746,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7098770060001698,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3740653260001636,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4247891699997126,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0084265999994386,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 56,
+        "misses": 2,
+        "evictions": 0
+      }
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        345,
+        574
+      ],
+      "seed": 2,
+      "first_cache_cost": {
+        "seconds": 1.230908537999312,
+        "peak_cuda_allocated_bytes": 3747655680,
+        "peak_cuda_reserved_bytes": 4219469824
+      },
+      "first_cache_equality": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_raw_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "semantic_logits": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      },
+      "checks": {
+        "original": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "target_camera": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "source": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        },
+        "subset256": {
+          "xyz_3d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "uv_2d": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "visibility": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "displacement": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "normal": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "confidence": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_raw_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          },
+          "semantic_logits": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0,
+            "mean_absolute_difference": 0.0
+          }
+        }
+      },
+      "timings": [
+        {
+          "repetition": 0,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7057391190000999,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3802699490006489,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 1,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.45289247000073374,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0369478749998962,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 2,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7211301930001355,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3811001080002825,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 3,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4234363460000168,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.0166348689999722,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 4,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7232653580003898,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.37156600700018316,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 5,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.4448742820004554,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 1.3452726490004352,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 6,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 0.7138930230003098,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3790539150004406,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 7,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.41494979500021145,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 0.7008667719992445,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 8,
+          "order": [
+            "uncached",
+            "cached"
+          ],
+          "uncached": {
+            "seconds": 1.0685400339998523,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "cached": {
+            "seconds": 0.3656946549999702,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        },
+        {
+          "repetition": 9,
+          "order": [
+            "cached",
+            "uncached"
+          ],
+          "cached": {
+            "seconds": 0.40970307200041134,
+            "peak_cuda_allocated_bytes": 3750323200,
+            "peak_cuda_reserved_bytes": 4223664128
+          },
+          "uncached": {
+            "seconds": 0.7126573280002049,
+            "peak_cuda_allocated_bytes": 3782566912,
+            "peak_cuda_reserved_bytes": 4223664128
+          }
+        }
+      ],
+      "cache_info": {
+        "entries": 2,
+        "hits": 84,
+        "misses": 2,
+        "evictions": 0
+      }
+    }
+  ],
+  "verification": {
+    "all_original_changed_and_subset_outputs_bitwise_equal": true,
+    "heads_reloaded_without_reusing_scores": true,
+    "one_token_extraction_per_video_per_case": true,
+    "all_inputs_and_weights_unchanged": true,
+    "no_training_calibration_or_new_videos": true
+  },
+  "limits": [
+    "warm repeated source reuse workload, not cold disk or new video throughput",
+    "real B2 only first2 fixed videos",
+    "frozen backbone version tracking does not promise detection of arbitrary unsafe .data manipulation"
+  ]
+}
