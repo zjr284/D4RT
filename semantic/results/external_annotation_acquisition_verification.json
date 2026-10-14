@@ -1,0 +1,112 @@
+{
+  "summary_sha256": "a66e7643edbd7055e86c309f2504549c34cadeea93e0352fa9527786ef391df8",
+  "successful_annotation_sources": [
+    "lvvis_validation_oracle"
+  ],
+  "RLE_sample_checks": [
+    {
+      "annotation_index": 0,
+      "image_id": 0,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 244577
+    },
+    {
+      "annotation_index": 8844,
+      "image_id": 2092,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 426017
+    },
+    {
+      "annotation_index": 17689,
+      "image_id": 4434,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 30033
+    },
+    {
+      "annotation_index": 26534,
+      "image_id": 6675,
+      "decoded_shape": [
+        960,
+        1920
+      ],
+      "foreground_pixels": 205800
+    },
+    {
+      "annotation_index": 35379,
+      "image_id": 8532,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 147656
+    },
+    {
+      "annotation_index": 44223,
+      "image_id": 10515,
+      "decoded_shape": [
+        1138,
+        720
+      ],
+      "foreground_pixels": 123370
+    },
+    {
+      "annotation_index": 53068,
+      "image_id": 12518,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 1532
+    },
+    {
+      "annotation_index": 61913,
+      "image_id": 14790,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 4177
+    },
+    {
+      "annotation_index": 70758,
+      "image_id": 16901,
+      "decoded_shape": [
+        720,
+        1280
+      ],
+      "foreground_pixels": 43610
+    },
+    {
+      "annotation_index": 79603,
+      "image_id": 19095,
+      "decoded_shape": [
+        1707,
+        1080
+      ],
+      "foreground_pixels": 445526
+    }
+  ],
+  "counts": {
+    "real_annotation_sources_verified": 1,
+    "frozen_heads_verified": 12,
+    "new_model_scores": 0
+  },
+  "verification": {
+    "all_successful_JSONs_schema_and_refs_independently_verified": true,
+    "all_strict_shared_class_mappings_recomputed": true,
+    "deterministic_RLE_samples_match_image_dimensions": true,
+    "network_budget_accounted_for_this_run": true,
+    "all_source_models_offsets_and_inputs_unchanged": true,
+    "failed_source_retained_as_failure": true,
+    "image_and_confirmation_readiness_not_claimed": true
+  }
+}

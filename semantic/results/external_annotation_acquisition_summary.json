@@ -1,0 +1,254 @@
+{
+  "protocol": {
+    "round": 37,
+    "annotation_endpoints": {
+      "lvvis_validation": "https://drive.google.com/uc?export=download&id=1stPD818M3gv7zUV3UIZG1Suru7Tk54jo",
+      "lvvis_validation_oracle": "https://drive.google.com/uc?export=download&id=1LuOptZe2GjXa-9QuYveidS-e8xkqsapV"
+    },
+    "allowed_public_form_host": "drive.usercontent.google.com",
+    "single_annotation_cap_bytes": 201326592,
+    "total_metadata_cap_including_round36": 268435456,
+    "round36_network_bytes": 97327,
+    "frozen_selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "model_evaluation_updates": 0,
+    "TLS_verification_enabled": true,
+    "input_sha256": {
+      "semantic_artifacts/external_holdout_readiness/summary.json": "caa2b15cd95510476073a146ed14ddf4273e388e5bf8c875ee910748e3184db0",
+      "semantic_artifacts/external_holdout_readiness/verification.json": "490493f530b339f8a5f06d56360b6750471ca70d9e6e29faaaed14b543c06cf8",
+      "semantic/external_annotation_acquisition.py": "ba811ca54dcfec23e359e85a7a35ae44ec5c463cae0d69aa75628fb6b7a77e0c",
+      "semantic/OVIS_EXTERNAL_ANNOTATION_PROTOCOL.md": "34769f9481edfccaf7dee3badd6bbf3ef133462b045eeb5b1bead73bf6d41fca",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "downloads": {
+    "lvvis_validation": {
+      "canonical_source_url": "https://drive.google.com/uc?export=download&id=1stPD818M3gv7zUV3UIZG1Suru7Tk54jo",
+      "used_public_confirmation": true,
+      "bytes_received": 115100067,
+      "error_type": "JSONDecodeError",
+      "status": null,
+      "TLS_verification_preserved": true,
+      "no_account_credentials_or_existing_cookies": true,
+      "no_annotation_ready": true,
+      "confirmation_snapshot_sha256": "c63bda7827b04c4a4f4db0de2b316cd4008b7e4c8ee5e8286203f687d6d9018e"
+    },
+    "lvvis_validation_oracle": {
+      "canonical_source_url": "https://drive.google.com/uc?export=download&id=1LuOptZe2GjXa-9QuYveidS-e8xkqsapV",
+      "used_public_confirmation": true,
+      "bytes_received": 122843571,
+      "path": "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data",
+      "sha256": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "final_url_without_transient_query": "https://drive.usercontent.google.com/download",
+      "TLS_verification_preserved": true,
+      "no_account_credentials_or_existing_cookies": true,
+      "confirmation_snapshot_sha256": "84a16069bb251ec36cdd3f6fbf1860c749571e06f35cb826e1c775b0c5ac5e34"
+    }
+  },
+  "annotation_audits": {
+    "lvvis_validation": {
+      "model_evaluation_ready": false,
+      "reason": "Public metadata download did not yield usable JSON"
+    },
+    "lvvis_validation_oracle": {
+      "parseable_JSON": true,
+      "expected_annotation_schema": true,
+      "format": "COCO_image",
+      "category_count": 1196,
+      "video_count": 0,
+      "image_count": 19096,
+      "annotation_count": 79604,
+      "shared_category_count": 23,
+      "shared_mapping": {
+        "6": {
+          "source_name": "airplane",
+          "ovis_id": 23
+        },
+        "83": {
+          "source_name": "bear",
+          "ovis_id": 9
+        },
+        "100": {
+          "source_name": "bicycle",
+          "ovis_id": 21
+        },
+        "107": {
+          "source_name": "bird",
+          "ovis_id": 2
+        },
+        "123": {
+          "source_name": "boat",
+          "ovis_id": 24
+        },
+        "213": {
+          "source_name": "cat",
+          "ovis_id": 3
+        },
+        "296": {
+          "source_name": "cow",
+          "ovis_id": 7
+        },
+        "346": {
+          "source_name": "dog",
+          "ovis_id": 4
+        },
+        "401": {
+          "source_name": "elephant",
+          "ovis_id": 8
+        },
+        "427": {
+          "source_name": "fish",
+          "ovis_id": 19
+        },
+        "472": {
+          "source_name": "giant_panda",
+          "ovis_id": 13
+        },
+        "474": {
+          "source_name": "giraffe",
+          "ovis_id": 11
+        },
+        "550": {
+          "source_name": "horse",
+          "ovis_id": 5
+        },
+        "632": {
+          "source_name": "lizard",
+          "ovis_id": 14
+        },
+        "689": {
+          "source_name": "monkey",
+          "ovis_id": 16
+        },
+        "694": {
+          "source_name": "motorcycle",
+          "ovis_id": 22
+        },
+        "754": {
+          "source_name": "parrot",
+          "ovis_id": 15
+        },
+        "773": {
+          "source_name": "person",
+          "ovis_id": 1
+        },
+        "843": {
+          "source_name": "rabbit",
+          "ovis_id": 17
+        },
+        "927": {
+          "source_name": "sheep",
+          "ovis_id": 6
+        },
+        "1078": {
+          "source_name": "tiger",
+          "ovis_id": 18
+        },
+        "1121": {
+          "source_name": "turtle",
+          "ovis_id": 20
+        },
+        "1195": {
+          "source_name": "zebra",
+          "ovis_id": 10
+        }
+      },
+      "nonshared_category_count": 1173,
+      "source_metadata_inspected": true,
+      "model_evaluation_ready": false,
+      "reason": "Images, duplicate screening and final query/selection protocol not yet validated"
+    }
+  },
+  "schema_checks": {
+    "lvvis_validation_oracle": {
+      "supported_keys_present": true,
+      "unique_category_and_annotation_ids": true,
+      "all_annotation_references_valid": true,
+      "nodes": 19096,
+      "segment_encoding_counts": {
+        "RLE": 79604
+      }
+    }
+  },
+  "total_network_bytes_including_round36": 238040965,
+  "no_target_model_evaluation": true,
+  "no_video_archive_download": true,
+  "deployment_unchanged": "native_gt",
+  "remaining_OVIS_independent_videos": 0,
+  "pending": [
+    "Official selected image retrieval",
+    "OVIS duplicate screening",
+    "Fixed new confirmation/reserve protocol",
+    "Feature/query preprocessing validation"
+  ]
+}
