@@ -1,0 +1,14 @@
+{
+  "summary_sha256": "c60c1c9920cd60f22b23697c076aaf37d3ef9dc90cf90d95ef59b85a3863554e",
+  "saved_bytes": 1805445389,
+  "new_received_bytes": 1805447844,
+  "prior_RGB_and_diagnosis_bytes_separate": 4484364,
+  "independent_full_member_CRC_count": 19978,
+  "verification": {
+    "all_frozen_inputs_unchanged": true,
+    "finite_contiguous_transfer_and_budget_recomputed": true,
+    "whole_saved_file_SHA_recomputed": true,
+    "successful_archive_unique_directory_and_all_CRC_rechecked": true,
+    "no_cohort_or_model_change": true
+  }
+}

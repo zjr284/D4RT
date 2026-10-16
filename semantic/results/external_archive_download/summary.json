@@ -1,0 +1,32 @@
+{
+  "protocol": {
+    "round": 48,
+    "new_body_byte_cap": 2147483648,
+    "archive_bytes": 1805445389,
+    "modified": "Mon, 07 Aug 2023 16:46:58 GMT",
+    "max_body_requests": 3,
+    "socket_timeout_seconds": 60,
+    "prior_RGB_and_diagnosis_bytes_preserved": 4484364,
+    "input_sha256": {
+      "semantic_artifacts/external_http_diagnosis/summary.json": "49fb3d6a63628e7e306746c27aac8a8efaee44dadf01bbacbc570d37a3994b4c",
+      "semantic_artifacts/external_http_diagnosis/verification.json": "95705de30b74ab2407e862fa707274b62b6c4ad26ae03996ba68513c4e90a1cf",
+      "semantic_artifacts/external_archive_resume/summary.json": "665b0ace33250902d9f5ec6116261cc5f3535761b074457979524ab6356a9920",
+      "semantic_artifacts/external_archive_resume/verification.json": "1f3deafb6cbe8a48e37429875a4740b633debb730cadfb66dcd1df5ddf224f1f",
+      "semantic_artifacts/external_archive_resume/directory.json": "5b426ca75a90cd45e9b44ec324dd9b5e612efa3cc2b1b6560f18db128d80ba7a",
+      "semantic_artifacts/external_rgb_screen/manifest.json": "02fd5b029201eaf594ef45fd2c93708fa00c4c938875bfa952518dca874b2a3b",
+      "semantic/external_archive_download.py": "ef136c683a14fd9df4cd6bba59dff323048c4cff2bf0c14cc8bb7d8efa483c1b",
+      "semantic/OVIS_EXTERNAL_ARCHIVE_DOWNLOAD_PROTOCOL.md": "bde57dbde8d09eecf3e0807e450b79b0dab7a0574b4502b55e2d4ca5d940c8de"
+    }
+  },
+  "source_error": null,
+  "saved_bytes": 1805445389,
+  "archive_path": "semantic_artifacts/external_archive_download/archive.zip",
+  "archive_sha256": "4bca7a71b0a6f7e4d7cdcc69eae3f159358069d40a896a87a50b05935eaaf0a5",
+  "new_received_bytes": 1805447844,
+  "state_sha256": "1ac7aa8b2d579c3dc55ed69de9a960be81350b180d4553944014169761b6f81b",
+  "body_requests": 3,
+  "members_CRC_verified": 19978,
+  "no_model_evaluation": true,
+  "cohort_unchanged": true,
+  "deployment_unchanged": "native_gt"
+}
