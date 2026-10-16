@@ -1,0 +1,22 @@
+{
+  "summary_sha256": "5a40de0b02754c3435ad4c09383327f19072c03b6e18f31207ee5022202db8fe",
+  "replayed_candidate_groups": 40,
+  "query_bearing_groups": 27,
+  "replayed_queries": 52480,
+  "confirmed_support": {
+    "1": 52480
+  },
+  "logit_packages_recomputed": 12,
+  "feature_recomputed_group": "00813",
+  "independent_confusions_sha256": "cb27a5b47887b6028dbb7bfb027f7d8255f422aca4d5e4224781d27014be1ddc",
+  "verification": {
+    "all_query_masks_and_sampling_recomputed": true,
+    "empty_frames_and_groups_retained": true,
+    "first_nonempty_feature_array_bitwise_reproduced": true,
+    "source_compatibility_features_and_twelve_head_differences_reproduced": true,
+    "all_twelve_logits_labels_and_metrics_identical": true,
+    "all_paired_bootstrap_intervals_recomputed": true,
+    "frozen_inputs_offsets_and_models_unchanged": true,
+    "reserve_not_model_evaluated": true
+  }
+}
