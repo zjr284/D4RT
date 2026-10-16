@@ -1,0 +1,12 @@
+{
+  "summary_sha256": "817ced29398e7d91cb68945e1488d9dd15adf1e10ce0640f03b4e9a04a5106cd",
+  "replayed_classes": 23,
+  "replayed_fixed_frames": 6664,
+  "verification": {
+    "all_inputs_unchanged": true,
+    "mapping_and_zero_counts_recomputed": true,
+    "all_and_fixed_frame_scopes_recomputed": true,
+    "crowd_area_and_unique_group_counts_recomputed": true,
+    "no_class_or_score_based_reselection": true
+  }
+}

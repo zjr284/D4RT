@@ -1,0 +1,324 @@
+{
+  "protocol": {
+    "round": 43,
+    "no_image_or_model_access": true,
+    "input_sha256": {
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/external_coco_adapter/groups.json": "22551e00bf13073a09fa62eb82cdbd3348e3420fd0044edc28eae180eccb11fd",
+      "semantic_artifacts/external_coco_adapter/summary.json": "05f4a1cd15246a75abc575fc67c10fd4cdbe7d973e7879a3fff3542e7f01e842",
+      "semantic_artifacts/external_coco_adapter/verification.json": "4a7970318e07f6cde9bb5402b2f67e76dfaecd0891b68b70835a52793b342981",
+      "semantic_artifacts/ovis_frame_index/summary.json": "9456cfbd9235119ec90e2812425b5ab26f673f5ee8ffbed60f37016fc02e97cc",
+      "semantic_artifacts/ovis_frame_index/verification.json": "2b1603375f331e8e255990f2cd0c133ffc814e65985514b251d01473bed0df07",
+      "semantic/external_category_feasibility.py": "76d919d235d60381ee63accbfe663b6994730b8481795dae8baa319707e6800c",
+      "semantic/OVIS_EXTERNAL_CATEGORY_FEASIBILITY_PROTOCOL.md": "2f1c9f534c857701caee7f852c612f3403bff5774fb2221d1c5dd976f151e5c7"
+    }
+  },
+  "vocabulary_categories": 1196,
+  "actually_annotated_external_categories": 652,
+  "strict_shared_vocabulary_classes": 23,
+  "all_images": {
+    "per_class": {
+      "1": {
+        "name": "Person",
+        "annotation_rows": 11921,
+        "images": 10525,
+        "groups": 495
+      },
+      "2": {
+        "name": "Bird",
+        "annotation_rows": 942,
+        "images": 751,
+        "groups": 29
+      },
+      "3": {
+        "name": "Cat",
+        "annotation_rows": 79,
+        "images": 79,
+        "groups": 3
+      },
+      "4": {
+        "name": "Dog",
+        "annotation_rows": 174,
+        "images": 174,
+        "groups": 7
+      },
+      "5": {
+        "name": "Horse",
+        "annotation_rows": 43,
+        "images": 22,
+        "groups": 1
+      },
+      "6": {
+        "name": "Sheep",
+        "annotation_rows": 20,
+        "images": 20,
+        "groups": 1
+      },
+      "7": {
+        "name": "Cow",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "8": {
+        "name": "Elephant",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "9": {
+        "name": "Bear",
+        "annotation_rows": 72,
+        "images": 24,
+        "groups": 1
+      },
+      "10": {
+        "name": "Zebra",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "11": {
+        "name": "Giraffe",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "13": {
+        "name": "Giant_panda",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "14": {
+        "name": "Lizard",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "15": {
+        "name": "Parrot",
+        "annotation_rows": 35,
+        "images": 35,
+        "groups": 1
+      },
+      "16": {
+        "name": "Monkey",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "17": {
+        "name": "Rabbit",
+        "annotation_rows": 21,
+        "images": 21,
+        "groups": 1
+      },
+      "18": {
+        "name": "Tiger",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "19": {
+        "name": "Fish",
+        "annotation_rows": 163,
+        "images": 133,
+        "groups": 8
+      },
+      "20": {
+        "name": "Turtle",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "21": {
+        "name": "Bicycle",
+        "annotation_rows": 68,
+        "images": 68,
+        "groups": 3
+      },
+      "22": {
+        "name": "Motorcycle",
+        "annotation_rows": 48,
+        "images": 48,
+        "groups": 2
+      },
+      "23": {
+        "name": "Airplane",
+        "annotation_rows": 61,
+        "images": 53,
+        "groups": 3
+      },
+      "24": {
+        "name": "Boat",
+        "annotation_rows": 99,
+        "images": 74,
+        "groups": 4
+      }
+    },
+    "observed_common_classes": 14,
+    "common_annotation_rows": 13746,
+    "images_with_common_annotations": 11618,
+    "groups_with_common_annotations": 540,
+    "total_images": 19096,
+    "total_groups": 836,
+    "ignored_common_crowd_rows": 0,
+    "nonpositive_or_missing_area_common_rows": 0
+  },
+  "fixed_eight_frame_clips": {
+    "per_class": {
+      "1": {
+        "name": "Person",
+        "annotation_rows": 4158,
+        "images": 3680,
+        "groups": 490
+      },
+      "2": {
+        "name": "Bird",
+        "annotation_rows": 296,
+        "images": 232,
+        "groups": 29
+      },
+      "3": {
+        "name": "Cat",
+        "annotation_rows": 24,
+        "images": 24,
+        "groups": 3
+      },
+      "4": {
+        "name": "Dog",
+        "annotation_rows": 55,
+        "images": 55,
+        "groups": 7
+      },
+      "5": {
+        "name": "Horse",
+        "annotation_rows": 12,
+        "images": 6,
+        "groups": 1
+      },
+      "6": {
+        "name": "Sheep",
+        "annotation_rows": 8,
+        "images": 8,
+        "groups": 1
+      },
+      "7": {
+        "name": "Cow",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "8": {
+        "name": "Elephant",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "9": {
+        "name": "Bear",
+        "annotation_rows": 24,
+        "images": 8,
+        "groups": 1
+      },
+      "10": {
+        "name": "Zebra",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "11": {
+        "name": "Giraffe",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "13": {
+        "name": "Giant_panda",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "14": {
+        "name": "Lizard",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "15": {
+        "name": "Parrot",
+        "annotation_rows": 8,
+        "images": 8,
+        "groups": 1
+      },
+      "16": {
+        "name": "Monkey",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "17": {
+        "name": "Rabbit",
+        "annotation_rows": 8,
+        "images": 8,
+        "groups": 1
+      },
+      "18": {
+        "name": "Tiger",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "19": {
+        "name": "Fish",
+        "annotation_rows": 67,
+        "images": 51,
+        "groups": 8
+      },
+      "20": {
+        "name": "Turtle",
+        "annotation_rows": 0,
+        "images": 0,
+        "groups": 0
+      },
+      "21": {
+        "name": "Bicycle",
+        "annotation_rows": 24,
+        "images": 24,
+        "groups": 3
+      },
+      "22": {
+        "name": "Motorcycle",
+        "annotation_rows": 16,
+        "images": 16,
+        "groups": 2
+      },
+      "23": {
+        "name": "Airplane",
+        "annotation_rows": 21,
+        "images": 18,
+        "groups": 3
+      },
+      "24": {
+        "name": "Boat",
+        "annotation_rows": 36,
+        "images": 28,
+        "groups": 4
+      }
+    },
+    "observed_common_classes": 14,
+    "common_annotation_rows": 4757,
+    "images_with_common_annotations": 4032,
+    "groups_with_common_annotations": 535,
+    "total_images": 6664,
+    "total_groups": 833,
+    "ignored_common_crowd_rows": 0,
+    "nonpositive_or_missing_area_common_rows": 0
+  },
+  "selection_unchanged": true,
+  "formal_confirmation_frozen": false,
+  "no_model_evaluation": true,
+  "deployment_unchanged": "native_gt"
+}
