@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "round": 42,
+    "analysis": "local full-frame index; no external model score",
+    "input_sha256": {
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/dino_native_rgb_control/manifest.json": "e4b02edf88cec1eab40c9ef98d1371eed8885b6e073f3fc922c1ea4ba603236e",
+      "semantic_artifacts/external_coco_adapter/summary.json": "05f4a1cd15246a75abc575fc67c10fd4cdbe7d973e7879a3fff3542e7f01e842",
+      "semantic_artifacts/external_coco_adapter/verification.json": "4a7970318e07f6cde9bb5402b2f67e76dfaecd0891b68b70835a52793b342981",
+      "semantic/ovis_frame_index.py": "3dbe9653a7cc3983586776c07c66fe16f60f870665ed72cadd32a257f9a89b31",
+      "semantic/OVIS_OVIS_FRAME_INDEX_PROTOCOL.md": "e528f6026fdf7d98a6f050cd6de842eff083efce9f5a288131dc7c11df4069c2"
+    }
+  },
+  "inventory_sha256": "8a710cbf8319ad7eafa9eecd8f6e685cbca860d2656135a53dfe7bee0c09bb23",
+  "index_sha256": "95a373506edf074b3b444e553b2b8a171b19f74083bf865f0d90c4e90bc6f2b1",
+  "reference_count": 42149,
+  "video_count": 607,
+  "status_counts": {
+    "ok": 42149
+  },
+  "source_bytes": 10035667734,
+  "duplicates": {
+    "file_sha256": {
+      "duplicate_content_groups": 0,
+      "cross_video_groups": 0,
+      "cross_video_involved_videos": 0,
+      "train_val_groups": 0
+    },
+    "pixel_sha256": {
+      "duplicate_content_groups": 0,
+      "cross_video_groups": 0,
+      "cross_video_involved_videos": 0,
+      "train_val_groups": 0
+    }
+  },
+  "duplicate_details_sha256": "cbe7e88c066ed160d94914b070e75536a107e59b632539b0381938f865cc436b",
+  "no_model_evaluation": true,
+  "external_duplicate_screening_complete": false,
+  "deployment_unchanged": "native_gt"
+}
