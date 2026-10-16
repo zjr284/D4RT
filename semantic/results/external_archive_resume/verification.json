@@ -1,0 +1,17 @@
+{
+  "summary_sha256": "665b0ace33250902d9f5ec6116261cc5f3535761b074457979524ab6356a9920",
+  "stored_observed_prefixes": 47,
+  "incomplete_or_fatal_responses": 6,
+  "received_bytes": 2390284,
+  "independent_replay": {
+    "zipfile_independent_entries": 19978,
+    "pilot_CRC_and_decode": true,
+    "unique_GT_image_paths": 19096
+  },
+  "verification": {
+    "all_input_fingerprints_unchanged": true,
+    "finite_suffix_coverage_and_byte_accounting": true,
+    "accepted_bytes_hashed": true,
+    "no_model_score_or_deployment_change": true
+  }
+}

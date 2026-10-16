@@ -1,0 +1,1195 @@
+{
+  "protocol": {
+    "round": 44,
+    "source": "https://drive.google.com/uc?export=download&id=1vTYUz_XLOBnYb9e7upJsZM-nQz2S6wDn",
+    "byte_cap": 16777216,
+    "max_range_bytes": 65536,
+    "max_segments_per_piece": 4,
+    "accept_encoding": "identity",
+    "fixed_archive_total": 1805445389,
+    "fixed_archive_version": [
+      null,
+      "Mon, 07 Aug 2023 16:46:58 GMT"
+    ],
+    "pilot": {
+      "file_name": "00000/00000.jpg",
+      "height": 720,
+      "width": 1280,
+      "id": 0
+    },
+    "excluded_pilot_video": "00000",
+    "frozen_selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "input_sha256": {
+      "semantic_artifacts/external_archive_probe/summary.json": "0232f9f7de05ed64562705dc9e20b2f89bf16d455781f8fe5f073ed2442e2398",
+      "semantic_artifacts/external_archive_probe/verification.json": "8222031f444f3ac5b18db3c91425afd70c0f5a58da5a39df0ed3f8f51a5a0d70",
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic/external_archive_resume.py": "796770664a174dad148639af8c852794b086afb228559c081d03355d7417501f",
+      "semantic/OVIS_EXTERNAL_ARCHIVE_RESUME_PROTOCOL.md": "4ef9194cab7dbc308696264d5a06b004f65fc28269fac0ca06e7cab9ec92ab2b",
+      "semantic_artifacts/external_category_feasibility/summary.json": "817ced29398e7d91cb68945e1488d9dd15adf1e10ce0640f03b4e9a04a5106cd",
+      "semantic_artifacts/external_category_feasibility/verification.json": "aeccc0b43056f7208a218c163b457f512819e54e1d9cba24480c2754ec5fa9e2",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    },
+    "model_evaluation_updates": 0
+  },
+  "source_error": null,
+  "ranges": [
+    {
+      "start": 0,
+      "end": 3,
+      "bytes": 4,
+      "path": "semantic_artifacts/external_archive_resume/ranges/000.bin",
+      "sha256": "8dcc7e601606217f3b754766511182a916b17e9a26a94c9d887104eba92e9bb2"
+    },
+    {
+      "start": 1805314317,
+      "end": 1805379852,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/001.bin",
+      "sha256": "88476f8b8d1eb5d3de7391c49fd03ea4aa534bfeb6a69aee1d01421f9df04c28"
+    },
+    {
+      "start": 1805379853,
+      "end": 1805445388,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/002.bin",
+      "sha256": "5b328c54d2f4852ece67d4fc1dd3406bbb81d80135659bd8432eb791248217d1"
+    },
+    {
+      "start": 1803215405,
+      "end": 1803280351,
+      "bytes": 64947,
+      "path": "semantic_artifacts/external_archive_resume/ranges/003.bin",
+      "sha256": "22f06548f1d685b24a4530347cf272f7a83bdc15bed1db86dfe99baf82d5e6e7"
+    },
+    {
+      "start": 1803280352,
+      "end": 1803280940,
+      "bytes": 589,
+      "path": "semantic_artifacts/external_archive_resume/ranges/004.bin",
+      "sha256": "9b1f99daaa40cb4da4abb1794fcc602241524e479719cb96774a35f221432aa8"
+    },
+    {
+      "start": 1803280941,
+      "end": 1803346476,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/005.bin",
+      "sha256": "a7c6121a0c86fff10c93255ff6ad861e37afad9299b4cb8ba978dea1cef0a608"
+    },
+    {
+      "start": 1803346477,
+      "end": 1803412012,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/006.bin",
+      "sha256": "15a289c2e3b23a98d99845b672a60dee65f6a7abbc0e1465a833f2d9d8bdf231"
+    },
+    {
+      "start": 1803412013,
+      "end": 1803477548,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/007.bin",
+      "sha256": "f27c77fd6c50fdbbfcad61ed65121d3e320b00c1ceda6164812a41138fc2033c"
+    },
+    {
+      "start": 1803477549,
+      "end": 1803543084,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/008.bin",
+      "sha256": "9a235f0dcd7026afecf6f84f56ef85c6a1d7a5e75a572c4bba5bb86344811b8d"
+    },
+    {
+      "start": 1803543085,
+      "end": 1803608620,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/009.bin",
+      "sha256": "478c6d1395b02cb79f75123126c22b132dba9ede9eee79707b6fd3eabfa56652"
+    },
+    {
+      "start": 1803608621,
+      "end": 1803674156,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/010.bin",
+      "sha256": "6f304dbe4bff945be0e3f949574476f4a75035b214c46b34f01889e04a2f6a6d"
+    },
+    {
+      "start": 1803674157,
+      "end": 1803739692,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/011.bin",
+      "sha256": "9fb9ee085f5ccb63493a543f07dd61b13626212202e8e43d8dd0978fbc1ed3d4"
+    },
+    {
+      "start": 1803739693,
+      "end": 1803805228,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/012.bin",
+      "sha256": "46e9aba10b8f8b8408d4196882cda6d4234f20d28ca3c6bb7de8675b628694bf"
+    },
+    {
+      "start": 1803805229,
+      "end": 1803870764,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/013.bin",
+      "sha256": "43369f970d04da37fd927cc7422b81cf0ba7b4b592de5f6fb0c2dce1d799d776"
+    },
+    {
+      "start": 1803870765,
+      "end": 1803935711,
+      "bytes": 64947,
+      "path": "semantic_artifacts/external_archive_resume/ranges/014.bin",
+      "sha256": "e0498b909b6f837324de707e7e4d650f1dc2c6d4dcbf1c00da4a168194f1263f"
+    },
+    {
+      "start": 1803935712,
+      "end": 1803936300,
+      "bytes": 589,
+      "path": "semantic_artifacts/external_archive_resume/ranges/015.bin",
+      "sha256": "c17830fab7055dda0b656cf16b9b250bb81751d7af57aa8cf3df921f2e070cd9"
+    },
+    {
+      "start": 1803936301,
+      "end": 1804001836,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/016.bin",
+      "sha256": "b91de3e7692447964f64f462b38440c2c1ca24537aba137eb9e0bd9c97691d62"
+    },
+    {
+      "start": 1804001837,
+      "end": 1804067372,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/017.bin",
+      "sha256": "6a95996eb37f6ecf6093f9175c91b906fb83c0b1b5d11b4ccdefeae5f4a1881a"
+    },
+    {
+      "start": 1804067373,
+      "end": 1804128186,
+      "bytes": 60814,
+      "path": "semantic_artifacts/external_archive_resume/ranges/018.bin",
+      "sha256": "8395b96a8f0fa0daaf5903d91ca1b55a446f09ea4188a66e22d7a030962a8b45"
+    },
+    {
+      "start": 1804128187,
+      "end": 1804132908,
+      "bytes": 4722,
+      "path": "semantic_artifacts/external_archive_resume/ranges/019.bin",
+      "sha256": "f64aff359e550957731d7e7cf7fe653d2b4f905112ea297c11b83f8a3448e456"
+    },
+    {
+      "start": 1804132909,
+      "end": 1804198444,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/020.bin",
+      "sha256": "d59d497e858601853ffc7a2b379e12a90e7caab8acb4df64550d56644ff9c5fe"
+    },
+    {
+      "start": 1804198445,
+      "end": 1804263980,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/021.bin",
+      "sha256": "7e15c67f2887fd3ebf2e2d9bc56f19ee7a0d6cd6c1c798ac92a9bc5fdefdf4ad"
+    },
+    {
+      "start": 1804263981,
+      "end": 1804329516,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/022.bin",
+      "sha256": "bddef9474c45cfb23693aa97fbcf907fb9e9177c1f66edc8348134331feab385"
+    },
+    {
+      "start": 1804329517,
+      "end": 1804394456,
+      "bytes": 64940,
+      "path": "semantic_artifacts/external_archive_resume/ranges/023.bin",
+      "sha256": "d8c392c4fe4c9533f1ccc483d92931f21855a0cbc08b7a0a1cfafaf8255686fa"
+    },
+    {
+      "start": 1804394457,
+      "end": 1804395052,
+      "bytes": 596,
+      "path": "semantic_artifacts/external_archive_resume/ranges/024.bin",
+      "sha256": "b19987cc88436232eb08ef853cf9e5a773eb68b5644ee1d66f926877f3bc6a14"
+    },
+    {
+      "start": 1804395053,
+      "end": 1804460588,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/025.bin",
+      "sha256": "0dd92ad1955ed2cdc07dfd5f888bea01b4a24106fa9a0a58956d27ee7e271b59"
+    },
+    {
+      "start": 1804460589,
+      "end": 1804526124,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/026.bin",
+      "sha256": "e25f8622427d32451f61bb05b7de5a42e1614594d25a5d1457c7f1166c5e35de"
+    },
+    {
+      "start": 1804526125,
+      "end": 1804591660,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/027.bin",
+      "sha256": "8fccad6ace1331d669359fdc7e16dd562f3f4f05e8110f995e284197806bb3ee"
+    },
+    {
+      "start": 1804591661,
+      "end": 1804657196,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/028.bin",
+      "sha256": "2dc8382715332050b2db7a9a296572d97363f5e94cd59d6cca93edfd60945e37"
+    },
+    {
+      "start": 1804657197,
+      "end": 1804722136,
+      "bytes": 64940,
+      "path": "semantic_artifacts/external_archive_resume/ranges/029.bin",
+      "sha256": "4a799af91422720ef0a5a2d5a8ac543383a9f34e112a2db00c577ba9bc7781c1"
+    },
+    {
+      "start": 1804722137,
+      "end": 1804722732,
+      "bytes": 596,
+      "path": "semantic_artifacts/external_archive_resume/ranges/030.bin",
+      "sha256": "c2c8e7cce0fa75d56f8d7454ff9c212632ead3a76331398ac708bc117e76544c"
+    },
+    {
+      "start": 1804722733,
+      "end": 1804788268,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/031.bin",
+      "sha256": "6581381db453e3dd671f55ae7c56988eda3b5f0b601c07489b4facbece5cb562"
+    },
+    {
+      "start": 1804788269,
+      "end": 1804853804,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/032.bin",
+      "sha256": "708ab2e91e5d9e02d53c575874ed3423ff894d277a76d428e9cc61d5eb9fa1ec"
+    },
+    {
+      "start": 1804853805,
+      "end": 1804919340,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/033.bin",
+      "sha256": "cb7f7beb4182cc1eb74b26d8adc6468b6912a27bbec73891b4401b0f24fe2910"
+    },
+    {
+      "start": 1804919341,
+      "end": 1804984876,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/034.bin",
+      "sha256": "481104b08fdfea1536fac43c34cd41a3f7bff42fc0101db05214338773b9bc99"
+    },
+    {
+      "start": 1804984877,
+      "end": 1805050412,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/035.bin",
+      "sha256": "2d1532397deb188ace857f144a0c38b411fbb6eabb1613577205c0208d0cf624"
+    },
+    {
+      "start": 1805050413,
+      "end": 1805115948,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/036.bin",
+      "sha256": "95b56f56c0f46dfc7a1e22f6910efe103830a328915327a9e01d31fabf3d915d"
+    },
+    {
+      "start": 1805115949,
+      "end": 1805181484,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/037.bin",
+      "sha256": "d827c54cb77dab82fea39b9d4f5a308e3964de82de59e1a0ef9181cab57a12cd"
+    },
+    {
+      "start": 1805181485,
+      "end": 1805247020,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/038.bin",
+      "sha256": "8e944008c33ad0968837f0e3716771decad9553acc6cb7e4d13f38cbebebfec8"
+    },
+    {
+      "start": 1805247021,
+      "end": 1805312556,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/039.bin",
+      "sha256": "63799ae7574d7dc43664a0a723459f8c1735117f472e56f477bbda60726b72c6"
+    },
+    {
+      "start": 1805312557,
+      "end": 1805378092,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/040.bin",
+      "sha256": "3e14c7cdb3cf593a161d35d55638a0f1c1040bee57a49c7f4f0a879f4961a7ef"
+    },
+    {
+      "start": 1805378093,
+      "end": 1805443628,
+      "bytes": 65536,
+      "path": "semantic_artifacts/external_archive_resume/ranges/041.bin",
+      "sha256": "5a8e2ebdb2c8e0072ba7eb38fcd5cd4ef705f4bbaa788f7d2ad097ede0a8a65c"
+    },
+    {
+      "start": 1805443629,
+      "end": 1805445366,
+      "bytes": 1738,
+      "path": "semantic_artifacts/external_archive_resume/ranges/042.bin",
+      "sha256": "223b057a0aa4061d91b5d46a45965b559264221bc99ccbf92dd09507905b2ced"
+    },
+    {
+      "start": 130,
+      "end": 159,
+      "bytes": 30,
+      "path": "semantic_artifacts/external_archive_resume/ranges/043.bin",
+      "sha256": "9e3046d4f20b401727b9e6307d7d4eefd92e2cf745864eab495c50b7720369df"
+    },
+    {
+      "start": 160,
+      "end": 189,
+      "bytes": 30,
+      "path": "semantic_artifacts/external_archive_resume/ranges/044.bin",
+      "sha256": "cb97349f1a2671f3df346176fd682caf6c689be064a9ffec1c9a7ac04de029de"
+    },
+    {
+      "start": 190,
+      "end": 10496,
+      "bytes": 10307,
+      "path": "semantic_artifacts/external_archive_resume/ranges/045.bin",
+      "sha256": "5e343dd20e11825a52e69edcc1d875de709108a5ff025820397b22cccc551d0f"
+    },
+    {
+      "start": 10497,
+      "end": 26920,
+      "bytes": 16424,
+      "path": "semantic_artifacts/external_archive_resume/ranges/046.bin",
+      "sha256": "42a7a29be16cae5839a49cc468b11c49bf119172e47d0153916cd7bdc41f31a5"
+    }
+  ],
+  "range_failures": [
+    {
+      "logical_start": 1803215405,
+      "logical_end": 1803280940,
+      "start": 1803215405,
+      "end": 1803280940,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64947,
+      "observed_end": 1803280351,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1803870765,
+      "logical_end": 1803936300,
+      "start": 1803870765,
+      "end": 1803936300,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64947,
+      "observed_end": 1803935711,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804067373,
+      "logical_end": 1804132908,
+      "start": 1804067373,
+      "end": 1804132908,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 60814,
+      "observed_end": 1804128186,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804329517,
+      "logical_end": 1804395052,
+      "start": 1804329517,
+      "end": 1804395052,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64940,
+      "observed_end": 1804394456,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804657197,
+      "logical_end": 1804722732,
+      "start": 1804657197,
+      "end": 1804722732,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64940,
+      "observed_end": 1804722136,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 190,
+      "logical_end": 26920,
+      "start": 190,
+      "end": 26920,
+      "segment": 1,
+      "status": 206,
+      "content_length": "26731",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 10307,
+      "observed_end": 10496,
+      "outcome": "incomplete_prefix"
+    }
+  ],
+  "attempts": [
+    {
+      "logical_start": 0,
+      "logical_end": 3,
+      "start": 0,
+      "end": 3,
+      "segment": 1,
+      "status": 206,
+      "content_length": "4",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 4,
+      "observed_end": 3,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805314317,
+      "logical_end": 1805379852,
+      "start": 1805314317,
+      "end": 1805379852,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805379852,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805379853,
+      "logical_end": 1805445388,
+      "start": 1805379853,
+      "end": 1805445388,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805445388,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803215405,
+      "logical_end": 1803280940,
+      "start": 1803215405,
+      "end": 1803280940,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64947,
+      "observed_end": 1803280351,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1803215405,
+      "logical_end": 1803280940,
+      "start": 1803280352,
+      "end": 1803280940,
+      "segment": 2,
+      "status": 206,
+      "content_length": "589",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 589,
+      "observed_end": 1803280940,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803280941,
+      "logical_end": 1803346476,
+      "start": 1803280941,
+      "end": 1803346476,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803346476,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803346477,
+      "logical_end": 1803412012,
+      "start": 1803346477,
+      "end": 1803412012,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803412012,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803412013,
+      "logical_end": 1803477548,
+      "start": 1803412013,
+      "end": 1803477548,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803477548,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803477549,
+      "logical_end": 1803543084,
+      "start": 1803477549,
+      "end": 1803543084,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803543084,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803543085,
+      "logical_end": 1803608620,
+      "start": 1803543085,
+      "end": 1803608620,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803608620,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803608621,
+      "logical_end": 1803674156,
+      "start": 1803608621,
+      "end": 1803674156,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803674156,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803674157,
+      "logical_end": 1803739692,
+      "start": 1803674157,
+      "end": 1803739692,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803739692,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803739693,
+      "logical_end": 1803805228,
+      "start": 1803739693,
+      "end": 1803805228,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803805228,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803805229,
+      "logical_end": 1803870764,
+      "start": 1803805229,
+      "end": 1803870764,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1803870764,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803870765,
+      "logical_end": 1803936300,
+      "start": 1803870765,
+      "end": 1803936300,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64947,
+      "observed_end": 1803935711,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1803870765,
+      "logical_end": 1803936300,
+      "start": 1803935712,
+      "end": 1803936300,
+      "segment": 2,
+      "status": 206,
+      "content_length": "589",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 589,
+      "observed_end": 1803936300,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1803936301,
+      "logical_end": 1804001836,
+      "start": 1803936301,
+      "end": 1804001836,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804001836,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804001837,
+      "logical_end": 1804067372,
+      "start": 1804001837,
+      "end": 1804067372,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804067372,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804067373,
+      "logical_end": 1804132908,
+      "start": 1804067373,
+      "end": 1804132908,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 60814,
+      "observed_end": 1804128186,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804067373,
+      "logical_end": 1804132908,
+      "start": 1804128187,
+      "end": 1804132908,
+      "segment": 2,
+      "status": 206,
+      "content_length": "4722",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 4722,
+      "observed_end": 1804132908,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804132909,
+      "logical_end": 1804198444,
+      "start": 1804132909,
+      "end": 1804198444,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804198444,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804198445,
+      "logical_end": 1804263980,
+      "start": 1804198445,
+      "end": 1804263980,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804263980,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804263981,
+      "logical_end": 1804329516,
+      "start": 1804263981,
+      "end": 1804329516,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804329516,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804329517,
+      "logical_end": 1804395052,
+      "start": 1804329517,
+      "end": 1804395052,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64940,
+      "observed_end": 1804394456,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804329517,
+      "logical_end": 1804395052,
+      "start": 1804394457,
+      "end": 1804395052,
+      "segment": 2,
+      "status": 206,
+      "content_length": "596",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 596,
+      "observed_end": 1804395052,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804395053,
+      "logical_end": 1804460588,
+      "start": 1804395053,
+      "end": 1804460588,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804460588,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804460589,
+      "logical_end": 1804526124,
+      "start": 1804460589,
+      "end": 1804526124,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804526124,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804526125,
+      "logical_end": 1804591660,
+      "start": 1804526125,
+      "end": 1804591660,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804591660,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804591661,
+      "logical_end": 1804657196,
+      "start": 1804591661,
+      "end": 1804657196,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804657196,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804657197,
+      "logical_end": 1804722732,
+      "start": 1804657197,
+      "end": 1804722732,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 64940,
+      "observed_end": 1804722136,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 1804657197,
+      "logical_end": 1804722732,
+      "start": 1804722137,
+      "end": 1804722732,
+      "segment": 2,
+      "status": 206,
+      "content_length": "596",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 596,
+      "observed_end": 1804722732,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804722733,
+      "logical_end": 1804788268,
+      "start": 1804722733,
+      "end": 1804788268,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804788268,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804788269,
+      "logical_end": 1804853804,
+      "start": 1804788269,
+      "end": 1804853804,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804853804,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804853805,
+      "logical_end": 1804919340,
+      "start": 1804853805,
+      "end": 1804919340,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804919340,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804919341,
+      "logical_end": 1804984876,
+      "start": 1804919341,
+      "end": 1804984876,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1804984876,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1804984877,
+      "logical_end": 1805050412,
+      "start": 1804984877,
+      "end": 1805050412,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805050412,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805050413,
+      "logical_end": 1805115948,
+      "start": 1805050413,
+      "end": 1805115948,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805115948,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805115949,
+      "logical_end": 1805181484,
+      "start": 1805115949,
+      "end": 1805181484,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805181484,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805181485,
+      "logical_end": 1805247020,
+      "start": 1805181485,
+      "end": 1805247020,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805247020,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805247021,
+      "logical_end": 1805312556,
+      "start": 1805247021,
+      "end": 1805312556,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805312556,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805312557,
+      "logical_end": 1805378092,
+      "start": 1805312557,
+      "end": 1805378092,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805378092,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805378093,
+      "logical_end": 1805443628,
+      "start": 1805378093,
+      "end": 1805443628,
+      "segment": 1,
+      "status": 206,
+      "content_length": "65536",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 65536,
+      "observed_end": 1805443628,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 1805443629,
+      "logical_end": 1805445366,
+      "start": 1805443629,
+      "end": 1805445366,
+      "segment": 1,
+      "status": 206,
+      "content_length": "1738",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 1738,
+      "observed_end": 1805445366,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 130,
+      "logical_end": 159,
+      "start": 130,
+      "end": 159,
+      "segment": 1,
+      "status": 206,
+      "content_length": "30",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 30,
+      "observed_end": 159,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 160,
+      "logical_end": 189,
+      "start": 160,
+      "end": 189,
+      "segment": 1,
+      "status": 206,
+      "content_length": "30",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 30,
+      "observed_end": 189,
+      "outcome": "complete_response"
+    },
+    {
+      "logical_start": 190,
+      "logical_end": 26920,
+      "start": 190,
+      "end": 26920,
+      "segment": 1,
+      "status": 206,
+      "content_length": "26731",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 10307,
+      "observed_end": 10496,
+      "outcome": "incomplete_prefix"
+    },
+    {
+      "logical_start": 190,
+      "logical_end": 26920,
+      "start": 10497,
+      "end": 26920,
+      "segment": 2,
+      "status": 206,
+      "content_length": "16424",
+      "content_encoding": null,
+      "transfer_encoding": null,
+      "received_bytes": 16424,
+      "observed_end": 26920,
+      "outcome": "complete_response"
+    }
+  ],
+  "received_bytes": 2390284,
+  "directory_entries": 19978,
+  "directory_sha256": "5b426ca75a90cd45e9b44ec324dd9b5e612efa3cc2b1b6560f18db128d80ba7a",
+  "pilot_check": {
+    "image_id": 0,
+    "file_name": "00000/00000.jpg",
+    "archive_member": "val/JPEGImages/00000/00000.jpg",
+    "path": "semantic_artifacts/external_archive_resume/pilot.jpg",
+    "sha256": "0704d8c82f0e80ebfaf0d904229514e5a7c070fa5b9f421d2625f33ebb860776",
+    "dimensions_match_GT": true,
+    "GT_image_references_unique_in_archive": 19096
+  },
+  "no_model_evaluation": true,
+  "no_complete_archive_download": true,
+  "deployment_unchanged": "native_gt"
+}
