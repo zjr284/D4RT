@@ -1,0 +1,41 @@
+{
+  "protocol": {
+    "round": 47,
+    "start": 936262206,
+    "end": 936262235,
+    "byte_cap": 1048576,
+    "range_requests": 1,
+    "archive_total": 1805445389,
+    "archive_version": [
+      null,
+      "Mon, 07 Aug 2023 16:46:58 GMT"
+    ],
+    "input_sha256": {
+      "semantic_artifacts/external_rgb_continuation/summary.json": "1b0b0897d5ee72dba911b9c2e0d0cb96cdc8da0be8f43f825588505ae5f8caf0",
+      "semantic_artifacts/external_rgb_continuation/verification.json": "4fe8ec8e95ae0da53ecc7d973c008b4bda18a21e1cf28dab8c2f81b9f5bcaece",
+      "semantic_artifacts/external_rgb_continuation/transfer_progress.json": "2f5f4732400d36804523d741deac25ef8a843ff48a0c87140b506f42adafc985",
+      "semantic/external_http_diagnosis.py": "6ed905dff0bffc5b1693d38dff8f90cd428e4cae69fda186e98742ecf8dba051",
+      "semantic/OVIS_EXTERNAL_HTTP_DIAGNOSIS_PROTOCOL.md": "8c8a3d61afdf7411550d14bdcf39efe7206e9b458d3d1ce332341477883afa36"
+    }
+  },
+  "response": {
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 936262206-936262235/1805445389",
+      "Content-Length": "30",
+      "Content-Encoding": null,
+      "Content-Type": "application/octet-stream",
+      "Last-Modified": "Mon, 07 Aug 2023 16:46:58 GMT",
+      "ETag": null,
+      "Retry-After": null
+    },
+    "body_bytes": 30,
+    "body_sha256": "49ae8b8d3b889986fd00b0f3fa86aae6abc67c7bd8655b0cf444a618145777cd",
+    "local_ZIP_header": true
+  },
+  "source_error": null,
+  "received_bytes": 2485,
+  "no_image_or_model_evaluation": true,
+  "deployment_unchanged": "native_gt",
+  "no_retries": true
+}

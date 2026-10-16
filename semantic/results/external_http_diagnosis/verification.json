@@ -1,0 +1,10 @@
+{
+  "summary_sha256": "49fb3d6a63628e7e306746c27aac8a8efaee44dadf01bbacbc570d37a3994b4c",
+  "status": 206,
+  "verification": {
+    "all_input_hashes_unchanged": true,
+    "one_request_no_retry_protocol_preserved": true,
+    "safe_status_body_and_budget_replayed": true,
+    "no_historical_status_or_model_performance_inferred": true
+  }
+}
