@@ -1,0 +1,16 @@
+{
+  "summary_sha256": "1b0b0897d5ee72dba911b9c2e0d0cb96cdc8da0be8f43f825588505ae5f8caf0",
+  "replayed_RGB_images": 32,
+  "received_bytes": 4481879,
+  "carried_prior_received_bytes": 2639191,
+  "header_timeout_events": 0,
+  "verification": {
+    "fixed_blind_roles_and_frames_identical": true,
+    "all_frozen_inputs_unchanged": true,
+    "HTTP_prefix_hashes_and_consumption_replayed": true,
+    "all_acquired_RGB_independently_replayed_with_zipfile_CRC": true,
+    "all_pixel_SHA_dhash_and_duplicate_flags_recomputed": true,
+    "no_model_scores_or_reselection": true,
+    "original_28_images_and_all_prior_consumption_preserved": true
+  }
+}
