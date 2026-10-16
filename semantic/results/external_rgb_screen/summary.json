@@ -1,0 +1,119 @@
+{
+  "protocol": {
+    "round": 45,
+    "seed": 20261045,
+    "byte_cap": 268435456,
+    "max_range_bytes": 65536,
+    "max_suffix_segments": 4,
+    "dhash_threshold": 6,
+    "frozen_selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "archive_total": 1805445389,
+    "archive_version": [
+      null,
+      "Mon, 07 Aug 2023 16:46:58 GMT"
+    ],
+    "no_model_evaluation": true,
+    "input_sha256": {
+      "semantic/external_archive_resume.py": "796770664a174dad148639af8c852794b086afb228559c081d03355d7417501f",
+      "semantic/ovis_frame_index.py": "3dbe9653a7cc3983586776c07c66fe16f60f870665ed72cadd32a257f9a89b31",
+      "semantic_artifacts/external_archive_resume/summary.json": "665b0ace33250902d9f5ec6116261cc5f3535761b074457979524ab6356a9920",
+      "semantic_artifacts/external_archive_resume/verification.json": "1f3deafb6cbe8a48e37429875a4740b633debb730cadfb66dcd1df5ddf224f1f",
+      "semantic_artifacts/external_archive_resume/directory.json": "5b426ca75a90cd45e9b44ec324dd9b5e612efa3cc2b1b6560f18db128d80ba7a",
+      "semantic_artifacts/ovis_frame_index/summary.json": "9456cfbd9235119ec90e2812425b5ab26f673f5ee8ffbed60f37016fc02e97cc",
+      "semantic_artifacts/ovis_frame_index/verification.json": "2b1603375f331e8e255990f2cd0c133ffc814e65985514b251d01473bed0df07",
+      "semantic_artifacts/ovis_frame_index/index.sqlite": "95a373506edf074b3b444e553b2b8a171b19f74083bf865f0d90c4e90bc6f2b1",
+      "semantic_artifacts/external_coco_adapter/groups.json": "22551e00bf13073a09fa62eb82cdbd3348e3420fd0044edc28eae180eccb11fd",
+      "semantic/external_rgb_screen.py": "39825622e14ab98c3158b9d3861732d001744873aab0d99f278466a38be24ef6",
+      "semantic/OVIS_EXTERNAL_RGB_SCREEN_PROTOCOL.md": "e9b4e1d6bf6e3809c306f5b712b80ced2f51928d45672b2b5e914a9be7e8d647",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "manifest_sha256": "02fd5b029201eaf594ef45fd2c93708fa00c4c938875bfa952518dca874b2a3b",
+  "source_error": {
+    "type": "TimeoutError",
+    "reason": "transport_or_decode_error",
+    "completed_images": 28
+  },
+  "completed_images": 28,
+  "planned_images": 640,
+  "received_bytes": 2639191,
+  "exact_match_groups": [],
+  "near_flagged_groups": [],
+  "near_flagged_images": 0,
+  "role_counts": {
+    "candidate_confirmation": 28
+  },
+  "transfer_progress_sha256": "6e228dc42db54061824760f94d32531052b3ecd769f3160d2827815208d67ee2",
+  "no_model_evaluation": true,
+  "formal_confirmation_frozen": false,
+  "near_matches_reviewed": false,
+  "deployment_unchanged": "native_gt"
+}
