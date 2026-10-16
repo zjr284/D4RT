@@ -1,0 +1,13 @@
+{
+  "summary_sha256": "c8b0cd808ad2ea045889759b103525925771299be60e086640cc9b00ef4a3216",
+  "all_images_replayed": 640,
+  "prior_images_identical": 32,
+  "cross_group_pairs_recomputed": 0,
+  "verification": {
+    "all_inputs_and_frozen_models_unchanged": true,
+    "all_members_bytes_CRC_dimensions_and_pixels_recomputed": true,
+    "all_OVIS_flags_recomputed": true,
+    "cross_group_flags_independently_bit_counted": true,
+    "all_roles_preserved_no_model_scores": true
+  }
+}
