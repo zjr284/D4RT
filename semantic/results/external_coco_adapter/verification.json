@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "05f4a1cd15246a75abc575fc67c10fd4cdbe7d973e7879a3fff3542e7f01e842",
+  "replayed_groups": 833,
+  "replayed_rasters_and_queries": 48,
+  "empty_frames": 24,
+  "query_count": 6144,
+  "verification": {
+    "all_input_fingerprints_unchanged": true,
+    "all_groups_and_exclusions_recomputed": true,
+    "strict_class_mapping_recomputed": true,
+    "independent_coverage_count_masks_identical": true,
+    "queries_and_empty_frames_identical": true,
+    "no_duplicate_clearance_or_model_score_claimed": true
+  }
+}

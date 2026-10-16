@@ -1,0 +1,206 @@
+{
+  "protocol": {
+    "round": 41,
+    "query_seed": 20261041,
+    "frozen_selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "model_evaluation_updates": 0,
+    "input_sha256": {
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/external_archive_bounded/summary.json": "481708d979c952759520a213c774657427d6909695e321053af41785724c6c43",
+      "semantic_artifacts/external_archive_bounded/verification.json": "276c278726664c40580acec54a226e77f999f68a6e427d566602533b5af624fd",
+      "semantic/external_coco_adapter.py": "c453d35e04368aa0b55a6ece21c2321595c948f246a971a6ea9c248e80f2f3e1",
+      "semantic/OVIS_EXTERNAL_COCO_ADAPTER_PROTOCOL.md": "bb6cd8e7989c3a97a52c25ff814d9c9c038a7fa21e50e6595ec3d945d9a45fd2",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "image_count": 19096,
+  "annotation_count": 79604,
+  "directory_group_count": 836,
+  "eligible_group_count": 833,
+  "exclusions": [
+    {
+      "group": "00000",
+      "reason": "fixed_pilot",
+      "frame_count": 33
+    },
+    {
+      "group": "00311",
+      "reason": "too_short",
+      "frame_count": 6
+    },
+    {
+      "group": "00602",
+      "reason": "too_short",
+      "frame_count": 5
+    }
+  ],
+  "group_frame_count_histogram": {
+    "8": 7,
+    "9": 2,
+    "10": 9,
+    "11": 3,
+    "12": 23,
+    "13": 13,
+    "14": 4,
+    "15": 86,
+    "16": 13,
+    "17": 17,
+    "18": 50,
+    "19": 17,
+    "20": 100,
+    "21": 13,
+    "22": 4,
+    "23": 8,
+    "24": 198,
+    "25": 76,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 6,
+    "30": 125,
+    "32": 1,
+    "33": 2,
+    "35": 18,
+    "36": 5,
+    "39": 1,
+    "40": 25,
+    "45": 1,
+    "48": 2,
+    "54": 1
+  },
+  "shared_category_mapping": {
+    "6": 23,
+    "83": 9,
+    "100": 21,
+    "107": 2,
+    "123": 24,
+    "213": 3,
+    "296": 7,
+    "346": 4,
+    "401": 8,
+    "427": 19,
+    "472": 13,
+    "474": 11,
+    "550": 5,
+    "632": 14,
+    "689": 16,
+    "694": 22,
+    "754": 15,
+    "773": 1,
+    "843": 17,
+    "927": 6,
+    "1078": 18,
+    "1121": 20,
+    "1195": 10
+  },
+  "groups_sha256": "22551e00bf13073a09fa62eb82cdbd3348e3420fd0044edc28eae180eccb11fd",
+  "audit_groups": [
+    "00001",
+    "00037",
+    "00073",
+    "00110",
+    "00146",
+    "00182",
+    "00218",
+    "00254",
+    "00290",
+    "00328",
+    "00364",
+    "00400",
+    "00436",
+    "00472",
+    "00508",
+    "00545",
+    "00581",
+    "00618",
+    "00654",
+    "00690",
+    "00726",
+    "00763",
+    "00799",
+    "00836"
+  ],
+  "raster_checks_sha256": "3842ea9984e56f4eab3eaf8c66fa8051eed1d8e08be844e302c0f3532dec4f8e",
+  "audited_frames": 48,
+  "empty_known_foreground_frames": 24,
+  "query_count": 6144,
+  "query_label_histogram": {
+    "1": 5376,
+    "4": 768
+  },
+  "OVIS_image_path_intersection": 0,
+  "duplicate_screening_complete": false,
+  "image_acquisition_ready": false,
+  "formal_confirmation_frozen": false,
+  "no_model_evaluation": true,
+  "deployment_unchanged": "native_gt"
+}
