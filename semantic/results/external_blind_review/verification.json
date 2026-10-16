@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "1483f131d9c3d8cb683e3970010860669cbb2b3e391428924da7770c1e79d9c5",
+  "complete_pairs_recomputed": 79,
+  "verification": {
+    "all_old_inputs_and_models_unchanged": true,
+    "all_near_matches_including_beyond_top20_recomputed": true,
+    "all_review_panels_and_judgments_covered": true,
+    "eligibility_derived_without_replacement_or_predictions": true
+  },
+  "visual_judgments_automatically_proven": false
+}
