@@ -1,0 +1,25 @@
+{
+  "summary_sha256": "fe02b2c9ad8db38e689413985b03466a5278d9d7d880ca4c94d440ca715b6de3",
+  "replayed_groups": 10,
+  "replayed_queries": 2816,
+  "confirmed_nonperson_support": {
+    "5": 384,
+    "6": 512,
+    "17": 64,
+    "19": 320,
+    "21": 512,
+    "22": 512,
+    "23": 512
+  },
+  "logit_packages_recomputed": 12,
+  "first_feature_group_recomputed": "00046",
+  "independent_confusions_sha256": "7dfeaaef9b325f41b091fe32e8159daa95b9ea7c1f16b56f55f6a4ae05ddf15a",
+  "verification": {
+    "all_GT_maps_class_balanced_queries_and_empty_frames_recomputed": true,
+    "first_feature_array_bitwise_reproduced": true,
+    "all_twelve_logits_and_metrics_identical": true,
+    "all_three_paired_bootstraps_recomputed": true,
+    "models_offsets_runtime_and_all_inputs_unchanged": true,
+    "original80_not_reevaluated_or_replaced": true
+  }
+}
