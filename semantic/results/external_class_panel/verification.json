@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "53b0c3b6787966d9f1b37b66f351ab75bb14c5c80bf78c5431f4480d22230aea",
+  "independent_metadata_pool": 753,
+  "classes_selected": 12,
+  "groups_selected": 10,
+  "all_RGB_recomputed": 80,
+  "all_complete_pairs_recomputed": 0,
+  "verification": {
+    "all_frozen_inputs_and_twelve_heads_unchanged": true,
+    "seeded_metadata_selection_and_original80_exclusion_recomputed": true,
+    "all_RGB_CRC_dimensions_pixels_and_three_matching_scopes_recomputed": true,
+    "all_review_decisions_and_frozen_eligibility_covered": true,
+    "no_new_model_output_or_reselection": true
+  }
+}

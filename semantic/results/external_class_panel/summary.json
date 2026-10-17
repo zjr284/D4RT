@@ -1,0 +1,155 @@
+{
+  "protocol": {
+    "round": 52,
+    "new_panel_seed": 20261052,
+    "no_new_model_or_mask_evaluation": true,
+    "selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "source_score_files_not_parsed": true,
+    "input_sha256": {
+      "semantic_artifacts/external_semantic_confirmation/summary.json": "5a40de0b02754c3435ad4c09383327f19072c03b6e18f31207ee5022202db8fe",
+      "semantic_artifacts/external_semantic_confirmation/verification.json": "75c614b1947ce160809b9c28940c51af918b57864dcb9c61b468a540caaca70b",
+      "semantic_artifacts/external_semantic_confirmation/frozen_selection.json": "66081e8292b6c5c4088c170bbb34815780c5665fcbf43dca9fd35b462a2434d7",
+      "semantic_artifacts/external_coco_adapter/groups.json": "22551e00bf13073a09fa62eb82cdbd3348e3420fd0044edc28eae180eccb11fd",
+      "semantic_artifacts/external_rgb_screen/manifest.json": "02fd5b029201eaf594ef45fd2c93708fa00c4c938875bfa952518dca874b2a3b",
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/external_local_rgb/image_records.json": "a20b15a52efb8de3f82c80d00732ca97d5ed77e47e365cf9597aa6268d459618",
+      "semantic_artifacts/external_local_rgb/summary.json": "c8b0cd808ad2ea045889759b103525925771299be60e086640cc9b00ef4a3216",
+      "semantic_artifacts/external_local_rgb/verification.json": "66167d259ecea53d33a380429b7b863dc688f744e2a031dfaa534117cf596ff7",
+      "semantic_artifacts/ovis_frame_index/index.sqlite": "95a373506edf074b3b444e553b2b8a171b19f74083bf865f0d90c4e90bc6f2b1",
+      "semantic_artifacts/ovis_frame_index/summary.json": "9456cfbd9235119ec90e2812425b5ab26f673f5ee8ffbed60f37016fc02e97cc",
+      "semantic_artifacts/ovis_frame_index/verification.json": "2b1603375f331e8e255990f2cd0c133ffc814e65985514b251d01473bed0df07",
+      "semantic_artifacts/external_archive_download/summary.json": "c60c1c9920cd60f22b23697c076aaf37d3ef9dc90cf90d95ef59b85a3863554e",
+      "semantic_artifacts/external_archive_download/verification.json": "c6c8918f38eb8080f1917280da71068c7c26eaf3f60249a330883faf575f3f67",
+      "semantic_artifacts/external_archive_download/archive.zip": "4bca7a71b0a6f7e4d7cdcc69eae3f159358069d40a896a87a50b05935eaaf0a5",
+      "semantic/external_class_panel.py": "251d6798d63a9b2ee5ca4239bcb967a27d6d353cb6b9d6cc4afc649f61f995ec",
+      "semantic/OVIS_EXTERNAL_CLASS_PANEL_PROTOCOL.md": "f00e35aa59853ad08ef857c4f86f487919a8812593c1032b03b1895d8e0c69d0",
+      "semantic/ovis_frame_index.py": "3dbe9653a7cc3983586776c07c66fe16f60f870665ed72cadd32a257f9a89b31",
+      "semantic/external_holdout_readiness.py": "7144bfa81b6ba6554ebfc1090d458803318acf00ee4373e536f0f5146c181219",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "manifest_sha256": "f5558837c0bc58cf0385ae7f00274333a2627382643ce47556e09bfe4890d0d3",
+  "materials_sha256": "09d401d0a6464108e8c3174b7ef5971b7e6f44ea73dbd64a00027a5558e28cfa",
+  "eligible_unevaluated_pool": 753,
+  "original80_excluded": 80,
+  "selected_groups": 10,
+  "selected_metadata_classes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    15,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24
+  ],
+  "missing_metadata_classes": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    16,
+    18,
+    20
+  ],
+  "images_verified": 80,
+  "near_or_exact_pairs": 0,
+  "pair_sources": {},
+  "excluded_groups": [],
+  "accepted_groups": [
+    "00046",
+    "00720",
+    "00304",
+    "00349",
+    "00644",
+    "00303",
+    "00238",
+    "00312",
+    "00571",
+    "00166"
+  ],
+  "manual_review_required": false,
+  "decisions_sha256": "3ee2b1f7d904b11157dc2aade895c3fa77f398d4f577e7bb7da8fac1589f91e0",
+  "eligibility_sha256": "c689cd98b24a4e0309dd5901f70b5917b1305c59ec4f3c48bc84020c28a3a58f",
+  "finalizer_sha256": "338c9e157ce779a4f2e8f0b12e8ffee95a1a7f62d9983c7198779039de0b24f3",
+  "no_model_evaluation": true,
+  "no_GT_masks_decoded": true,
+  "original_random40_and_reserve40_unchanged": true,
+  "deployment_unchanged": "native_gt"
+}
