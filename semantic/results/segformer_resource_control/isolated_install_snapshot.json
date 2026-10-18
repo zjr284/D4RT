@@ -1,0 +1,68 @@
+{
+  "full_local_install_report_sha256": "665be292df14e8ec9b8aad4c47d6bcdd5a2bbae909a01ef4ce810716e7200aec",
+  "packages": [
+    {
+      "name": "transformers",
+      "version": "4.57.6",
+      "wheel_sha256": "4c9e9de11333ddfe5114bc872c9f370509198acf0b87a832a0ab9458e2bd0550"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "0.36.0",
+      "wheel_sha256": "7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "wheel_sha256": "39ab5894d971f9ac68baa6eca5c50387db579cfcacf36ae8df3feceb1815e6d0"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "wheel_sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "wheel_sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "wheel_sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "wheel_sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "wheel_sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "wheel_sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    }
+  ],
+  "parent_environment_before": {
+    "torch": "2.14.0",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "torchvision": "0.29.0",
+    "huggingface-hub": "2.0.0",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.11.1"
+  },
+  "parent_environment_after": {
+    "torch": "2.14.0",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "torchvision": "0.29.0",
+    "huggingface-hub": "2.0.0",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.11.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "summary_sha256": "bc1fe20848783d6aafeb053c149e88fa671af6d763daec0158b52bef6b12d22c",
+  "both_official_revisions_LFS_sizes_SHA256_and_git_blob_configs_verified": true,
+  "all_anonymous_HTTP_segments_budget_and_hashes_verified": true,
+  "private_env_pins_PyPI_wheels_and_parent_environment_unchanged": true,
+  "MIT_and_ADE_encoder_state_shapes_identical": true,
+  "all3_source64_point_features_independently_recomputed": true,
+  "ADE_decoder_manually_rebuilt_from_frozen_multiscale_modules": true,
+  "T1_vs_T8_max_differences_retained": {
+    "mit_encoder": 0.19231157004833221,
+    "ade_encoder": 0.13219285011291504,
+    "ade_decoder": 0.046875
+  },
+  "transformers_model_definition_sha256": "af9e0f736d0197eb4f3960ab53ce5968a522a4a0825f03000be9354c4f395f1c",
+  "all_original_inputs_unchanged": true,
+  "no_training_or_new_confirmation": true
+}

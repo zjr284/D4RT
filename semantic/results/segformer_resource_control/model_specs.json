@@ -1,0 +1,34 @@
+{
+  "mit": {
+    "repo_id": "nvidia/mit-b0",
+    "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+    "weight_name": "pytorch_model.bin",
+    "weight_format": "pytorch_bin_weights_only",
+    "expected_size": 14380029,
+    "expected_sha256": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+    "config_path": "semantic_artifacts/segformer_resource_control/sources/mit/config.json",
+    "preprocessor_path": "semantic_artifacts/segformer_resource_control/sources/mit/preprocessor_config.json",
+    "README_path": "semantic_artifacts/segformer_resource_control/sources/mit/README.md",
+    "API_sha256": "9eecfdd427de2473363562a35e939c44c387d41b39e6c63b1b80cb03e6f55450",
+    "config_sha256": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+    "preprocessor_sha256": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+    "weight_path": "semantic_artifacts/segformer_resource_control/weights/mit/pytorch_model.bin",
+    "license_sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+  },
+  "ade": {
+    "repo_id": "nvidia/segformer-b0-finetuned-ade-512-512",
+    "revision": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+    "weight_name": "model.safetensors",
+    "weight_format": "safetensors",
+    "expected_size": 15036944,
+    "expected_sha256": "6ae39addd01de6b1b8bde2cf677d43a5cd733424b8d186de3f95d1c51fee23f9",
+    "config_path": "semantic_artifacts/segformer_resource_control/sources/ade/config.json",
+    "preprocessor_path": "semantic_artifacts/segformer_resource_control/sources/ade/preprocessor_config.json",
+    "README_path": "semantic_artifacts/segformer_resource_control/sources/ade/README.md",
+    "API_sha256": "cb1d43fe0737d825a0c7e2eac8b965bb1692c96018f8932ea74100d433ce067e",
+    "config_sha256": "209caa9091e4632f7c8883c11170cd08ad29af68b23c09590aa4a5befb1a2a7f",
+    "preprocessor_sha256": "8039d1d210abaa7117ad78e58cdfd6141a2ec72c03dae891b3cd76737e422c6c",
+    "weight_path": "semantic_artifacts/segformer_resource_control/weights/ade/model.safetensors",
+    "license_sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+  }
+}

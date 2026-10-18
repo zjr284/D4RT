@@ -1,0 +1,103 @@
+{
+  "protocol": {
+    "round": 81,
+    "repositories": {
+      "mit": "nvidia/mit-b0",
+      "ade": "nvidia/segformer-b0-finetuned-ade-512-512"
+    },
+    "purpose": "resources and RGB-only preflight, no OVIS training or GT scores",
+    "transformers_pin": "4.57.6",
+    "private_hub_pin": "0.36.0",
+    "max_HTTP_GET": 256,
+    "max_model_bytes": 67108864,
+    "max_each_model_bytes": 33554432,
+    "max_metadata_bytes": 8388608,
+    "network_deadline_seconds": 900,
+    "max_segments_each_model": 128,
+    "minimum_GET_start_interval": 1,
+    "pip_timeout_seconds": 300,
+    "original_environment": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "pillow": "12.3.0",
+      "torchvision": "0.29.0",
+      "huggingface-hub": "2.0.0",
+      "pycocotools": "2.0.11",
+      "matplotlib": "3.11.1"
+    },
+    "original_site_packages": "/home/kkk/code/D4RT/.venv/lib/python3.12/site-packages",
+    "input_sha256": {
+      "semantic_artifacts/coco_spatial_confirmation/summary.json": "69736dfeade159a0d1da12c21c75d49a0cda8134bfedf5ef1022a94886b7b0b7",
+      "semantic_artifacts/coco_spatial_confirmation/verification.json": "54fad4ecdb089218a25210361ad65f15a78f7245b7c61b76e2dceb4f0343f1a7",
+      "semantic_artifacts/dino_backbone_training/manifest.json": "1ea4bde5d3244c851560ed0b300b7fc746e34aeaea2a7ed5c43f8a1d84b64e12",
+      "semantic_artifacts/dino_backbone_training/features/val/258.npz": "3db58da923fb85cef0cab40ae0b8766a96d7a639dd0b487ac8fd6869ead14b8a",
+      "semantic/segformer_resource_control.py": "f713f0100fe87b1ddf346cf58bd7330f1d7c97e2a32a3fb7dbc7842180ff20ac",
+      "semantic/segformer_features.py": "3a95ddff6fbfc23d315cafcab26ca8664100f73d6f6052352677d4cb9b04bfb7",
+      "semantic/segformer_resource_worker.py": "eb6be96f4fb868a997d24d0c51768964eedc692186507d2e33388638519b48a9",
+      "semantic/OVIS_SEGFORMER_RESOURCE_PROTOCOL.md": "b35129cb2c98152a8aa4027e528a13fa1f1a8c8fd4afd48032dccc324f47ee54",
+      "semantic/semantic_feature_control.py": "de09617bece72620cc66e9376e5f141805667fb68cb6ac503777fa50c572b377",
+      "/home/kkk/code/D4RT/.venv/lib/python3.12/site-packages/torch/__init__.py": "bd4a10ff16357ed78f45aaf4b46ce5b771fdc0e8549402206e324d0eb792c672",
+      "/home/kkk/code/D4RT/.venv/lib/python3.12/site-packages/numpy/__init__.py": "09295a80660f17925ae23765ce8cbd7ff7ceae968d5f2f89349f1cb74c0b9e11",
+      "/home/kkk/code/D4RT/.venv/lib/python3.12/site-packages/PIL/__init__.py": "7361b6ad3878589affe5956e4a4da24d71398b0891fd3a8c15e9362217b4ca01",
+      "/home/kkk/code/D4RT/.venv/lib/python3.12/site-packages/huggingface_hub/__init__.py": "105e3a833a38424da87877f5a331110eaabc805f52f13577f548dc6b37b01a7f",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000001.jpg": "4dc5b6115cfca0e797df500c87502be40f3c820a9a6f97f7028083dfd15fcb9c",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000002.jpg": "81b031b3890383a7814292ec5b7ca4574f313c261a0620fc32ef8545c954e4b1",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000003.jpg": "dafdfa57dd1fb6b8b8974f505be461405066f62998c3d9ef6cac76c6be0998cb",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000004.jpg": "cc39807e604fe545ffca9caa1832dbeacc978602b9cb45ea91ba68bc1c73bc9b",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000005.jpg": "e170c2352f181350ac46926a2b0cbd8a3373f5db6f068010e829bede6a743f8d",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000006.jpg": "9906b646d1d233da4c4e259395ca21a2c477b5ad3e0bd2d74977a2588cf9262e",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000007.jpg": "2749ef34dc6af3d50359acf7b55579cae60859450e8115e474d024e4f7db4b06",
+      "semantic_artifacts/ovis/train/fb16e746/img_0000008.jpg": "53762a58eb2e91a8d03efff52948adf809e411ff3b0c1dd8df6fc5afd1d01be7"
+    }
+  },
+  "model_specs_sha256": "65c31ec43203559bbfb655d66a91bb1e7ac8e620760de8341592804c8eeb26ac",
+  "model_specs": {
+    "mit": {
+      "repo_id": "nvidia/mit-b0",
+      "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+      "weight_name": "pytorch_model.bin",
+      "weight_format": "pytorch_bin_weights_only",
+      "expected_size": 14380029,
+      "expected_sha256": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+      "config_path": "semantic_artifacts/segformer_resource_control/sources/mit/config.json",
+      "preprocessor_path": "semantic_artifacts/segformer_resource_control/sources/mit/preprocessor_config.json",
+      "README_path": "semantic_artifacts/segformer_resource_control/sources/mit/README.md",
+      "API_sha256": "9eecfdd427de2473363562a35e939c44c387d41b39e6c63b1b80cb03e6f55450",
+      "config_sha256": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+      "preprocessor_sha256": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+      "weight_path": "semantic_artifacts/segformer_resource_control/weights/mit/pytorch_model.bin",
+      "license_sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+    },
+    "ade": {
+      "repo_id": "nvidia/segformer-b0-finetuned-ade-512-512",
+      "revision": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+      "weight_name": "model.safetensors",
+      "weight_format": "safetensors",
+      "expected_size": 15036944,
+      "expected_sha256": "6ae39addd01de6b1b8bde2cf677d43a5cd733424b8d186de3f95d1c51fee23f9",
+      "config_path": "semantic_artifacts/segformer_resource_control/sources/ade/config.json",
+      "preprocessor_path": "semantic_artifacts/segformer_resource_control/sources/ade/preprocessor_config.json",
+      "README_path": "semantic_artifacts/segformer_resource_control/sources/ade/README.md",
+      "API_sha256": "cb1d43fe0737d825a0c7e2eac8b965bb1692c96018f8932ea74100d433ce067e",
+      "config_sha256": "209caa9091e4632f7c8883c11170cd08ad29af68b23c09590aa4a5befb1a2a7f",
+      "preprocessor_sha256": "8039d1d210abaa7117ad78e58cdfd6141a2ec72c03dae891b3cd76737e422c6c",
+      "weight_path": "semantic_artifacts/segformer_resource_control/weights/ade/model.safetensors",
+      "license_sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+    }
+  },
+  "env_install_report_sha256": "665be292df14e8ec9b8aad4c47d6bcdd5a2bbae909a01ef4ce810716e7200aec",
+  "preflight_sha256": "3aeffcd67020b18d52d569f765ee22435a7c68884953429206fb69c8f82013fe",
+  "original_environment_after": {
+    "torch": "2.14.0",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "torchvision": "0.29.0",
+    "huggingface-hub": "2.0.0",
+    "pycocotools": "2.0.11",
+    "matplotlib": "3.11.1"
+  },
+  "all_original_inputs_unchanged": true,
+  "no_OVIS_head_training_or_GT_scoring": true,
+  "new_confirmation_groups": 0,
+  "deployment_unchanged": "native_gt"
+}

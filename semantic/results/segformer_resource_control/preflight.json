@@ -1,0 +1,87 @@
+{
+  "source_video_id": 258,
+  "query_count": 64,
+  "results": {
+    "mit_encoder": {
+      "map_shape": [
+        8,
+        256,
+        14,
+        14
+      ],
+      "point_shape": [
+        64,
+        256
+      ],
+      "finite": true,
+      "single_vs_T8_first_frame_max_difference": 0.19231157004833221,
+      "single_vs_T8_first_frame_mean_difference": 0.01664210855960846,
+      "FP16_quantization_max_difference": 0.0039014816284179688,
+      "output_path": "semantic_artifacts/segformer_resource_control/preflight_features/mit_encoder.npz",
+      "output_sha256": "0559ac2a33d3b68cb331aa2948b2a9c1cb33558ff71a86b121ebc816238a6e31",
+      "cost": {
+        "seconds": 0.438309481000033,
+        "peak_cuda_allocated_bytes": 318599680,
+        "parameters": 3576392
+      }
+    },
+    "ade_encoder": {
+      "map_shape": [
+        8,
+        256,
+        14,
+        14
+      ],
+      "point_shape": [
+        64,
+        256
+      ],
+      "finite": true,
+      "single_vs_T8_first_frame_max_difference": 0.13219285011291504,
+      "single_vs_T8_first_frame_mean_difference": 0.017047680914402008,
+      "FP16_quantization_max_difference": 0.003894805908203125,
+      "output_path": "semantic_artifacts/segformer_resource_control/preflight_features/ade_encoder.npz",
+      "output_sha256": "5cfb9f02e9695bdee95d2eb928c52c839f2c77a6cdf4a3c124cd600df3623bc7",
+      "cost": {
+        "seconds": 0.05177033500149264,
+        "peak_cuda_allocated_bytes": 1208422400,
+        "parameters": 3752694
+      }
+    },
+    "ade_decoder": {
+      "map_shape": [
+        8,
+        256,
+        112,
+        112
+      ],
+      "point_shape": [
+        64,
+        256
+      ],
+      "finite": true,
+      "single_vs_T8_first_frame_max_difference": 0.046875,
+      "single_vs_T8_first_frame_mean_difference": 0.0025519344490021467,
+      "FP16_quantization_max_difference": 0.001953125,
+      "output_path": "semantic_artifacts/segformer_resource_control/preflight_features/ade_decoder.npz",
+      "output_sha256": "f87e4f6bcaccf0bbcde2cf5391f463845470de6faf48838cfc7e96ffde05fb3f",
+      "cost": {
+        "seconds": 0.05177033500149264,
+        "peak_cuda_allocated_bytes": 1208422400,
+        "parameters": 3752694
+      }
+    }
+  },
+  "versions": {
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.0",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.8.0",
+    "torch": "2.14.0",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0"
+  },
+  "no_GT_labels_read_or_scored": true,
+  "training_updates": 0,
+  "new_confirmation_groups": 0
+}
