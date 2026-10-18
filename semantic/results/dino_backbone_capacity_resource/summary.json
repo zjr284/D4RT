@@ -1,0 +1,14 @@
+{
+  "scope": "resource failure only; no feature or head result",
+  "resource_protocol_sha256": "279e8dea9a276f3101b7dddb1ffa376c148a5f5b90b8b827d7fba2ce20a41523",
+  "partial_bytes": 346335620,
+  "partial_sha256": "77f43daba3dd5b196d71ae576c7881447e8b87aed2d3c043e605b35f97aff9b2",
+  "zip_complete": false,
+  "failure_at_content_length_check": true,
+  "response_content_length_not_persisted": true,
+  "max_full_requests": 1,
+  "new_heads_trained": 0,
+  "new_features": 0,
+  "new_confirmation_groups": 0,
+  "deployment_unchanged": "native_gt"
+}

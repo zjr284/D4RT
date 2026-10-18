@@ -1,0 +1,9 @@
+{
+  "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+  "maximum_bytes": 419430400,
+  "max_requests": 1,
+  "socket_timeout_seconds": 60,
+  "total_timeout_seconds": 300,
+  "protocol_sha256": "22a83861270cd371e8f6235b4169abfd4e87d80af41b48a112b006e4f8d99190",
+  "resource_code_sha256": "f14764be519bfce4d3e98f6a2a735a49a22e7eb6d8ce53318fec20ec426982e7"
+}
