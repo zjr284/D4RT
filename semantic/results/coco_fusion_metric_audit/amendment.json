@@ -1,0 +1,9 @@
+{
+  "reason": "First descriptive run failed before summary: source validation has no GT support for some confirmation classes; unavailable source F1 differences must be null, not subtracted or assigned zero. All external classes retained.",
+  "original_protocol_sha256": "d6fe743ad5714116dda1a94916030c1977fa05e4c5f51cb1ef387829effb5bf0",
+  "original_script_sha256": "4d93340a941a19676c9465668fc553255d869fe52b262aed5974b0fe466bd2ad",
+  "preserved_first_failure_log": "semantic_artifacts/coco_fusion_metric_audit.log",
+  "preserved_first_failure_log_sha256": "8fa5fb971a66abc15bd17a1d2547e3a360b704bf0f4ba63bbdd74d38d84fa900",
+  "resume_script_sha256": "94848e6d64324fa5e056ac615faaeba9f2395a1f51fb6ee2f9b084602db12154",
+  "changes_to_queries_predictions_scores_or_model_parameters": false
+}

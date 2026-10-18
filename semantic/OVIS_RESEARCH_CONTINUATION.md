@@ -1,5 +1,7 @@
 # 连续研究当前接续点
 
+第87轮已完成18套冻结输出描述性分解与独立核验：strict主pooled−.035616/imageeq+.014416分别精确求和。背景/Person图像贡献+.004541/+.011795，Motorcycle仅3点1图pooled贡献−.013814（不删类/不夸大3点估计），Bird/Sheep/Bicycle也负；非Person FG错其他FG净增388/260/724。源spatial缺4/5/6/9/10/21，首次None相减失败已保留原代码/协议/日志，显式resume/amendment记null不改确认分数，核验通过。推送后立即88源RGB水平翻转GT同点增强：B14冻结BF16/原JPEG448，源80第一帧翻转采样u=127−u/v同，GT原标签/索引/83训练统计不变；只新训练同768维GT32三头，每步独立view RNG .5原/.5翻，2000步曝光64000不翻倍；旧zB14头直接复用，不根据确认弱类定向增强、不读新确认/改默认。
+
 第86轮已独立核验：原79reserve40已正式消费，COCO累计240已评分。冻结15头/源偏移无更新，主ADEdecoder−同宽zero spatial：strict pooled均−.035616（三seed−/+／−），图像等权+.014416/27正13负/CI[−.002131,.030541]跨零；consensus同样跨零，不确认稳定融合收益。旧zB14/zero/选中fusion汇总宏.656346/.652825/.617210；BGFP与FG到BG错误均降却宏差负，权重不同须描述性分解而不调参。40XY/80GT/首图4分支独立特征/160包/15logits90指标/50bootstrap指纹全核验。默认nativeGT−1.5不变。推送后立即87冻结86输出做类F1/TPFPFN贡献与图像/汇总相反方向的精确分解，不重训/重校准/再消费确认、不删负类图。之后必要实际新控制可预注册源RGB水平翻转同点GT增强，禁止按确认弱类挑增强。
 
 第85轮已完成独立RGB准备核验：沿79 metadata reserve40排除旧COCO200，40官方JPEG/有界HTTP/许可全部核验；OVIS42149+LVVIS1040+COCO200+新内部39近对/0精确，实际查看总览和3近对拼图，均不同场景，40保留0替换。15头与源profile/83统计先冻结，无GT解码/特征/评分。推送后立即第86运行semantic.coco_fusion_confirmation（私有SegFormer env）；协议OVIS_COCO_FUSION_CONFIRMATION_PROTOCOL.md，主strict ADEdecoder−zero spatial偏移+1.5/图像等权bootstrap seed86，全部五组15头/raw和两个源profile/负图保留，不确认调参/改部署。现COCO200已评分+40 RGB已见未评分，LVVIS原保留状态不变。

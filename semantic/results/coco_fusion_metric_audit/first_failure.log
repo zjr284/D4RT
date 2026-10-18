@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kkk/code/D4RT/semantic/coco_fusion_metric_audit.py", line 73, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/kkk/code/D4RT/semantic/coco_fusion_metric_audit.py", line 55, in main
+    src=[source_val['results'][left]['runs'][seed]['spatial_val'][profile]['per_class_f1'].get(str(c))-source_val['results'][right]['runs'][seed]['spatial_val'][profile]['per_class_f1'].get(str(c))for seed in range(3)]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'

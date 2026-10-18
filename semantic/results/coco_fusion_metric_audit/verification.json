@@ -1,0 +1,17 @@
+{
+  "summary_sha256": "bf432b274a171a0799e5a80175da742de198e96f677db339a6af8433361a7d0d",
+  "all_five_groups_three_seeds_two_policies_three_profiles_boolean_class_counts_recomputed": true,
+  "all18_class_weight_decompositions_and_both_confirmation_scalar_sums_recomputed": true,
+  "all_image_class_cells_and_same_point_error_cartesian_counts_recomputed": true,
+  "source_missing_classes_preserved_as_null": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    21
+  ],
+  "first_failure_and_explicit_amendment_provenance_verified": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_model_training_calibration_new_confirmation_or_deployment_change": true
+}
