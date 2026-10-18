@@ -1,0 +1,114 @@
+{
+  "summary_sha256": "3d4503dae7d5ec816447bb7e241cb50bc04d9341dc81dd397fb4646145c56dc3",
+  "all480_original_feature_packages_metadata_verified": true,
+  "four_independent_training_only_moment_reconstructions": true,
+  "shared_three_full_sampler_replays": {
+    "0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "all12_new_head_budgets_checkpoint_selection_and_statistics_provenance": true,
+  "all48_validation_logits_and24_training_logits_recomputed": true,
+  "eight_new_shared_calibration_curves_all_profile_metrics_and_selection_recomputed": true,
+  "all_common_class_training_validation_recall_recomputed": true,
+  "fold_checks": {
+    "z_b14_gt32_0": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 7.62939453125e-06,
+        "preregistered_tolerance": 0.0005666840362548828,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 6.217248937900877e-15
+    },
+    "z_b14_gt32_1": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 9.5367431640625e-06,
+        "preregistered_tolerance": 0.000652766342163086,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 1.4210854715202004e-14
+    },
+    "z_b14_gt32_2": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 1.1444091796875e-05,
+        "preregistered_tolerance": 0.0007415556335449219,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 8.881784197001252e-15
+    },
+    "z_mit_encoder_fp32_0": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 3.814697265625e-06,
+        "preregistered_tolerance": 0.000474560661315918,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 9.769962616701378e-15
+    },
+    "z_mit_encoder_fp32_1": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 5.7220458984375e-06,
+        "preregistered_tolerance": 0.0005915859603881836,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 1.0658141036401503e-14
+    },
+    "z_mit_encoder_fp32_2": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 4.76837158203125e-06,
+        "preregistered_tolerance": 0.0005495446014404297,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 7.993605777301127e-15
+    },
+    "z_ade_encoder_fp32_0": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 5.7220458984375e-06,
+        "preregistered_tolerance": 0.0005304058837890625,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 7.105427357601002e-15
+    },
+    "z_ade_encoder_fp32_1": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 4.76837158203125e-06,
+        "preregistered_tolerance": 0.0005562978744506836,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 3.9968028886505635e-15
+    },
+    "z_ade_encoder_fp32_2": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 5.7220458984375e-06,
+        "preregistered_tolerance": 0.0005504001617431642,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 5.773159728050814e-15
+    },
+    "z_ade_decoder_fp32_0": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 3.814697265625e-06,
+        "preregistered_tolerance": 0.000521909408569336,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 6.217248937900877e-15
+    },
+    "z_ade_decoder_fp32_1": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 2.86102294921875e-06,
+        "preregistered_tolerance": 0.00044740156173706056,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 5.329070518200751e-15
+    },
+    "z_ade_decoder_fp32_2": {
+      "full_FP32": {
+        "maximum_raw_fold_logit_difference": 3.814697265625e-06,
+        "preregistered_tolerance": 0.0004957158851623536,
+        "label_changes_due_to_numerics": 0
+      },
+      "independent_FP64_first64_maximum_error": 5.10702591327572e-15
+    }
+  },
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_deployment_change": true
+}
