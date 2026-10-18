@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "8d3091dc538f61cc9605a66b3265d65cc4b102733f4aaaeebec6ece4ef0b2c77",
+  "all160_original_RLE_point_hit_GT_and_independent_uniform_XY_recomputed": true,
+  "both_first258_T8_feature_replays_bitwise_equal": true,
+  "all21_full_logits_valid_masks_and_raw_old_new_metrics_recomputed": true,
+  "all7_shared_calibration_grids_and_tie_rules_recomputed": true,
+  "per_video_metrics_written_from_independent_predictions_sha256": "6abfe3fab70d0c383b10ecae5c2001e7d0af57c3c24e0c225a496d6f878f0eea",
+  "all_frozen_inputs_unchanged": true,
+  "no_head_training_model_selection_or_confirmation": true,
+  "deployment_unchanged": "native_gt"
+}
