@@ -1,0 +1,29 @@
+{
+  "summary_sha256": "06e3ff1600d3d4f89b0ec797fad983bc59aec223eb92923c3a06d68ddd24d98c",
+  "future_metadata_candidate80_reserve80_reconstructed_excluding240": true,
+  "all120_feature_metadata_and_source0_labels_verified": true,
+  "independent_register_feature_replays": [
+    {
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "split": "spatial_val",
+      "video_id": 258
+    }
+  ],
+  "training_only_population_statistics_recomputed": true,
+  "three_complete_sampling_replays": {
+    "0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "all6_head_budgets_and_checkpoint_selections_verified": true,
+  "all24_logits_four_shared_calibration_curves_metrics_contrasts_interactions_recomputed": true,
+  "source_selection_confirmation_eligibility_and_all_frozen_inputs_verified": true,
+  "no_new_confirmation_or_deployment_change": true
+}
