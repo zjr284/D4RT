@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "3db6c6f021c3de78555e0c091cdd155de0cc4c932fb46947a1977c42b029c046",
+  "all80_raw_GT_and_oracle_query_targets_recomputed": true,
+  "corrected_teacher_targets": 771,
+  "three_shared_sampler_hashes_for9_heads": {
+    "0": "bcd0a1ef1b74e422c1b2d14f0c334bc327daf03ec99c75cf1f3c0aeba3ab5fed",
+    "1": "9a75c9d8b851465ff7415786530cda1a66848938fd7401877c33c2abbdcb9f86",
+    "2": "5d9a981ff07ea34e183999e163c54ae7e4153ea2d6e90af2fbc710cce7769723"
+  },
+  "all_masked_target_denominator_and_anchor_histograms_recomputed": true,
+  "all9_best_checkpoint_rules_and15_validation_logits_recomputed": true,
+  "all_calibrations_contrasts_and_nonoracle_selection_recomputed": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_oracle_deployment": true
+}
