@@ -1,0 +1,19 @@
+{
+  "summary_sha256": "0cf2a0b73e9c8f5c6ab0313119520389a67673f9d0b0c0c6909fd8fd6d8ee72d",
+  "images_two_GT_policies_replayed": 160,
+  "first_static_feature_replays": {
+    "S14": {
+      "strict": 149622,
+      "consensus": 149622
+    },
+    "B14": {
+      "strict": 149622,
+      "consensus": 149622
+    }
+  },
+  "all42_logits_and_metrics_recomputed": true,
+  "paired_image_bootstraps_recomputed": 10,
+  "all_direct_backbone_head_dependency_and_input_fingerprints_unchanged": true,
+  "COCO_reserve80_and_LVVIS40_not_evaluated": true,
+  "no_training_or_calibration": true
+}
