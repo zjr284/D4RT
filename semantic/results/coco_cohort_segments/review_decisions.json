@@ -1,0 +1,243 @@
+{
+  "reviewer": "single Codex visual reviewer, not independent human",
+  "blind_to_GT_masks_and_model_outputs": true,
+  "reviewed_sheets": [
+    {
+      "path": "semantic_artifacts/coco_cohort_segments/image_217060_page0.png",
+      "sha256": "fd6070b9d24a213875346d6037a6e3483696a97f7df718d5fdba820e29cedccc"
+    },
+    {
+      "path": "semantic_artifacts/coco_cohort_segments/image_502168_page0.png",
+      "sha256": "d3035c7772a5ae36ec803b22b68b587cfe8a3012d7ca10c1947f50c701971fdd"
+    },
+    {
+      "path": "semantic_artifacts/coco_cohort_segments/image_229747_page0.png",
+      "sha256": "d2de46e7f66a2d8353272ef336d211f23a0e92b98c7f54b978f8ab8636b57c75"
+    },
+    {
+      "path": "semantic_artifacts/coco_cohort_segments/image_368961_page0.png",
+      "sha256": "205dd7a14edac8894d9c444a8d5e236217ca50673dbd91b0a92fd6685c0a730d"
+    },
+    {
+      "path": "semantic_artifacts/coco_cohort_segments/image_106757_page0.png",
+      "sha256": "921742b9673b1f7cca24dd22b41daa93cabe59c27066aa27ac2a2a23fd15e1d1"
+    }
+  ],
+  "decisions": [
+    {
+      "pair_id": 0,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 1,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 2,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 3,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 4,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 5,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为蓝天中单架表演飞机及烟迹；OVIS为亮蓝背景的多只飞鸟，主体和构图不同。"
+    },
+    {
+      "pair_id": 6,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 7,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 8,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 9,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 10,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 11,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 12,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 13,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 14,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 15,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 16,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 17,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 18,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 19,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 20,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 21,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为海面军舰/舰甲板及海上舰只；OVIS为草地鹦鹉、道路骑行、水族箱鱼/海龟、笼中动物，LVVIS为树间机具/水面鸭，场景主体不同。"
+    },
+    {
+      "pair_id": 22,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 23,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 24,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 25,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 26,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 27,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 28,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 29,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 30,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 31,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 32,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 33,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为灰天单架民航机黄色机腹；OVIS为蓝天多架军机编队空中加油及草地猴群，不是同一机型场景/镜头。"
+    },
+    {
+      "pair_id": 34,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为阳光下门外大象；OVIS为室内围栏白色山羊，主体背景不同。"
+    },
+    {
+      "pair_id": 35,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 36,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 37,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 38,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 39,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 40,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 41,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    },
+    {
+      "pair_id": 42,
+      "judgment": "distinct",
+      "reason": "实际查看图页：新COCO为户外围绳旁大象及人物；OVIS为室内浅色水盆多条小鱼，主体场景不同。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "9ae9fe05661cbb7a605f0ea269098727859a3919ba67af7dac261f905e005c82",
+  "all160_split_images_and_licenses_recomputed": true,
+  "JPEG_requests_and_MD5_pixels_hashes_recomputed": 160,
+  "all_three_ledgers_and_per_round_budgets_recomputed": true,
+  "one_second_GET_interval_rechecked": true,
+  "complete_matching_pairs_recomputed": 43,
+  "all_review_decisions_and_frozen_roles_recomputed": true,
+  "all21_heads_and_offsets_unchanged": true,
+  "no_new_model_evaluation_or_GT_decoding": true
+}
