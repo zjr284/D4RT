@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "0c46e2e17183f3956ebdd614eb4684853d81b85fcbc92a5c102e606950b1f440",
+  "all40_uniformXY_and80_GT_policy_maps_independently_recomputed": true,
+  "all160_feature_metadata_and_hashes_verified": true,
+  "first222235_B14_patch_and_MIT_ADE_manual_multiscale_replays_bitwise_equal": true,
+  "all15_logits_and90_policy_profile_metrics_with_per_image_metrics_recomputed": true,
+  "all_predefined_image_pair_bootstraps_recomputed": 50,
+  "source_selection_statistics_and_three_profiles_frozen": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_training_recalibration_or_deployment_change": true
+}

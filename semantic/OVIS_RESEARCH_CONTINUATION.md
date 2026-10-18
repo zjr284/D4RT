@@ -1,5 +1,7 @@
 # 连续研究当前接续点
 
+第86轮已独立核验：原79reserve40已正式消费，COCO累计240已评分。冻结15头/源偏移无更新，主ADEdecoder−同宽zero spatial：strict pooled均−.035616（三seed−/+／−），图像等权+.014416/27正13负/CI[−.002131,.030541]跨零；consensus同样跨零，不确认稳定融合收益。旧zB14/zero/选中fusion汇总宏.656346/.652825/.617210；BGFP与FG到BG错误均降却宏差负，权重不同须描述性分解而不调参。40XY/80GT/首图4分支独立特征/160包/15logits90指标/50bootstrap指纹全核验。默认nativeGT−1.5不变。推送后立即87冻结86输出做类F1/TPFPFN贡献与图像/汇总相反方向的精确分解，不重训/重校准/再消费确认、不删负类图。之后必要实际新控制可预注册源RGB水平翻转同点GT增强，禁止按确认弱类挑增强。
+
 第85轮已完成独立RGB准备核验：沿79 metadata reserve40排除旧COCO200，40官方JPEG/有界HTTP/许可全部核验；OVIS42149+LVVIS1040+COCO200+新内部39近对/0精确，实际查看总览和3近对拼图，均不同场景，40保留0替换。15头与源profile/83统计先冻结，无GT解码/特征/评分。推送后立即第86运行semantic.coco_fusion_confirmation（私有SegFormer env）；协议OVIS_COCO_FUSION_CONFIRMATION_PROTOCOL.md，主strict ADEdecoder−zero spatial偏移+1.5/图像等权bootstrap seed86，全部五组15头/raw和两个源profile/负图保留，不确认调参/改部署。现COCO200已评分+40 RGB已见未评分，LVVIS原保留状态不变。
 
 第84轮已完成独立核验：固定zB14+零/MIT/ADEenc/ADEdec同1024维26650参数，12新头同GT32预算。balanced均值旧zB14 .831598、零.837352、MIT .835403、ADEenc .844425、ADEdec .853498；spatial .747620/.729876/.732253/.754711/.765960。主ADEenc−MIT raw三seed正均+.009641；ADEdecoder对零校准三正均+.016146、对旧zB14三正均+.021900，唯一满足84预定确认资格。高训练低转移的单分支也可能互补，不归因唯一监督来源。30输出/12预算/8曲线/对齐与指纹独立核验，无确认/默认部署变化。推送后立即85沿79已固定reserve40取得官方RGB，先冻结84五组三头和源偏移，排除COCO已评价200，盲RGB重复筛查OVIS42149/可用LVVIS/旧COCO200/新内部，独立核验资格后再另轮86确认，不按分数挑图/调参。原sourceval重复探索，不能冒称确认。
