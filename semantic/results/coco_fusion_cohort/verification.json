@@ -1,0 +1,18 @@
+{
+  "summary_sha256": "0658f67bf5dff40c400972e746481cdbe9f77c8ec1dc08bca50f2b6db474942d",
+  "fixed_original_metadata_reserve40_excludes_previously_evaluated200": true,
+  "all40_official_JPEG_MD5_pixel_dhash_license_and_segments_verified": true,
+  "received_bytes": 6840869,
+  "GET_requests": 47,
+  "duplicate_pairs_independently_recomputed": 39,
+  "all_reference_counts_recomputed": {
+    "OVIS_all42149": 42149,
+    "available_LVVIS_old_RGB": 1040,
+    "COCO_previously_evaluated160": 160,
+    "COCO_previously_evaluated_additional40": 40
+  },
+  "single_Codex_RGB_review_and_eligibility_frozen": true,
+  "all15_heads_and_three_source_profiles_unchanged": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_GT_masks_queries_features_or_model_evaluation": true
+}
