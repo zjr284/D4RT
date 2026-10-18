@@ -1,0 +1,24 @@
+{
+  "summary_sha256": "ad757089bfe7835dfbc8297ea41f48a57ef742bbf68d8444d54b08edd4f08e12",
+  "metadata_packages_replayed": 100,
+  "source_and_validation_queries": [
+    20480,
+    40960
+  ],
+  "B14_feature_video_replays": {
+    "train": 562,
+    "val": 258
+  },
+  "six_sampler_index_hashes": {
+    "B14_gt256_0": "b89654b30d68d1dacc5d9c2389c5ac93b5b6170f6bf986867e1fdab7a59e0802",
+    "B14_gt256_1": "698c1861a6667344b166c384be3760acff9c2b64289811f5e7e336c4cc13c783",
+    "B14_gt256_2": "753e5574f25286935febf463b62ed57f531a82f9dc0c3775595001864d44db32",
+    "B14_gt32_0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "B14_gt32_1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "B14_gt32_2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "all_six_histories_best_checkpoint_rules_recomputed": true,
+  "all_twelve_logits_metrics_calibrations_and_selection_recomputed": true,
+  "old_inputs_unchanged": true,
+  "new_confirmation_groups": 0
+}
