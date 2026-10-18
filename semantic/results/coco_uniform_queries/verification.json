@@ -1,0 +1,12 @@
+{
+  "summary_sha256": "4cc4df92d946bd01e91135aafe64f2d080c177937d009859a53657f9562b0edf",
+  "all80_uniform_XY_sets_independent_of_GT_recomputed": true,
+  "all160_GT_query_targets_and_supports_recomputed": true,
+  "both_first_image_frozen_features_recomputed": 149622,
+  "all21_logits_and_two_policy_raw_calibrated_metrics_recomputed": true,
+  "all4_descriptive_contrasts_recomputed": true,
+  "background_only_and_all_ignored_metric_boundaries_explicitly_checked": true,
+  "explicit_import_only_recovery_provenance_and_unchanged_queries_features_verified": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_calibration_or_deployment_change": true
+}
