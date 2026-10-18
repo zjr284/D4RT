@@ -1,0 +1,26 @@
+{
+  "summary_sha256": "6a4c509a80baf872c8fe0b6a4c49ae0c1aca2894c1dd487b5dd8eb161d20e3dc",
+  "all80_flip_metadata_sampling_coordinates_and_label_identity_verified": true,
+  "first562_native_flip_and_manual_B14_patch_feature_recomputed_bitwise": true,
+  "three_complete_separate_index_view_generator_replays": {
+    "0": {
+      "index_hash": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+      "view_hash": "e882d3f0ffc0947a4d95c1f683064756cb867c9b2a8fe41731512bc51d15c25d",
+      "flipped_exposures": 31815
+    },
+    "1": {
+      "index_hash": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+      "view_hash": "cc9f0e70d6fa0e732539f42f6be64648c0f50f26800ef16d57b21825d7b134e6",
+      "flipped_exposures": 32047
+    },
+    "2": {
+      "index_hash": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2",
+      "view_hash": "135ecf2fa07e4b24714f8f4071078000cd4b05f6b9718fd837cbd46076dbef5b",
+      "flipped_exposures": 32048
+    }
+  },
+  "three_head_budgets_and_checkpoint_selection_verified": true,
+  "all12_validation_logits_two_calibration_curves_and_profile_metrics_recomputed": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_deployment_change": true
+}
