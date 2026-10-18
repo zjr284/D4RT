@@ -1,0 +1,20 @@
+{
+  "summary_sha256": "bb2b4e8415f93c867056405c70f583af45d5bb7536b446997304ea702e1d3bcd",
+  "images_two_GT_policies_replayed": 160,
+  "first_static_feature_replays": {
+    "S14": {
+      "strict": 216739,
+      "consensus": 216739
+    },
+    "B14": {
+      "strict": 216739,
+      "consensus": 216739
+    }
+  },
+  "all42_logits_and_metrics_recomputed": true,
+  "paired_image_bootstraps_recomputed": 10,
+  "all_direct_backbone_head_dependency_and_input_fingerprints_unchanged": true,
+  "original_COCO_reserve80_fixed_and_LVVIS40_not_evaluated": true,
+  "source_only_teacher_selection_and_all21_head_provenances_verified": true,
+  "no_training_or_calibration": true
+}
