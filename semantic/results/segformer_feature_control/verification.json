@@ -1,0 +1,107 @@
+{
+  "summary_sha256": "a3c0e421b870e76943b230704f4f00074d481d5af7d0e707a24df92711e11abe",
+  "all720_feature_metadata_packages_and18_head_budgets_verified": true,
+  "independent_feature_replays": [
+    {
+      "arm": "mit_encoder_fp32",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "mit_encoder_fp32",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "mit_encoder_fp32",
+      "split": "spatial_val",
+      "video_id": 258
+    },
+    {
+      "arm": "mit_encoder_bf16",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "mit_encoder_bf16",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "mit_encoder_bf16",
+      "split": "spatial_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_encoder_fp32",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "ade_decoder_fp32",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "ade_encoder_fp32",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_encoder_fp32",
+      "split": "spatial_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_decoder_fp32",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_decoder_fp32",
+      "split": "spatial_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_encoder_bf16",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "ade_decoder_bf16",
+      "split": "train",
+      "video_id": 562
+    },
+    {
+      "arm": "ade_encoder_bf16",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_encoder_bf16",
+      "split": "spatial_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_decoder_bf16",
+      "split": "balanced_val",
+      "video_id": 258
+    },
+    {
+      "arm": "ade_decoder_bf16",
+      "split": "spatial_val",
+      "video_id": 258
+    }
+  ],
+  "three_shared_full_sampler_replays": {
+    "0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "all18_checkpoint_selection_rules_verified": true,
+  "all42_raw_logits_and12_calibration_curves_recomputed": true,
+  "all_profile_metrics_primary_secondary_contrasts_and_source_selection_recomputed": true,
+  "all3_BF16_branches_reproduce_round81_points": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_deployment_change": true
+}
