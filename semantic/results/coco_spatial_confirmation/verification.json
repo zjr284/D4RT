@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "69736dfeade159a0d1da12c21c75d49a0cda8134bfedf5ef1022a94886b7b0b7",
+  "all40_uniformXY_and80_GT_policy_maps_recomputed": true,
+  "both_first250205_static_feature_replays_bitwise_equal": true,
+  "all21_logits_and126_policy_offset_metric_sets_recomputed": true,
+  "all_image_pair_bootstraps_recomputed": 28,
+  "frozen_source_only_old_and_spatial_offset_provenances_verified": true,
+  "all_frozen_inputs_unchanged": true,
+  "metadata_COCO_reserve40_and_LVVIS40_not_evaluated": true,
+  "no_training_recalibration_or_deployment_change": true
+}
