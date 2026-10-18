@@ -1,0 +1,151 @@
+{
+  "protocol": {
+    "round": 65,
+    "selection_seed": 20261065,
+    "primary": [
+      "B14_class_video",
+      "S14_gt32"
+    ],
+    "secondary": [
+      [
+        "B14_gt32",
+        "S14_gt32"
+      ],
+      [
+        "B14_class_video",
+        "B14_gt32"
+      ],
+      [
+        "B14_gt256",
+        "S14_gt256"
+      ],
+      [
+        "S14_native_sam",
+        "S14_gt256"
+      ]
+    ],
+    "models": {
+      "S14_gt256": {
+        "offset": -1.5,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "S14_gt32": {
+        "offset": -1.25,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "B14_gt256": {
+        "offset": -2.0,
+        "checkpoint_sha256": {
+          "0": "6899ed492c55d2aae0cbf314ec49f8aca58637293134abc8efeea8fa929c7013",
+          "1": "011b356dd50f941e36f0ce062a9f01148b5e8835ec37b18378639de53d69804c",
+          "2": "348b2edfe7770d2c9d70d74d45e52d87522fd6e512b9116a344bcf77023ab7b7"
+        }
+      },
+      "B14_gt32": {
+        "offset": -2.0,
+        "checkpoint_sha256": {
+          "0": "3d746942ff7118d506982b2ecb1c989a5d3dbe40a8ef4fa7dcc5b814a6aa0642",
+          "1": "debf34dfb867a818fd43229c7feefd9a9fbe6e39cfec2c4a04178e8c3d8791cb",
+          "2": "b5ae3178d269369ad7a18eb2b9140395013b0f0bad79f6188186fbeaefae4b0d"
+        }
+      },
+      "B14_class": {
+        "offset": -2.0,
+        "checkpoint_sha256": {
+          "0": "ab3c5e9b2d5acde75057ae06ff7b1342a55393edfcdfc49ff828bc41897002c5",
+          "1": "81e690f2493523ac3bf05f7bea5feb1fd64dd733cb41c4cfab991c6c8bf5ffac",
+          "2": "295cb70dcabefd7d479d1989c5767f10a0553ca4ff8f0d204d338e10648c8968"
+        }
+      },
+      "B14_class_video": {
+        "offset": -2.0,
+        "checkpoint_sha256": {
+          "0": "7f6cd4ba44bea01af95a0d7c3eb84a55d846c7624691927ac7b19eed1df3a122",
+          "1": "af5017bd8e1e5f35b69b767abd167806f856edb8161e40efad6ecd2b083a72b4",
+          "2": "dc6af14b0de465be9a33310217d3f5d2a57b27f3fce2bc66dad9a5f0eb8add29"
+        }
+      },
+      "S14_native_sam": {
+        "offset": -1.75,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "max_requests": 320,
+    "byte_cap": 268435456,
+    "per_image_byte_cap": 5242880,
+    "input_sha256": {
+      "semantic_artifacts/coco_range_metadata/summary.json": "42081548265ba83750c8e1de3b35d0408dca8bbedc9e827ecaf7be54370a8913",
+      "semantic_artifacts/coco_range_metadata/verification.json": "b471e58bb7b433cb845de032954d7c1e2ad99c0feb26fe837d89a5951b231cca",
+      "semantic_artifacts/coco_range_metadata/instances_val2017.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+      "semantic_artifacts/dino_class_video_sampling/summary.json": "2014bab176b3071ae0c949a305c77a8352166e7dd3fcd02af66ee3a7a11bb40e",
+      "semantic_artifacts/dino_class_video_sampling/verification.json": "c700d43e9aba742fc76b863c8b4dc88d1408ca1dedcddc607e5d6d9751a04be9",
+      "semantic_artifacts/dino_class_video_sampling/frozen_selection.json": "5108130b2636dbf174cb180bf76b4cb76e2dbc5491a5670b2d03b7583c9cabf6",
+      "semantic_artifacts/dino_backbone_training/frozen_selection.json": "ada792332bf8c8a287d20fc904467f4b14928fa5606d092bd3581d800b804d6b",
+      "semantic/coco_cohort.py": "2fbbaad26f19e4bf21ece846e7ea356a32d95ac07a7ea27f1a960c917271cfd0",
+      "semantic/OVIS_COCO_COHORT_PROTOCOL.md": "25e5c8c72a51b61a021b5d000f3470a96125bb90438ab22ab339508b5756c778",
+      "semantic_artifacts/ovis_frame_index/index.sqlite": "95a373506edf074b3b444e553b2b8a171b19f74083bf865f0d90c4e90bc6f2b1",
+      "semantic_artifacts/ovis_frame_index/summary.json": "9456cfbd9235119ec90e2812425b5ab26f673f5ee8ffbed60f37016fc02e97cc",
+      "semantic_artifacts/ovis_frame_index/verification.json": "2b1603375f331e8e255990f2cd0c133ffc814e65985514b251d01473bed0df07",
+      "semantic_artifacts/external_local_rgb/image_records.json": "a20b15a52efb8de3f82c80d00732ca97d5ed77e47e365cf9597aa6268d459618",
+      "semantic_artifacts/external_class_panel/image_records.json": "f10741e97b2e8958bc0bc2dc16fea9dd01ca0208dc0c9376ec4a9d0c5dd65468",
+      "semantic_artifacts/external_capacity_panel/image_records.json": "a52f3fc9e708f120f427ec98111b835d1bb97f863823b68051d19e1202391150",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed0.pt": "6899ed492c55d2aae0cbf314ec49f8aca58637293134abc8efeea8fa929c7013",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed1.pt": "011b356dd50f941e36f0ce062a9f01148b5e8835ec37b18378639de53d69804c",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed2.pt": "348b2edfe7770d2c9d70d74d45e52d87522fd6e512b9116a344bcf77023ab7b7",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed0.pt": "3d746942ff7118d506982b2ecb1c989a5d3dbe40a8ef4fa7dcc5b814a6aa0642",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed1.pt": "debf34dfb867a818fd43229c7feefd9a9fbe6e39cfec2c4a04178e8c3d8791cb",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed2.pt": "b5ae3178d269369ad7a18eb2b9140395013b0f0bad79f6188186fbeaefae4b0d",
+      "semantic_artifacts/dino_class_video_sampling/class/runs/linear_seed0.pt": "ab3c5e9b2d5acde75057ae06ff7b1342a55393edfcdfc49ff828bc41897002c5",
+      "semantic_artifacts/dino_class_video_sampling/class/runs/linear_seed1.pt": "81e690f2493523ac3bf05f7bea5feb1fd64dd733cb41c4cfab991c6c8bf5ffac",
+      "semantic_artifacts/dino_class_video_sampling/class/runs/linear_seed2.pt": "295cb70dcabefd7d479d1989c5767f10a0553ca4ff8f0d204d338e10648c8968",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed0.pt": "7f6cd4ba44bea01af95a0d7c3eb84a55d846c7624691927ac7b19eed1df3a122",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed1.pt": "af5017bd8e1e5f35b69b767abd167806f856edb8161e40efad6ecd2b083a72b4",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed2.pt": "dc6af14b0de465be9a33310217d3f5d2a57b27f3fce2bc66dad9a5f0eb8add29",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+    }
+  },
+  "manifest_sha256": "2b87049e3993b034b5b75bb1299b19f8d07653fcb3046a92b027931819ae097f",
+  "scope": "partial RGB acquisition failure, not complete cohort or model evaluation",
+  "planned_candidate": 80,
+  "planned_reserve": 80,
+  "completed_candidate": 51,
+  "completed_reserve": 0,
+  "missing_images": 109,
+  "received_RGB_bytes": 9220422,
+  "GET_attempts": 71,
+  "request_error_counts": {
+    "URLError": 2
+  },
+  "failed_image_id": 460379,
+  "last_two_requests_zero_body": true,
+  "failure": {
+    "type": "RuntimeError",
+    "message": "Image 460379 not complete after at most two requests; no replacement"
+  },
+  "all_completed_ETag_MD5_verified": true,
+  "image_records_sha256": "c61428d9fb873b5070df87f6f2bdc0fc2da505fe1c7c03a835290ff889755b9b",
+  "requests_sha256": "e9408d5955b59597ebb786b88d768e6df6daadabafa3c675dba9604091c71f84",
+  "no_replacement_or_GT_or_model_evaluation": true,
+  "duplicate_screen_not_completed": true,
+  "deployment_unchanged": "native_gt"
+}
