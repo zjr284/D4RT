@@ -1,0 +1,21 @@
+{
+  "summary_sha256": "34b820435dc3c8483d21f74c487a44c4bcbce1d32a5be594635259ca31781ce7",
+  "new_group_count": 40,
+  "GT_frames_two_policies_replayed": 640,
+  "feature_first_effective_group_replays": {
+    "S14": {
+      "strict": "00385",
+      "consensus": "00181"
+    },
+    "B14": {
+      "strict": "00385",
+      "consensus": "00181"
+    }
+  },
+  "logit_packages_recomputed": 24,
+  "all_six_policy_contrast_bootstraps_recomputed": true,
+  "direct_additional_legacy_backbone_fingerprints_verified": 158,
+  "main_freeze_S14_weight_and_vendor_were_indirect_recipe_references": true,
+  "all_old_inputs_models_offsets_unchanged": true,
+  "original40_reserve_unprocessed": true
+}
