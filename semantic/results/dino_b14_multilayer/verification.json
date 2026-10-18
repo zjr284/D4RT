@@ -1,0 +1,13 @@
+{
+  "summary_sha256": "139f15c83146878b8af8ffa99afb1e02e0784af7a432a444c1a58cfb21de0c5c",
+  "all100_query_metadata_and_last_layer_value_hashes_checked": true,
+  "independent_block_hook_mean_and_last_feature_replays": {
+    "train": 562,
+    "val": 258
+  },
+  "all3_sampler_histogram_and_checkpoint_rules_recomputed": true,
+  "all6_val_logits_and_calibration_contrast_selection_recomputed": true,
+  "vendor_and_backbone_match_original58_fingerprints": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_confirmation_or_deployment_change": true
+}
