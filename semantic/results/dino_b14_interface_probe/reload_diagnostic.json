@@ -1,0 +1,463 @@
+{
+  "protocol": {
+    "reason": "R73 independent B2 bare reload failed strict bitwise check; B1 and same-process interface passed",
+    "original_summary_sha256": "86e2a4f4983a3b7d3b9447f6302f8c4804f444707555eb34d4ec61c9005a7547",
+    "script_sha256": "389f2333ea762a8481468efb6ccb91cf0d35e1b32639f1fa98ab8a38fa6a7405",
+    "arms": [
+      "parameter_requires_grad_true",
+      "parameter_requires_grad_false",
+      "parameter_requires_grad_true_repeat"
+    ],
+    "repetitions": 2,
+    "training": false,
+    "no_tolerance_change": true
+  },
+  "cases": [
+    {
+      "arm": "parameter_requires_grad_true",
+      "repeat": 0,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0010103120002895594
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.005859375,
+          "mean_absolute_difference": 0.0007493760786019266
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0032482147216796875
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00205230712890625,
+          "mean_absolute_difference": 0.00044173779315315187
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0008057664963416755
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.0036892362404614687
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true",
+      "repeat": 0,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0007806795765645802
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00390625,
+          "mean_absolute_difference": 0.0009663899545557797
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.002883699256926775
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.001667022705078125,
+          "mean_absolute_difference": 0.00040987340616993606
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0009130195248872042
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.004123263992369175
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true",
+      "repeat": 1,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0010103120002895594
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.005859375,
+          "mean_absolute_difference": 0.0007493760786019266
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0032482147216796875
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00205230712890625,
+          "mean_absolute_difference": 0.00044173779315315187
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0008057664963416755
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.0036892362404614687
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true",
+      "repeat": 1,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0007806795765645802
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00390625,
+          "mean_absolute_difference": 0.0009663899545557797
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.002883699256926775
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.001667022705078125,
+          "mean_absolute_difference": 0.00040987340616993606
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0009130195248872042
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.004123263992369175
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_false",
+      "repeat": 0,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_false",
+      "repeat": 0,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_false",
+      "repeat": 1,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_false",
+      "repeat": 1,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "uv_2d": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "visibility": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "displacement": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "normal": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        },
+        "confidence": {
+          "bitwise_equal": true,
+          "max_absolute_difference": 0.0,
+          "mean_absolute_difference": 0.0
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true_repeat",
+      "repeat": 0,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0010103120002895594
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.005859375,
+          "mean_absolute_difference": 0.0007493760786019266
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0032482147216796875
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00205230712890625,
+          "mean_absolute_difference": 0.00044173779315315187
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0008057664963416755
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.0036892362404614687
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true_repeat",
+      "repeat": 0,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0007806795765645802
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00390625,
+          "mean_absolute_difference": 0.0009663899545557797
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.002883699256926775
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.001667022705078125,
+          "mean_absolute_difference": 0.00040987340616993606
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0009130195248872042
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.004123263992369175
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true_repeat",
+      "repeat": 1,
+      "changed_times": false,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0010103120002895594
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.005859375,
+          "mean_absolute_difference": 0.0007493760786019266
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0032482147216796875
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00205230712890625,
+          "mean_absolute_difference": 0.00044173779315315187
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0008057664963416755
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.0036892362404614687
+        }
+      }
+    },
+    {
+      "arm": "parameter_requires_grad_true_repeat",
+      "repeat": 1,
+      "changed_times": true,
+      "fields": {
+        "xyz_3d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.0007806795765645802
+        },
+        "uv_2d": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.00390625,
+          "mean_absolute_difference": 0.0009663899545557797
+        },
+        "visibility": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.03125,
+          "mean_absolute_difference": 0.002883699256926775
+        },
+        "displacement": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.001667022705078125,
+          "mean_absolute_difference": 0.00040987340616993606
+        },
+        "normal": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0078125,
+          "mean_absolute_difference": 0.0009130195248872042
+        },
+        "confidence": {
+          "bitwise_equal": false,
+          "max_absolute_difference": 0.0625,
+          "mean_absolute_difference": 0.004123263992369175
+        }
+      }
+    }
+  ],
+  "all_inputs_and_weights_fixed": true,
+  "original_strict_failure_retained": true
+}

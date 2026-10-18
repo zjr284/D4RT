@@ -1,0 +1,30 @@
+{
+  "summary_sha256": "86e2a4f4983a3b7d3b9447f6302f8c4804f444707555eb34d4ec61c9005a7547",
+  "first109_B14_features_independently_recomputed": true,
+  "all18_full_semantic_arrays_recomputed": true,
+  "all27_geometry_time_reload_cases_verified_from_arrays": true,
+  "bare_geometry_independent_replays": [
+    {
+      "kind": "B1",
+      "video_ids": [
+        109
+      ],
+      "six_fields_original_and_changed_bitwise_equal": true
+    },
+    {
+      "kind": "B2",
+      "video_ids": [
+        109,
+        130
+      ],
+      "six_fields_original_and_changed_bitwise_equal": true
+    }
+  ],
+  "geometry_saved_array_comparisons": 324,
+  "geometry_independent_array_replays": 24,
+  "initial_unfrozen_reference_failure_preserved_and_frozen_reference_corrected": true,
+  "bounded_parameter_freeze_toggle_diagnosis_sha256": "e4245af9a9ab167657945284076e847ce82ab57f93c2fb7fd8035613ca487613",
+  "all_three_source_val_recipes_and9_head_fingerprints_verified": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation_or_deployment_change": true
+}
