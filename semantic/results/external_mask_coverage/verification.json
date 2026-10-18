@@ -1,0 +1,9 @@
+{
+  "summary_sha256": "475ecce201556845eecd217501c82f020acec1e21db3b0da87a6f5248fdd563c",
+  "frames_independently_replayed": 80,
+  "annotation_instances_redecoded": 396,
+  "native_duplicate_groups_directly_compared": 56,
+  "old_inputs_unchanged": true,
+  "per_class_pixel_partition_and_aggregates_recomputed": true,
+  "no_new_predictions_or_label_changes": true
+}

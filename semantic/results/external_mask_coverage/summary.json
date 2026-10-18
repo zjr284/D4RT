@@ -1,0 +1,1345 @@
+{
+  "protocol": {
+    "round": 54,
+    "scope": "post-score descriptive GT coverage audit of existing ten groups",
+    "training_updates": 0,
+    "new_features_or_predictions": 0,
+    "label_or_score_changes": 0,
+    "loss_partition_priority": [
+      "unique_instance",
+      "unknown_or_crowd",
+      "different_known",
+      "same_class_only"
+    ],
+    "input_sha256": {
+      "semantic_artifacts/external_class_panel/summary.json": "53b0c3b6787966d9f1b37b66f351ab75bb14c5c80bf78c5431f4480d22230aea",
+      "semantic_artifacts/external_class_panel/verification.json": "cbbb99c47596850fc7586f2da1f7588bbb1dd393da8f9979863e25845063ca4f",
+      "semantic_artifacts/external_class_panel/manifest.json": "f5558837c0bc58cf0385ae7f00274333a2627382643ce47556e09bfe4890d0d3",
+      "semantic_artifacts/external_class_panel/frozen_eligibility.json": "c689cd98b24a4e0309dd5901f70b5917b1305c59ec4f3c48bc84020c28a3a58f",
+      "semantic_artifacts/external_class_panel/image_records.json": "f10741e97b2e8958bc0bc2dc16fea9dd01ca0208dc0c9376ec4a9d0c5dd65468",
+      "semantic_artifacts/external_semantic_confirmation/protocol.json": "eafc2c6e96a5b84e04ebd271e5693815c36b032ca5fd85c110512fea9ee04483",
+      "semantic_artifacts/external_semantic_confirmation/frozen_selection.json": "66081e8292b6c5c4088c170bbb34815780c5665fcbf43dca9fd35b462a2434d7",
+      "semantic_artifacts/external_semantic_confirmation/summary.json": "5a40de0b02754c3435ad4c09383327f19072c03b6e18f31207ee5022202db8fe",
+      "semantic_artifacts/external_semantic_confirmation/verification.json": "75c614b1947ce160809b9c28940c51af918b57864dcb9c61b468a540caaca70b",
+      "semantic_artifacts/external_semantic_confirmation/compatibility.json": "9ce21c56d3f35d05968be078a6d3e5a4a377c3d1b400b9d722d61c6b52aa3e5e",
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/external_coco_adapter/summary.json": "05f4a1cd15246a75abc575fc67c10fd4cdbe7d973e7879a3fff3542e7f01e842",
+      "semantic_artifacts/weights/dinov2_vits14_pretrain.pth": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "semantic/external_nonperson_confirmation.py": "a7bb7afdcb91fe24f084d33072a40da0639b213130f4ecb430f7d8644b2c6390",
+      "semantic/OVIS_EXTERNAL_NONPERSON_CONFIRMATION_PROTOCOL.md": "455790f7c049b2aebe1f43e1af0b050176a2e63bbedcd37d0e07a0b33c6101c0",
+      "semantic/external_semantic_confirmation.py": "c76402972698e7740a04fc5b9d0a8068e8b1e9d47740e58ae63a60d6aa290cc4",
+      "semantic/external_coco_adapter.py": "c453d35e04368aa0b55a6ece21c2321595c948f246a971a6ea9c248e80f2f3e1",
+      "semantic/dino_native_rgb_control.py": "9ac9d5af0ab784759eb7446bbcf525f63f76b36be6e8987380aa75f12cc91e24",
+      "semantic/dino_resolution_control.py": "c151400a9f52616193e4c725d39a18d334ce998c3cc3df3571349e0d6c86091f",
+      "semantic/semantic_feature_control.py": "de09617bece72620cc66e9376e5f141805667fb68cb6ac503777fa50c572b377",
+      "semantic/background_calibration.py": "3c7831f2cfe0dad63ca89b2da5b94b529db34ccb63bd7069c97a7a28c91b40a7",
+      "semantic/run.py": "78930039d4cc6da7742dbdc1c64bb83a0d60a3840933d7d497d939229e19a7ad",
+      "semantic_artifacts/vendor/dinov2/dinov2/__init__.py": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+      "semantic_artifacts/vendor/dinov2/dinov2/configs/__init__.py": "be6503fea5e43bf81c504247a35f731f12541e567b18607152eff102137f8dc0",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/__init__.py": "a3d422bc188029270a69b231306eed8482093c0317b0ba406867a115f2e67f01",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/accumulators.py": "f7b8677699afbaaef17bb42573db0d45e1bc9a5e6f7da16573672a35f1f9a06f",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/adapters.py": "1d24004ce6ead1e35408f590867d0b1c09a4a3a65278771f574f1a3ba0d7ccba",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/augmentations.py": "10e949f266c7cffa57ffc8c5cf9dc094a8e701cdc74f1a3fefd2e02f78f8cdf7",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/cell_dino/augmentations.py": "b87c8283f717945c8429f220a769aeb0278604a38ded1c75b8adadfa1d2f3ddf",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/cell_dino/transforms.py": "18f435ff0a346d972a95c66d8b20bb1fee2fa275740e0fcc99253d982f5e3cd8",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/collate.py": "0d2bb0060094b8c86838ad5af2572a9ff0e66c73660b61be70d60f64b9508570",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/__init__.py": "00057731a94738bf3fdbc15af2bcc64f8c21e954e7ff79c0e48dae38b79202f2",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_cp.py": "bd35d07dec62ab3b5f99c78d97cdfa3fad8a617db5b844e81ded17142ef90361",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_hpa.py": "dc40cfc28ae02d2275b896189520c85c0c5d8aa9ad1d06f0ed3cd4a760ef488a",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_wtc.py": "e90ddea42e9273495f294ef584c467667bb8002758707cb154da55d37a24dc37",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/hpafov.py": "065108a515651ef21411e6951fa64197646e2887c8b772185673d3df65c4a779",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/hpaone.py": "16b080fd09d61c8241409d0e444d0b23464f7590f11df612e45efd354526ffe2",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/decoders.py": "a43ca26d46b973943ff17c5e6d0d4115cd07e01851e4fc9d46e4b13738da17f8",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/extended.py": "4f042450ff939a13d284df30a859a16f8c13ac8e3ece48e3437b8bca473980f0",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/image_net.py": "748a6d9f39b1ca9e94a2bdd61a78c40d1655508fcfae40057057fe8c74bb611b",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/image_net_22k.py": "e94c0bffc3f1aa78d770c871ecb72fbbf66a5dfcd0703f8319b263708698e351",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/loaders.py": "1f6c2f709f880c8b94717fc3ee2531f18e034ff98986c0a7e90096dc42b82b6e",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/masking.py": "4fcbc5aa4cfa069a32200b3eb39f86e09de3ac476afa7a12a2fbdfb160a892c3",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/samplers.py": "5f19029f6da99de6c81ec5e8d313d85739c66020cf8447b5b35e7f80c9071ebb",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/transforms.py": "725823be317c6a549810740c6566a2a448ba1eba85eea87769c10b986dda2e5b",
+      "semantic_artifacts/vendor/dinov2/dinov2/distributed/__init__.py": "b6aaa4151999c88a4ff031e786dc66bb2ecbc8b5421ffe72169c9c305c1414e5",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/knn.py": "1360aaaf72fa561315e269e1c714d431aa6e5aa0ec64abe4d1c26be14b4c1750",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/linear.py": "0f103e6a5578138c614a445fc36c8555a74751cc5b6a90218fe0a417baf43df8",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/utils.py": "4117190b6b216f0ad48b2dab91cea55a09a861d27cb8d8993677274b01a76fd6",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/__init__.py": "6d2d9aa7396eafa2c3d04d5609b39c068b210a5ca8368d2f7cd47f5fc3e7d152",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/backbones/__init__.py": "e6e25365ad291aad30d8bce4c9f9b906580f204c141d62be4bcc3699e563d901",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/backbones/vision_transformer.py": "9aa72220970247ccb8399e5a95d82721679c479e0f0c0096c4ef0bdff4fe6735",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/builder.py": "0b1dcd672ba5a6b5acec2fa70cfea70ee280aba264a3236e7c1139976b2d02dc",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/__init__.py": "38268a3d08272273b7a1cf03b88b1eff6604cbef519637476e9652dcef4f43bc",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/decode_head.py": "4d163967518b4ef251dbd400792a295033983a7c3eb9ce2b362df32f1bc57046",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/dpt_head.py": "4de04fd7fd8681d0bb5977f250be89d76314f97d626f717d1d09eeff14e059f7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/linear_head.py": "bf6c448f2635a5db0eb0423bf7854899c1e36f0e0897107c14dfb2bf064d0160",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/__init__.py": "a00bcccdea87b79d23b0085ad3db9728169103c236749dfda09184dc0fefa8aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/base.py": "59233aeb2bdf0266937213d5d1f12628835bc5a204f11a7b6982838f61adf28f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/encoder_decoder.py": "96d0d2ff321707888191b52ee9180ef6f38d6b7212f5d604891c764b4b46d248",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/__init__.py": "5dacc4c02607b64ee63906bbda9de9158d59d50fc2d1e4cf360455f6f749bee0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/gradientloss.py": "61d625dd618ca3fb2443d1e831949f1e79c2bc4081d72355ff932a41c8b47f89",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/sigloss.py": "97ff67edf57ebfd6570be45859545580171cfbca489803429005529ccc0e4135",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/ops/__init__.py": "1640dd76d0d09a1db46df8a1c767ff04d2a0d6004d9c9b6134d80a0f53f6c4e7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/ops/wrappers.py": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/knn.py": "5f59977c5d697579d64b1acb19244d819c54a253cdcf1b023b818418bdf841e1",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/linear.py": "cd6cb057561ab180557711b20d2f5f4916393a848375b0cefae11ff61d339865",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/log_regression.py": "273648c0937183af4b2f516b8009e7ef4ffda91b599e8512422e2c3b51829615",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/metrics.py": "2f436b2a67949955bddce0b6b58d73fe338ba362a3de4834290593f7a134e9aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/hooks/__init__.py": "590638a03129a24077f4dff2477b3d9326e234f23590d5c5715c37dff26b5638",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/hooks/optimizer.py": "1c116c35dfad8fa9abdfa5738c7e621e75c9277304fd009f48c2592571204ab1",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/__init__.py": "8d3601782bc10c5477243d1d6760c94e78a8ef8e7028476c70ee4781a693fd36",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/backbones/__init__.py": "e6e25365ad291aad30d8bce4c9f9b906580f204c141d62be4bcc3699e563d901",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/backbones/vision_transformer.py": "ed687476a2381bc708c6035b5f77e7b2560baaee36313c55f5e26aa5253adbb7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/decode_heads/__init__.py": "f440e7a342f485db7c5766359f5b747f0ed810172e89521b218e50057a94c5e4",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/decode_heads/linear_head.py": "14500d7aa301797f77774348bd6912ee2ee3e68909c9f511a2730ff340349340",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/utils/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/utils/colormaps.py": "5c421de6f63e74b098fa9bd75f5410d816336bb3bcee0194e483682766aa4036",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/__init__.py": "7fb45f0041dd007542578ecf31414a883a9e028a591f9570eec0d25afd928e9d",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/__init__.py": "99e3920edbb8635012e51b583c4264556f540f098a80dee90534a454c34b4c68",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/__init__.py": "cd269c97e28579d99706f3f31241173b22210429249742005b8a00bc8528d366",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/builder.py": "fa8456a4f2941fb3b6bc88d210c6ce43298d0b081d00af9ac0ea9050edf6d16e",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/point_generator.py": "23ff9cf80fef4472cf8a361d2df8f211fab4092925d6bb9cce18bb68a60cd6f0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/__init__.py": "7b0b68761110103819b5e8ef0733327021bcca5ac78168e8f27a5a721b1bfa43",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/builder.py": "93ad53a18707547dc53c28c52ae616da19e43064d7e4f30240d08ea50dfb955f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/__init__.py": "b3383233672410d9f13fdfb9dc47ae4543a98c45ee2361a0cc825afc5dd00e32",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/base_sampler.py": "91fd7bc656e0519b6f732a55a0f00457ba339bd98c6d3393d7ba35280442a1ed",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/mask_pseudo_sampler.py": "3ac44707526239d782a1653ad641d447ecb1003eea399e0a718790a92a476305",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/mask_sampling_result.py": "527d952b5001c86ca285a3f7895d804d12dd47b9d3c07535b6494a8b35e21d39",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/sampling_result.py": "c4b34191ab9589a098b0e46116ca9a53eedeae3adda515b8078f635096b1d492",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/__init__.py": "17ecc2ee748e92194c272e63a0db74dae0bb2ef921cecedc9cffe5c23b86dea9",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/dist_utils.py": "a3747a307397dbc10c09838d44fa90438f758977254ed305647ce96bd16bd045",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/misc.py": "97409a32ac290d34da2bb7d28a3f6ecbc975537a3aa76060fd16ab5924de400f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/__init__.py": "2c8e40b6362d507e4d1ad18700feb53897ec7403e32033065d7927dae6ccf818",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/__init__.py": "f35535dbddb96f998a9bd1a7734cbc02abb652c18a5c6df7a47e7548ac33440c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/adapter_modules.py": "e103c8bdff5c3427a59a0bf84dc70677d5fef5ac9d43445815da16537944ccbe",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/drop_path.py": "068b166f953c0939f5479ef1735736116d91bc9942990472b60d104d95f9c83a",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/vit.py": "7ad30e14310c5bee54743459f128b076195554760eefd60e1593fbfde2234021",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/vit_adapter.py": "cb89b1d4943049c0ee3e3993738fb56806239221dce72345ea054fc7fa8785b0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/builder.py": "e96e68e45a5139d16e3238c7f5690d72d4e7838c9fe9fc85273215a3b7a0115f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/decode_heads/__init__.py": "8bea632762d84b954373d0fb2e35a224786eb4692f2bf6acf4b61b0c5fc89c06",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/decode_heads/mask2former_head.py": "c7b5d0d307da7737ac087b368de5d8160053d2e7fb9c705e805e7930ad9446ad",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/__init__.py": "ca75161c95771d281968c329697642f7f84e0deaa6ec780262f4fe2c4a33fd4c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/cross_entropy_loss.py": "b5cf193e70a20c9a0936222dab0546918940b9dee714cac2c4836197ed6bf940",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/dice_loss.py": "d6dc52a33494d569b98dc165f176c1444060d2f6bd8c8f458aabcea72d2edeee",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/match_costs.py": "4cccb76ea151a0c38581f73d4da727ecb1d95a4b92ac294680adb588e6534046",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/plugins/__init__.py": "80ed4eab0a7f3c8a03c96a328a94cd972fb804cff30ccfc68e87b066ffb08fb5",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/plugins/msdeformattn_pixel_decoder.py": "66fc2f5a58638747576492250ce43e076bb119fe54a5e82569f4e6bd88a5a95b",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/segmentors/__init__.py": "02bc4c748360de2f9b4fe61b112fbd49cfcd943265f0c6f78afc2802b0d11a96",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/segmentors/encoder_decoder_mask2former.py": "06fdad9b0f24a0a3af4e4213bc1beb288fca7ad9010b24b3284103f2b9ea4e04",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/__init__.py": "091931518ac32103e9ef30be7a7b57839c1970bb4a8658f5bce0643735c73bb2",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/assigner.py": "47d015ce3a022c720fa5c8d37260c1bd39b19f77808b51dae25a0a9c7fdd70f3",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/point_sample.py": "e4f2dc0a1a4d5db984a590a85a0fb4ef224cfbfa013c1a212ee9cbcb8b49a9ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/positional_encoding.py": "3b07f2b2127f03048dcd10266e3d14818334becb56970a8cfe9ac680ec0b8753",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/transformer.py": "6bc659898dd0d4e75bbb941bb1720f696eb840667cda52fbac46feab1eac20ab",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/ops/modules/__init__.py": "2b1c15f2a30741376faebf09ac22e3fdf672b768c1717a3b7bbffaa844c0f111",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/ops/modules/ms_deform_attn.py": "ef8d800b0e3139b6ec2dbe22de3a39da653dcc88129bc246239fc47abf6524ec",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/setup.py": "629eea62ca20ad2694b4979a91fb85e644cda429049580360a3a86be4bbe477c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/utils.py": "3eb42fa16c97b21c8e69c229e71388b2db04923097912e42c29676c82f03ed44",
+      "semantic_artifacts/vendor/dinov2/dinov2/fsdp/__init__.py": "672fc23d385c86530e439c42f8c73abb585a5bb96ce87c6ad5e8fb004e631efa",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/cell_dino/backbones.py": "5e2be2a84f04bab20050f8e9c6e14870d5a2d3e7894631dd8747e00f3b5299d2",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/classifiers.py": "e2dcf8c2aaec1c695bb20dae8f808811e28f27032338f3450f2ac17e309e0e1d",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/__init__.py": "de8f3fbecabae6552ebb8f3d7dee27987b1dbc11e94143c95137c438e86a9123",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/decode_heads.py": "04eb9639a4441409b80651c3d019a6e850c32b7e709236ceb6dbbaeb9fa17713",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/encoder_decoder.py": "1baf6f59269fb99faf274900f12910a22e038a3bb6d81c6fc712c0c482041a57",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/ops.py": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depthers.py": "098e10859c1e8188d5245318911025eef1c5f37331d01e6014167027b25cd5b7",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/dinotxt.py": "9124df0f7f8f21995f33a86a4e6545c11e25591f7bafcbe96a299ae6bd070677",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/dinotxt_model.py": "7ef7bfceaacfd1566a3984038a691edeaf9b9f42910583e5de62a00e3cf852d0",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/dinov2_wrapper.py": "834423f869038ce7c2b1794564018e0d3ca8194faa6d4c17f0d208b1625d0c64",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/text_tower.py": "fa591e45ad0e7400290e716ff0ddca102fd646edc2da448807c1006a5b94744f",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/text_transformer.py": "7138271bc95251d33a172cead1392434b9f8f7b1401fe1e0b4c37e64ff2bf354",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/tokenizer.py": "85078188841107932343123f29104288615b41ca4e5d1eb2d8623e02a8ac749a",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/vision_tower.py": "2496418c885c01ba7b7b9172d72906911ad950211c08a6e085ef2ee574405ebb",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/utils.py": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/xray_dino/backbones.py": "23c4513ac900815772d6076d2dd8c6e8564cd85ec11873c8ebe62e5de0647d03",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/__init__.py": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/attention.py": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/block.py": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/dino_head.py": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/layer_scale.py": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/mlp.py": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/patch_embed.py": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/swiglu_ffn.py": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "semantic_artifacts/vendor/dinov2/dinov2/logging/__init__.py": "fff00c7e5d5381b55d8f820ba3a1f8f0902af15dacb3159fe5c6e3b542771c40",
+      "semantic_artifacts/vendor/dinov2/dinov2/logging/helpers.py": "5c2ee4b35f6c160836c7f5e7f3db1246662499ecc6ec8e53d06f14fef71504ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/__init__.py": "e5ae2143dd98108f81d26c276e2048fa339cde5f5fe369e2d6797acea09912bf",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/dino_clstoken_loss.py": "49f0b2b75c2feba83b3fc9dfb40ef5eb4e3db350ab1e12a63d75d3060a88f7df",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/ibot_patch_loss.py": "19c0ffc85c8af01657ad2e6cffc2d4d311415b10807f63c2d6341195c7a62ddb",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/koleo_loss.py": "ddccd75b7985d5e584f0fe6f3fb1ac474b9cbd9a6fd6fb6c6ae471ca479085d1",
+      "semantic_artifacts/vendor/dinov2/dinov2/models/__init__.py": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/cell_dino/knn.py": "944113cdf344910011150a52e7874dce69640e0afb8e438a4c7e582349bbe1ff",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/cell_dino/linear.py": "efb20708485a41bacd8db2a6a274988fac3e1e7cfec5290050293a8b587e7601",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/knn.py": "21d1ed25bc9206b412e2d17bac150549f69929f5d0c924b7400a72d1bd295c31",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/linear.py": "f89eb0a2eccdd2f35e27f7a5ca91ded95e4a5699f57e8e568c58547625f87ac5",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/log_regression.py": "b4c4ddd086408c681b8b5642a26858b6c9e1a798c483a5283a983f2cd2b44c46",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/submit.py": "64597db2041e9c16a7640eeac00a299cb2761329af980f33f26a6dd025ffb541",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/train/train.py": "b469e29aaa460e509d52f19c787aad50963265d242200cad5f9ee3ce85938ba5",
+      "semantic_artifacts/vendor/dinov2/dinov2/thirdparty/CLIP/clip/simple_tokenizer.py": "47b4a3678fed8a7a8b9ca614e7728c33c6ccda5aea3bd2acebf24c081cb25b64",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/__init__.py": "64dde70804b782a876524b529b00b9775559314a88d738cf4aee914bd4dbb9c4",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/ssl_meta_arch.py": "a97cdcc721e9312f5e088f78257dbbeb98cb3af40e3e3b975aefbd6bfd1996c4",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/train.py": "04c4829d6cb428df546536cba4b2a313fae38bac084abf82758bf69483b03e89",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/checkpoint.py": "36335648d4574417c41e0fe82ddb8cc23653bbbc251b580541167b73a83b8eff",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/cluster.py": "be49f48f01edbc7d209941e1078be309bef7d06631da851cafcfdec7112d269f",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/config.py": "588574a78951ccfe7ffaad9ef7cab53d37e837e3ae98cfc1b6a976189073d87c",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/dtype.py": "610251537bcf55de8961a17dd625560eae5cfa5082e9382bbd9ded86db92e1c6",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/param_groups.py": "ec1daae9eb7c50492091504f97087e3179d46a080d7b7f131967c07cb15cf6d4",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/utils.py": "4e1419e8dd4a24d48689357ca48d304d1f895fa49f5dbf42d400ac941216e9f7",
+      "semantic_artifacts/vendor/dinov2/hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64",
+      "semantic_artifacts/vendor/dinov2/setup.py": "8ec72d3be027aee099a7b7b1c36c874be6d7ade4dd9eb69baff3975b586820ae",
+      "semantic_artifacts/external_class_panel/images/00046/00000.jpg": "dea05e80f0c1ce6e6ee4296222a239c8fadd0da7e4674206dd2ac9c08f738054",
+      "semantic_artifacts/external_class_panel/images/00046/00004.jpg": "1c0961cba7a4f67f447bfbb828dcf841ef3ab1773ebe7cef184feb34a4a3743e",
+      "semantic_artifacts/external_class_panel/images/00046/00008.jpg": "69397be32ff7040e3359e938e70aa2ae89c0dc59b75bd69ced5e5fd91c97ba35",
+      "semantic_artifacts/external_class_panel/images/00046/00012.jpg": "e74a6d96fe6e1e2686f7c1df03bccb9ccb62841ee30479832e33a55ddb9f4088",
+      "semantic_artifacts/external_class_panel/images/00046/00017.jpg": "c7830f4797df2f38ec3390625db671d051ca6cb869ab899d2da994cf0ee9282e",
+      "semantic_artifacts/external_class_panel/images/00046/00021.jpg": "b0dc65c0a5967e82d7b4e0cc3b34c627a8db699537b3372b23ce2c34b84f5210",
+      "semantic_artifacts/external_class_panel/images/00046/00025.jpg": "0197a05e4d53e135ebd151f14aa6152b0ec5cc0340d0002bb4f9ab7ba663fa50",
+      "semantic_artifacts/external_class_panel/images/00046/00029.jpg": "e1215284dca4a095a559681fa31d5bb1db97ae166d2fb0ecbe5c1826a5affab4",
+      "semantic_artifacts/external_class_panel/images/00720/00000.jpg": "f09402964259a8e7b4530e967ae4104097802667e20b9367a2d5e57ee89df910",
+      "semantic_artifacts/external_class_panel/images/00720/00003.jpg": "1fbfa33fbd18359ef6d7eb0ab7beb84724955b2b48f713f057036930c2e9b93a",
+      "semantic_artifacts/external_class_panel/images/00720/00007.jpg": "98cc07827a1dedf6a77e0dc9afbb487191de2d568137c758e923c15e227db525",
+      "semantic_artifacts/external_class_panel/images/00720/00010.jpg": "b387d4e165102750051ba27de81a35f2d314e402bd589777ba0353e7dcb892c9",
+      "semantic_artifacts/external_class_panel/images/00720/00014.jpg": "dc9d7f5abbf76a2394590f96cb31ddf49519881b5d0c3812823d5d51c50cabb6",
+      "semantic_artifacts/external_class_panel/images/00720/00017.jpg": "1d77a858b10f7a93b3e6b500178f599e70e7582f0d6e718b9c1c2dc949305176",
+      "semantic_artifacts/external_class_panel/images/00720/00021.jpg": "fcb63fdd1cad710142004ec7c378c0394c9f590e3560c6b4fdc0784d4e844f1d",
+      "semantic_artifacts/external_class_panel/images/00720/00024.jpg": "9a927a9f980dbf09654998e4e20c68673bc606fb005f587ba1a04efbf4354e4e",
+      "semantic_artifacts/external_class_panel/images/00304/00000.jpg": "7c4ec7c08c6d93b7af22e7ef2fef60cb2a2b37d28993296384cde2357d4bf1a4",
+      "semantic_artifacts/external_class_panel/images/00304/00003.jpg": "81727294e14c9f83f1f7d9e0588133a5eb4f14d4164cfc3ac4c0089080d7c043",
+      "semantic_artifacts/external_class_panel/images/00304/00005.jpg": "14b8fd92c2b23fac06202bbb86db0eb9e44d8aa4456ffaffa99c6c4a8ae1af6d",
+      "semantic_artifacts/external_class_panel/images/00304/00008.jpg": "a7b080a5b204a22455b9293a8c96b4ba1e3d88eb70b437fc6a55d91436c8e1b6",
+      "semantic_artifacts/external_class_panel/images/00304/00011.jpg": "64e6551f5024764f28333ef1ae3e8e8d36c2587632b4df376d8a1ea5d43f3728",
+      "semantic_artifacts/external_class_panel/images/00304/00014.jpg": "72e904ef340b864e16351c787bd2917a92fe361ec5eb84bd1fec045817df5300",
+      "semantic_artifacts/external_class_panel/images/00304/00016.jpg": "4ae2e10e755f6d51b1d43af6c42fd7b5dd60ec0a11700c9c62699e1134e52588",
+      "semantic_artifacts/external_class_panel/images/00304/00019.jpg": "748638aeaf2e8fbe51a53d8f4f7b829fff081e245098cd86b3f12a22f60adc9b",
+      "semantic_artifacts/external_class_panel/images/00349/00000.jpg": "61deb643ce988c265e3bc96a2a9880e1d1dccd1d2e7842e82eb853861232b71d",
+      "semantic_artifacts/external_class_panel/images/00349/00004.jpg": "c6f692c4dacd54cefb878ba9e75faa08c54dc70d63f787c93906d9e07ba14de1",
+      "semantic_artifacts/external_class_panel/images/00349/00008.jpg": "0c542bc2e8f6fab18041d543abbc15e0225f59d3cc75bae80e1ff7ed53e28c0b",
+      "semantic_artifacts/external_class_panel/images/00349/00012.jpg": "7f3cf3f19a3b9fd1a90d20ac26457e50c6d490dc5fa5dbb6c8a4b2c1a808055b",
+      "semantic_artifacts/external_class_panel/images/00349/00017.jpg": "9db871ed7c4e0aeeae453423d312ee9f33e1b01543c54300ee8b56255b6eafd0",
+      "semantic_artifacts/external_class_panel/images/00349/00021.jpg": "726cf82e1221a4ac60c5fb9507ff3a207e662f993fcec925c421eb98b7397887",
+      "semantic_artifacts/external_class_panel/images/00349/00025.jpg": "e2ba04ca923e16e0339989247d4eedee96ae3cf5481e05276b3550945ec9debb",
+      "semantic_artifacts/external_class_panel/images/00349/00029.jpg": "9f7c5b20cd0096fed671fa10ac2cdd67d4b7a72af8ff4029cae036774ca8b9ea",
+      "semantic_artifacts/external_class_panel/images/00644/00000.jpg": "f5eee45cf536738c163d020936c6283ca20b4dc0cca2e1d8d4da49a2f15a8ad0",
+      "semantic_artifacts/external_class_panel/images/00644/00003.jpg": "602cf6d0dd513468a97fc947215d788b94a3e9edd0c808056b5ef1360b0caeb1",
+      "semantic_artifacts/external_class_panel/images/00644/00005.jpg": "c165d8d9d273a7c1bc65a16eaefa78e0bce07beea2e4c63332e652154f795ba0",
+      "semantic_artifacts/external_class_panel/images/00644/00008.jpg": "5db3c2b5f7c6c783446a94cfe9910b2725df85feae07decbd7018ee5a526da8a",
+      "semantic_artifacts/external_class_panel/images/00644/00011.jpg": "6be7ca450e2a511b2d31a35fa85ccb4a14179848c0310b7a4f0d855843f52c95",
+      "semantic_artifacts/external_class_panel/images/00644/00014.jpg": "4ba91340d0607f216afea6f73d23fd9437fe2d07e82d8c2bd47fcc9fd56395d1",
+      "semantic_artifacts/external_class_panel/images/00644/00016.jpg": "7743cc935cda792799b2589500a5290e6b4eb3290e1687140356379acdfdbba6",
+      "semantic_artifacts/external_class_panel/images/00644/00019.jpg": "68969e3c0d563e09d79526b3cfe4f619ab32d1c71f83f83072cb06c0de7b6daa",
+      "semantic_artifacts/external_class_panel/images/00303/00000.jpg": "2cfab40ae0f9ea237ad461c6d372e744333bd0635a593a1eefdfb287d384eb43",
+      "semantic_artifacts/external_class_panel/images/00303/00005.jpg": "bbc7e5e73d8fd2694568b3930f7e953f37c9c4f095e0d1119f886e51603252d8",
+      "semantic_artifacts/external_class_panel/images/00303/00010.jpg": "e7df8bd06b3f60e0e72f63cd3b9b66a78c86c4819e6ad96f9a7f504481f4a344",
+      "semantic_artifacts/external_class_panel/images/00303/00015.jpg": "00a97e649695a6b671d80da2141ef8b3aa224ef472d705da996e652404b0b332",
+      "semantic_artifacts/external_class_panel/images/00303/00019.jpg": "d7c723814e64e563260859193127931e3e807bee2f8b7ef1c01d3b748958c9e1",
+      "semantic_artifacts/external_class_panel/images/00303/00024.jpg": "1a90811e770dfe818d59ead2e98d237c473377e95ea72f3d6b16d7b134761b70",
+      "semantic_artifacts/external_class_panel/images/00303/00029.jpg": "1fa43c2386f35a277691e9f3cc340d84b0b2b371e1a240d00bb57a855a75d567",
+      "semantic_artifacts/external_class_panel/images/00303/00034.jpg": "44403f74161fb86a12b6dbf53646a17e51aed24a503462b89f7cf380c7936d18",
+      "semantic_artifacts/external_class_panel/images/00238/00000.jpg": "13e803747188af6fb116fc84bfb54f72084ad5601530e4bb9c9b086c51cc6359",
+      "semantic_artifacts/external_class_panel/images/00238/00003.jpg": "8adbba6cc85b71c0b8031a88477c08b6454207094c3824c4ee81b076e253cd24",
+      "semantic_artifacts/external_class_panel/images/00238/00006.jpg": "745adbc856c7c7d9e5e8dbef338add6eb94103d1f7ce1a49e8c177e51d08fd36",
+      "semantic_artifacts/external_class_panel/images/00238/00009.jpg": "8299d0882917f545becd4d5f6b4876530e22d829096dea83fc437acc37a850d7",
+      "semantic_artifacts/external_class_panel/images/00238/00011.jpg": "7992eab9ebd863588ebab85248d620b4fd7ec47882a395dfd9069402fa49b756",
+      "semantic_artifacts/external_class_panel/images/00238/00014.jpg": "0c5b91e8a7e740637c0094e56f6be625073794e6bb196eca480f100cff537296",
+      "semantic_artifacts/external_class_panel/images/00238/00017.jpg": "ead24592346a879040bbebc782d9326cb47eba46b8d51057a1c46249ef71b184",
+      "semantic_artifacts/external_class_panel/images/00238/00020.jpg": "45abbf3f955e75603916a2df5cf7764dd29c9543fe185ef15ce00322fc7f4868",
+      "semantic_artifacts/external_class_panel/images/00312/00000.jpg": "89c187158dd139b11d06077fd0ca3e75a2ae0662cfec0d3b092097ad48660b66",
+      "semantic_artifacts/external_class_panel/images/00312/00003.jpg": "900fa57805d67936feb4df6fd3bcb6c10dd7b1358fded042d23c8539444c6604",
+      "semantic_artifacts/external_class_panel/images/00312/00007.jpg": "82263330267370a3f18c974c70e64a2ef0391d0b9940fc70b859a3a72738485b",
+      "semantic_artifacts/external_class_panel/images/00312/00010.jpg": "1df095cb03b8a1f2860284ffcebc6a1e2b896f20458957155f619af0eb0898f6",
+      "semantic_artifacts/external_class_panel/images/00312/00013.jpg": "47899fdb8dd4574c66159c9cbbb950312083522a39ccd55bfd272936e2af857e",
+      "semantic_artifacts/external_class_panel/images/00312/00016.jpg": "216b5881f0195f3792398c8bfe1082aec66c7c6214578b20c88a9ddf661bf0d0",
+      "semantic_artifacts/external_class_panel/images/00312/00020.jpg": "d1595f332581d8fbebf8b37b08349919d9958a853e523756464eff0c04f86931",
+      "semantic_artifacts/external_class_panel/images/00312/00023.jpg": "8e9df2a28df782dcb1cc2780f1b5f28d6860f97d04b7d0e1ac6c53943b0a28b5",
+      "semantic_artifacts/external_class_panel/images/00571/00000.jpg": "35ba63c7ff1923915e823ff13b02fe8c1e7b8efa78a0e9c3db48aeab245d3398",
+      "semantic_artifacts/external_class_panel/images/00571/00003.jpg": "f664e85d5c36765253b7ffead183efafb1615d276e36420f3ed1b178b444b6d0",
+      "semantic_artifacts/external_class_panel/images/00571/00007.jpg": "315545205a281dff6c6ee9dfe8c71d4143cc1d504d77ea219baac88a05944e6c",
+      "semantic_artifacts/external_class_panel/images/00571/00010.jpg": "00b2da810cc01ae69935d20bfb63e106d0dab7d621d48f1c632c30f6120587f4",
+      "semantic_artifacts/external_class_panel/images/00571/00013.jpg": "69a179bf9c1e328bd12a22395c6a6460eacf89114b703d6b6a75e16e6f3cd7c0",
+      "semantic_artifacts/external_class_panel/images/00571/00016.jpg": "54a946be40be2c71ca0efb22cf171a1f1e5b7e7d8650f7e5f524859fb1d02104",
+      "semantic_artifacts/external_class_panel/images/00571/00020.jpg": "4e23af9c5bfd572274e4d0b7aaeee55c3bc22fd955ec04afa12a180f976af9ad",
+      "semantic_artifacts/external_class_panel/images/00571/00023.jpg": "05f1a4e048a2daa44fd80585c469d09c960dff9bfa7b1059492bf12b825f573f",
+      "semantic_artifacts/external_class_panel/images/00166/00000.jpg": "c94ff3879a063521cdd651d735405112a70aeaffd58012261a60e132fa8f372c",
+      "semantic_artifacts/external_class_panel/images/00166/00002.jpg": "a6c48f2ddadf83ecec60e19ae569915c07a04bd44a204573b116f2d4dba50782",
+      "semantic_artifacts/external_class_panel/images/00166/00003.jpg": "32dfa61198fa33234a28472a1f9eaa08aed7205a99aeea3e22505fe466b1918a",
+      "semantic_artifacts/external_class_panel/images/00166/00005.jpg": "68dc95da64a586f4aa06974d24a385521539d65579984f193247cda61e1da1e2",
+      "semantic_artifacts/external_class_panel/images/00166/00006.jpg": "587a063f1950ea85e165c2d4d44ab90dc131760ab3b8e5f03cab1dd5365c6581",
+      "semantic_artifacts/external_class_panel/images/00166/00008.jpg": "b9e30e871fd9ca130ec3254700d933481d1f4a20420a1fbc60d674fd435860ff",
+      "semantic_artifacts/external_class_panel/images/00166/00009.jpg": "d4dd745fbae5a981ec1702431b88f74e94e365c41ec0aa56da14d05b34b0b933",
+      "semantic_artifacts/external_class_panel/images/00166/00011.jpg": "7dcfee5f2ba127cdb8027b5a621a600fed7e9a9b2fde7e5b11f33e5cd514fe8f",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350",
+      "semantic_artifacts/external_nonperson_confirmation/features/00046.npz": "ed14615fb6f7dd5d718810b8dc2f4286f289b9d401852345436163b6608ca211",
+      "semantic_artifacts/external_nonperson_confirmation/features/00720.npz": "906c972945ec02bf110235ee5ba91969059313cc41c1ef1e30f7736f66562579",
+      "semantic_artifacts/external_nonperson_confirmation/features/00304.npz": "018d26ea891f78299d3ba03ab87522df70458bce6981120c8c6a390c3b99cb71",
+      "semantic_artifacts/external_nonperson_confirmation/features/00349.npz": "e438039f69db1213a2db112241571615acef44b065daf2c2f77ed6ffc9cfa88a",
+      "semantic_artifacts/external_nonperson_confirmation/features/00644.npz": "286119fa116c310568e81613183547ac61491d3aafcaec8d8f89dc737bf96a97",
+      "semantic_artifacts/external_nonperson_confirmation/features/00303.npz": "82c425b0d6258a50fbaf93f5497f7be29891535e79e32495f937577754e8e720",
+      "semantic_artifacts/external_nonperson_confirmation/features/00238.npz": "71b07f9201f6975e28b6970f7973d7cc83e086a8d029704740c015d1979229c8",
+      "semantic_artifacts/external_nonperson_confirmation/features/00312.npz": "eaf506eb170a45dc4e071a9765a5ca0b112c750a8d811f05d0affccd4a434e87",
+      "semantic_artifacts/external_nonperson_confirmation/features/00571.npz": "d3ef191cfb9f8386f885aabeb76e40be5a1fefc41ee104ca2360db71f151dccb",
+      "semantic_artifacts/external_nonperson_confirmation/features/00166.npz": "94b078c11b0cfd36a17e765d6c3cb589c94c7a6b9e32378c8fc195c4feecd4e8",
+      "semantic_artifacts/external_nonperson_confirmation/summary.json": "fe02b2c9ad8db38e689413985b03466a5278d9d7d880ca4c94d440ca715b6de3",
+      "semantic_artifacts/external_nonperson_confirmation/verification.json": "e6dec2ed8cc32ec24a947013210dda28698892dec244f768cc2e1c726ebbd2c2",
+      "semantic_artifacts/external_nonperson_confirmation/manifest.json": "c28b7155816e146c4869e03a696aac37876a9f4881fcf69d2c0cdb6f1f17a8eb",
+      "semantic_artifacts/external_nonperson_confirmation/query_coverage.json": "dfde7b0050218f08ea2d7407f4c4526b9481dfbc8deaf9e63c8af3305a75a87e",
+      "semantic/external_mask_coverage.py": "84ec3c4b108b39e7cb2666915d59a8c9a98e447b54a173cdc27aa1cb886be990",
+      "semantic/OVIS_EXTERNAL_MASK_COVERAGE_PROTOCOL.md": "4ea3211789c473e673f3106295a6019a20bf2f0fc407c2f71a7bcf589c02b7ea",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_0_confirmation.npz": "5e7a93c39d81e2192367dc9d9c05c18bb05f4e79c8075c24fa3dada83d68a3f6",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_1_confirmation.npz": "355b7f3eecda237c35204d030be5559586def1d0e591492473056363a0824193",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_2_confirmation.npz": "e2e54eabf2487546a93219b1d8be89cf2af1225a1c3b0921f35bdd7de7ac1c1c",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_0_confirmation.npz": "8ed054ee714dafe4af8fa68c5bb865e398b821713174e7cd2c3bf7ba16bd1d00",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_1_confirmation.npz": "53d5d45976a1647fee068819fb4ded594f02826b1e323913900142e6553fbf13",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_2_confirmation.npz": "ca0ecd5ac4fcf667b64f614adf256c63cb0a3af2f3ed649804c1284fd0da93e0",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_0_confirmation.npz": "cde5bf8f4bb5f56fe54c2eb3269dee72ba4b7ada17951fe4f7e6fd7831699ce5",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_1_confirmation.npz": "4a605121f2ffc78811088ce48c613cb608a90d20bff061a2fd374caeaf76bfbe",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_2_confirmation.npz": "5bf2e11f60a4fb289e444819dc69eb478d4d114f8c4efead1c08de28c1f07bfb",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_0_confirmation.npz": "672d673b01eb05dd7ec686011806ded08ccaff0098512a5c7e75e9922ebe3aa0",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_1_confirmation.npz": "011d65be8c8aaf3de1a0f585a636c1dc2c85c4e1a0c90a159dd32ec1bb59ed0a",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_2_confirmation.npz": "d41f9382c9135210c1fc8241209f7b2f66f3b22568d8da42e9216f46a33de791"
+    }
+  },
+  "by_class": {
+    "2": {
+      "native_union_pixels": 2709521,
+      "candidate_128_pixels": 48149,
+      "kept_unique_pixels": 0,
+      "unknown_or_crowd_overlap_pixels": 22952,
+      "different_known_overlap_pixels": 25197,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 16,
+      "native_nonempty_instances": 16,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 16,
+      "frames_native_nonempty": 16,
+      "frames_candidate_nonempty": 16,
+      "frames_kept_nonempty": 0
+    },
+    "3": {
+      "native_union_pixels": 1588426,
+      "candidate_128_pixels": 28204,
+      "kept_unique_pixels": 0,
+      "unknown_or_crowd_overlap_pixels": 28204,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 0
+    },
+    "4": {
+      "native_union_pixels": 329096,
+      "candidate_128_pixels": 5840,
+      "kept_unique_pixels": 0,
+      "unknown_or_crowd_overlap_pixels": 5840,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 0
+    },
+    "5": {
+      "native_union_pixels": 699278,
+      "candidate_128_pixels": 6252,
+      "kept_unique_pixels": 102,
+      "unknown_or_crowd_overlap_pixels": 6149,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 1,
+      "instances": 12,
+      "native_nonempty_instances": 12,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 6,
+      "frames_native_nonempty": 6,
+      "frames_candidate_nonempty": 6,
+      "frames_kept_nonempty": 6
+    },
+    "6": {
+      "native_union_pixels": 451795,
+      "candidate_128_pixels": 8014,
+      "kept_unique_pixels": 8013,
+      "unknown_or_crowd_overlap_pixels": 1,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 8
+    },
+    "15": {
+      "native_union_pixels": 1417796,
+      "candidate_128_pixels": 25199,
+      "kept_unique_pixels": 0,
+      "unknown_or_crowd_overlap_pixels": 2,
+      "different_known_overlap_pixels": 25197,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 0
+    },
+    "17": {
+      "native_union_pixels": 74815,
+      "candidate_128_pixels": 1344,
+      "kept_unique_pixels": 4,
+      "unknown_or_crowd_overlap_pixels": 1340,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 1
+    },
+    "19": {
+      "native_union_pixels": 25565,
+      "candidate_128_pixels": 455,
+      "kept_unique_pixels": 436,
+      "unknown_or_crowd_overlap_pixels": 19,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 5,
+      "native_nonempty_instances": 5,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 5,
+      "frames_native_nonempty": 5,
+      "frames_candidate_nonempty": 5,
+      "frames_kept_nonempty": 5
+    },
+    "21": {
+      "native_union_pixels": 59221,
+      "candidate_128_pixels": 1047,
+      "kept_unique_pixels": 1047,
+      "unknown_or_crowd_overlap_pixels": 0,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 8
+    },
+    "22": {
+      "native_union_pixels": 48131,
+      "candidate_128_pixels": 851,
+      "kept_unique_pixels": 851,
+      "unknown_or_crowd_overlap_pixels": 0,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 8
+    },
+    "23": {
+      "native_union_pixels": 1575398,
+      "candidate_128_pixels": 14013,
+      "kept_unique_pixels": 14013,
+      "unknown_or_crowd_overlap_pixels": 0,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 8
+    },
+    "24": {
+      "native_union_pixels": 1508801,
+      "candidate_128_pixels": 26823,
+      "kept_unique_pixels": 0,
+      "unknown_or_crowd_overlap_pixels": 26823,
+      "different_known_overlap_pixels": 0,
+      "same_class_only_overlap_pixels": 0,
+      "instances": 8,
+      "native_nonempty_instances": 8,
+      "native_nonempty_raster_empty_instances": 0,
+      "frames_with_metadata_instance": 8,
+      "frames_native_nonempty": 8,
+      "frames_candidate_nonempty": 8,
+      "frames_kept_nonempty": 0
+    }
+  },
+  "by_group": {
+    "00046": {
+      "frames": 8,
+      "frames_with_nonperson": 5,
+      "nonperson_pixels": 436,
+      "class_ids": [
+        19
+      ]
+    },
+    "00720": {
+      "frames": 8,
+      "frames_with_nonperson": 0,
+      "nonperson_pixels": 0,
+      "class_ids": []
+    },
+    "00304": {
+      "frames": 8,
+      "frames_with_nonperson": 0,
+      "nonperson_pixels": 0,
+      "class_ids": []
+    },
+    "00349": {
+      "frames": 8,
+      "frames_with_nonperson": 6,
+      "nonperson_pixels": 102,
+      "class_ids": [
+        5
+      ]
+    },
+    "00644": {
+      "frames": 8,
+      "frames_with_nonperson": 8,
+      "nonperson_pixels": 8013,
+      "class_ids": [
+        6
+      ]
+    },
+    "00303": {
+      "frames": 8,
+      "frames_with_nonperson": 0,
+      "nonperson_pixels": 0,
+      "class_ids": []
+    },
+    "00238": {
+      "frames": 8,
+      "frames_with_nonperson": 1,
+      "nonperson_pixels": 4,
+      "class_ids": [
+        17
+      ]
+    },
+    "00312": {
+      "frames": 8,
+      "frames_with_nonperson": 8,
+      "nonperson_pixels": 1898,
+      "class_ids": [
+        21,
+        22
+      ]
+    },
+    "00571": {
+      "frames": 8,
+      "frames_with_nonperson": 8,
+      "nonperson_pixels": 14013,
+      "class_ids": [
+        23
+      ]
+    },
+    "00166": {
+      "frames": 8,
+      "frames_with_nonperson": 0,
+      "nonperson_pixels": 0,
+      "class_ids": []
+    }
+  },
+  "native_geometry_duplicate_groups": [
+    {
+      "group": "00046",
+      "image_id": 1057,
+      "geometry_sha256": "8d894743c90e2426130675c31b30d57cc41ca0e8a3f410e2dc8f1fe71cccfffe",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1061,
+      "geometry_sha256": "fb3a62d518634d36751507e7e209b717a7ac1036cda1eeb43436857db1823cd1",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1065,
+      "geometry_sha256": "41dd90badb09944fd4229933685df571955bca037e43ab34645bf36e0f6965d9",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1069,
+      "geometry_sha256": "e288b209b9b0ecdef5ddb248a2c521e3d74e59d0980357aef3b2f84276c5c857",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1074,
+      "geometry_sha256": "a4709ea699865298cba3aaef885e97cb2ae865a9370163af671c6dddbab92d2d",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1078,
+      "geometry_sha256": "9fe8091d5f5fad0b846100cb7481fd878713b738ac588a2360e5e87ef3db19c9",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1082,
+      "geometry_sha256": "6486dde4efe6df49d3770204841c3ff9c9f994c187d562af8e2d627d8ce4da4e",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00046",
+      "image_id": 1086,
+      "geometry_sha256": "cd9347f006807201555b22dd594be160d393d70dfcf74d23c109eed537249943",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        539
+      ],
+      "mapped_classes": [
+        2
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16387,
+      "geometry_sha256": "07b00c56b40e80b95499687d5627db52a3f44c35fd4c40306e3937017e644920",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16390,
+      "geometry_sha256": "52f524abb8975ebba585abbafac73bedc0d54b786c081a46c47e245878c32e22",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16394,
+      "geometry_sha256": "e7e0504b2758cc57903ffde57c69f7d1b2f427825600a79979772644a632179d",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16397,
+      "geometry_sha256": "bfd3ff25b9d143f56e274788e9a9172c90ded9aa4d79c6c6e2e5b5f4f36275fb",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16401,
+      "geometry_sha256": "5bc8c807d99a9482e8b203f34f48091c95367cfaa93cc5d51cd417b09e345530",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16404,
+      "geometry_sha256": "8cdab7644a78f0804bd9bfa71653074819f87dd044a6271e7ad6d9d2ace6f2e0",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16408,
+      "geometry_sha256": "a3e65b75127059d917c0afa19c4eaf25d6e3bdd933edcd1edd89e7b6898924b7",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00720",
+      "image_id": 16411,
+      "geometry_sha256": "3736a17ad18d32d93bab2b44ad139ad3c00a5b0d8c2f0f25d592db921440fcf8",
+      "annotation_count": 3,
+      "category_ids": [
+        213,
+        837
+      ],
+      "mapped_classes": [
+        3
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6867,
+      "geometry_sha256": "036560b38902821216c8981dfbffd6303266814732ab1afa9da680bfd1ce89fe",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6870,
+      "geometry_sha256": "e5c430c7aa7397deebeec1ff84e4be7415c227eeeae4c214ddc2f157d9f03341",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6872,
+      "geometry_sha256": "8bdd6e842a8c4198bb2a1b0246d93c825a430064c9a6d7c98d8ad3bce7d6190d",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6875,
+      "geometry_sha256": "27ce2e2c726c181df00e8f34c72f47beba333d889a25edea7d2b4c9c7c9c4fe9",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6878,
+      "geometry_sha256": "06ee31ace4983d2f3a32deb391eab59b8c174c5aeffe5635b12db831ce0ddaa5",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6881,
+      "geometry_sha256": "651b68c3e11aeb7c0693ee18e75bbac0b232de5d9cde7db1d10366a712aed781",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6883,
+      "geometry_sha256": "e6ab92070e9003f51dc1b5052396623bcad4d5a420e6258d0a615cf094602ce1",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00304",
+      "image_id": 6886,
+      "geometry_sha256": "9a2d2f8f7c590ea1a95b4f892d1ca2778271a7c70fed6a9969cea024c191c266",
+      "annotation_count": 2,
+      "category_ids": [
+        322,
+        346
+      ],
+      "mapped_classes": [
+        4
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00303",
+      "image_id": 6832,
+      "geometry_sha256": "811361f36843615b13b2bac64cddfee41280494e700f7aefe3ddc9e314ca9582",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6837,
+      "geometry_sha256": "61a0bc45e9f15115ef210d75701af049c0e91da0a43592be0b7640d0cc3e3c69",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6842,
+      "geometry_sha256": "59ac7f9dc3be67a2b5135715b97eb05c7b75694030a157652aed2ecde992d740",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6847,
+      "geometry_sha256": "5f10cb5830672633a886d001b3464665659c4c51e46126e94516ccb572c8d629",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6851,
+      "geometry_sha256": "7d7b7b547d995c3387ecb33bdd48e547c7ec612d4a3f8ccb0d2a3fa8a1b3377d",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6856,
+      "geometry_sha256": "a54092808d82cecd065edfef65b8bd069391cfe7d076075833cd7e1c2456305d",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6861,
+      "geometry_sha256": "e40e33b2168f14785df4182ffacef3ad6117572fe07d6fa3cea1797a4d565f2c",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00303",
+      "image_id": 6866,
+      "geometry_sha256": "3f2f4b0181cf6b555ce8b8aa898fcaa75dea11f7d9012ed7ab67c25eba86f0bc",
+      "annotation_count": 2,
+      "category_ids": [
+        107,
+        754
+      ],
+      "mapped_classes": [
+        2,
+        15
+      ],
+      "has_unknown_or_crowd": false
+    },
+    {
+      "group": "00312",
+      "image_id": 7020,
+      "geometry_sha256": "5eee0ae3a54228433f1824235ffb7721db32d7fba2b7194ce7f841be2a5f074b",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7020,
+      "geometry_sha256": "a04c0af1527a40d7d87ca8d7308fc1074fe1c7678e43225fc98965b006f9ea06",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7023,
+      "geometry_sha256": "65f287d8cc2730fcbf2a0e96faf715849b8013ee5ebfe00dbf76304651405e73",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7023,
+      "geometry_sha256": "df24b2aede4bf7ac1edd6fd3a14bd03ff07b4bd26574985fcd13f66c7da8820c",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7027,
+      "geometry_sha256": "c764fd64b9f9fa3af1b6afe2540a24e2745f4fb11517df9481f6d214ab55ff9a",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7027,
+      "geometry_sha256": "c8d881eb0195d9c0ce8de216e53eec8d1b1a26c4d7f5d602ae8136c9b5536cd1",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7030,
+      "geometry_sha256": "47870ed2fae03845cece43e142fc2b8eb5a6b48a6fa92672094aa4d638fa84e7",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7030,
+      "geometry_sha256": "f209a43fd963a6a2492f2ff9f96ab4444b79cc420a65e12884442da2cd1770cd",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7033,
+      "geometry_sha256": "341ef2c322111f5b55cb6336346ddb438db27eb1a0f7a996f1e449628e244053",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7033,
+      "geometry_sha256": "d39011b6281f772090001defbf2f1ea3c7c6110063d9f03ec0030cb8c8a2b634",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7036,
+      "geometry_sha256": "29443b14c832c06cac5cf9688b5ec5ff1425601a516748b079a056b5c761eb6b",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7036,
+      "geometry_sha256": "a7c2ab3fc0cf2f29bbc6b254ebca10c824736c43d698a5207bc5ce9241e0a4ac",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7040,
+      "geometry_sha256": "7d6926af0028fac405ad4bf1613290bec65f2a1aa007ff62fba87fd52d5d477c",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7040,
+      "geometry_sha256": "da2370f80c535a613c84c20b98c0fa89b2da56188504796da76c589c3620aefd",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7043,
+      "geometry_sha256": "abd9f524bca6edf3d8323cfe5cbc2a4c97a15389e2941c3b53e975a17f61ba80",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00312",
+      "image_id": 7043,
+      "geometry_sha256": "c3a81dcdfc36eaa398c883e1434060aa67667202d1e469a2fd619c8016da55ed",
+      "annotation_count": 2,
+      "category_ids": [
+        134,
+        932
+      ],
+      "mapped_classes": [],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3794,
+      "geometry_sha256": "4218face123f84e4e94dc4eb70b5662c9efdf5ef7645298ed247f5a84bc8a710",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3796,
+      "geometry_sha256": "80d52dbe3f18ea7c8d553b8fd87f93ed2437bfc30b45c102561160091378a5fa",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3797,
+      "geometry_sha256": "6bae1f89b9f16ce6bfcf1fa4fb1e5746beb4f0cb2b3e7f6ef8d65fb1f15abd17",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3799,
+      "geometry_sha256": "0ad55ca2e2b2f8d71392b84fbb276edb7341ba55b1c2e45ce01527135d96156b",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3800,
+      "geometry_sha256": "c2dd91d16eecb9c374bf9ee3429c515cd5c27c5903e9a7dace25339c34aa342e",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3802,
+      "geometry_sha256": "96062d61cdce3385fbe2dedaed51a38ed06078aaaa157b23d968af69d4919748",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3803,
+      "geometry_sha256": "bc43ba7ba83d1cd088b72a159c0bcefd38c3bea11a021798a997bb615f10d184",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    },
+    {
+      "group": "00166",
+      "image_id": 3805,
+      "geometry_sha256": "fe02170d37ba72f871f6a7d58e9e123dcd9bb18671cacfb309debc77a353083c",
+      "annotation_count": 2,
+      "category_ids": [
+        123,
+        884
+      ],
+      "mapped_classes": [
+        24
+      ],
+      "has_unknown_or_crowd": true
+    }
+  ],
+  "duplicate_geometry_group_count": 56,
+  "cross_category_duplicate_group_count": 56,
+  "same_category_duplicate_group_count": 0,
+  "annotated_instances": 396,
+  "frames": 80,
+  "frame_ledger_sha256": "1b66668a09b8e0f74348b9a2e73ed779913caa982413e72eaab6661bf05dc5c2",
+  "prior_scores_unchanged": true,
+  "unused_reserve_groups_processed": 0,
+  "deployment_unchanged": "native_gt"
+}
