@@ -1,0 +1,2652 @@
+{
+  "protocol": {
+    "round": 55,
+    "scope": "post-score descriptive label-policy sensitivity, not new confirmation",
+    "selection": {
+      "source_gt": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8060446298710214,
+          0.7760234418905025,
+          0.773850217729252
+        ],
+        "mean_validation_macro": 0.7853060964969253,
+        "checkpoint_sha256": {
+          "0": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+          "1": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+          "2": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9"
+        }
+      },
+      "source_gt32": {
+        "offset": -1.25,
+        "validation_macro_by_seed": [
+          0.8174490216045767,
+          0.78755143017452,
+          0.7828979818854297
+        ],
+        "mean_validation_macro": 0.7959661445548422,
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        }
+      },
+      "lambda0": {
+        "offset": -1.5,
+        "validation_macro_by_seed": [
+          0.8140013249939926,
+          0.7814137232707927,
+          0.7810966762783835
+        ],
+        "mean_validation_macro": 0.7921705748477229,
+        "checkpoint_sha256": {
+          "0": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+          "1": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+          "2": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e"
+        }
+      },
+      "native_sam": {
+        "offset": -1.75,
+        "validation_macro_by_seed": [
+          0.7963718214470588,
+          0.7747075070159495,
+          0.7736122602638308
+        ],
+        "mean_validation_macro": 0.7815638629089463,
+        "checkpoint_sha256": {
+          "0": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+          "1": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+          "2": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350"
+        }
+      }
+    },
+    "primary": [
+      "source_gt32",
+      "source_gt"
+    ],
+    "secondary": [
+      [
+        "native_sam",
+        "source_gt"
+      ],
+      [
+        "lambda0",
+        "source_gt"
+      ]
+    ],
+    "bootstrap_seed": 20261055,
+    "bootstrap_repetitions": 2000,
+    "training_updates": 0,
+    "calibration_updates": 0,
+    "input_sha256": {
+      "semantic_artifacts/external_class_panel/summary.json": "53b0c3b6787966d9f1b37b66f351ab75bb14c5c80bf78c5431f4480d22230aea",
+      "semantic_artifacts/external_class_panel/verification.json": "cbbb99c47596850fc7586f2da1f7588bbb1dd393da8f9979863e25845063ca4f",
+      "semantic_artifacts/external_class_panel/manifest.json": "f5558837c0bc58cf0385ae7f00274333a2627382643ce47556e09bfe4890d0d3",
+      "semantic_artifacts/external_class_panel/frozen_eligibility.json": "c689cd98b24a4e0309dd5901f70b5917b1305c59ec4f3c48bc84020c28a3a58f",
+      "semantic_artifacts/external_class_panel/image_records.json": "f10741e97b2e8958bc0bc2dc16fea9dd01ca0208dc0c9376ec4a9d0c5dd65468",
+      "semantic_artifacts/external_semantic_confirmation/protocol.json": "eafc2c6e96a5b84e04ebd271e5693815c36b032ca5fd85c110512fea9ee04483",
+      "semantic_artifacts/external_semantic_confirmation/frozen_selection.json": "66081e8292b6c5c4088c170bbb34815780c5665fcbf43dca9fd35b462a2434d7",
+      "semantic_artifacts/external_semantic_confirmation/summary.json": "5a40de0b02754c3435ad4c09383327f19072c03b6e18f31207ee5022202db8fe",
+      "semantic_artifacts/external_semantic_confirmation/verification.json": "75c614b1947ce160809b9c28940c51af918b57864dcb9c61b468a540caaca70b",
+      "semantic_artifacts/external_semantic_confirmation/compatibility.json": "9ce21c56d3f35d05968be078a6d3e5a4a377c3d1b400b9d722d61c6b52aa3e5e",
+      "semantic_artifacts/external_annotation_acquisition/downloads/lvvis_validation_oracle.data": "4ae0f79cd7cde4d0f8aeb7f5c445175e2980691555e6fece36a21c1a77c65203",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/external_coco_adapter/summary.json": "05f4a1cd15246a75abc575fc67c10fd4cdbe7d973e7879a3fff3542e7f01e842",
+      "semantic_artifacts/weights/dinov2_vits14_pretrain.pth": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "semantic/external_nonperson_confirmation.py": "a7bb7afdcb91fe24f084d33072a40da0639b213130f4ecb430f7d8644b2c6390",
+      "semantic/OVIS_EXTERNAL_NONPERSON_CONFIRMATION_PROTOCOL.md": "455790f7c049b2aebe1f43e1af0b050176a2e63bbedcd37d0e07a0b33c6101c0",
+      "semantic/external_semantic_confirmation.py": "c76402972698e7740a04fc5b9d0a8068e8b1e9d47740e58ae63a60d6aa290cc4",
+      "semantic/external_coco_adapter.py": "c453d35e04368aa0b55a6ece21c2321595c948f246a971a6ea9c248e80f2f3e1",
+      "semantic/dino_native_rgb_control.py": "9ac9d5af0ab784759eb7446bbcf525f63f76b36be6e8987380aa75f12cc91e24",
+      "semantic/dino_resolution_control.py": "c151400a9f52616193e4c725d39a18d334ce998c3cc3df3571349e0d6c86091f",
+      "semantic/semantic_feature_control.py": "de09617bece72620cc66e9376e5f141805667fb68cb6ac503777fa50c572b377",
+      "semantic/background_calibration.py": "3c7831f2cfe0dad63ca89b2da5b94b529db34ccb63bd7069c97a7a28c91b40a7",
+      "semantic/run.py": "78930039d4cc6da7742dbdc1c64bb83a0d60a3840933d7d497d939229e19a7ad",
+      "semantic_artifacts/vendor/dinov2/dinov2/__init__.py": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+      "semantic_artifacts/vendor/dinov2/dinov2/configs/__init__.py": "be6503fea5e43bf81c504247a35f731f12541e567b18607152eff102137f8dc0",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/__init__.py": "a3d422bc188029270a69b231306eed8482093c0317b0ba406867a115f2e67f01",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/accumulators.py": "f7b8677699afbaaef17bb42573db0d45e1bc9a5e6f7da16573672a35f1f9a06f",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/adapters.py": "1d24004ce6ead1e35408f590867d0b1c09a4a3a65278771f574f1a3ba0d7ccba",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/augmentations.py": "10e949f266c7cffa57ffc8c5cf9dc094a8e701cdc74f1a3fefd2e02f78f8cdf7",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/cell_dino/augmentations.py": "b87c8283f717945c8429f220a769aeb0278604a38ded1c75b8adadfa1d2f3ddf",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/cell_dino/transforms.py": "18f435ff0a346d972a95c66d8b20bb1fee2fa275740e0fcc99253d982f5e3cd8",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/collate.py": "0d2bb0060094b8c86838ad5af2572a9ff0e66c73660b61be70d60f64b9508570",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/__init__.py": "00057731a94738bf3fdbc15af2bcc64f8c21e954e7ff79c0e48dae38b79202f2",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_cp.py": "bd35d07dec62ab3b5f99c78d97cdfa3fad8a617db5b844e81ded17142ef90361",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_hpa.py": "dc40cfc28ae02d2275b896189520c85c0c5d8aa9ad1d06f0ed3cd4a760ef488a",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/chammi_wtc.py": "e90ddea42e9273495f294ef584c467667bb8002758707cb154da55d37a24dc37",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/hpafov.py": "065108a515651ef21411e6951fa64197646e2887c8b772185673d3df65c4a779",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/cell_dino/hpaone.py": "16b080fd09d61c8241409d0e444d0b23464f7590f11df612e45efd354526ffe2",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/decoders.py": "a43ca26d46b973943ff17c5e6d0d4115cd07e01851e4fc9d46e4b13738da17f8",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/extended.py": "4f042450ff939a13d284df30a859a16f8c13ac8e3ece48e3437b8bca473980f0",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/image_net.py": "748a6d9f39b1ca9e94a2bdd61a78c40d1655508fcfae40057057fe8c74bb611b",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/datasets/image_net_22k.py": "e94c0bffc3f1aa78d770c871ecb72fbbf66a5dfcd0703f8319b263708698e351",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/loaders.py": "1f6c2f709f880c8b94717fc3ee2531f18e034ff98986c0a7e90096dc42b82b6e",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/masking.py": "4fcbc5aa4cfa069a32200b3eb39f86e09de3ac476afa7a12a2fbdfb160a892c3",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/samplers.py": "5f19029f6da99de6c81ec5e8d313d85739c66020cf8447b5b35e7f80c9071ebb",
+      "semantic_artifacts/vendor/dinov2/dinov2/data/transforms.py": "725823be317c6a549810740c6566a2a448ba1eba85eea87769c10b986dda2e5b",
+      "semantic_artifacts/vendor/dinov2/dinov2/distributed/__init__.py": "b6aaa4151999c88a4ff031e786dc66bb2ecbc8b5421ffe72169c9c305c1414e5",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/knn.py": "1360aaaf72fa561315e269e1c714d431aa6e5aa0ec64abe4d1c26be14b4c1750",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/linear.py": "0f103e6a5578138c614a445fc36c8555a74751cc5b6a90218fe0a417baf43df8",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/cell_dino/utils.py": "4117190b6b216f0ad48b2dab91cea55a09a861d27cb8d8993677274b01a76fd6",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/__init__.py": "6d2d9aa7396eafa2c3d04d5609b39c068b210a5ca8368d2f7cd47f5fc3e7d152",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/backbones/__init__.py": "e6e25365ad291aad30d8bce4c9f9b906580f204c141d62be4bcc3699e563d901",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/backbones/vision_transformer.py": "9aa72220970247ccb8399e5a95d82721679c479e0f0c0096c4ef0bdff4fe6735",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/builder.py": "0b1dcd672ba5a6b5acec2fa70cfea70ee280aba264a3236e7c1139976b2d02dc",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/__init__.py": "38268a3d08272273b7a1cf03b88b1eff6604cbef519637476e9652dcef4f43bc",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/decode_head.py": "4d163967518b4ef251dbd400792a295033983a7c3eb9ce2b362df32f1bc57046",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/dpt_head.py": "4de04fd7fd8681d0bb5977f250be89d76314f97d626f717d1d09eeff14e059f7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/decode_heads/linear_head.py": "bf6c448f2635a5db0eb0423bf7854899c1e36f0e0897107c14dfb2bf064d0160",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/__init__.py": "a00bcccdea87b79d23b0085ad3db9728169103c236749dfda09184dc0fefa8aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/base.py": "59233aeb2bdf0266937213d5d1f12628835bc5a204f11a7b6982838f61adf28f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/depther/encoder_decoder.py": "96d0d2ff321707888191b52ee9180ef6f38d6b7212f5d604891c764b4b46d248",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/__init__.py": "5dacc4c02607b64ee63906bbda9de9158d59d50fc2d1e4cf360455f6f749bee0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/gradientloss.py": "61d625dd618ca3fb2443d1e831949f1e79c2bc4081d72355ff932a41c8b47f89",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/models/losses/sigloss.py": "97ff67edf57ebfd6570be45859545580171cfbca489803429005529ccc0e4135",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/ops/__init__.py": "1640dd76d0d09a1db46df8a1c767ff04d2a0d6004d9c9b6134d80a0f53f6c4e7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/depth/ops/wrappers.py": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/knn.py": "5f59977c5d697579d64b1acb19244d819c54a253cdcf1b023b818418bdf841e1",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/linear.py": "cd6cb057561ab180557711b20d2f5f4916393a848375b0cefae11ff61d339865",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/log_regression.py": "273648c0937183af4b2f516b8009e7ef4ffda91b599e8512422e2c3b51829615",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/metrics.py": "2f436b2a67949955bddce0b6b58d73fe338ba362a3de4834290593f7a134e9aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/hooks/__init__.py": "590638a03129a24077f4dff2477b3d9326e234f23590d5c5715c37dff26b5638",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/hooks/optimizer.py": "1c116c35dfad8fa9abdfa5738c7e621e75c9277304fd009f48c2592571204ab1",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/__init__.py": "8d3601782bc10c5477243d1d6760c94e78a8ef8e7028476c70ee4781a693fd36",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/backbones/__init__.py": "e6e25365ad291aad30d8bce4c9f9b906580f204c141d62be4bcc3699e563d901",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/backbones/vision_transformer.py": "ed687476a2381bc708c6035b5f77e7b2560baaee36313c55f5e26aa5253adbb7",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/decode_heads/__init__.py": "f440e7a342f485db7c5766359f5b747f0ed810172e89521b218e50057a94c5e4",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/models/decode_heads/linear_head.py": "14500d7aa301797f77774348bd6912ee2ee3e68909c9f511a2730ff340349340",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/utils/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation/utils/colormaps.py": "5c421de6f63e74b098fa9bd75f5410d816336bb3bcee0194e483682766aa4036",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/__init__.py": "7fb45f0041dd007542578ecf31414a883a9e028a591f9570eec0d25afd928e9d",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/__init__.py": "99e3920edbb8635012e51b583c4264556f540f098a80dee90534a454c34b4c68",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/__init__.py": "cd269c97e28579d99706f3f31241173b22210429249742005b8a00bc8528d366",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/builder.py": "fa8456a4f2941fb3b6bc88d210c6ce43298d0b081d00af9ac0ea9050edf6d16e",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/anchor/point_generator.py": "23ff9cf80fef4472cf8a361d2df8f211fab4092925d6bb9cce18bb68a60cd6f0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/__init__.py": "7b0b68761110103819b5e8ef0733327021bcca5ac78168e8f27a5a721b1bfa43",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/builder.py": "93ad53a18707547dc53c28c52ae616da19e43064d7e4f30240d08ea50dfb955f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/__init__.py": "b3383233672410d9f13fdfb9dc47ae4543a98c45ee2361a0cc825afc5dd00e32",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/base_sampler.py": "91fd7bc656e0519b6f732a55a0f00457ba339bd98c6d3393d7ba35280442a1ed",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/mask_pseudo_sampler.py": "3ac44707526239d782a1653ad641d447ecb1003eea399e0a718790a92a476305",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/mask_sampling_result.py": "527d952b5001c86ca285a3f7895d804d12dd47b9d3c07535b6494a8b35e21d39",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/box/samplers/sampling_result.py": "c4b34191ab9589a098b0e46116ca9a53eedeae3adda515b8078f635096b1d492",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/__init__.py": "17ecc2ee748e92194c272e63a0db74dae0bb2ef921cecedc9cffe5c23b86dea9",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/dist_utils.py": "a3747a307397dbc10c09838d44fa90438f758977254ed305647ce96bd16bd045",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/core/utils/misc.py": "97409a32ac290d34da2bb7d28a3f6ecbc975537a3aa76060fd16ab5924de400f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/__init__.py": "2c8e40b6362d507e4d1ad18700feb53897ec7403e32033065d7927dae6ccf818",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/__init__.py": "f35535dbddb96f998a9bd1a7734cbc02abb652c18a5c6df7a47e7548ac33440c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/adapter_modules.py": "e103c8bdff5c3427a59a0bf84dc70677d5fef5ac9d43445815da16537944ccbe",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/drop_path.py": "068b166f953c0939f5479ef1735736116d91bc9942990472b60d104d95f9c83a",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/vit.py": "7ad30e14310c5bee54743459f128b076195554760eefd60e1593fbfde2234021",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/backbones/vit_adapter.py": "cb89b1d4943049c0ee3e3993738fb56806239221dce72345ea054fc7fa8785b0",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/builder.py": "e96e68e45a5139d16e3238c7f5690d72d4e7838c9fe9fc85273215a3b7a0115f",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/decode_heads/__init__.py": "8bea632762d84b954373d0fb2e35a224786eb4692f2bf6acf4b61b0c5fc89c06",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/decode_heads/mask2former_head.py": "c7b5d0d307da7737ac087b368de5d8160053d2e7fb9c705e805e7930ad9446ad",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/__init__.py": "ca75161c95771d281968c329697642f7f84e0deaa6ec780262f4fe2c4a33fd4c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/cross_entropy_loss.py": "b5cf193e70a20c9a0936222dab0546918940b9dee714cac2c4836197ed6bf940",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/dice_loss.py": "d6dc52a33494d569b98dc165f176c1444060d2f6bd8c8f458aabcea72d2edeee",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/losses/match_costs.py": "4cccb76ea151a0c38581f73d4da727ecb1d95a4b92ac294680adb588e6534046",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/plugins/__init__.py": "80ed4eab0a7f3c8a03c96a328a94cd972fb804cff30ccfc68e87b066ffb08fb5",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/plugins/msdeformattn_pixel_decoder.py": "66fc2f5a58638747576492250ce43e076bb119fe54a5e82569f4e6bd88a5a95b",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/segmentors/__init__.py": "02bc4c748360de2f9b4fe61b112fbd49cfcd943265f0c6f78afc2802b0d11a96",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/segmentors/encoder_decoder_mask2former.py": "06fdad9b0f24a0a3af4e4213bc1beb288fca7ad9010b24b3284103f2b9ea4e04",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/__init__.py": "091931518ac32103e9ef30be7a7b57839c1970bb4a8658f5bce0643735c73bb2",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/assigner.py": "47d015ce3a022c720fa5c8d37260c1bd39b19f77808b51dae25a0a9c7fdd70f3",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/point_sample.py": "e4f2dc0a1a4d5db984a590a85a0fb4ef224cfbfa013c1a212ee9cbcb8b49a9ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/positional_encoding.py": "3b07f2b2127f03048dcd10266e3d14818334becb56970a8cfe9ac680ec0b8753",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/models/utils/transformer.py": "6bc659898dd0d4e75bbb941bb1720f696eb840667cda52fbac46feab1eac20ab",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/ops/modules/__init__.py": "2b1c15f2a30741376faebf09ac22e3fdf672b768c1717a3b7bbffaa844c0f111",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/segmentation_m2f/ops/modules/ms_deform_attn.py": "ef8d800b0e3139b6ec2dbe22de3a39da653dcc88129bc246239fc47abf6524ec",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/setup.py": "629eea62ca20ad2694b4979a91fb85e644cda429049580360a3a86be4bbe477c",
+      "semantic_artifacts/vendor/dinov2/dinov2/eval/utils.py": "3eb42fa16c97b21c8e69c229e71388b2db04923097912e42c29676c82f03ed44",
+      "semantic_artifacts/vendor/dinov2/dinov2/fsdp/__init__.py": "672fc23d385c86530e439c42f8c73abb585a5bb96ce87c6ad5e8fb004e631efa",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/backbones.py": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/cell_dino/backbones.py": "5e2be2a84f04bab20050f8e9c6e14870d5a2d3e7894631dd8747e00f3b5299d2",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/classifiers.py": "e2dcf8c2aaec1c695bb20dae8f808811e28f27032338f3450f2ac17e309e0e1d",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/__init__.py": "de8f3fbecabae6552ebb8f3d7dee27987b1dbc11e94143c95137c438e86a9123",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/decode_heads.py": "04eb9639a4441409b80651c3d019a6e850c32b7e709236ceb6dbbaeb9fa17713",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/encoder_decoder.py": "1baf6f59269fb99faf274900f12910a22e038a3bb6d81c6fc712c0c482041a57",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depth/ops.py": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/depthers.py": "098e10859c1e8188d5245318911025eef1c5f37331d01e6014167027b25cd5b7",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/dinotxt.py": "9124df0f7f8f21995f33a86a4e6545c11e25591f7bafcbe96a299ae6bd070677",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/dinotxt_model.py": "7ef7bfceaacfd1566a3984038a691edeaf9b9f42910583e5de62a00e3cf852d0",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/dinov2_wrapper.py": "834423f869038ce7c2b1794564018e0d3ca8194faa6d4c17f0d208b1625d0c64",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/text_tower.py": "fa591e45ad0e7400290e716ff0ddca102fd646edc2da448807c1006a5b94744f",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/text_transformer.py": "7138271bc95251d33a172cead1392434b9f8f7b1401fe1e0b4c37e64ff2bf354",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/tokenizer.py": "85078188841107932343123f29104288615b41ca4e5d1eb2d8623e02a8ac749a",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/text/vision_tower.py": "2496418c885c01ba7b7b9172d72906911ad950211c08a6e085ef2ee574405ebb",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/utils.py": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+      "semantic_artifacts/vendor/dinov2/dinov2/hub/xray_dino/backbones.py": "23c4513ac900815772d6076d2dd8c6e8564cd85ec11873c8ebe62e5de0647d03",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/__init__.py": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/attention.py": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/block.py": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/dino_head.py": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/layer_scale.py": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/mlp.py": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/patch_embed.py": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "semantic_artifacts/vendor/dinov2/dinov2/layers/swiglu_ffn.py": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "semantic_artifacts/vendor/dinov2/dinov2/logging/__init__.py": "fff00c7e5d5381b55d8f820ba3a1f8f0902af15dacb3159fe5c6e3b542771c40",
+      "semantic_artifacts/vendor/dinov2/dinov2/logging/helpers.py": "5c2ee4b35f6c160836c7f5e7f3db1246662499ecc6ec8e53d06f14fef71504ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/__init__.py": "e5ae2143dd98108f81d26c276e2048fa339cde5f5fe369e2d6797acea09912bf",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/dino_clstoken_loss.py": "49f0b2b75c2feba83b3fc9dfb40ef5eb4e3db350ab1e12a63d75d3060a88f7df",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/ibot_patch_loss.py": "19c0ffc85c8af01657ad2e6cffc2d4d311415b10807f63c2d6341195c7a62ddb",
+      "semantic_artifacts/vendor/dinov2/dinov2/loss/koleo_loss.py": "ddccd75b7985d5e584f0fe6f3fb1ac474b9cbd9a6fd6fb6c6ae471ca479085d1",
+      "semantic_artifacts/vendor/dinov2/dinov2/models/__init__.py": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "semantic_artifacts/vendor/dinov2/dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/cell_dino/knn.py": "944113cdf344910011150a52e7874dce69640e0afb8e438a4c7e582349bbe1ff",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/cell_dino/linear.py": "efb20708485a41bacd8db2a6a274988fac3e1e7cfec5290050293a8b587e7601",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/knn.py": "21d1ed25bc9206b412e2d17bac150549f69929f5d0c924b7400a72d1bd295c31",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/linear.py": "f89eb0a2eccdd2f35e27f7a5ca91ded95e4a5699f57e8e568c58547625f87ac5",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/eval/log_regression.py": "b4c4ddd086408c681b8b5642a26858b6c9e1a798c483a5283a983f2cd2b44c46",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/submit.py": "64597db2041e9c16a7640eeac00a299cb2761329af980f33f26a6dd025ffb541",
+      "semantic_artifacts/vendor/dinov2/dinov2/run/train/train.py": "b469e29aaa460e509d52f19c787aad50963265d242200cad5f9ee3ce85938ba5",
+      "semantic_artifacts/vendor/dinov2/dinov2/thirdparty/CLIP/clip/simple_tokenizer.py": "47b4a3678fed8a7a8b9ca614e7728c33c6ccda5aea3bd2acebf24c081cb25b64",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/__init__.py": "64dde70804b782a876524b529b00b9775559314a88d738cf4aee914bd4dbb9c4",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/ssl_meta_arch.py": "a97cdcc721e9312f5e088f78257dbbeb98cb3af40e3e3b975aefbd6bfd1996c4",
+      "semantic_artifacts/vendor/dinov2/dinov2/train/train.py": "04c4829d6cb428df546536cba4b2a313fae38bac084abf82758bf69483b03e89",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/checkpoint.py": "36335648d4574417c41e0fe82ddb8cc23653bbbc251b580541167b73a83b8eff",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/cluster.py": "be49f48f01edbc7d209941e1078be309bef7d06631da851cafcfdec7112d269f",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/config.py": "588574a78951ccfe7ffaad9ef7cab53d37e837e3ae98cfc1b6a976189073d87c",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/dtype.py": "610251537bcf55de8961a17dd625560eae5cfa5082e9382bbd9ded86db92e1c6",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/param_groups.py": "ec1daae9eb7c50492091504f97087e3179d46a080d7b7f131967c07cb15cf6d4",
+      "semantic_artifacts/vendor/dinov2/dinov2/utils/utils.py": "4e1419e8dd4a24d48689357ca48d304d1f895fa49f5dbf42d400ac941216e9f7",
+      "semantic_artifacts/vendor/dinov2/hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64",
+      "semantic_artifacts/vendor/dinov2/setup.py": "8ec72d3be027aee099a7b7b1c36c874be6d7ade4dd9eb69baff3975b586820ae",
+      "semantic_artifacts/external_class_panel/images/00046/00000.jpg": "dea05e80f0c1ce6e6ee4296222a239c8fadd0da7e4674206dd2ac9c08f738054",
+      "semantic_artifacts/external_class_panel/images/00046/00004.jpg": "1c0961cba7a4f67f447bfbb828dcf841ef3ab1773ebe7cef184feb34a4a3743e",
+      "semantic_artifacts/external_class_panel/images/00046/00008.jpg": "69397be32ff7040e3359e938e70aa2ae89c0dc59b75bd69ced5e5fd91c97ba35",
+      "semantic_artifacts/external_class_panel/images/00046/00012.jpg": "e74a6d96fe6e1e2686f7c1df03bccb9ccb62841ee30479832e33a55ddb9f4088",
+      "semantic_artifacts/external_class_panel/images/00046/00017.jpg": "c7830f4797df2f38ec3390625db671d051ca6cb869ab899d2da994cf0ee9282e",
+      "semantic_artifacts/external_class_panel/images/00046/00021.jpg": "b0dc65c0a5967e82d7b4e0cc3b34c627a8db699537b3372b23ce2c34b84f5210",
+      "semantic_artifacts/external_class_panel/images/00046/00025.jpg": "0197a05e4d53e135ebd151f14aa6152b0ec5cc0340d0002bb4f9ab7ba663fa50",
+      "semantic_artifacts/external_class_panel/images/00046/00029.jpg": "e1215284dca4a095a559681fa31d5bb1db97ae166d2fb0ecbe5c1826a5affab4",
+      "semantic_artifacts/external_class_panel/images/00720/00000.jpg": "f09402964259a8e7b4530e967ae4104097802667e20b9367a2d5e57ee89df910",
+      "semantic_artifacts/external_class_panel/images/00720/00003.jpg": "1fbfa33fbd18359ef6d7eb0ab7beb84724955b2b48f713f057036930c2e9b93a",
+      "semantic_artifacts/external_class_panel/images/00720/00007.jpg": "98cc07827a1dedf6a77e0dc9afbb487191de2d568137c758e923c15e227db525",
+      "semantic_artifacts/external_class_panel/images/00720/00010.jpg": "b387d4e165102750051ba27de81a35f2d314e402bd589777ba0353e7dcb892c9",
+      "semantic_artifacts/external_class_panel/images/00720/00014.jpg": "dc9d7f5abbf76a2394590f96cb31ddf49519881b5d0c3812823d5d51c50cabb6",
+      "semantic_artifacts/external_class_panel/images/00720/00017.jpg": "1d77a858b10f7a93b3e6b500178f599e70e7582f0d6e718b9c1c2dc949305176",
+      "semantic_artifacts/external_class_panel/images/00720/00021.jpg": "fcb63fdd1cad710142004ec7c378c0394c9f590e3560c6b4fdc0784d4e844f1d",
+      "semantic_artifacts/external_class_panel/images/00720/00024.jpg": "9a927a9f980dbf09654998e4e20c68673bc606fb005f587ba1a04efbf4354e4e",
+      "semantic_artifacts/external_class_panel/images/00304/00000.jpg": "7c4ec7c08c6d93b7af22e7ef2fef60cb2a2b37d28993296384cde2357d4bf1a4",
+      "semantic_artifacts/external_class_panel/images/00304/00003.jpg": "81727294e14c9f83f1f7d9e0588133a5eb4f14d4164cfc3ac4c0089080d7c043",
+      "semantic_artifacts/external_class_panel/images/00304/00005.jpg": "14b8fd92c2b23fac06202bbb86db0eb9e44d8aa4456ffaffa99c6c4a8ae1af6d",
+      "semantic_artifacts/external_class_panel/images/00304/00008.jpg": "a7b080a5b204a22455b9293a8c96b4ba1e3d88eb70b437fc6a55d91436c8e1b6",
+      "semantic_artifacts/external_class_panel/images/00304/00011.jpg": "64e6551f5024764f28333ef1ae3e8e8d36c2587632b4df376d8a1ea5d43f3728",
+      "semantic_artifacts/external_class_panel/images/00304/00014.jpg": "72e904ef340b864e16351c787bd2917a92fe361ec5eb84bd1fec045817df5300",
+      "semantic_artifacts/external_class_panel/images/00304/00016.jpg": "4ae2e10e755f6d51b1d43af6c42fd7b5dd60ec0a11700c9c62699e1134e52588",
+      "semantic_artifacts/external_class_panel/images/00304/00019.jpg": "748638aeaf2e8fbe51a53d8f4f7b829fff081e245098cd86b3f12a22f60adc9b",
+      "semantic_artifacts/external_class_panel/images/00349/00000.jpg": "61deb643ce988c265e3bc96a2a9880e1d1dccd1d2e7842e82eb853861232b71d",
+      "semantic_artifacts/external_class_panel/images/00349/00004.jpg": "c6f692c4dacd54cefb878ba9e75faa08c54dc70d63f787c93906d9e07ba14de1",
+      "semantic_artifacts/external_class_panel/images/00349/00008.jpg": "0c542bc2e8f6fab18041d543abbc15e0225f59d3cc75bae80e1ff7ed53e28c0b",
+      "semantic_artifacts/external_class_panel/images/00349/00012.jpg": "7f3cf3f19a3b9fd1a90d20ac26457e50c6d490dc5fa5dbb6c8a4b2c1a808055b",
+      "semantic_artifacts/external_class_panel/images/00349/00017.jpg": "9db871ed7c4e0aeeae453423d312ee9f33e1b01543c54300ee8b56255b6eafd0",
+      "semantic_artifacts/external_class_panel/images/00349/00021.jpg": "726cf82e1221a4ac60c5fb9507ff3a207e662f993fcec925c421eb98b7397887",
+      "semantic_artifacts/external_class_panel/images/00349/00025.jpg": "e2ba04ca923e16e0339989247d4eedee96ae3cf5481e05276b3550945ec9debb",
+      "semantic_artifacts/external_class_panel/images/00349/00029.jpg": "9f7c5b20cd0096fed671fa10ac2cdd67d4b7a72af8ff4029cae036774ca8b9ea",
+      "semantic_artifacts/external_class_panel/images/00644/00000.jpg": "f5eee45cf536738c163d020936c6283ca20b4dc0cca2e1d8d4da49a2f15a8ad0",
+      "semantic_artifacts/external_class_panel/images/00644/00003.jpg": "602cf6d0dd513468a97fc947215d788b94a3e9edd0c808056b5ef1360b0caeb1",
+      "semantic_artifacts/external_class_panel/images/00644/00005.jpg": "c165d8d9d273a7c1bc65a16eaefa78e0bce07beea2e4c63332e652154f795ba0",
+      "semantic_artifacts/external_class_panel/images/00644/00008.jpg": "5db3c2b5f7c6c783446a94cfe9910b2725df85feae07decbd7018ee5a526da8a",
+      "semantic_artifacts/external_class_panel/images/00644/00011.jpg": "6be7ca450e2a511b2d31a35fa85ccb4a14179848c0310b7a4f0d855843f52c95",
+      "semantic_artifacts/external_class_panel/images/00644/00014.jpg": "4ba91340d0607f216afea6f73d23fd9437fe2d07e82d8c2bd47fcc9fd56395d1",
+      "semantic_artifacts/external_class_panel/images/00644/00016.jpg": "7743cc935cda792799b2589500a5290e6b4eb3290e1687140356379acdfdbba6",
+      "semantic_artifacts/external_class_panel/images/00644/00019.jpg": "68969e3c0d563e09d79526b3cfe4f619ab32d1c71f83f83072cb06c0de7b6daa",
+      "semantic_artifacts/external_class_panel/images/00303/00000.jpg": "2cfab40ae0f9ea237ad461c6d372e744333bd0635a593a1eefdfb287d384eb43",
+      "semantic_artifacts/external_class_panel/images/00303/00005.jpg": "bbc7e5e73d8fd2694568b3930f7e953f37c9c4f095e0d1119f886e51603252d8",
+      "semantic_artifacts/external_class_panel/images/00303/00010.jpg": "e7df8bd06b3f60e0e72f63cd3b9b66a78c86c4819e6ad96f9a7f504481f4a344",
+      "semantic_artifacts/external_class_panel/images/00303/00015.jpg": "00a97e649695a6b671d80da2141ef8b3aa224ef472d705da996e652404b0b332",
+      "semantic_artifacts/external_class_panel/images/00303/00019.jpg": "d7c723814e64e563260859193127931e3e807bee2f8b7ef1c01d3b748958c9e1",
+      "semantic_artifacts/external_class_panel/images/00303/00024.jpg": "1a90811e770dfe818d59ead2e98d237c473377e95ea72f3d6b16d7b134761b70",
+      "semantic_artifacts/external_class_panel/images/00303/00029.jpg": "1fa43c2386f35a277691e9f3cc340d84b0b2b371e1a240d00bb57a855a75d567",
+      "semantic_artifacts/external_class_panel/images/00303/00034.jpg": "44403f74161fb86a12b6dbf53646a17e51aed24a503462b89f7cf380c7936d18",
+      "semantic_artifacts/external_class_panel/images/00238/00000.jpg": "13e803747188af6fb116fc84bfb54f72084ad5601530e4bb9c9b086c51cc6359",
+      "semantic_artifacts/external_class_panel/images/00238/00003.jpg": "8adbba6cc85b71c0b8031a88477c08b6454207094c3824c4ee81b076e253cd24",
+      "semantic_artifacts/external_class_panel/images/00238/00006.jpg": "745adbc856c7c7d9e5e8dbef338add6eb94103d1f7ce1a49e8c177e51d08fd36",
+      "semantic_artifacts/external_class_panel/images/00238/00009.jpg": "8299d0882917f545becd4d5f6b4876530e22d829096dea83fc437acc37a850d7",
+      "semantic_artifacts/external_class_panel/images/00238/00011.jpg": "7992eab9ebd863588ebab85248d620b4fd7ec47882a395dfd9069402fa49b756",
+      "semantic_artifacts/external_class_panel/images/00238/00014.jpg": "0c5b91e8a7e740637c0094e56f6be625073794e6bb196eca480f100cff537296",
+      "semantic_artifacts/external_class_panel/images/00238/00017.jpg": "ead24592346a879040bbebc782d9326cb47eba46b8d51057a1c46249ef71b184",
+      "semantic_artifacts/external_class_panel/images/00238/00020.jpg": "45abbf3f955e75603916a2df5cf7764dd29c9543fe185ef15ce00322fc7f4868",
+      "semantic_artifacts/external_class_panel/images/00312/00000.jpg": "89c187158dd139b11d06077fd0ca3e75a2ae0662cfec0d3b092097ad48660b66",
+      "semantic_artifacts/external_class_panel/images/00312/00003.jpg": "900fa57805d67936feb4df6fd3bcb6c10dd7b1358fded042d23c8539444c6604",
+      "semantic_artifacts/external_class_panel/images/00312/00007.jpg": "82263330267370a3f18c974c70e64a2ef0391d0b9940fc70b859a3a72738485b",
+      "semantic_artifacts/external_class_panel/images/00312/00010.jpg": "1df095cb03b8a1f2860284ffcebc6a1e2b896f20458957155f619af0eb0898f6",
+      "semantic_artifacts/external_class_panel/images/00312/00013.jpg": "47899fdb8dd4574c66159c9cbbb950312083522a39ccd55bfd272936e2af857e",
+      "semantic_artifacts/external_class_panel/images/00312/00016.jpg": "216b5881f0195f3792398c8bfe1082aec66c7c6214578b20c88a9ddf661bf0d0",
+      "semantic_artifacts/external_class_panel/images/00312/00020.jpg": "d1595f332581d8fbebf8b37b08349919d9958a853e523756464eff0c04f86931",
+      "semantic_artifacts/external_class_panel/images/00312/00023.jpg": "8e9df2a28df782dcb1cc2780f1b5f28d6860f97d04b7d0e1ac6c53943b0a28b5",
+      "semantic_artifacts/external_class_panel/images/00571/00000.jpg": "35ba63c7ff1923915e823ff13b02fe8c1e7b8efa78a0e9c3db48aeab245d3398",
+      "semantic_artifacts/external_class_panel/images/00571/00003.jpg": "f664e85d5c36765253b7ffead183efafb1615d276e36420f3ed1b178b444b6d0",
+      "semantic_artifacts/external_class_panel/images/00571/00007.jpg": "315545205a281dff6c6ee9dfe8c71d4143cc1d504d77ea219baac88a05944e6c",
+      "semantic_artifacts/external_class_panel/images/00571/00010.jpg": "00b2da810cc01ae69935d20bfb63e106d0dab7d621d48f1c632c30f6120587f4",
+      "semantic_artifacts/external_class_panel/images/00571/00013.jpg": "69a179bf9c1e328bd12a22395c6a6460eacf89114b703d6b6a75e16e6f3cd7c0",
+      "semantic_artifacts/external_class_panel/images/00571/00016.jpg": "54a946be40be2c71ca0efb22cf171a1f1e5b7e7d8650f7e5f524859fb1d02104",
+      "semantic_artifacts/external_class_panel/images/00571/00020.jpg": "4e23af9c5bfd572274e4d0b7aaeee55c3bc22fd955ec04afa12a180f976af9ad",
+      "semantic_artifacts/external_class_panel/images/00571/00023.jpg": "05f1a4e048a2daa44fd80585c469d09c960dff9bfa7b1059492bf12b825f573f",
+      "semantic_artifacts/external_class_panel/images/00166/00000.jpg": "c94ff3879a063521cdd651d735405112a70aeaffd58012261a60e132fa8f372c",
+      "semantic_artifacts/external_class_panel/images/00166/00002.jpg": "a6c48f2ddadf83ecec60e19ae569915c07a04bd44a204573b116f2d4dba50782",
+      "semantic_artifacts/external_class_panel/images/00166/00003.jpg": "32dfa61198fa33234a28472a1f9eaa08aed7205a99aeea3e22505fe466b1918a",
+      "semantic_artifacts/external_class_panel/images/00166/00005.jpg": "68dc95da64a586f4aa06974d24a385521539d65579984f193247cda61e1da1e2",
+      "semantic_artifacts/external_class_panel/images/00166/00006.jpg": "587a063f1950ea85e165c2d4d44ab90dc131760ab3b8e5f03cab1dd5365c6581",
+      "semantic_artifacts/external_class_panel/images/00166/00008.jpg": "b9e30e871fd9ca130ec3254700d933481d1f4a20420a1fbc60d674fd435860ff",
+      "semantic_artifacts/external_class_panel/images/00166/00009.jpg": "d4dd745fbae5a981ec1702431b88f74e94e365c41ec0aa56da14d05b34b0b933",
+      "semantic_artifacts/external_class_panel/images/00166/00011.jpg": "7dcfee5f2ba127cdb8027b5a621a600fed7e9a9b2fde7e5b11f33e5cd514fe8f",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed0.pt": "21008569aa2df6ef409f10eeca71b0054cd93b74c77c1a36c1a2daa18f2f4d92",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed1.pt": "2e83fc948e1a4cb9aa92e3bad16ff0feeb209d667ffca4bb37bc4be2934a2cd8",
+      "semantic_artifacts/dino_native_rgb_control/native_gt/dinov2/runs/linear_seed2.pt": "848e36f91d53ad163b138507ed3ae0d01680191efe447e05e06887642b9cdeb9",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed0.pt": "0840a3f4b71f396cf1f146e6cc2c931952bb8e1c356c04f1ad9d9e6a356e246b",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed1.pt": "293783fe310338442f8cc5694e8865f5ba09329e4e750a6b1e142fe241e9b9b2",
+      "semantic_artifacts/dino_label_weight_control/lambda0/runs/linear_seed2.pt": "05c123aeabd30043a5fad91d279b845ddf618686c0e6a7576c8f0d9818d6a86e",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed0.pt": "aa3ffe0d69f400282a54e2cc063e2b8ff6a1c3c1ec97048cc237722c128d5f88",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed1.pt": "d2b69c5d1347b65681947dc2fe956ec6f9358458b896f77d1821dc373dba0825",
+      "semantic_artifacts/dino_native_rgb_control/native_sam/dinov2/runs/linear_seed2.pt": "4be5d89d1ae4ff24d63eb5322fa065b1f7d4906f2644400e5346f67091bb7350",
+      "semantic_artifacts/external_nonperson_confirmation/features/00046.npz": "ed14615fb6f7dd5d718810b8dc2f4286f289b9d401852345436163b6608ca211",
+      "semantic_artifacts/external_nonperson_confirmation/features/00720.npz": "906c972945ec02bf110235ee5ba91969059313cc41c1ef1e30f7736f66562579",
+      "semantic_artifacts/external_nonperson_confirmation/features/00304.npz": "018d26ea891f78299d3ba03ab87522df70458bce6981120c8c6a390c3b99cb71",
+      "semantic_artifacts/external_nonperson_confirmation/features/00349.npz": "e438039f69db1213a2db112241571615acef44b065daf2c2f77ed6ffc9cfa88a",
+      "semantic_artifacts/external_nonperson_confirmation/features/00644.npz": "286119fa116c310568e81613183547ac61491d3aafcaec8d8f89dc737bf96a97",
+      "semantic_artifacts/external_nonperson_confirmation/features/00303.npz": "82c425b0d6258a50fbaf93f5497f7be29891535e79e32495f937577754e8e720",
+      "semantic_artifacts/external_nonperson_confirmation/features/00238.npz": "71b07f9201f6975e28b6970f7973d7cc83e086a8d029704740c015d1979229c8",
+      "semantic_artifacts/external_nonperson_confirmation/features/00312.npz": "eaf506eb170a45dc4e071a9765a5ca0b112c750a8d811f05d0affccd4a434e87",
+      "semantic_artifacts/external_nonperson_confirmation/features/00571.npz": "d3ef191cfb9f8386f885aabeb76e40be5a1fefc41ee104ca2360db71f151dccb",
+      "semantic_artifacts/external_nonperson_confirmation/features/00166.npz": "94b078c11b0cfd36a17e765d6c3cb589c94c7a6b9e32378c8fc195c4feecd4e8",
+      "semantic_artifacts/external_nonperson_confirmation/summary.json": "fe02b2c9ad8db38e689413985b03466a5278d9d7d880ca4c94d440ca715b6de3",
+      "semantic_artifacts/external_nonperson_confirmation/verification.json": "e6dec2ed8cc32ec24a947013210dda28698892dec244f768cc2e1c726ebbd2c2",
+      "semantic_artifacts/external_nonperson_confirmation/manifest.json": "c28b7155816e146c4869e03a696aac37876a9f4881fcf69d2c0cdb6f1f17a8eb",
+      "semantic_artifacts/external_nonperson_confirmation/query_coverage.json": "dfde7b0050218f08ea2d7407f4c4526b9481dfbc8deaf9e63c8af3305a75a87e",
+      "semantic_artifacts/external_mask_coverage/summary.json": "475ecce201556845eecd217501c82f020acec1e21db3b0da87a6f5248fdd563c",
+      "semantic_artifacts/external_mask_coverage/verification.json": "50c75d412e9496eb1254d2a1bf41ed348d0cf195a8981200ae4b845010439286",
+      "semantic/external_label_sensitivity.py": "e2db68334315c07e8e61daf738ea107bc922b6de5705bb9c313106d3760e7003",
+      "semantic/OVIS_EXTERNAL_LABEL_SENSITIVITY_PROTOCOL.md": "f2495c3e3c0bdc1568d93d6cb0d5d902e3e4f6ab921c8deaf4d335cf00b46756",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_0_confirmation.npz": "5e7a93c39d81e2192367dc9d9c05c18bb05f4e79c8075c24fa3dada83d68a3f6",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_1_confirmation.npz": "355b7f3eecda237c35204d030be5559586def1d0e591492473056363a0824193",
+      "semantic_artifacts/external_nonperson_confirmation/lambda0/logits/dinov2_2_confirmation.npz": "e2e54eabf2487546a93219b1d8be89cf2af1225a1c3b0921f35bdd7de7ac1c1c",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_0_confirmation.npz": "8ed054ee714dafe4af8fa68c5bb865e398b821713174e7cd2c3bf7ba16bd1d00",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_1_confirmation.npz": "53d5d45976a1647fee068819fb4ded594f02826b1e323913900142e6553fbf13",
+      "semantic_artifacts/external_nonperson_confirmation/native_sam/logits/dinov2_2_confirmation.npz": "ca0ecd5ac4fcf667b64f614adf256c63cb0a3af2f3ed649804c1284fd0da93e0",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_0_confirmation.npz": "cde5bf8f4bb5f56fe54c2eb3269dee72ba4b7ada17951fe4f7e6fd7831699ce5",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_1_confirmation.npz": "4a605121f2ffc78811088ce48c613cb608a90d20bff061a2fd374caeaf76bfbe",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt/logits/dinov2_2_confirmation.npz": "5bf2e11f60a4fb289e444819dc69eb478d4d114f8c4efead1c08de28c1f07bfb",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_0_confirmation.npz": "672d673b01eb05dd7ec686011806ded08ccaff0098512a5c7e75e9922ebe3aa0",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_1_confirmation.npz": "011d65be8c8aaf3de1a0f585a636c1dc2c85c4e1a0c90a159dd32ec1bb59ed0a",
+      "semantic_artifacts/external_nonperson_confirmation/source_gt32/logits/dinov2_2_confirmation.npz": "d41f9382c9135210c1fc8241209f7b2f66f3b22568d8da42e9216f46a33de791"
+    }
+  },
+  "results": {
+    "source_gt": {
+      "offset": -1.5,
+      "runs": [
+        {
+          "seed": 0,
+          "raw": {
+            "accuracy": 0.32699548192771083,
+            "macro_f1_present": 0.3551215945598181,
+            "foreground_macro_f1_present": 0.3551215945598181,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6391251518833536,
+              "3": 0.26012269938650306,
+              "4": 0.09981515711645102,
+              "5": 0.9121813031161473,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9950932286555446
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.3746234939759036,
+            "macro_f1_present": 0.41065665824900566,
+            "foreground_macro_f1_present": 0.41065665824900566,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6375442739079102,
+              "3": 0.29965156794425085,
+              "4": 0.14642857142857144,
+              "5": 0.9539295392953929,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.48551724137931035,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9941520467836257
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.3245192307692308,
+              "macro_f1_present": 0.34438775510204084,
+              "foreground_macro_f1_present": 0.34438775510204084,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.6887755102040817,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.251953125,
+              "macro_f1_present": 0.40249609984399376,
+              "foreground_macro_f1_present": 0.40249609984399376,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.40249609984399376
+              }
+            },
+            "00304": {
+              "accuracy": 0.080078125,
+              "macro_f1_present": 0.14828209764918626,
+              "foreground_macro_f1_present": 0.14828209764918626,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.14828209764918626
+              }
+            },
+            "00349": {
+              "accuracy": 0.9166666666666666,
+              "macro_f1_present": 0.9565217391304348,
+              "foreground_macro_f1_present": 0.9565217391304348,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.9565217391304348
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.171875,
+              "macro_f1_present": 0.24275862068965517,
+              "foreground_macro_f1_present": 0.24275862068965517,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.48551724137931035,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.99609375,
+              "macro_f1_present": 0.9980430528375733,
+              "foreground_macro_f1_present": 0.9980430528375733,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9980430528375733
+              }
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "raw": {
+            "accuracy": 0.28068524096385544,
+            "macro_f1_present": 0.31810034244815877,
+            "foreground_macro_f1_present": 0.31810034244815877,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.20654044750430292,
+              "3": 0.23515439429928742,
+              "4": 0.22413793103448276,
+              "5": 0.8205128205128205,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.11925042589437819,
+              "22": 0.0,
+              "23": 0.9760765550239234,
+              "24": 0.9174311926605505
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.3185240963855422,
+            "macro_f1_present": 0.35146543898903054,
+            "foreground_macro_f1_present": 0.35146543898903054,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.22961730449251247,
+              "3": 0.25536723163841807,
+              "4": 0.2932454695222405,
+              "5": 0.7895500725689405,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.42990654205607476,
+              "22": 0.0,
+              "23": 0.9258589511754068,
+              "24": 0.9425742574257425
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.0829326923076923,
+              "macro_f1_present": 0.11794871794871795,
+              "foreground_macro_f1_present": 0.11794871794871795,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.2358974358974359,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.220703125,
+              "macro_f1_present": 0.3616,
+              "foreground_macro_f1_present": 0.3616,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.3616
+              }
+            },
+            "00304": {
+              "accuracy": 0.173828125,
+              "macro_f1_present": 0.2961730449251248,
+              "foreground_macro_f1_present": 0.2961730449251248,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.2961730449251248
+              }
+            },
+            "00349": {
+              "accuracy": 0.7083333333333334,
+              "macro_f1_present": 0.8292682926829268,
+              "foreground_macro_f1_present": 0.8292682926829268,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8292682926829268
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.1572265625,
+              "macro_f1_present": 0.22145804676753783,
+              "foreground_macro_f1_present": 0.22145804676753783,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.44291609353507566,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.9296875,
+              "macro_f1_present": 0.9635627530364372,
+              "foreground_macro_f1_present": 0.9635627530364372,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9635627530364372
+              }
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "raw": {
+            "accuracy": 0.3196536144578313,
+            "macro_f1_present": 0.3581504680500673,
+            "foreground_macro_f1_present": 0.3581504680500673,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.539440203562341,
+              "3": 0.21635883905013192,
+              "4": 0.10018552875695733,
+              "5": 0.8609077598828697,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.2306368330464716,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9921259842519685
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.3621987951807229,
+            "macro_f1_present": 0.3976355046997851,
+            "foreground_macro_f1_present": 0.3976355046997851,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.5191387559808612,
+              "3": 0.2185929648241206,
+              "4": 0.1746880570409982,
+              "5": 0.8615384615384616,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.6146095717884131,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9854227405247813
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.2608173076923077,
+              "macro_f1_present": 0.29766803840877915,
+              "foreground_macro_f1_present": 0.29766803840877915,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.5953360768175583,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.169921875,
+              "macro_f1_present": 0.2904841402337229,
+              "foreground_macro_f1_present": 0.2904841402337229,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.2904841402337229
+              }
+            },
+            "00304": {
+              "accuracy": 0.095703125,
+              "macro_f1_present": 0.1746880570409982,
+              "foreground_macro_f1_present": 0.1746880570409982,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.1746880570409982
+              }
+            },
+            "00349": {
+              "accuracy": 0.8020833333333334,
+              "macro_f1_present": 0.8901734104046243,
+              "foreground_macro_f1_present": 0.8901734104046243,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8901734104046243
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.23828125,
+              "macro_f1_present": 0.30925221799746516,
+              "foreground_macro_f1_present": 0.30925221799746516,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.6185044359949303,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.990234375,
+              "macro_f1_present": 0.9950932286555446,
+              "foreground_macro_f1_present": 0.9950932286555446,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9950932286555446
+              }
+            }
+          }
+        }
+      ]
+    },
+    "source_gt32": {
+      "offset": -1.25,
+      "runs": [
+        {
+          "seed": 0,
+          "raw": {
+            "accuracy": 0.3497740963855422,
+            "macro_f1_present": 0.3813361252190301,
+            "foreground_macro_f1_present": 0.3813361252190301,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6867335562987736,
+              "3": 0.20654911838790932,
+              "4": 0.14156079854809436,
+              "5": 0.9536784741144414,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.21305841924398625,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9931170108161259
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.38761295180722893,
+            "macro_f1_present": 0.41873227835204024,
+            "foreground_macro_f1_present": 0.41873227835204024,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6673684210526316,
+              "3": 0.23786407766990292,
+              "4": 0.17793594306049823,
+              "5": 0.9828269484808454,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.5449664429530201,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9950932286555446
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.38100961538461536,
+              "macro_f1_present": 0.3823884197828709,
+              "foreground_macro_f1_present": 0.3823884197828709,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.7647768395657418,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.19140625,
+              "macro_f1_present": 0.32131147540983607,
+              "foreground_macro_f1_present": 0.32131147540983607,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.32131147540983607
+              }
+            },
+            "00304": {
+              "accuracy": 0.09765625,
+              "macro_f1_present": 0.17793594306049823,
+              "foreground_macro_f1_present": 0.17793594306049823,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.17793594306049823
+              }
+            },
+            "00349": {
+              "accuracy": 0.96875,
+              "macro_f1_present": 0.9841269841269841,
+              "foreground_macro_f1_present": 0.9841269841269841,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.9841269841269841
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.1982421875,
+              "macro_f1_present": 0.2728494623655914,
+              "foreground_macro_f1_present": 0.2728494623655914,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.5456989247311828,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.990234375,
+              "macro_f1_present": 0.9950932286555446,
+              "foreground_macro_f1_present": 0.9950932286555446,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9950932286555446
+              }
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "raw": {
+            "accuracy": 0.2765436746987952,
+            "macro_f1_present": 0.30815456303903327,
+            "foreground_macro_f1_present": 0.30815456303903327,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.14385964912280702,
+              "3": 0.21077844311377245,
+              "4": 0.17375886524822695,
+              "5": 0.803076923076923,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.08873720136518772,
+              "22": 0.0,
+              "23": 0.988394584139265,
+              "24": 0.981094527363184
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.30082831325301207,
+            "macro_f1_present": 0.3336229904239699,
+            "foreground_macro_f1_present": 0.3336229904239699,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.15959252971137522,
+              "3": 0.23255813953488372,
+              "4": 0.22525597269624573,
+              "5": 0.7945619335347432,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.28106508875739644,
+              "22": 0.02936857562408223,
+              "23": 0.9543336439888164,
+              "24": 0.9931170108161259
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.056490384615384616,
+              "macro_f1_present": 0.08407871198568873,
+              "foreground_macro_f1_present": 0.08407871198568873,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.16815742397137745,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.1953125,
+              "macro_f1_present": 0.32679738562091504,
+              "foreground_macro_f1_present": 0.32679738562091504,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.32679738562091504
+              }
+            },
+            "00304": {
+              "accuracy": 0.12890625,
+              "macro_f1_present": 0.22837370242214533,
+              "foreground_macro_f1_present": 0.22837370242214533,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.22837370242214533
+              }
+            },
+            "00349": {
+              "accuracy": 0.6848958333333334,
+              "macro_f1_present": 0.8129829984544049,
+              "foreground_macro_f1_present": 0.8129829984544049,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8129829984544049
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.1025390625,
+              "macro_f1_present": 0.16065320458151072,
+              "foreground_macro_f1_present": 0.16065320458151072,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.29141104294478526,
+                "22": 0.029895366218236172
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.986328125,
+              "macro_f1_present": 0.9931170108161259,
+              "foreground_macro_f1_present": 0.9931170108161259,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9931170108161259
+              }
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "raw": {
+            "accuracy": 0.2917921686746988,
+            "macro_f1_present": 0.3184022162098328,
+            "foreground_macro_f1_present": 0.3184022162098328,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.46994535519125685,
+              "3": 0.2227432590855803,
+              "4": 0.04580152671755725,
+              "5": 0.7301092043681747,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.04642857142857143,
+              "22": 0.0,
+              "23": 0.9961089494163424,
+              "24": 0.9912875121006777
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.31946536144578314,
+            "macro_f1_present": 0.3476964413402,
+            "foreground_macro_f1_present": 0.3476964413402,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.4475703324808184,
+              "3": 0.21705426356589147,
+              "4": 0.0931098696461825,
+              "5": 0.7324364723467862,
+              "6": 0.0,
+              "17": 0.009950248756218905,
+              "19": 0.0,
+              "21": 0.34002677376171353,
+              "22": 0.0,
+              "23": 0.9951409135082604,
+              "24": 0.9893719806763285
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.21033653846153846,
+              "macro_f1_present": 0.2547307132459971,
+              "foreground_macro_f1_present": 0.2547307132459971,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.5094614264919942,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.19140625,
+              "macro_f1_present": 0.32131147540983607,
+              "foreground_macro_f1_present": 0.32131147540983607,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.32131147540983607
+              }
+            },
+            "00304": {
+              "accuracy": 0.048828125,
+              "macro_f1_present": 0.0931098696461825,
+              "foreground_macro_f1_present": 0.0931098696461825,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.0931098696461825
+              }
+            },
+            "00349": {
+              "accuracy": 0.6380208333333334,
+              "macro_f1_present": 0.7790143084260731,
+              "foreground_macro_f1_present": 0.7790143084260731,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.7790143084260731
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.005859375,
+              "macro_f1_present": 0.011650485436893204,
+              "foreground_macro_f1_present": 0.011650485436893204,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.011650485436893204
+              }
+            },
+            "00312": {
+              "accuracy": 0.1240234375,
+              "macro_f1_present": 0.17737430167597765,
+              "foreground_macro_f1_present": 0.17737430167597765,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.3547486033519553,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 1.0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "lambda0": {
+      "offset": -1.5,
+      "runs": [
+        {
+          "seed": 0,
+          "raw": {
+            "accuracy": 0.3179593373493976,
+            "macro_f1_present": 0.35501143198540924,
+            "foreground_macro_f1_present": 0.35501143198540924,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6172506738544474,
+              "3": 0.1855146124523507,
+              "4": 0.21837088388214904,
+              "5": 0.8968481375358166,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9871414441147379
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.33960843373493976,
+            "macro_f1_present": 0.3808073506474113,
+            "foreground_macro_f1_present": 0.3808073506474113,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.6184738955823293,
+              "3": 0.2144638403990025,
+              "4": 0.2993421052631579,
+              "5": 0.9523809523809523,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.1140819964349376,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9901380670611439
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.2776442307692308,
+              "macro_f1_present": 0.31090174966352624,
+              "foreground_macro_f1_present": 0.31090174966352624,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.6218034993270525,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.16796875,
+              "macro_f1_present": 0.28762541806020064,
+              "foreground_macro_f1_present": 0.28762541806020064,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.28762541806020064
+              }
+            },
+            "00304": {
+              "accuracy": 0.177734375,
+              "macro_f1_present": 0.3018242122719735,
+              "foreground_macro_f1_present": 0.3018242122719735,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.3018242122719735
+              }
+            },
+            "00349": {
+              "accuracy": 0.9114583333333334,
+              "macro_f1_present": 0.9536784741144414,
+              "foreground_macro_f1_present": 0.9536784741144414,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.9536784741144414
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.03125,
+              "macro_f1_present": 0.0570409982174688,
+              "foreground_macro_f1_present": 0.0570409982174688,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.1140819964349376,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.98046875,
+              "macro_f1_present": 0.9901380670611439,
+              "foreground_macro_f1_present": 0.9901380670611439,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9901380670611439
+              }
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "raw": {
+            "accuracy": 0.28990963855421686,
+            "macro_f1_present": 0.320700140109471,
+            "foreground_macro_f1_present": 0.320700140109471,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.21602787456445993,
+              "3": 0.1983273596176822,
+              "4": 0.24787775891341257,
+              "5": 0.9057665260196905,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.015455950540958269,
+              "23": 0.9733333333333334,
+              "24": 0.970912738214644
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.3051581325301205,
+            "macro_f1_present": 0.3316690079760756,
+            "foreground_macro_f1_present": 0.3316690079760756,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.21490467937608318,
+              "3": 0.22093023255813954,
+              "4": 0.30293159609120524,
+              "5": 0.8831521739130435,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0880648899188876,
+              "23": 0.9552238805970149,
+              "24": 0.9831516352824579
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.07451923076923077,
+              "macro_f1_present": 0.10801393728222997,
+              "foreground_macro_f1_present": 0.10801393728222997,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.21602787456445993,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.185546875,
+              "macro_f1_present": 0.3130148270181219,
+              "foreground_macro_f1_present": 0.3130148270181219,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.3130148270181219
+              }
+            },
+            "00304": {
+              "accuracy": 0.181640625,
+              "macro_f1_present": 0.3074380165289256,
+              "foreground_macro_f1_present": 0.3074380165289256,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.3074380165289256
+              }
+            },
+            "00349": {
+              "accuracy": 0.8463541666666666,
+              "macro_f1_present": 0.9167842031029619,
+              "foreground_macro_f1_present": 0.9167842031029619,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.9167842031029619
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.037109375,
+              "macro_f1_present": 0.04449648711943794,
+              "foreground_macro_f1_present": 0.04449648711943794,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.0,
+                "22": 0.08899297423887588
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.96875,
+              "macro_f1_present": 0.9841269841269841,
+              "foreground_macro_f1_present": 0.9841269841269841,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9841269841269841
+              }
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "raw": {
+            "accuracy": 0.2880271084337349,
+            "macro_f1_present": 0.3160893819843412,
+            "foreground_macro_f1_present": 0.3160893819843412,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.3822341857335128,
+              "3": 0.24065420560747663,
+              "4": 0.08955223880597014,
+              "5": 0.7950310559006211,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 0.9884169884169884,
+              "24": 0.981094527363184
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.30271084337349397,
+            "macro_f1_present": 0.3294801020004814,
+            "foreground_macro_f1_present": 0.3294801020004814,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.3683559950556242,
+              "3": 0.24915824915824916,
+              "4": 0.15798922800718132,
+              "5": 0.8036253776435045,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.07431340872374798,
+              "22": 0.0,
+              "23": 0.9884169884169884,
+              "24": 0.982421875
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.17908653846153846,
+              "macro_f1_present": 0.2254160363086233,
+              "foreground_macro_f1_present": 0.2254160363086233,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.4508320726172466,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.216796875,
+              "macro_f1_present": 0.3563402889245586,
+              "foreground_macro_f1_present": 0.3563402889245586,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.3563402889245586
+              }
+            },
+            "00304": {
+              "accuracy": 0.0859375,
+              "macro_f1_present": 0.15827338129496402,
+              "foreground_macro_f1_present": 0.15827338129496402,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.15827338129496402
+              }
+            },
+            "00349": {
+              "accuracy": 0.6927083333333334,
+              "macro_f1_present": 0.8184615384615385,
+              "foreground_macro_f1_present": 0.8184615384615385,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8184615384615385
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.0224609375,
+              "macro_f1_present": 0.038525963149078725,
+              "foreground_macro_f1_present": 0.038525963149078725,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.07705192629815745,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.982421875,
+              "macro_f1_present": 0.9911330049261083,
+              "foreground_macro_f1_present": 0.9911330049261083,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9911330049261083
+              }
+            }
+          }
+        }
+      ]
+    },
+    "native_sam": {
+      "offset": -1.75,
+      "runs": [
+        {
+          "seed": 0,
+          "raw": {
+            "accuracy": 0.2893448795180723,
+            "macro_f1_present": 0.3152194234490093,
+            "foreground_macro_f1_present": 0.3152194234490093,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.3755868544600939,
+              "3": 0.13800904977375567,
+              "4": 0.04554079696394687,
+              "5": 0.9121813031161473,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 0.9990224828934506,
+              "24": 0.9970731707317073
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.2940512048192771,
+            "macro_f1_present": 0.31784889547015277,
+            "foreground_macro_f1_present": 0.31784889547015277,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.378125,
+              "3": 0.15164835164835164,
+              "4": 0.0525328330206379,
+              "5": 0.9303621169916435,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.983669548511047
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.14543269230769232,
+              "macro_f1_present": 0.1911532385466035,
+              "foreground_macro_f1_present": 0.1911532385466035,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.382306477093207,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.134765625,
+              "macro_f1_present": 0.23752151462994836,
+              "foreground_macro_f1_present": 0.23752151462994836,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.23752151462994836
+              }
+            },
+            "00304": {
+              "accuracy": 0.02734375,
+              "macro_f1_present": 0.053231939163498096,
+              "foreground_macro_f1_present": 0.053231939163498096,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.053231939163498096
+              }
+            },
+            "00349": {
+              "accuracy": 0.8697916666666666,
+              "macro_f1_present": 0.9303621169916435,
+              "foreground_macro_f1_present": 0.9303621169916435,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.9303621169916435
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.0,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 1.0
+              }
+            }
+          }
+        },
+        {
+          "seed": 1,
+          "raw": {
+            "accuracy": 0.2552710843373494,
+            "macro_f1_present": 0.27734619674535066,
+            "foreground_macro_f1_present": 0.27734619674535066,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.0,
+              "3": 0.17050691244239632,
+              "4": 0.10661764705882353,
+              "5": 0.8140243902439024,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 0.9980430528375733,
+              "24": 0.9616161616161616
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.2629894578313253,
+            "macro_f1_present": 0.28315427270477217,
+            "foreground_macro_f1_present": 0.28315427270477217,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.0,
+              "3": 0.1757508342602892,
+              "4": 0.15630550621669628,
+              "5": 0.8083832335329342,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 1.0,
+              "24": 0.9742574257425742
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.0,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.154296875,
+              "macro_f1_present": 0.2673434856175973,
+              "foreground_macro_f1_present": 0.2673434856175973,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.2673434856175973
+              }
+            },
+            "00304": {
+              "accuracy": 0.0859375,
+              "macro_f1_present": 0.15827338129496402,
+              "foreground_macro_f1_present": 0.15827338129496402,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.15827338129496402
+              }
+            },
+            "00349": {
+              "accuracy": 0.703125,
+              "macro_f1_present": 0.8256880733944955,
+              "foreground_macro_f1_present": 0.8256880733944955,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8256880733944955
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.0,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 1.0,
+              "macro_f1_present": 1.0,
+              "foreground_macro_f1_present": 1.0,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 1.0
+              }
+            },
+            "00166": {
+              "accuracy": 0.9609375,
+              "macro_f1_present": 0.9800796812749004,
+              "foreground_macro_f1_present": 0.9800796812749004,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9800796812749004
+              }
+            }
+          }
+        },
+        {
+          "seed": 2,
+          "raw": {
+            "accuracy": 0.2564006024096386,
+            "macro_f1_present": 0.27426157569567305,
+            "foreground_macro_f1_present": 0.27426157569567305,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.06728971962616823,
+              "3": 0.1561771561771562,
+              "4": 0.06378986866791744,
+              "5": 0.7503649635036497,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.0,
+              "22": 0.0,
+              "23": 0.9931170108161259,
+              "24": 0.9861386138613861
+            }
+          },
+          "calibrated": {
+            "accuracy": 0.2633659638554217,
+            "macro_f1_present": 0.2807648600232184,
+            "foreground_macro_f1_present": 0.2807648600232184,
+            "support": {
+              "2": 512,
+              "3": 512,
+              "4": 512,
+              "5": 384,
+              "6": 512,
+              "17": 512,
+              "19": 320,
+              "21": 512,
+              "22": 512,
+              "23": 512,
+              "24": 512
+            },
+            "per_class_f1": {
+              "2": 0.06463195691202872,
+              "3": 0.15765765765765766,
+              "4": 0.10218978102189781,
+              "5": 0.7646219686162625,
+              "6": 0.0,
+              "17": 0.0,
+              "19": 0.0,
+              "21": 0.018018018018018018,
+              "22": 0.0,
+              "23": 0.9970731707317073,
+              "24": 0.9842209072978304
+            }
+          },
+          "per_video": {
+            "00046": {
+              "accuracy": 0.021634615384615384,
+              "macro_f1_present": 0.033962264150943396,
+              "foreground_macro_f1_present": 0.033962264150943396,
+              "support": {
+                "2": 512,
+                "19": 320
+              },
+              "per_class_f1": {
+                "2": 0.06792452830188679,
+                "19": 0.0
+              }
+            },
+            "00720": {
+              "accuracy": 0.13671875,
+              "macro_f1_present": 0.24054982817869416,
+              "foreground_macro_f1_present": 0.24054982817869416,
+              "support": {
+                "3": 512
+              },
+              "per_class_f1": {
+                "3": 0.24054982817869416
+              }
+            },
+            "00304": {
+              "accuracy": 0.0546875,
+              "macro_f1_present": 0.1037037037037037,
+              "foreground_macro_f1_present": 0.1037037037037037,
+              "support": {
+                "4": 512
+              },
+              "per_class_f1": {
+                "4": 0.1037037037037037
+              }
+            },
+            "00349": {
+              "accuracy": 0.6979166666666666,
+              "macro_f1_present": 0.8220858895705522,
+              "foreground_macro_f1_present": 0.8220858895705522,
+              "support": {
+                "5": 384
+              },
+              "per_class_f1": {
+                "5": 0.8220858895705522
+              }
+            },
+            "00644": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "6": 512
+              },
+              "per_class_f1": {
+                "6": 0.0
+              }
+            },
+            "00303": null,
+            "00238": {
+              "accuracy": 0.0,
+              "macro_f1_present": 0.0,
+              "foreground_macro_f1_present": 0.0,
+              "support": {
+                "17": 512
+              },
+              "per_class_f1": {
+                "17": 0.0
+              }
+            },
+            "00312": {
+              "accuracy": 0.0048828125,
+              "macro_f1_present": 0.009671179883945842,
+              "foreground_macro_f1_present": 0.009671179883945842,
+              "support": {
+                "21": 512,
+                "22": 512
+              },
+              "per_class_f1": {
+                "21": 0.019342359767891684,
+                "22": 0.0
+              }
+            },
+            "00571": {
+              "accuracy": 0.998046875,
+              "macro_f1_present": 0.9990224828934506,
+              "foreground_macro_f1_present": 0.9990224828934506,
+              "support": {
+                "23": 512
+              },
+              "per_class_f1": {
+                "23": 0.9990224828934506
+              }
+            },
+            "00166": {
+              "accuracy": 0.974609375,
+              "macro_f1_present": 0.9871414441147379,
+              "foreground_macro_f1_present": 0.9871414441147379,
+              "support": {
+                "24": 512
+              },
+              "per_class_f1": {
+                "24": 0.9871414441147379
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "primary_contrast": {
+    "left": "source_gt32",
+    "right": "source_gt",
+    "per_seed_pooled_macro_difference": [
+      0.008075620103034586,
+      -0.01784244856506062,
+      -0.04993906335958509
+    ],
+    "mean_pooled_macro_difference": -0.019901963940537042,
+    "per_video_three_seed_mean_differences": {
+      "00046": -0.012935555481660393,
+      "00720": -0.028386634545709815,
+      "00304": -0.03990789482882774,
+      "00349": -0.033279717070174596,
+      "00644": 0.0,
+      "00303": null,
+      "00238": 0.0038834951456310682,
+      "00312": -0.05419730561052614,
+      "00571": 0.0,
+      "00166": 0.010503734980705115
+    },
+    "conditional_video_bootstrap": {
+      "mean_per_video_difference": -0.017146653045618056,
+      "positive_videos": 2,
+      "negative_videos": 5,
+      "tied_videos": 2,
+      "video_count": 9,
+      "percentile_95_interval": [
+        -0.0309025386260958,
+        -0.003133696970990478
+      ],
+      "note": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval"
+    }
+  },
+  "secondary_contrasts_unadjusted": {
+    "native_sam_minus_source_gt": {
+      "left": "native_sam",
+      "right": "source_gt",
+      "per_seed_pooled_macro_difference": [
+        -0.09280776277885289,
+        -0.06831116628425837,
+        -0.11687064467656672
+      ],
+      "mean_pooled_macro_difference": -0.09266319124655932,
+      "per_video_three_seed_mean_differences": {
+        "00046": -0.17829633625399702,
+        "00720": -0.10305513721715893,
+        "00304": -0.1013113918177145,
+        "00349": -0.03260912075376491,
+        "00644": 0.0,
+        "00303": null,
+        "00238": 0.0,
+        "00312": -0.25459923519023747,
+        "00571": -0.0003258390355164546,
+        "00166": 0.0035073636200277183
+      },
+      "conditional_video_bootstrap": {
+        "mean_per_video_difference": -0.07407663296092908,
+        "positive_videos": 1,
+        "negative_videos": 6,
+        "tied_videos": 2,
+        "video_count": 9,
+        "percentile_95_interval": [
+          -0.13548929731700646,
+          -0.021944062810774153
+        ],
+        "note": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval"
+      }
+    },
+    "lambda0_minus_source_gt": {
+      "left": "lambda0",
+      "right": "source_gt",
+      "per_seed_pooled_macro_difference": [
+        -0.029849307601594377,
+        -0.019796431012954918,
+        -0.0681554026993037
+      ],
+      "mean_pooled_macro_difference": -0.03926704710461767,
+      "per_video_three_seed_mean_differences": {
+        "00046": -0.03855759606838614,
+        "00720": -0.03253323535827849,
+        "00304": 0.049464136826851274,
+        "00349": 0.00432025782031864,
+        "00644": 0.0,
+        "00303": null,
+        "00238": 0.0,
+        "00312": -0.21113514565622424,
+        "00571": 0.0,
+        "00166": 0.0028996738615603888
+      },
+      "conditional_video_bootstrap": {
+        "mean_per_video_difference": -0.025060212063795394,
+        "positive_videos": 3,
+        "negative_videos": 3,
+        "tied_videos": 3,
+        "video_count": 9,
+        "percentile_95_interval": [
+          -0.07674490020344586,
+          0.009738466398257276
+        ],
+        "note": "per-video present-class macro F1 estimand; not pooled-query macro F1 confidence interval"
+      }
+    }
+  },
+  "actual_support": {
+    "2": 512,
+    "3": 512,
+    "4": 512,
+    "5": 384,
+    "6": 512,
+    "17": 512,
+    "19": 320,
+    "21": 512,
+    "22": 512,
+    "23": 512,
+    "24": 512
+  },
+  "total_queries": 5312,
+  "query_counts": {
+    "00046": 832,
+    "00720": 512,
+    "00304": 512,
+    "00349": 384,
+    "00644": 512,
+    "00303": 0,
+    "00238": 512,
+    "00312": 1024,
+    "00571": 512,
+    "00166": 512
+  },
+  "empty_groups": [
+    "00303"
+  ],
+  "empty_frames": 10,
+  "distinct_frame_query_pixels": 5161,
+  "old_prefix_checks": {
+    "00046": {
+      "old_query_count": 320,
+      "bitwise_equal": true
+    },
+    "00720": {
+      "old_query_count": 0,
+      "bitwise_equal": true
+    },
+    "00304": {
+      "old_query_count": 0,
+      "bitwise_equal": true
+    },
+    "00349": {
+      "old_query_count": 384,
+      "bitwise_equal": true
+    },
+    "00644": {
+      "old_query_count": 512,
+      "bitwise_equal": true
+    },
+    "00303": {
+      "old_query_count": 0,
+      "bitwise_equal": true
+    },
+    "00238": {
+      "old_query_count": 64,
+      "bitwise_equal": true
+    },
+    "00312": {
+      "old_query_count": 1024,
+      "bitwise_equal": true
+    },
+    "00571": {
+      "old_query_count": 512,
+      "bitwise_equal": true
+    },
+    "00166": {
+      "old_query_count": 0,
+      "bitwise_equal": true
+    }
+  },
+  "query_coverage_sha256": "5aa47aaae32b2e0265ea61189fa594f3417d92f72890f9e4e1ad582234943c1f",
+  "feature_hashes": {
+    "semantic_artifacts/external_label_sensitivity/features/00046.npz": "d7a907de8034d7c218f655b5787218d4c7dadf5d858217ba7ee22721921443e4",
+    "semantic_artifacts/external_label_sensitivity/features/00720.npz": "c59cd585d526ca8a48a311e9221cd59c31f7a2663d4304bfe3c3329df0b09a05",
+    "semantic_artifacts/external_label_sensitivity/features/00304.npz": "8ed25b1e775e48ce5346b03a1a31dd8d27713e9bb9ab84e9e50b70c8dfe761ca",
+    "semantic_artifacts/external_label_sensitivity/features/00349.npz": "fca3e75a1fc61929ef520b96d11bc9d3955908167f28e97ebf7a2bc9a6b7fe4c",
+    "semantic_artifacts/external_label_sensitivity/features/00644.npz": "0c5e135a418d4068583b755dadcab41327bf872282331e693c9563c78755a7b9",
+    "semantic_artifacts/external_label_sensitivity/features/00303.npz": "82c425b0d6258a50fbaf93f5497f7be29891535e79e32495f937577754e8e720",
+    "semantic_artifacts/external_label_sensitivity/features/00238.npz": "06b2f000985efd5759b976d42c9a1b2629da4a45c7a184feca1c5e5f68de889c",
+    "semantic_artifacts/external_label_sensitivity/features/00312.npz": "eaf506eb170a45dc4e071a9765a5ca0b112c750a8d811f05d0affccd4a434e87",
+    "semantic_artifacts/external_label_sensitivity/features/00571.npz": "d3ef191cfb9f8386f885aabeb76e40be5a1fefc41ee104ca2360db71f151dccb",
+    "semantic_artifacts/external_label_sensitivity/features/00166.npz": "910bd323a377c62aac184efcdbd10195ab8168e4b00012dfe980a61565a33f51"
+  },
+  "prior_scores_unchanged": true,
+  "deployment_unchanged": "native_gt"
+}

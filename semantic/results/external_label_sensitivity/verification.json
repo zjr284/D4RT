@@ -1,0 +1,9 @@
+{
+  "summary_sha256": "430ebe6df9d546b50515030b6074f93c19e08bd036f96b985db6acbc9d031f04",
+  "GT_frames_replayed": 80,
+  "old_prefix_feature_groups_replayed": 6,
+  "first_new_feature_group_replayed": "00046",
+  "all_twelve_logits_metrics_and_three_bootstraps_replayed": true,
+  "old_files_unchanged": true,
+  "new_confirmation_groups_consumed": 0
+}
