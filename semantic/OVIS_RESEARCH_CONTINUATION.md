@@ -2,7 +2,7 @@
 
 用户要求每轮复盘、独立核验、独立Git提交并推送GitHub main后，当前运行立即下一轮。现有分钟心跳仅为空闲/中断恢复。先检查最新聊天消息、semantic最新报告/协议、Git状态及实际进程/结果，避免重复训练、覆盖历史或启动两个研究运行。
 
-第61研究d70837f已推送远程aeedbcfd，query/class/class_video val .830191/.825089/.831876，class三seed负，class_video一正两负/均+.001685，源验证暂选class_video−2.0，独立采样与9输出核验完成，非泛化。第62官方COCO GCP对象在首HEAD返回404，未Range/未获得注释/图片/模型评分，1HEAD0GET0注释字节；失败记录/离线旧指纹核验通过，HTTP错误头未持久化明确披露。报告OVIS_COCO_METADATA_RESULTS.md。提交推送后立即第63官方端点可达性诊断（最多3HEAD，下载页原HTTPS域名及可核对同一官方对象端点，记录HTTP/TLS证据，不绕证书/不HTTP降级/不下全241MB或转非官方源）；可用后另冻结小范围获取COCO val实例成员。已有semantic/coco_metadata_acquisition.py和正向verify代码已冻结，62根有失败summary禁止覆盖或直接重跑。静态图像只能语义迁移，当前没有COCO确认结果。第60独立外部B14汇总收益视频区间跨零/各口径负结果保留，原LVVIS40暂留未评价，部署native_gt不变。
+第62研究2371f90已推送远程d96601c2，官方GCP注释路径首HEAD404，0Range/0注释，失败保持。第63仅2HEAD完成独立核验：官方images.cocodataset.org HTTPS证书hostname mismatch，未绕过；同名S3 path-style https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip 返回200/252907541B/ETag f4bbac642086de4f52a3fdda2de5fa2c/LastModified2018-07-10，尚未独立证明桶与作者域名身份。报告OVIS_COCO_ENDPOINT_RESULTS.md。提交推送后立即第64先预注册一次公开DoH CNAME核对（工具DNS只给代理198.18.1.129不能当证据），须原官方下载域实际别名指向同名S3桶才获取；不符停止来源不确定。通过则新根/新脚本、复用62固定Range逻辑与63总长版本，只取val实例JSON≤64MiB/≤11Range请求、不全包/图片/GT解码/模型评分；独立离线zipfile区间成员CRC/schema/类映射/旧指纹核验，保存负结果。第61研究d70837f已推送，验证暂选class_video .831876/−2.0（一正两负、仅比query均+.001685），旧基线/全部模型已冻结；当前无COCO结果，静态仅语义迁移。第60外部B14视频区间跨零，原LVVIS40暂留未评价，部署native_gt不变。
 
 第37有效COCO image oracle：19096图像/79604 RLE注释/1196类，23严格共同词表但第43核验仅14实际注释类，固定8帧Person87.41%，Bear等五类仅1目录；不称完整25类泛化。缺Poultry/Vehical；未知/重叠/crowd GT忽略，始终26预测输出不依GT限类。普通VIS JSON解析失败保留。无官方video_id/track_id/fps，路径目录作组。第41固定48帧24空保留。第42全部42149 OVIS原帧索引/文件SHA与固定48像素核验通过，完全相同组0，但外部近似重复仍须盲复核。pilot00000永久排除，元数据/RGB已观察、辅助SAM标注与预训练重合未知需披露。
 

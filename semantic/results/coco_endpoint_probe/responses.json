@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+    "method": "HEAD",
+    "received_body_bytes": 0,
+    "status": null,
+    "error_type": "URLError",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'images.cocodataset.org'. (_ssl.c:1000)>"
+  },
+  {
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+    "method": "HEAD",
+    "received_body_bytes": 0,
+    "status": 200,
+    "headers": {
+      "x-amz-id-2": "QMayQ94WHDye4alIMLjMu1uJe0jINNXXCXjmyxksEycS+l9d88Mc3OeEXRDYrFNQkbUWRIpVTB0=",
+      "x-amz-request-id": "PF2M9V2NEQRX87G1",
+      "Server": "AmazonS3",
+      "Date": "Sun, 18 Oct 2026 02:38:30 GMT",
+      "Last-Modified": "Tue, 10 Jul 2018 17:58:17 GMT",
+      "ETag": "\"f4bbac642086de4f52a3fdda2de5fa2c\"",
+      "x-amz-version-id": "null",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "252907541",
+      "Content-Type": "application/zip",
+      "Connection": "close"
+    },
+    "final_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip"
+  }
+]

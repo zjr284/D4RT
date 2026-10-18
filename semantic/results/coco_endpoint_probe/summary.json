@@ -1,0 +1,57 @@
+{
+  "protocol": {
+    "round": 63,
+    "maximum_HEAD": 2,
+    "GET_allowed": false,
+    "automatic_redirects": false,
+    "urls": [
+      "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip"
+    ],
+    "input_sha256": {
+      "semantic/coco_endpoint_probe.py": "9b6c53bf9b69cc4bfb125341a298798d18cd5e3d29e21837b576150c42273b27",
+      "semantic/OVIS_COCO_ENDPOINT_PROTOCOL.md": "4f79c34a53d1e86d06d5fd127fe8e36b9607bf1129f20eb5f13b3288ce68d9fb",
+      "semantic_artifacts/coco_metadata_acquisition/summary.json": "6f72c967e5ee391b46d067b51b084bb7f97adbb3c9ec1075462bc2e59d49fe84",
+      "semantic_artifacts/coco_metadata_acquisition/verification.json": "34e70e87e49ae4feda655c79c558812eb882ea9f1fd850b564eeb89df6f08dad",
+      "semantic_artifacts/dino_class_video_sampling/frozen_selection.json": "5108130b2636dbf174cb180bf76b4cb76e2dbc5491a5670b2d03b7583c9cabf6"
+    }
+  },
+  "responses": [
+    {
+      "url": "https://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "method": "HEAD",
+      "received_body_bytes": 0,
+      "status": null,
+      "error_type": "URLError",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'images.cocodataset.org'. (_ssl.c:1000)>"
+    },
+    {
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "method": "HEAD",
+      "received_body_bytes": 0,
+      "status": 200,
+      "headers": {
+        "x-amz-id-2": "QMayQ94WHDye4alIMLjMu1uJe0jINNXXCXjmyxksEycS+l9d88Mc3OeEXRDYrFNQkbUWRIpVTB0=",
+        "x-amz-request-id": "PF2M9V2NEQRX87G1",
+        "Server": "AmazonS3",
+        "Date": "Sun, 18 Oct 2026 02:38:30 GMT",
+        "Last-Modified": "Tue, 10 Jul 2018 17:58:17 GMT",
+        "ETag": "\"f4bbac642086de4f52a3fdda2de5fa2c\"",
+        "x-amz-version-id": "null",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "252907541",
+        "Content-Type": "application/zip",
+        "Connection": "close"
+      },
+      "final_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip"
+    }
+  ],
+  "responses_sha256": "33c05f1ea77d256a11d9265f13acd78f43e60dcd7856a02e8179691cdda3daad",
+  "canonical_HTTPS_200": false,
+  "path_style_candidate_200": true,
+  "candidate_bucket_identity_not_independently_proven": true,
+  "GET_requests": 0,
+  "body_bytes_received": 0,
+  "model_evaluation": false,
+  "deployment_unchanged": "native_gt"
+}

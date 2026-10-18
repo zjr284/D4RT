@@ -1,0 +1,8 @@
+{
+  "summary_sha256": "d211db6518bfd1b2fe705ea2e06c6004db2e564ef531223fe6bab5576db6b8fe",
+  "two_HEAD_records_recomputed": true,
+  "canonical_TLS_failure_preserved": true,
+  "S3_candidate_200_only_not_proven_official_identity": true,
+  "no_body_download_or_model_evaluation": true,
+  "frozen_inputs_unchanged": true
+}
