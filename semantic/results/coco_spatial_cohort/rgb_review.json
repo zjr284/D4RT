@@ -1,0 +1,9 @@
+{
+  "reviewer": "single Codex visual review, not an independent human reviewer",
+  "materials_sha256": "ae5848e6d3f05bba1ca5ff70b919a836b9e97b67f41fc1832246cf2be2ccfe26",
+  "viewed_overview_sha256": "5599a02a1fed8b8aeed2a130cee6585d233193842d35457d4f080564dd34d759",
+  "pair_ids_reviewed": [],
+  "excluded_image_ids": [],
+  "visual_findings": "All40 overview panels actually inspected: birds on shore vs feeder, distinct cats/dogs/couches, shearing vs roadside sheep, separate cow/zebra/giraffe/elephant scenes, flight vs airport, ferry interior vs seashore, distinct motorcycles/cyclist/boats/street. No apparent within-candidate duplicate scene in overview. Threshold6 screen produced no cross-reference pairs; does not rule out all derivatives or pretraining overlap.",
+  "no_GT_or_model_results_used": true
+}

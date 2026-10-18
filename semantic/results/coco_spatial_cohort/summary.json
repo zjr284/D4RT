@@ -1,0 +1,146 @@
+{
+  "protocol": {
+    "round": 79,
+    "RGB_only_no_GT_mask_or_model_evaluation": true,
+    "models": {
+      "B14_aux_sam": {
+        "checkpoint_sha256": {
+          "0": "f6bb330ea007c97aeab4ec2bb368d897d4bd9796b0a958f48d405b121657b3a9",
+          "1": "db6ec81c1b80d1e155f434d8596d79305b262e5df6e23ff9943227a001b013cd",
+          "2": "a2c31c9b7382f2176e2093f5d46f2711f8cf6ca90464d01de057d6dc61ac7aa1"
+        },
+        "old_offset": -2.25,
+        "spatial_offset": 1.0
+      },
+      "B14_extra_gt": {
+        "checkpoint_sha256": {
+          "0": "a434c4cddb778ec3c9c5d875fef07e567294c6d9709f824ed3f120bf18a633a4",
+          "1": "36447bc85dbc7e6954bdf543de4e66bba853c30ba9ab8bfe775b8a95ff9aeccc",
+          "2": "573a81b91a32791cb634adb59610afc765645d4a0fe6654f0ee4be0083a0db80"
+        },
+        "old_offset": -2.25,
+        "spatial_offset": 0.75
+      },
+      "B14_gt32": {
+        "checkpoint_sha256": {
+          "0": "3d746942ff7118d506982b2ecb1c989a5d3dbe40a8ef4fa7dcc5b814a6aa0642",
+          "1": "debf34dfb867a818fd43229c7feefd9a9fbe6e39cfec2c4a04178e8c3d8791cb",
+          "2": "b5ae3178d269369ad7a18eb2b9140395013b0f0bad79f6188186fbeaefae4b0d"
+        },
+        "old_offset": -2.0,
+        "spatial_offset": 0.25
+      },
+      "B14_weak": {
+        "checkpoint_sha256": {
+          "0": "a20be8bdf779c8606b9461fafd7415afe23b164ece991c98472cbec93a0ad243",
+          "1": "2fa4afe82b09c176aa0b56458b70d54d6ffda2ae67fbe681693f21953c3374b2",
+          "2": "7a3b42d962d59227e520d3603ca83110558cd111d4841a52eec58fc3c8e87b9d"
+        },
+        "old_offset": -2.75,
+        "spatial_offset": -0.25
+      },
+      "B14_gt256": {
+        "checkpoint_sha256": {
+          "0": "6899ed492c55d2aae0cbf314ec49f8aca58637293134abc8efeea8fa929c7013",
+          "1": "011b356dd50f941e36f0ce062a9f01148b5e8835ec37b18378639de53d69804c",
+          "2": "348b2edfe7770d2c9d70d74d45e52d87522fd6e512b9116a344bcf77023ab7b7"
+        },
+        "old_offset": -2.0,
+        "spatial_offset": 0.25
+      },
+      "B14_class_video": {
+        "checkpoint_sha256": {
+          "0": "7f6cd4ba44bea01af95a0d7c3eb84a55d846c7624691927ac7b19eed1df3a122",
+          "1": "af5017bd8e1e5f35b69b767abd167806f856edb8161e40efad6ecd2b083a72b4",
+          "2": "dc6af14b0de465be9a33310217d3f5d2a57b27f3fce2bc66dad9a5f0eb8add29"
+        },
+        "old_offset": -2.0,
+        "spatial_offset": 0.5
+      },
+      "S14_gt32": {
+        "checkpoint_sha256": {
+          "0": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+          "1": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+          "2": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+        },
+        "old_offset": -1.25,
+        "spatial_offset": 0.75
+      }
+    },
+    "primary_model_fixed": "B14_aux_sam",
+    "bootstrap_seed": 20261080,
+    "bootstrap_repetitions": 2000,
+    "query_seed_base": 20261077,
+    "query_count": 1024,
+    "primary": "strict image_equal_macro spatial_minus_old",
+    "secondary": "same_aux_spatial_minus_raw; six_other_arms_spatial_minus_old_and_raw, unadjusted",
+    "max_GET": 160,
+    "max_segments_per_image": 4,
+    "max_image_bytes": 8388608,
+    "max_total_received_bytes": 67108864,
+    "deadline_seconds": 900,
+    "socket_timeout_seconds": 30,
+    "minimum_GET_start_interval": 1,
+    "new_HEAD": 0,
+    "near_dhash_threshold": 6,
+    "previous_LVVIS_RGB_sources": [
+      "semantic_artifacts/external_capacity_panel/image_records.json",
+      "semantic_artifacts/external_class_panel/image_records.json",
+      "semantic_artifacts/external_local_rgb/image_records.json"
+    ],
+    "input_sha256": {
+      "semantic_artifacts/dino_spatial_calibration/summary.json": "8d3091dc538f61cc9605a66b3265d65cc4b102733f4aaaeebec6ece4ef0b2c77",
+      "semantic_artifacts/dino_spatial_calibration/verification.json": "761abecc2c5843432cdcc4f7cfb047e8c147ad2d79086a71638e3b82c7338f50",
+      "semantic_artifacts/dino_spatial_calibration/frozen_selection.json": "e2f2c52fd6b095d5c031d879be90f2240ff9557f0b8d2c6cf9f097093f8f616a",
+      "semantic_artifacts/coco_range_metadata/instances_val2017.json": "e8c7f7908f1d7278341fae127d0da654f102f11bd7b21d8aeefa635b8c810b6f",
+      "semantic_artifacts/coco_range_metadata/summary.json": "42081548265ba83750c8e1de3b35d0408dca8bbedc9e827ecaf7be54370a8913",
+      "semantic_artifacts/coco_cohort_segments/manifest.json": "2b87049e3993b034b5b75bb1299b19f8d07653fcb3046a92b027931819ae097f",
+      "semantic_artifacts/coco_cohort_segments/image_records.json": "ad5a0e3a6c3b82e89e09a85aee3286cb64f4663dc010cc209b1e0a83fb50cd97",
+      "semantic_artifacts/coco_cohort_segments/verification.json": "f8b6dae6c581e16cfd7844c95faabafb19370d2dcd30bb26339e05077e1ae608",
+      "semantic_artifacts/ovis_frame_index/index.sqlite": "95a373506edf074b3b444e553b2b8a171b19f74083bf865f0d90c4e90bc6f2b1",
+      "semantic_artifacts/ovis_frame_index/summary.json": "9456cfbd9235119ec90e2812425b5ab26f673f5ee8ffbed60f37016fc02e97cc",
+      "semantic_artifacts/ovis_frame_index/verification.json": "2b1603375f331e8e255990f2cd0c133ffc814e65985514b251d01473bed0df07",
+      "semantic/coco_spatial_cohort.py": "bbdad211be847d283cb30d4e78d1d916f1fc99bce65c3fae63bb0dfc5fec9b52",
+      "semantic/OVIS_COCO_SPATIAL_COHORT_PROTOCOL.md": "46e50c5e206eff539a3aea194c42e5625e474e876b0bba744831e737855d55c1",
+      "semantic/ovis_frame_index.py": "3dbe9653a7cc3983586776c07c66fe16f60f870665ed72cadd32a257f9a89b31",
+      "semantic/coco_endpoint_probe.py": "9b6c53bf9b69cc4bfb125341a298798d18cd5e3d29e21837b576150c42273b27",
+      "semantic_artifacts/external_capacity_panel/image_records.json": "a52f3fc9e708f120f427ec98111b835d1bb97f863823b68051d19e1202391150",
+      "semantic_artifacts/external_class_panel/image_records.json": "f10741e97b2e8958bc0bc2dc16fea9dd01ca0208dc0c9376ec4a9d0c5dd65468",
+      "semantic_artifacts/external_local_rgb/image_records.json": "a20b15a52efb8de3f82c80d00732ca97d5ed77e47e365cf9597aa6268d459618",
+      "semantic_artifacts/dino_b14_auxiliary/aux_sam/runs/linear_seed0.pt": "f6bb330ea007c97aeab4ec2bb368d897d4bd9796b0a958f48d405b121657b3a9",
+      "semantic_artifacts/dino_b14_auxiliary/aux_sam/runs/linear_seed1.pt": "db6ec81c1b80d1e155f434d8596d79305b262e5df6e23ff9943227a001b013cd",
+      "semantic_artifacts/dino_b14_auxiliary/aux_sam/runs/linear_seed2.pt": "a2c31c9b7382f2176e2093f5d46f2711f8cf6ca90464d01de057d6dc61ac7aa1",
+      "semantic_artifacts/dino_b14_auxiliary/extra_gt/runs/linear_seed0.pt": "a434c4cddb778ec3c9c5d875fef07e567294c6d9709f824ed3f120bf18a633a4",
+      "semantic_artifacts/dino_b14_auxiliary/extra_gt/runs/linear_seed1.pt": "36447bc85dbc7e6954bdf543de4e66bba853c30ba9ab8bfe775b8a95ff9aeccc",
+      "semantic_artifacts/dino_b14_auxiliary/extra_gt/runs/linear_seed2.pt": "573a81b91a32791cb634adb59610afc765645d4a0fe6654f0ee4be0083a0db80",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed0.pt": "3d746942ff7118d506982b2ecb1c989a5d3dbe40a8ef4fa7dcc5b814a6aa0642",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed1.pt": "debf34dfb867a818fd43229c7feefd9a9fbe6e39cfec2c4a04178e8c3d8791cb",
+      "semantic_artifacts/dino_backbone_training/B14_gt32/runs/linear_seed2.pt": "b5ae3178d269369ad7a18eb2b9140395013b0f0bad79f6188186fbeaefae4b0d",
+      "semantic_artifacts/dino_b14_sam_control/B14_sam/runs/linear_seed0.pt": "a20be8bdf779c8606b9461fafd7415afe23b164ece991c98472cbec93a0ad243",
+      "semantic_artifacts/dino_b14_sam_control/B14_sam/runs/linear_seed1.pt": "2fa4afe82b09c176aa0b56458b70d54d6ffda2ae67fbe681693f21953c3374b2",
+      "semantic_artifacts/dino_b14_sam_control/B14_sam/runs/linear_seed2.pt": "7a3b42d962d59227e520d3603ca83110558cd111d4841a52eec58fc3c8e87b9d",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed0.pt": "6899ed492c55d2aae0cbf314ec49f8aca58637293134abc8efeea8fa929c7013",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed1.pt": "011b356dd50f941e36f0ce062a9f01148b5e8835ec37b18378639de53d69804c",
+      "semantic_artifacts/dino_backbone_training/B14_gt256/runs/linear_seed2.pt": "348b2edfe7770d2c9d70d74d45e52d87522fd6e512b9116a344bcf77023ab7b7",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed0.pt": "7f6cd4ba44bea01af95a0d7c3eb84a55d846c7624691927ac7b19eed1df3a122",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed1.pt": "af5017bd8e1e5f35b69b767abd167806f856edb8161e40efad6ecd2b083a72b4",
+      "semantic_artifacts/dino_class_video_sampling/class_video/runs/linear_seed2.pt": "dc6af14b0de465be9a33310217d3f5d2a57b27f3fce2bc66dad9a5f0eb8add29",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed0.pt": "4b73fc0aa899488732bca3018791e04e7a68f0500e95c5a8b59e297d24a85972",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed1.pt": "fb9a865ea89f648c9761f4d42c6a91e53bbbab26570fee43d8bc700092782779",
+      "semantic_artifacts/dino_source_batch_control/source_gt32/runs/linear_seed2.pt": "d9580900446c0fd0c9a89131bd651832448cb36fca3769382a80e4930d10dfa1"
+    }
+  },
+  "materials_sha256": "ae5848e6d3f05bba1ca5ff70b919a836b9e97b67f41fc1832246cf2be2ccfe26",
+  "rgb_review_sha256": "5dec36e508cc134c6efe831c05e7fba10f64fc7eafa01dcbe419f88397f057dd",
+  "frozen_eligibility_sha256": "d294fb88397ea3ce3d2d397aa98a749d9dd09fefcd9e86dde9de89aceb8a5aac",
+  "candidate_images": 40,
+  "metadata_only_reserve": 40,
+  "no_candidate_GT_or_model_evaluation": true,
+  "default_deployment_unchanged": "native_gt",
+  "limits": [
+    "5000 source image-category metadata observed before selection",
+    "single Codex RGB review, finite hash screen; not human or absolute duplicate proof",
+    "COCO image licenses vary by Flickr source",
+    "backbone pretraining COCO overlap unknown"
+  ]
+}

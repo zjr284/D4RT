@@ -1,0 +1,17 @@
+{
+  "summary_sha256": "bc2b18821adce0f3ee11ab6ad9130b4b46d60d846611d4186711d5a40e0c0cad",
+  "candidate40_and_metadata_reserve40_reconstructed_excluding160": true,
+  "all40_official_JPEG_MD5_pixel_dhash_license_and_segment_ledgers_verified": true,
+  "received_bytes": 7758655,
+  "GET_requests": 60,
+  "duplicate_pairs_independently_recomputed": 0,
+  "all_reference_counts_recomputed": {
+    "OVIS_all42149": 42149,
+    "available_LVVIS_old_RGB": 1040,
+    "COCO_previously_evaluated160": 160
+  },
+  "single_Codex_RGB_overview_and_eligibility_frozen": true,
+  "all21_heads_and_old_spatial_offsets_verified": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_GT_masks_queries_features_or_model_evaluation": true
+}
