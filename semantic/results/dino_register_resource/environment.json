@@ -1,0 +1,7 @@
+{
+  "torch": "2.14.0+cu130",
+  "cuda": "13.0",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "device_total_bytes": 8546484224,
+  "disk_free_bytes": 926376869888
+}

@@ -1,0 +1,31 @@
+{
+  "summary_sha256": "7529b08b0e288d26dd9497263a1dd01b8adb73fc0d410d6aa41e355e4d9f5fad",
+  "all_segments_reassembled_bytewise_and_official_URL_LEDGER_verified": true,
+  "complete_recorded_SHA_ETag_if_MD5_and_all_ZIP_CRC_verified": true,
+  "strict_register_and_plain_weight_loading_verified": true,
+  "independent_manual_blocks_final_norm_register_patch_slicing_and_grid_replays": [
+    {
+      "alias": "plain",
+      "frames": 1,
+      "points": 8
+    },
+    {
+      "alias": "plain",
+      "frames": 8,
+      "points": 64
+    },
+    {
+      "alias": "registers",
+      "frames": 1,
+      "points": 8
+    },
+    {
+      "alias": "registers",
+      "frames": 8,
+      "points": 64
+    }
+  ],
+  "plain_T8_reproduces_old64_points_bitwise": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_GT_scoring_training_new_confirmation_or_deployment_change": true
+}

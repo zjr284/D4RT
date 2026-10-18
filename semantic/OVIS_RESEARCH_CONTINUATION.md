@@ -1,5 +1,7 @@
 # 连续研究当前接续点
 
+第89轮官方B14_reg资源已独立核验：1HEAD+2GET346393545B，段重组/完整ZIP178CRC/strict加载/手动blocks-finalnorm切分+点采样通过。权重semantic_artifacts/dino_register_resource/weights/dinov2_vitb14_reg4_pretrain.pth SHA73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71，实测SHA非作者签名，非单part ETag不作MD5。86583552参数/4register/antialiasTrue/offset0，普通86580480/0/False/.1，权重也不同不唯一归因token。旧val258只RGB T1/T8 8/64点，普通T8逐值旧缓存，两版此样本源0跨批量化差0；无头训练/分类/新确认/改默认。推送后立即90同B14原/register×raw/train-only标准化2x2：只新6头原6头复用，同GT32/19994参数/2000步64000曝光；原80/20/两val不变。训练前固定排除COCO已评分240后metadata候选80+预留80 seed20261090，无RGB/评分；资格只按源val既定规则，不按旧确认选参。
+
 第88轮已完成独立核验：源80首帧GT同点水平翻转，B14冻结BF16/原83统计、同768头/GT32/2000步64000曝光，view generator独立seed20261088+seed。三seed翻曝光31815/32047/32048，索引/类SHA同旧。flip balanced raw差全负均−.007556、校准均.823011 vs旧zB14 .831598三seed负均−.008587；spatial校准也全负均−.022189。旧参考选中，不消费新确认；不试概率/EPS挽回。80包/真实562独立翻转特征/双generator/三预算12输出2曲线全核验。推送后立即89官方DINOv2 B14_reg资源检查，现vendor支持dinov2_vitb14_reg、4register、antialiasTrue/offset0；与旧B14不同权重/位置插值，不能唯一归因4tokens。先官方URL/许可/权重有界下载/固定源val258只RGB T1/T8预检，不训练评分/改默认。COCO240已评分，原79reserve已用，不冒称剩余未评分40。
 
 第87轮已完成18套冻结输出描述性分解与独立核验：strict主pooled−.035616/imageeq+.014416分别精确求和。背景/Person图像贡献+.004541/+.011795，Motorcycle仅3点1图pooled贡献−.013814（不删类/不夸大3点估计），Bird/Sheep/Bicycle也负；非Person FG错其他FG净增388/260/724。源spatial缺4/5/6/9/10/21，首次None相减失败已保留原代码/协议/日志，显式resume/amendment记null不改确认分数，核验通过。推送后立即88源RGB水平翻转GT同点增强：B14冻结BF16/原JPEG448，源80第一帧翻转采样u=127−u/v同，GT原标签/索引/83训练统计不变；只新训练同768维GT32三头，每步独立view RNG .5原/.5翻，2000步曝光64000不翻倍；旧zB14头直接复用，不根据确认弱类定向增强、不读新确认/改默认。

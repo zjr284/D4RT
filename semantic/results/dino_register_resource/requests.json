@@ -1,0 +1,57 @@
+[
+  {
+    "method": "HEAD",
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_pretrain.pth",
+    "request_headers": {},
+    "started_unix": 1792317219.2366536,
+    "received_bytes": 0,
+    "status": 200,
+    "headers": {
+      "Content-Length": "346393545",
+      "Content-Range": null,
+      "Content-Encoding": null,
+      "ETag": "\"211af729ddd94cb1e8796c501da1c131-42\"",
+      "Last-Modified": "Fri, 27 Oct 2023 10:37:00 GMT"
+    }
+  },
+  {
+    "method": "GET",
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_pretrain.pth",
+    "request_headers": {},
+    "started_unix": 1792317219.5771265,
+    "received_bytes": 346367625,
+    "status": 200,
+    "headers": {
+      "Content-Length": "346393545",
+      "Content-Range": null,
+      "Content-Encoding": null,
+      "ETag": "\"211af729ddd94cb1e8796c501da1c131-42\"",
+      "Last-Modified": "Fri, 27 Oct 2023 10:37:00 GMT"
+    },
+    "range_start": 0,
+    "requested_end": 346393544,
+    "path": "semantic_artifacts/dino_register_resource/segment0.data",
+    "sha256": "7864a51d3a4d632ed4d02b5fd574fcec92c7bd26fbd81a07a11f62d746237667"
+  },
+  {
+    "method": "GET",
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_pretrain.pth",
+    "request_headers": {
+      "Range": "bytes=346367625-346393544"
+    },
+    "started_unix": 1792317252.3863485,
+    "received_bytes": 25920,
+    "status": 206,
+    "headers": {
+      "Content-Length": "25920",
+      "Content-Range": "bytes 346367625-346393544/346393545",
+      "Content-Encoding": null,
+      "ETag": "\"211af729ddd94cb1e8796c501da1c131-42\"",
+      "Last-Modified": "Fri, 27 Oct 2023 10:37:00 GMT"
+    },
+    "range_start": 346367625,
+    "requested_end": 346393544,
+    "path": "semantic_artifacts/dino_register_resource/segment1.data",
+    "sha256": "0c7d7ca388bbc92f203d9beb914b386305258bd9078dcf8281e3a9eb5d4ba05e"
+  }
+]
