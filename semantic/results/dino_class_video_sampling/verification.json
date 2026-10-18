@@ -1,0 +1,47 @@
+{
+  "summary_sha256": "2014bab176b3071ae0c949a305c77a8352166e7dd3fcd02af66ee3a7a11bb40e",
+  "source_pool_records_recomputed": 205,
+  "six_sampler_hash_replays": {
+    "class_0": {
+      "actual": "881926fe44bc99de2d4ecee24e651e4aa5802c9a40b6a56b485e1784b49e216d",
+      "base": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+      "bg": "8570752b6e1cf45f4eb169204f06da3885586170ecea193dabed82ea0e3ed9e3",
+      "class": "152ebf1744cdc113a1fdf014c468049574b4e2c59a268e412c18cf96b59f182a"
+    },
+    "class_1": {
+      "actual": "5569407d091d71abc2ec97531b5347c18dd8e7fc76cb8e8375116bea19a848df",
+      "base": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+      "bg": "92ddb26d4d5e8b5e5dc6ace3cf3cca8b53467d6177cbe236dc413053c083f99f",
+      "class": "0b2ed81e6eab889c79c2e3b10637be2613d516fbf846054fdbe2a2e2f3293245"
+    },
+    "class_2": {
+      "actual": "e16046f2d8dbe2cbbaf9158372cf0bae5b1792e2917baff3ce9a925b84fb8072",
+      "base": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2",
+      "bg": "3a54671c5d0c9d10d1444a988eef61a325f9a9ff439e4238e2cb3194ceecbbfa",
+      "class": "4afc781ec3b750b9f5d1d7cc5c373ebff36ca0c6f5c110a3e8e95b79d47f0716"
+    },
+    "class_video_0": {
+      "actual": "2cef286409ce0e2c413d36372612d5c76df0d6a25d87e1c74b5ab0793422588b",
+      "base": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+      "bg": "8570752b6e1cf45f4eb169204f06da3885586170ecea193dabed82ea0e3ed9e3",
+      "class": "152ebf1744cdc113a1fdf014c468049574b4e2c59a268e412c18cf96b59f182a"
+    },
+    "class_video_1": {
+      "actual": "c1794d7dd044cc437222d841bce736379129853409df7c66563b9e7b09db0b2a",
+      "base": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+      "bg": "92ddb26d4d5e8b5e5dc6ace3cf3cca8b53467d6177cbe236dc413053c083f99f",
+      "class": "0b2ed81e6eab889c79c2e3b10637be2613d516fbf846054fdbe2a2e2f3293245"
+    },
+    "class_video_2": {
+      "actual": "f31a3a0e88a207e3a3286534d57387421f68e580827c88e3de2652a7fb26f3db",
+      "base": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2",
+      "bg": "3a54671c5d0c9d10d1444a988eef61a325f9a9ff439e4238e2cb3194ceecbbfa",
+      "class": "4afc781ec3b750b9f5d1d7cc5c373ebff36ca0c6f5c110a3e8e95b79d47f0716"
+    }
+  },
+  "class_sequences_BG_and_baseline_indices_shared": true,
+  "all_six_best_checkpoint_rules_and_nine_logits_calibrations_recomputed": true,
+  "frozen_selection_recomputed": "class_video",
+  "all_old_inputs_unchanged": true,
+  "new_confirmation_groups": 0
+}
