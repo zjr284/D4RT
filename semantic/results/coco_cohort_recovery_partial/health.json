@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "headers": {
+    "x-amz-id-2": "iVJb0+6COrYqIRWk1GvmBquOhlcOSbPwoN8TZP0qwJX4hWAvFHHiDbCsF3fZNcyJ4kC8+/Or4Q2C8R/00OCkxmu2NstRPz0t",
+    "x-amz-request-id": "XA8F5C4PQE9RA3AW",
+    "Server": "AmazonS3",
+    "Date": "Sun, 18 Oct 2026 02:52:18 GMT",
+    "Last-Modified": "Wed, 11 Jul 2018 00:23:38 GMT",
+    "ETag": "\"30fbedcfc05366ebd63a8ad3a1c3291d\"",
+    "x-amz-meta-goog-reserved-file-mtime": "1408149604",
+    "x-amz-version-id": "null",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "262954",
+    "Content-Type": "image/jpeg",
+    "Connection": "close"
+  }
+}
