@@ -1,0 +1,14 @@
+{
+  "summary_sha256": "50e3e3a08b2477043ce554e5d9dbb0f9ad73ab2da8226fcd0d1a59205726ae82",
+  "all80_teacher_metadata_and_GT_anchors_recomputed": true,
+  "full8frame_and_single_anchor_feature_video": 562,
+  "new_three_sampling_hashes": {
+    "0": "bcd0a1ef1b74e422c1b2d14f0c334bc327daf03ec99c75cf1f3c0aeba3ab5fed",
+    "1": "9a75c9d8b851465ff7415786530cda1a66848938fd7401877c33c2abbdcb9f86",
+    "2": "5d9a981ff07ea34e183999e163c54ae7e4153ea2d6e90af2fbc710cce7769723"
+  },
+  "all_three_best_checkpoint_rules_and12_validation_outputs_recomputed": true,
+  "calibration_interaction_selection_recomputed": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_new_confirmation": true
+}
