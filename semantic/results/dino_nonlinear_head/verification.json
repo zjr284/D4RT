@@ -1,0 +1,42 @@
+{
+  "summary_sha256": "2c8b6a77f0b9dc51cc512d3ea02f666801d3bb00f3c5f644640a9e2b50aa9bb5",
+  "six_head_initializations_independently_reconstructed_and_matched": true,
+  "three_complete_sampler_replays": {
+    "0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "six_matched25466_parameter_budgets_and_checkpoints_verified": true,
+  "all18_raw_logits_four_new_shared_calibration_curves_metrics_contrasts_selection_recomputed": true,
+  "factorized_affine_checks": [
+    {
+      "seed": 0,
+      "FP32": {
+        "maximum_folded_FP32_logit_difference": 7.62939453125e-06,
+        "preregistered_tolerance": 0.0006405753326416017,
+        "label_changes_due_to_numerics": 0
+      },
+      "FP64_first64_maximum_error": 7.105427357601002e-15
+    },
+    {
+      "seed": 1,
+      "FP32": {
+        "maximum_folded_FP32_logit_difference": 9.5367431640625e-06,
+        "preregistered_tolerance": 0.0007762425231933594,
+        "label_changes_due_to_numerics": 0
+      },
+      "FP64_first64_maximum_error": 7.993605777301127e-15
+    },
+    {
+      "seed": 2,
+      "FP32": {
+        "maximum_folded_FP32_logit_difference": 1.1444091796875e-05,
+        "preregistered_tolerance": 0.0007836530685424805,
+        "label_changes_due_to_numerics": 0
+      },
+      "FP64_first64_maximum_error": 7.105427357601002e-15
+    }
+  ],
+  "unchanged_training_statistics_future_candidate_identity_and_old_inputs": true,
+  "no_new_confirmation_or_deployment_change": true
+}
