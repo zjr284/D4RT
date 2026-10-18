@@ -1,0 +1,12 @@
+{
+  "summary_sha256": "42081548265ba83750c8e1de3b35d0408dca8bbedc9e827ecaf7be54370a8913",
+  "offline_stdlib_ZIP_directory_and_member_CRC_recomputed": true,
+  "actual_received_bytes": 6660841,
+  "GET_requests_rechecked": 7,
+  "all_metadata_links_licenses_and_name_mapping_recomputed": true,
+  "image_ids": 5000,
+  "category_ids": 80,
+  "annotation_ids": 36781,
+  "frozen_inputs_models_and_selection_unchanged": true,
+  "no_images_masks_or_model_outputs": true
+}

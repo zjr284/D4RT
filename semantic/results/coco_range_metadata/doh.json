@@ -1,0 +1,22 @@
+{
+  "Status": 0,
+  "TC": false,
+  "RD": true,
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+    {
+      "name": "images.cocodataset.org.",
+      "type": 5
+    }
+  ],
+  "Answer": [
+    {
+      "name": "images.cocodataset.org.",
+      "type": 5,
+      "TTL": 14034,
+      "data": "images.cocodataset.org.s3.amazonaws.com."
+    }
+  ]
+}

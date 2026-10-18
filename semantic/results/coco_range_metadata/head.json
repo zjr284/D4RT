@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "headers": {
+    "Content-Length": "252907541",
+    "ETag": "\"f4bbac642086de4f52a3fdda2de5fa2c\"",
+    "Last-Modified": "Tue, 10 Jul 2018 17:58:17 GMT",
+    "Content-Encoding": null
+  },
+  "HEAD_reused_from_round63": true
+}
