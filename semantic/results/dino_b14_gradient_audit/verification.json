@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "e6d531db9ace9c66265a31e8e1eaf0ba078c319cb202abb122fdcd450758d9d3",
+  "all80_source_and_later_pools_checked": true,
+  "three_full_2000_step_three_generator_hashes_recomputed": true,
+  "all200_step_prefix_indices_and_corrected_targets_verified": true,
+  "independent_autograd_gradients_recomputed": 7200,
+  "maximum_analytic_vs_autograd_absolute_gradient_error": 1.7881393432617188e-07,
+  "all_per_batch_metrics_mean_gradients_and_aggregates_recomputed": true,
+  "all_frozen_inputs_unchanged": true,
+  "no_training_or_confirmation": true
+}
