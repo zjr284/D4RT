@@ -1,0 +1,31 @@
+[
+  {
+    "method": "HEAD",
+    "status": 200,
+    "headers": {
+      "Content-Length": "346378731",
+      "Content-Range": null,
+      "Content-Encoding": null,
+      "ETag": "\"f1eac11803a0452f9cb34a7a98c4c002-42\"",
+      "Last-Modified": "Thu, 13 Apr 2023 22:01:34 GMT"
+    },
+    "received_bytes": 0
+  },
+  {
+    "method": "GET",
+    "status": 206,
+    "headers": {
+      "Content-Length": "43111",
+      "Content-Range": "bytes 346335620-346378730/346378731",
+      "Content-Encoding": null,
+      "ETag": "\"f1eac11803a0452f9cb34a7a98c4c002-42\"",
+      "Last-Modified": "Thu, 13 Apr 2023 22:01:34 GMT"
+    },
+    "received_bytes": 43111,
+    "range_start": 346335620,
+    "requested_end": 346378730,
+    "sha256": "0b54924cad7441b183a4537327087266796a08a008a6cd0478a5062de32ad440",
+    "local_path": "semantic_artifacts/dino_backbone_recovery/suffix0.data",
+    "complete_requested_range": true
+  }
+]

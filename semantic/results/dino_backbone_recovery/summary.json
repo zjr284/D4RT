@@ -1,0 +1,29 @@
+{
+  "protocol": {
+    "round": 57,
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+    "max_HEAD": 1,
+    "max_GET": 2,
+    "max_received_bytes": 2097152,
+    "input_sha256": {
+      "semantic_artifacts/dino_backbone_capacity/summary.json": "96250326088a625dee4bcaad8c1b0e5225f2d405619607058981d38cbe016dfd",
+      "semantic_artifacts/dino_backbone_capacity/verification.json": "cb7beb6b704deac9be0cbd92b516ac55d0d24cbf8441aa44a50a8384bd4d4ce8",
+      "semantic_artifacts/weights/dinov2_vitb14_pretrain.partial.pth": "77f43daba3dd5b196d71ae576c7881447e8b87aed2d3c043e605b35f97aff9b2",
+      "semantic/dino_backbone_recovery.py": "db0a65d028bc51c50c81a3524558fe692f6a44486ff0409e7cd1f0cef3e10cfb",
+      "semantic/OVIS_DINO_BACKBONE_RECOVERY_PROTOCOL.md": "3fbbacf433b4afedb253d14a5cd8ffcfe6989b6304ba0e0ccf9e1613398f1090"
+    }
+  },
+  "weight_bytes": 346378731,
+  "weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "zip_entries": 177,
+  "zip_all_CRC_passed": true,
+  "requests_sha256": "0a47390f8bdac963a0cf1523a0248e75beed8b4b774b584bd1f5469622884769",
+  "HEAD_requests": 1,
+  "GET_requests": 1,
+  "received_suffix_bytes": 43111,
+  "prefix_preserved": true,
+  "preflight_sha256": "b22bb5bb2a6a970a4b439424c01356796fda8c1d3c57f0b275bbb54616ca59cb",
+  "new_heads_trained": 0,
+  "new_confirmation_groups": 0,
+  "deployment_unchanged": "native_gt"
+}

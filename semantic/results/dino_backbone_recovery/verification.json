@@ -1,0 +1,10 @@
+{
+  "summary_sha256": "16676415b12462003c1759ea34a1325a04c192836a30e59b6fc4a8a7ef63576a",
+  "actual_suffix_bytes": 43111,
+  "requests": 2,
+  "all_ranges_and_file_segments_compared": true,
+  "full_ZIP_CRC_independently_rechecked": true,
+  "strict_official_structure_and_frozen_8frame_RGB_forward_passed": true,
+  "prefix_and_frozen_inputs_unchanged": true,
+  "no_new_training_or_confirmation": true
+}

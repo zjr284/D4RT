@@ -1,0 +1,25 @@
+{
+  "video_id": 258,
+  "rgb_shape": [
+    8,
+    3,
+    448,
+    448
+  ],
+  "patch_shape": [
+    8,
+    768,
+    32,
+    32
+  ],
+  "backbone_parameters": 86580480,
+  "seconds": 0.8278075199999648,
+  "peak_cuda_allocated_bytes": 595036160,
+  "peak_cuda_reserved_bytes": 748683264,
+  "torch_version": "2.14.0+cu130",
+  "cuda_version": "13.0",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "source_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "weight_sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+  "reads_RGB_only": true
+}

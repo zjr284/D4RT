@@ -2,7 +2,7 @@
 
 用户要求每轮复盘、独立核验、独立Git提交并推送GitHub main后，当前运行立即下一轮。现有分钟心跳仅为空闲/中断恢复。先检查最新聊天消息、semantic最新报告/协议、Git状态及实际进程/结果，避免重复训练、覆盖历史或启动两个研究运行。
 
-第55研究a7d6e0d已推送，远程528df043包含，11类GT口径敏感性仍GT32/SAM负，原第53保持。第56容量协议与训练代码已准备，但官方B14单次整份下载在Content-Length一致性检查失败；部分346335620字节、SHA77f43daba3dd5b196d71ae576c7881447e8b87aed2d3c043e605b35f97aff9b2，ZIP不完整，宣告长度未持久化不可猜缺多少。离线独立核验通过，没有新特征/头/评分；报告OVIS_DINO_BACKBONE_CAPACITY_RESULTS.md。提交推送后立即第57单独预注册原URL一次HEAD+最多两次小范围GET/总≤2MiB补尾，不重下全文件、不无界重试。补齐需完整CRC/严格加载/固定RGB显存预检，再另冻结第58训练协议和新产物目录（第56summary是资源失败，不可覆盖）。现有dino_backbone_capacity.py为未运行准备模板，不能当已训练或直接在已有失败summary根重跑；第58须新脚本/新根。原外部40暂留未模型评价，部署native_gt不变。
+第56研究45e6a31已推送远程8347040b，原B14整份下载失败保留。第57已限量补尾成功并独立核验：1HEAD+1Range GET，仅43111新增字节；完整346378731字节，SHA0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73。完整ZIP/CRC两次、官方strict模型86580480参数、val258 RGB8帧448前向8×768×32×32通过，未训练/评分。报告OVIS_DINO_BACKBONE_RECOVERY_RESULTS.md。提交推送后立即第58 semantic/dino_backbone_training.py，协议OVIS_DINO_BACKBONE_TRAINING_PROTOCOL.md，日志semantic_artifacts/dino_backbone_training.log，根semantic_artifacts/dino_backbone_training；先查进程/summary，运行中不重复。只原80源GT20480/20val40960、B14六头批量256/32各0/1/2、2000步/19994参数，S14旧六头/偏移复用，原GT32索引哈希匹配；校准和选择仅val，反复val属探索。新旧特征差同时含维度与头参数，不纯归因容量。完成100元数据/首源首val特征/6采样轨迹/12输出/偏移及旧指纹独立核验再报告提交推送，立即下一轮。第56summary是资源失败禁止覆盖，新根已分开。第53/55外部负结果保持、原40暂留未模型评价、部署native_gt不变。
 
 第37有效COCO image oracle：19096图像/79604 RLE注释/1196类，23严格共同词表但第43核验仅14实际注释类，固定8帧Person87.41%，Bear等五类仅1目录；不称完整25类泛化。缺Poultry/Vehical；未知/重叠/crowd GT忽略，始终26预测输出不依GT限类。普通VIS JSON解析失败保留。无官方video_id/track_id/fps，路径目录作组。第41固定48帧24空保留。第42全部42149 OVIS原帧索引/文件SHA与固定48像素核验通过，完全相同组0，但外部近似重复仍须盲复核。pilot00000永久排除，元数据/RGB已观察、辅助SAM标注与预训练重合未知需披露。
 
