@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "eb805ceda1d43994e3b60fcb742137a1f351148d828a9915ea871b8818a343f9",
+  "independent_FP32_assembly_all_training_and_two_validation_sets": true,
+  "all_frozen_raw_packages_training_statistics_metadata_unchanged": true,
+  "three_complete_sampler_replays": {
+    "0": "c921fcf904eeaebf7ff9670845561aca1c5037d114f18f93ba4a54b1a0f181cc",
+    "1": "2147114de6e47ef5ca300a624f7ac05ad4a18106d4e3625cf41a91c0c5125dba",
+    "2": "9e3d85aa2a61c37091a065d48e26c3adaef7fa7c201b0f1430897c0bbeb640b2"
+  },
+  "all12_matched_width_head_budgets_and_checkpoint_selection": true,
+  "all30_validation_logits_recomputed_bitwise": true,
+  "eight_shared_calibration_curves_all_profile_metrics_and_contrasts_recomputed": true,
+  "selection_and_confirmation_eligibility_independently_recomputed": true,
+  "no_new_confirmation_or_deployment_change": true
+}
