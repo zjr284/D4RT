@@ -1,0 +1,10 @@
+{
+  "summary_sha256": "1a1c85ecbfab112e782df821093a265f8433efc125267c0516985b751c5cb55a",
+  "CSV_sha256": "5fc65f071396f9fed6c45c2b6262ac5511d8fa73734d41cee03ec7057253353b",
+  "all9_rows_and_7_source_verification_bindings_checked": true,
+  "per_class_F1_reaggregation_and_seed_differences_checked": true,
+  "all_original_unit_intervals_and_support_counts_checked": true,
+  "same_cohort_and_primary_secondary_roles_preserved": true,
+  "no_cross_cohort_effect_estimated": true,
+  "no_model_data_or_source_result_changes": true
+}

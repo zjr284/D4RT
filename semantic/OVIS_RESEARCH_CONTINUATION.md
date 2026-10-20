@@ -1,5 +1,7 @@
 # 连续研究当前接续点
 
+第96历史SAM证据表已独立核验：固定R20/24/33/51/53/72/93共7集合9行，7个summary/verification绑定、逐类F1再聚合/三seed差/支持/原区间/主次角色/CSV全部通过。不跨集合平均、同批次策略不算新独立集、次要区间未多重校正。局部SAM正负均保留；最新93按视频未确认稳定收益、Bird单组不得泛化。本轮只整理既有冻结结果，不是D4RT本体LoRA新实验。95研究868d791已推送，视频影响图在reports/analysis；96推送后围绕10/27两项任务整理组会说明即可，无需反复重训/测试或继续消耗新数据。
+
 第95冻结输出影响与评分范围描述已独立核验：strict全Person使恒Person诊断F1=1，18头F1=2R/(1+R)；14空组无共同映射非crowd标注、Bird00821被重叠过滤。SAM strict/consensus正贡献前两组占65.11%/70.96%；所有留一均差正，留二3/300与1/325反向；该范围不是CI，不删视频。consensus pooled差+.279068中98.30%来自单组Bird。36输出/12对照全部留一留二/52常量规则/40组/480CSV独立核验通过。仅描述，93/94分数和模型保持；图表在reports/analysis。推送后继续整理跨集合SAM证据，不平均不同集合/不同recipe得分，不新增确认或训练。
 
 第94逐类/混淆描述已独立核验：624行26类×6方案×2模式×2GT策略；1872组三seed指标、不同像素/帧/组、320帧独立bitset覆盖全部通过。strict仅Person25组；consensus新增Bird00821单组8帧，GT/SAM Bird F1 .196447/.745084但不可外推；GT Bird→Parrot85.07%、SAM34.60%。缺失24/23前景类与BG无GT标未评价，不能因Person precision1称零误检。40组正式测试与逐类整理两项均完成，结果见OVIS_EXTERNAL_RESERVE_CONFIRMATION_RESULTS.md及OVIS_EXTERNAL_RESERVE_CLASS_AUDIT_RESULTS.md，聚合表results/external_reserve_per_class.csv。用户授权截至10/27；任何后续接续只整理这些证据/补充清晰说明，不重复消费该40、不转入未授权新模型训练。当前无可用自动任务更新工具，唤醒安排未更新，不能承诺无人触发自动继续。
