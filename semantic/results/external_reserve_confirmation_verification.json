@@ -1,0 +1,10 @@
+{
+  "summary_sha256": "1c1b96dc79cc1f7141ff662a63890bbd7b708871326864262392f63ff0f2c59d",
+  "all640_GT_frame_records_rebuilt_with_bitset_consensus": true,
+  "four_full_group_manual_feature_replays_identical": true,
+  "all36_logits_metrics_confusions_recomputed": true,
+  "double_precision_head_algebra_checked": true,
+  "all12_paired_bootstrap_intervals_recomputed": true,
+  "all_frozen_models_inputs_queries_features_logits_unchanged": true,
+  "feature_group": "00305"
+}
