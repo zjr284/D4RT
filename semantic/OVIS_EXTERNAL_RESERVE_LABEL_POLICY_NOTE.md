@@ -1,0 +1,7 @@
+# 第94轮补充：Bird单组与既有consensus规则的准确范围
+
+冻结评分后查看类别元数据与128nearest掩码发现，00821的8帧均有bird与magpie两种注释。magpie不在既定OVIS严格共同映射中；每帧所有bird像素均被magpie掩码覆盖。严格规则忽略任何实例重叠，因此Bird没有有效点。
+
+既有consensus_map实现要求“只有一个已映射类别、无crowd”，未知非crowd类别的重叠不会否决这个已映射类别。所以consensus保留Bird。此前协议用“同类重叠合并”简称不够完整，此处明确补充实际实现；两口径历史实现/查询/分数全部保留，不静默改变冻结GT或改口径选模型。不能把敏感性规则称为更正确的GT，不能将单组高SAM分数当成普遍Bird泛化。
+
+8帧逐类并集、交集像素计数和覆盖全Bird关系保存在results/external_reserve_bird_policy_note.json，来源原注释与相同128nearest，不读取图像模型分数做筛选。它解释覆盖损失规则，未核定原始物体实例注释本身是否正确。

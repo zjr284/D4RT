@@ -1,0 +1,6 @@
+{
+  "source_csv_sha256": "a5520a693931878e2f7dc739d64f4adda7b0949900cc8ee43fedb74430f819f4",
+  "published_csv_sha256": "ed1cc8d45a919a126d50988132184bfdf5c63f57637f2eab12f746654e212fa4",
+  "transformation": "CRLF to LF only",
+  "all624_parsed_rows_identical": true
+}

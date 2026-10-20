@@ -1,0 +1,10 @@
+{
+  "summary_sha256": "455ebdec4a425e414570cb42489071235e47ef17f279e3e9216c5fbd36117d03",
+  "CSV_sha256": "a5520a693931878e2f7dc739d64f4adda7b0949900cc8ee43fedb74430f819f4",
+  "independent_bitset_pixel_coverage_all320_frames": true,
+  "distinct_pixel_frame_group_counts_checked": true,
+  "all1872_per_seed_class_metrics_checked": true,
+  "all624_CSV_rows_checked": true,
+  "all_confusions_and_absent_class_nulls_checked": true,
+  "no_training_calibration_or_model_changes": true
+}

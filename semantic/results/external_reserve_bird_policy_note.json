@@ -1,0 +1,70 @@
+{
+  "scope": "post-score annotation-policy description only; no source masks or scores changed",
+  "group": "00821",
+  "annotation_categories": [
+    "bird",
+    "magpie"
+  ],
+  "magpie_not_in_shared_mapping": true,
+  "frames": [
+    {
+      "image_id": 18714,
+      "bird_pixels": 1361,
+      "unmapped_magpie_pixels": 1361,
+      "intersection_pixels": 1361,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18718,
+      "bird_pixels": 1380,
+      "unmapped_magpie_pixels": 1380,
+      "intersection_pixels": 1380,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18722,
+      "bird_pixels": 1377,
+      "unmapped_magpie_pixels": 1377,
+      "intersection_pixels": 1377,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18726,
+      "bird_pixels": 1374,
+      "unmapped_magpie_pixels": 1374,
+      "intersection_pixels": 1374,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18731,
+      "bird_pixels": 1389,
+      "unmapped_magpie_pixels": 1389,
+      "intersection_pixels": 1389,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18735,
+      "bird_pixels": 1357,
+      "unmapped_magpie_pixels": 1357,
+      "intersection_pixels": 1357,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18739,
+      "bird_pixels": 1368,
+      "unmapped_magpie_pixels": 1368,
+      "intersection_pixels": 1368,
+      "all_bird_pixels_overlapped": true
+    },
+    {
+      "image_id": 18743,
+      "bird_pixels": 1336,
+      "unmapped_magpie_pixels": 1336,
+      "intersection_pixels": 1336,
+      "all_bird_pixels_overlapped": true
+    }
+  ],
+  "strict": "any instance overlap ignored",
+  "consensus_existing_implementation": "single mapped class signature and no crowd; unmapped noncrowd overlap does not veto the mapped class",
+  "consequence": "Bird scores depend on this policy and only one directory group; no general Bird or SAM claim"
+}
