@@ -1,0 +1,14 @@
+{
+  "summary_sha256": "1eacf1927602bb4928137afc7007c37d1760cbfa7300fdb6c6feeb4b6755f568",
+  "original_reserve40_identity_and_no_old_model_cache_verified": true,
+  "all320_original_JPEG_pixel_dhash_dimensions_verified": true,
+  "complete_new_reference_pairs_recomputed": 56,
+  "reference_counts": {
+    "OVIS_all42149": 42149,
+    "LVVIS_old_RGB_excluding_reserve": 720,
+    "COCO_previously_evaluated240": 240
+  },
+  "all_actual_review_materials_and_eligibility_frozen": true,
+  "all18_old_heads_offsets_backbones_training_statistics_unchanged": true,
+  "no_new_network_GT_masks_features_or_model_evaluation": true
+}

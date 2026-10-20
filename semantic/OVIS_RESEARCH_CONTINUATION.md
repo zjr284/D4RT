@@ -1,5 +1,8 @@
 # 连续研究当前接续点
 
+2026-10-20用户明确授权推进至2026-10-27（Asia/Shanghai），仅两项：原40组预留冻结模型外部测试；逐类/混淆/少样本描述分析。第92资格已独立核验，先独立白名单推送后立即93确认，94描述审计；不因外部排名微调/扩展新方法。40组空/负/少类别须完整保留。当前无可调用automation_update，不能宣称已更新分钟调度，不以cron或手写应用配置替代。每次续接先查现有进程/summary。详细执行安排见OVIS_WEEK_EXECUTION_20261020_27.md。
+
+
 第91轮同参数头控制已独立核验：旧单层zB14 .831598、factor32 .822378、ReLU32 .825961；主raw ReLU−factor两负一正均−.008380，旧参考选中不具新确认资格。6头同初权重/25466参数/GT32曝光与3采样18输出4曲线/折回代数全部通过，无失败/新确认/改默认。90固定COCO80+80仍未RGB/评分。推送后立即92激活更早原LVVIS保留40的RGB资格更新（不先GT/模型）：原external_rgb_screen/manifest.provisional_reserve40与external_blind_review.frozen_eligibility.reserve40一致，external_local_rgb/images已有320原JPEG；旧已评分manifest与该40无交，需全external*/features核查无模型缓存。先冻结原四S14三头与偏移（GT256−1.5、GT32−1.25、lambda0−1.5、SAM−1.75）及83 B14raw/z两组三头（−2/−.75）。参考OVIS42149、现有LVVIS RGB去除本320、COCO已评分240及新跨组近对，实际盲复核后资格独立核验推送，93再模型确认。保留36/50原S14GT32−GT256唯一主/视频等权差，B14同源选中raw/z与S14等均预定次要未校正，不按外部排名部署或换主。元数据/RGB已见、辅助SAM标注/预训练重合未知，GT条件FG不等于自然像素或跟踪/AP。
 
 第90轮已完成独立核验：普通raw/z balanced校准.830191/.831598、regraw/z .795567/.808149；primary raw reg−plain两负一正均−.017451，校准三负均−.034624；z−z raw/校准三负均−.023485/−.023449。旧zB14被源选择，reg不具确认资格，不消费新RGB。120新包/562与258两query手动特征/训练统计/3采样6预算24输出4曲线交互全核验。已在90训练前固定future_confirmation_manifest.json seed20261090 candidate80+reserve80排除COCO240，元数据已见但无新RGB/GT mask/评分，可明确沿用身份而不重抽。推送后立即91固定同zB14特征的头非线性控制：原19994参数线性头直接复用，新增32隐层两层identity和ReLU各3头（同25466参数/同初始权重/同GT32 2000步64000曝光），原两val共享校准规则，不搜宽度/激活/旧确认成绩。先固定协议再训，比较ReLU−两层线性主对，原线性为次对；默认nativeGT不变。
