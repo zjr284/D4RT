@@ -1,0 +1,273 @@
+{
+  "round": 97,
+  "reviewer": "one Codex visual reviewer; not a human expert or independent GT",
+  "materials_sha256": "f769180e746dbb106bc4a3218f73bb4a258a530760067e9cc3358855de3e3851",
+  "sheets_viewed_sha256": [
+    "659f07307cdd46de3dcdf88b5313e0aea74821a44cedfaef2964fef3aa2b4724",
+    "07d92ca71c84c8551b3642f174c3ad008fc04cc6cf59f38d42f8b395385cc298",
+    "2366e5264aff904d98d4c924845ea13a23dc8fba2c9b22bedd2bd03122a0a770",
+    "8794b31f98b2ac9b475820db4255dfad41b1344b425a12199e7c8c2511b67902",
+    "5dcd54fe7dc10482c67ef82b31db5ad6ad346e371a43c4dd64c0a3d7ca76d988",
+    "042b5ba9df452eb5ebdf00cbba56508010cef9b31ec6debe40e02cbb48d1bac6"
+  ],
+  "viewed_all_six_sheets": true,
+  "additional_original_image_view": {
+    "case_id": 21,
+    "path": "semantic_artifacts/external_local_rgb/images/00381/00003.jpg",
+    "sha256": "1607fa860b1cd729f199d2cc891d34c54e46941e5a6ab9940b2bd3da286f8174"
+  },
+  "observations": [
+    {
+      "case_id": 0,
+      "group": "00305",
+      "image_id": 6900,
+      "note": "手持刀具，标记落在手掌/腕部皮肤附近；局部主要为皮肤，邻近刀柄。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 1,
+      "group": "00531",
+      "image_id": 12175,
+      "note": "戴手套的手操作物体；标记邻近手套与背景交界，局部为黑白手套边缘。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 2,
+      "group": "00686",
+      "image_id": 15633,
+      "note": "手伸入透明量杯，标记在手指附近；玻璃及印刷字与皮肤在画面中交叠。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 3,
+      "group": "00736",
+      "image_id": 16705,
+      "note": "烹饪场景，标记落在红色衣物/围裙区域，局部几乎为单色红布。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 4,
+      "group": "00201",
+      "image_id": 4556,
+      "note": "手部近景，标记落在指部皮肤，局部纹理较少。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 5,
+      "group": "00045",
+      "image_id": 1042,
+      "note": "手握夹具，腕部标记附近有SpecificLove.com水印；局部白色字样覆盖皮肤。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 6,
+      "group": "00782",
+      "image_id": 17783,
+      "note": "手持锯子，标记邻近手指与金属锯片边界，局部混合手与工具。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 7,
+      "group": "00757",
+      "image_id": 17186,
+      "note": "人脸前有食物盘，标记邻近嘴/下巴及前景食物交界；两方案三种子均错。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 8,
+      "group": "00080",
+      "image_id": 1854,
+      "note": "手持电锯的人，标记落在鼻部附近；整图人脸清楚，SAM有一种子给出其它类。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 9,
+      "group": "00325",
+      "image_id": 7351,
+      "note": "演奏键盘场景，标记邻近手和红色袖口，局部混合皮肤与织物。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 10,
+      "group": "00250",
+      "image_id": 5639,
+      "note": "手操作小型器件，标记靠近图像上缘；局部以皮肤为主。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 11,
+      "group": "00391",
+      "image_id": 8914,
+      "note": "手持黑色装置，标记在手指与装置边界附近。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 12,
+      "group": "00831",
+      "image_id": 18955,
+      "note": "持萨克斯的人，标记在深色衣物附近，局部可见较大中文字幕。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 13,
+      "group": "00494",
+      "image_id": 11349,
+      "note": "黑色手套/手在工具上方，标记邻近手套指端与背景交界。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 14,
+      "group": "00211",
+      "image_id": 4754,
+      "note": "演奏弦乐器，标记位于裸露腕部/前臂，邻近乐器边缘。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 15,
+      "group": "00261",
+      "image_id": 5881,
+      "note": "手持发刷的人，标记位于有反光的袖部/肩部织物，局部主体是衣物。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 16,
+      "group": "00247",
+      "image_id": 5570,
+      "note": "户外手持小物件，标记位于握持物体的手指附近；两方案均未给出Person。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 17,
+      "group": "00195",
+      "image_id": 4411,
+      "note": "手臂伸向动物池，标记位于伸出手臂的腕部附近，局部为皮肤与背景交界。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 18,
+      "group": "00065",
+      "image_id": 1508,
+      "note": "木工作业，标记在握刨子的手附近，局部混合皮肤和工具边缘。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 19,
+      "group": "00777",
+      "image_id": 17658,
+      "note": "双手持葫芦形物体，标记靠近手与物体上缘交界；局部语义边界较难判定，两方案均预测Rabbit。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 20,
+      "group": "00631",
+      "image_id": 14459,
+      "note": "户外手持蓝色物体，标记在裸露前臂边界附近；两方案三种子均预测背景。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 21,
+      "group": "00381",
+      "image_id": 8680,
+      "note": "疑似标注与画面不一致：查询原像素(695,25)看起来位于电钻后方包装/背景，原Person掩码却覆盖该点。已额外查看完整原图；不能把计分上的corrected当作可靠识别人改进。",
+      "annotation_semantics_suspect": true
+    },
+    {
+      "case_id": 22,
+      "group": "00042",
+      "image_id": 980,
+      "note": "美发场景，标记靠近图像上边缘的手臂/皮肤处，局部受边界截断。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 23,
+      "group": "00565",
+      "image_id": 12946,
+      "note": "室内跨栏场景，标记在远处人物的白色衣物/躯干，局部图像较小且模糊。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 24,
+      "group": "00027",
+      "image_id": 623,
+      "note": "手部护理场景，标记在手背附近，局部为大面积皮肤。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 25,
+      "group": "00391",
+      "image_id": 8901,
+      "note": "手持黑色装置，标记靠近手指与装置边界；GT方案三种子Person，SAM三种子为不同其它类。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 26,
+      "group": "00631",
+      "image_id": 14451,
+      "note": "同00631另一帧，标记在握持蓝色物体的手上；两方案三种子均Person。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 27,
+      "group": "00821",
+      "image_id": 18714,
+      "note": "鸟站在栏杆上，标记在躯干暗色羽毛；GT三种子Parrot，SAM三种子Bird。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 28,
+      "group": "00821",
+      "image_id": 18718,
+      "note": "同一鸟视频下一采样帧，标记在躯干外侧；GT三种子Parrot，SAM三种子Bird。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 29,
+      "group": "00821",
+      "image_id": 18722,
+      "note": "同一鸟视频，标记在上部躯干；SAM两个种子Bird，一个Parrot。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 30,
+      "group": "00821",
+      "image_id": 18726,
+      "note": "同一鸟视频，标记在颈部/上躯干暗色羽毛；两方案三种子均Parrot。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 31,
+      "group": "00821",
+      "image_id": 18731,
+      "note": "同一鸟视频，标记在尾羽附近；SAM一种子Bird，其余Parrot。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 32,
+      "group": "00821",
+      "image_id": 18735,
+      "note": "同一鸟视频，标记在躯干羽毛白黑交界附近；SAM三种子Bird，GT有一种子Bird。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 33,
+      "group": "00821",
+      "image_id": 18739,
+      "note": "同一鸟视频，标记靠近鸟腿/躯干下缘与栏杆附近；GT三种子Parrot，SAM三种子Bird。",
+      "annotation_semantics_suspect": false
+    },
+    {
+      "case_id": 34,
+      "group": "00821",
+      "image_id": 18743,
+      "note": "同一鸟视频，标记在黑白羽毛附近；SAM三种子Bird，GT有一种子Bird。",
+      "annotation_semantics_suspect": false
+    }
+  ],
+  "limits": [
+    "Single Codex reviewer; subjective observations are not new gold labels or independent expert adjudication.",
+    "Fixed error-oriented selection cannot estimate prevalence of visual causes.",
+    "Full frames were model inputs; display crops do not establish limited model receptive field.",
+    "Bird cases are eight frames from one video, not eight independent videos or species verification.",
+    "No model choices, labels, original scores or deployment were changed."
+  ]
+}

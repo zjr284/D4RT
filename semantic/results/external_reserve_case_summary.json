@@ -1,0 +1,46 @@
+{
+  "round": 97,
+  "status": "visual_review_recorded",
+  "scope": "post-score frozen-case review of original reserve40",
+  "new_model_inferences": 0,
+  "labels_or_scores_modified": false,
+  "original_groups": 40,
+  "original_frames": 320,
+  "strict_valid_groups": 25,
+  "strict_empty_groups": 15,
+  "strict_all_query_type_counts": {
+    "corrected": 589,
+    "regressed": 115,
+    "persistent_error": 1710,
+    "both_correct": 34247,
+    "mixed_seed": 10187
+  },
+  "selected_cases": 35,
+  "sheets": 6,
+  "selected_policy_counts": {
+    "strict": 27,
+    "consensus": 8
+  },
+  "selected_type_counts": {
+    "mixed_seed": 24,
+    "persistent_error": 5,
+    "corrected": 4,
+    "regressed": 1,
+    "both_correct": 1
+  },
+  "visually_suspect_annotation_case_ids": [
+    21
+  ],
+  "findings": [
+    "Both scored corrections and regressions exist; selection is descriptive, not a new effect estimate.",
+    "Person examples include hands, clothing, boundaries, small subjects and text overlays; no unique mechanism established.",
+    "Case21 native RLE says Person but image appears packaging/background; retain score and flag suspected annotation semantics.",
+    "Bird examples all share one original video and simultaneous mapped bird / unmapped magpie hits; no broad bird recognition claim."
+  ],
+  "evidence_sha256": {
+    "semantic_artifacts/external_reserve_case_audit/protocol.json": "88d5d7c5e62386f4aaf48efb74858cdd905453ce285fc43b1e07a2916b7d1962",
+    "semantic_artifacts/external_reserve_case_audit/selection.json": "df5acacf719348ab0ba0d85c6828731d5eee90280b491af38f85ec9f639f4f56",
+    "semantic_artifacts/external_reserve_case_audit/materials.json": "f769180e746dbb106bc4a3218f73bb4a258a530760067e9cc3358855de3e3851",
+    "semantic_artifacts/external_reserve_case_audit/visual_review.json": "3c9ebd4f9355631a251db04e9d67cf4e88b25f5b953340904e893ffd8c439dd9"
+  }
+}

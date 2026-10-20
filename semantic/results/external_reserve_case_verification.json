@@ -1,0 +1,14 @@
+{
+  "round": 97,
+  "summary_sha256": "c358bdab195294d09bf35fe3cfa2cd81ba53aaca15cba8f14fdfd0b1194068a1",
+  "verifier_sha256": "d05fff039d9797d67b385fde1f54c4ca6ffc4bf97c37170929450b944ba1c6fe",
+  "frozen_outputs_replayed": 18,
+  "all40_group_query_counts_and_deterministic_case_selection_recomputed": true,
+  "cases_predictions_coordinates_and_native_RLE_hits_verified": 35,
+  "native_instance_hits_checked": 43,
+  "all320_RGB_and_old_query_logit_input_hashes_unchanged": true,
+  "six_sheet_hashes_crop_metadata_and_case_coverage_verified": true,
+  "visual_review_completeness_and_hash_checked_not_visual_truth_certification": true,
+  "suspect_case21_image_id_filename_and_annotation_link_checked": true,
+  "labels_and_old_scores_unchanged": true
+}

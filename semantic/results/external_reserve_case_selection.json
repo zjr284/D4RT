@@ -1,0 +1,2300 @@
+{
+  "source_summary_sha256": "1c1b96dc79cc1f7141ff662a63890bbd7b708871326864262392f63ff0f2c59d",
+  "class_names": {
+    "0": "Background",
+    "1": "Person",
+    "2": "Bird",
+    "3": "Cat",
+    "4": "Dog",
+    "5": "Horse",
+    "6": "Sheep",
+    "7": "Cow",
+    "8": "Elephant",
+    "9": "Bear",
+    "10": "Zebra",
+    "11": "Giraffe",
+    "12": "Poultry",
+    "13": "Giant_panda",
+    "14": "Lizard",
+    "15": "Parrot",
+    "16": "Monkey",
+    "17": "Rabbit",
+    "18": "Tiger",
+    "19": "Fish",
+    "20": "Turtle",
+    "21": "Bicycle",
+    "22": "Motorcycle",
+    "23": "Airplane",
+    "24": "Boat",
+    "25": "Vehical"
+  },
+  "all40_group_strict_counts": {
+    "00305": {
+      "both_correct": 1616,
+      "mixed_seed": 394,
+      "persistent_error": 38,
+      "corrected": 0,
+      "regressed": 0
+    },
+    "00406": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00531": {
+      "mixed_seed": 879,
+      "both_correct": 832,
+      "persistent_error": 51,
+      "regressed": 30,
+      "corrected": 0
+    },
+    "00686": {
+      "both_correct": 1751,
+      "persistent_error": 8,
+      "mixed_seed": 33,
+      "corrected": 0,
+      "regressed": 0
+    },
+    "00736": {
+      "persistent_error": 987,
+      "mixed_seed": 906,
+      "corrected": 14,
+      "both_correct": 141,
+      "regressed": 0
+    },
+    "00201": {
+      "both_correct": 1692,
+      "mixed_seed": 100,
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0
+    },
+    "00045": {
+      "persistent_error": 5,
+      "mixed_seed": 39,
+      "both_correct": 724,
+      "corrected": 0,
+      "regressed": 0
+    },
+    "00019": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00224": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00782": {
+      "both_correct": 1451,
+      "persistent_error": 86,
+      "mixed_seed": 487,
+      "corrected": 24,
+      "regressed": 0
+    },
+    "00616": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00085": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00757": {
+      "mixed_seed": 1386,
+      "corrected": 362,
+      "both_correct": 248,
+      "persistent_error": 52,
+      "regressed": 0
+    },
+    "00178": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00048": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00080": {
+      "mixed_seed": 720,
+      "both_correct": 1303,
+      "persistent_error": 13,
+      "corrected": 12,
+      "regressed": 0
+    },
+    "00325": {
+      "both_correct": 2036,
+      "mixed_seed": 12,
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0
+    },
+    "00250": {
+      "regressed": 17,
+      "both_correct": 934,
+      "mixed_seed": 73,
+      "corrected": 0,
+      "persistent_error": 0
+    },
+    "00510": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00391": {
+      "mixed_seed": 886,
+      "both_correct": 1097,
+      "regressed": 41,
+      "persistent_error": 24,
+      "corrected": 0
+    },
+    "00831": {
+      "mixed_seed": 1712,
+      "both_correct": 297,
+      "persistent_error": 22,
+      "corrected": 17,
+      "regressed": 0
+    },
+    "00494": {
+      "both_correct": 2042,
+      "mixed_seed": 6,
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0
+    },
+    "00211": {
+      "mixed_seed": 199,
+      "both_correct": 1796,
+      "persistent_error": 47,
+      "corrected": 6,
+      "regressed": 0
+    },
+    "00261": {
+      "mixed_seed": 1230,
+      "both_correct": 511,
+      "corrected": 139,
+      "persistent_error": 145,
+      "regressed": 23
+    },
+    "00649": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00247": {
+      "both_correct": 1898,
+      "mixed_seed": 129,
+      "persistent_error": 20,
+      "corrected": 1,
+      "regressed": 0
+    },
+    "00764": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00195": {
+      "both_correct": 666,
+      "mixed_seed": 89,
+      "persistent_error": 13,
+      "corrected": 0,
+      "regressed": 0
+    },
+    "00821": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00065": {
+      "both_correct": 2000,
+      "mixed_seed": 40,
+      "persistent_error": 8,
+      "corrected": 0,
+      "regressed": 0
+    },
+    "00473": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00777": {
+      "both_correct": 1663,
+      "mixed_seed": 368,
+      "persistent_error": 16,
+      "regressed": 1,
+      "corrected": 0
+    },
+    "00487": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00105": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    },
+    "00631": {
+      "both_correct": 1636,
+      "persistent_error": 150,
+      "mixed_seed": 261,
+      "corrected": 1,
+      "regressed": 0
+    },
+    "00381": {
+      "both_correct": 1984,
+      "mixed_seed": 51,
+      "persistent_error": 9,
+      "corrected": 4,
+      "regressed": 0
+    },
+    "00042": {
+      "both_correct": 1952,
+      "mixed_seed": 86,
+      "persistent_error": 7,
+      "regressed": 2,
+      "corrected": 1
+    },
+    "00565": {
+      "both_correct": 2026,
+      "corrected": 8,
+      "persistent_error": 2,
+      "mixed_seed": 12,
+      "regressed": 0
+    },
+    "00027": {
+      "both_correct": 1951,
+      "persistent_error": 7,
+      "mixed_seed": 89,
+      "regressed": 1,
+      "corrected": 0
+    },
+    "00165": {
+      "corrected": 0,
+      "regressed": 0,
+      "persistent_error": 0,
+      "both_correct": 0,
+      "mixed_seed": 0
+    }
+  },
+  "selected": [
+    {
+      "policy": "strict",
+      "group": "00305",
+      "slot": 4,
+      "image_id": 6900,
+      "path": "semantic_artifacts/external_local_rgb/images/00305/00013.jpg",
+      "u": 108,
+      "v": 64,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          1,
+          1,
+          16
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "015762999c21b6197483709e00775e6e20f5bed9dd8023ef258b2a308e843cab",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 0,
+      "width": 884,
+      "height": 490,
+      "original_center": [
+        748.828125,
+        246.4140625
+      ],
+      "original_pixel": [
+        749,
+        246
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 27729,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "0b3f71a344eb2335e459f508e9b7615027cddb3507b783c21f0a5b6eac4ad01f"
+    },
+    {
+      "policy": "strict",
+      "group": "00531",
+      "slot": 1,
+      "image_id": 12175,
+      "path": "semantic_artifacts/external_local_rgb/images/00531/00002.jpg",
+      "u": 44,
+      "v": 89,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          0,
+          1,
+          10
+        ],
+        "native_sam": [
+          13,
+          1,
+          13
+        ],
+        "B14_raw": [
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_sha256": "009405f75b2c0705a181c166f57e9ac3cc03ce66f11f6abcd9f306b28019874c",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 1,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        444.5,
+        502.9375
+      ],
+      "original_pixel": [
+        445,
+        503
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 50843,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "b6ed886c2f66df6ba56ea0a5e67fc6e06bbb03acb9e0706c328839a50dfdabbb"
+    },
+    {
+      "policy": "strict",
+      "group": "00686",
+      "slot": 0,
+      "image_id": 15633,
+      "path": "semantic_artifacts/external_local_rgb/images/00686/00000.jpg",
+      "u": 58,
+      "v": 87,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          16,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "064e75f1495a67aa027b1e3b8ea1b2fb5048a3b3a0e576d7250f10c334667783",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 2,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        584.5,
+        491.6875
+      ],
+      "original_pixel": [
+        585,
+        492
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 66006,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "e71db45d63765a39ad0f9bfa1649318fac65d0735e1f51979272aa6f29aafa87"
+    },
+    {
+      "policy": "strict",
+      "group": "00736",
+      "slot": 4,
+      "image_id": 16705,
+      "path": "semantic_artifacts/external_local_rgb/images/00736/00014.jpg",
+      "u": 39,
+      "v": 4,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          0,
+          1,
+          0
+        ],
+        "native_sam": [
+          0,
+          0,
+          0
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "001a20278f6ff18348de6448f67740e5b079844a19686a33c561324b12b6d98e",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 3,
+      "width": 1920,
+      "height": 1080,
+      "original_center": [
+        592.0,
+        37.46875
+      ],
+      "original_pixel": [
+        592,
+        37
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 70229,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "fc3bb6fc9c043453af2780905a463adf0ea47cc1d686bbd19ab27d461910bc13"
+    },
+    {
+      "policy": "strict",
+      "group": "00201",
+      "slot": 4,
+      "image_id": 4556,
+      "path": "semantic_artifacts/external_local_rgb/images/00201/00014.jpg",
+      "u": 93,
+      "v": 98,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          1,
+          1,
+          0
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "001ae9d89de7d7465f833519e115aba5cfd888d7c68ea569ea8786ba22daa173",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 4,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        934.5,
+        553.5625
+      ],
+      "original_pixel": [
+        935,
+        554
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 18033,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "2c44e0a721fb4ab30a102e899f855f67d62264765a43f4100807d72dd7069655"
+    },
+    {
+      "policy": "strict",
+      "group": "00045",
+      "slot": 0,
+      "image_id": 1042,
+      "path": "semantic_artifacts/external_local_rgb/images/00045/00000.jpg",
+      "u": 23,
+      "v": 119,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          21,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0b2ab0f81960c2a62b92a4e0f71a3a901fcfb06331fa3bca7933624bc0d063d1",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 5,
+      "width": 1278,
+      "height": 720,
+      "original_center": [
+        234.1328125,
+        671.6875
+      ],
+      "original_pixel": [
+        234,
+        672
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 4290,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "9900e208c028606374a9b1644b38bb4e4ad11d78803ace0c179fa7ff3e3e2c92"
+    },
+    {
+      "policy": "strict",
+      "group": "00782",
+      "slot": 7,
+      "image_id": 17783,
+      "path": "semantic_artifacts/external_local_rgb/images/00782/00019.jpg",
+      "u": 97,
+      "v": 19,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          25,
+          25,
+          1
+        ],
+        "native_sam": [
+          25,
+          1,
+          25
+        ],
+        "B14_raw": [
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_sha256": "001016a95a1c4e099d3fda757988fc921a3602e0115537161dbbcf30b1aa559c",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 6,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        974.5,
+        109.1875
+      ],
+      "original_pixel": [
+        975,
+        109
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 74761,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "54292aae35726035c06138d34a2f7ab45409db1c68f7e75d204670a3bc96a36d"
+    },
+    {
+      "policy": "strict",
+      "group": "00757",
+      "slot": 6,
+      "image_id": 17186,
+      "path": "semantic_artifacts/external_local_rgb/images/00757/00025.jpg",
+      "u": 65,
+      "v": 44,
+      "GT": 1,
+      "type": "persistent_error",
+      "predictions": {
+        "source_gt": [
+          0,
+          18,
+          18
+        ],
+        "native_sam": [
+          14,
+          14,
+          0
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "00019e20f52e28969607ae70143439e546c4339baabc36ed5ce0ad44fef6ea44",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct",
+        "strict_global_persistent_error"
+      ],
+      "case_id": 7,
+      "width": 1920,
+      "height": 1080,
+      "original_center": [
+        982.0,
+        374.96875
+      ],
+      "original_pixel": [
+        982,
+        375
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 72209,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "59e2bb11fb71bfc99eb990e4dceb51808c91b9378ae20f71c287428dc717f15a"
+    },
+    {
+      "policy": "strict",
+      "group": "00080",
+      "slot": 7,
+      "image_id": 1854,
+      "path": "semantic_artifacts/external_local_rgb/images/00080/00029.jpg",
+      "u": 80,
+      "v": 5,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          25,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0083744f5e221fe559cee1748c42b1ea9eff13255ee7ef889dc7c3e65ff56e5e",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 8,
+      "width": 1920,
+      "height": 1080,
+      "original_center": [
+        1207.0,
+        45.90625
+      ],
+      "original_pixel": [
+        1207,
+        46
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 7705,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "9f45504aedfecbc94612677239de46a7aefc457e6ff8d31bd8f665eab4160b80"
+    },
+    {
+      "policy": "strict",
+      "group": "00325",
+      "slot": 5,
+      "image_id": 7351,
+      "path": "semantic_artifacts/external_local_rgb/images/00325/00011.jpg",
+      "u": 98,
+      "v": 54,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          25,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          4,
+          1
+        ]
+      },
+      "selection_sha256": "072ba3854b180addc5a8bb38a107f2efc7fb9c509485123291a7196d047f72df",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 9,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        984.5,
+        306.0625
+      ],
+      "original_pixel": [
+        985,
+        306
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 29884,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "1a69e224091c04524a0aae805c48d8c11705fc142d28c66f4303bed60d4d5960"
+    },
+    {
+      "policy": "strict",
+      "group": "00250",
+      "slot": 2,
+      "image_id": 5639,
+      "path": "semantic_artifacts/external_local_rgb/images/00250/00008.jpg",
+      "u": 17,
+      "v": 1,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          25,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "03e32ab767bad72d029e175d1079b9c976c02d0a1b283234184c5a70b2b3ea1f",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 10,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        174.5,
+        7.9375
+      ],
+      "original_pixel": [
+        175,
+        8
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 23162,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "92e64c23536169d76f582f60d6c0cd815ac66ec4012e178932e6a299bbd7346a"
+    },
+    {
+      "policy": "strict",
+      "group": "00391",
+      "slot": 5,
+      "image_id": 8914,
+      "path": "semantic_artifacts/external_local_rgb/images/00391/00021.jpg",
+      "u": 104,
+      "v": 111,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          16,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0010c0042ca4f13b935f3d60b66a85b1a3c3a63b875556943cd58735b86468e1",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 11,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        1044.5,
+        626.6875
+      ],
+      "original_pixel": [
+        1045,
+        627
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 37231,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "abf0d238768445f9d998ac13f7cf2150d1735f6fb5eab1828080036447bad5af"
+    },
+    {
+      "policy": "strict",
+      "group": "00831",
+      "slot": 3,
+      "image_id": 18955,
+      "path": "semantic_artifacts/external_local_rgb/images/00831/00010.jpg",
+      "u": 33,
+      "v": 77,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          14,
+          1,
+          24
+        ],
+        "native_sam": [
+          14,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0018cd4796345162a64b6936c5eb63304f77bf0e9a61fae81ae0e3d5ea6ad31a",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 12,
+      "width": 1080,
+      "height": 1707,
+      "original_center": [
+        282.15625,
+        1033.03515625
+      ],
+      "original_pixel": [
+        282,
+        1033
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 79297,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "5b3eff0109a173b476755d6ac6066cf170a7c23c0d2827cbbb856ee7769b63ca"
+    },
+    {
+      "policy": "strict",
+      "group": "00494",
+      "slot": 4,
+      "image_id": 11349,
+      "path": "semantic_artifacts/external_local_rgb/images/00494/00017.jpg",
+      "u": 60,
+      "v": 35,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          14,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "12dcbfc4da309b23fcbf1da36f4d90e024094531cb65265a60a4f0bcadc0a550",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 13,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        604.5,
+        199.1875
+      ],
+      "original_pixel": [
+        605,
+        199
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 46840,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "afb158d1f26dfc81ba7d065204f7af8ddabbe1355561fb85ff9a38f3f79ec703"
+    },
+    {
+      "policy": "strict",
+      "group": "00211",
+      "slot": 2,
+      "image_id": 4754,
+      "path": "semantic_artifacts/external_local_rgb/images/00211/00011.jpg",
+      "u": 118,
+      "v": 61,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          1,
+          1,
+          16
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0200cf4b31aa61ffabd7a802d74a22b840e309b94dab41a2ccadd9ce05abbd47",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 14,
+      "width": 320,
+      "height": 240,
+      "original_center": [
+        295.75,
+        114.8125
+      ],
+      "original_pixel": [
+        296,
+        115
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 18805,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "b2526abb9601ac3e94634514964f3fb0242f1a40e1ec473dc96bbac777c8ac22"
+    },
+    {
+      "policy": "strict",
+      "group": "00261",
+      "slot": 4,
+      "image_id": 5881,
+      "path": "semantic_artifacts/external_local_rgb/images/00261/00011.jpg",
+      "u": 88,
+      "v": 96,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          14
+        ],
+        "native_sam": [
+          1,
+          1,
+          14
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "000c89ad50f323b77871af7a6e1c60262ee2ecf4aa4c407e5a7239d08cc6107a",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct",
+        "strict_global_mixed_seed"
+      ],
+      "case_id": 15,
+      "width": 720,
+      "height": 404,
+      "original_center": [
+        497.3125,
+        304.078125
+      ],
+      "original_pixel": [
+        497,
+        304
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 23787,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "65eeace91c72e43aaf3a8a6c06d048e766b55e4cf4f80cfe76b1a671d82f3d08"
+    },
+    {
+      "policy": "strict",
+      "group": "00247",
+      "slot": 7,
+      "image_id": 5570,
+      "path": "semantic_artifacts/external_local_rgb/images/00247/00029.jpg",
+      "u": 26,
+      "v": 26,
+      "GT": 1,
+      "type": "persistent_error",
+      "predictions": {
+        "source_gt": [
+          0,
+          17,
+          0
+        ],
+        "native_sam": [
+          0,
+          0,
+          0
+        ],
+        "B14_raw": [
+          1,
+          0,
+          0
+        ]
+      },
+      "selection_sha256": "01e2cc72f4f9345e5e462371b18ce729846e801da88278cb2065a82f4948e3ef",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 16,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        264.5,
+        148.5625
+      ],
+      "original_pixel": [
+        265,
+        149
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 22960,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "59e0418887df50c8445d56b2a3547d8deeb16482c9ec855b8d54d38c8420ee2c"
+    },
+    {
+      "policy": "strict",
+      "group": "00195",
+      "slot": 2,
+      "image_id": 4411,
+      "path": "semantic_artifacts/external_local_rgb/images/00195/00007.jpg",
+      "u": 23,
+      "v": 69,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          0,
+          0
+        ],
+        "native_sam": [
+          0,
+          0,
+          0
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0312ae4d4e509a716de2da02da6785f7caece1140c173ac3c22193333b32cfc5",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 17,
+      "width": 1080,
+      "height": 1920,
+      "original_center": [
+        197.78125,
+        1042.0
+      ],
+      "original_pixel": [
+        198,
+        1042
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 17641,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "da1297656a4ec3e2dccdcd07bfc5061ef01155cfe09c6c0b5b9c2833c272cc1b"
+    },
+    {
+      "policy": "strict",
+      "group": "00065",
+      "slot": 3,
+      "image_id": 1508,
+      "path": "semantic_artifacts/external_local_rgb/images/00065/00006.jpg",
+      "u": 77,
+      "v": 34,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          21,
+          1,
+          1
+        ],
+        "native_sam": [
+          21,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "0919b5e623d0934fc2e1e6f906e6b95405427d5cb84f1d4ed6e12be2b3aa757a",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 18,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        774.5,
+        193.5625
+      ],
+      "original_pixel": [
+        775,
+        194
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 6241,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "7acf213c31d0747ef8e5b502d66dc78cc08b3dff4a0c38e1c759ddd99e3cc6a7"
+    },
+    {
+      "policy": "strict",
+      "group": "00777",
+      "slot": 6,
+      "image_id": 17658,
+      "path": "semantic_artifacts/external_local_rgb/images/00777/00020.jpg",
+      "u": 14,
+      "v": 65,
+      "GT": 1,
+      "type": "persistent_error",
+      "predictions": {
+        "source_gt": [
+          17,
+          17,
+          17
+        ],
+        "native_sam": [
+          17,
+          17,
+          17
+        ],
+        "B14_raw": [
+          1,
+          17,
+          17
+        ]
+      },
+      "selection_sha256": "0044a785f1d83336bd13c17253fb2281e680de9a5969c5fe319ace90d7e41c98",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 19,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        144.5,
+        367.9375
+      ],
+      "original_pixel": [
+        145,
+        368
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 73961,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "d6224fa8fc2997c6b8a6495afc870fd4cd240bc5a1a7752a1878a9db83a618eb"
+    },
+    {
+      "policy": "strict",
+      "group": "00631",
+      "slot": 6,
+      "image_id": 14459,
+      "path": "semantic_artifacts/external_local_rgb/images/00631/00025.jpg",
+      "u": 46,
+      "v": 43,
+      "GT": 1,
+      "type": "persistent_error",
+      "predictions": {
+        "source_gt": [
+          0,
+          0,
+          0
+        ],
+        "native_sam": [
+          0,
+          0,
+          0
+        ],
+        "B14_raw": [
+          1,
+          1,
+          0
+        ]
+      },
+      "selection_sha256": "0117ae724dd4999007b20fa84b562330613b8aef5cc6e2d0db796bfe41064081",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 20,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        464.5,
+        244.1875
+      ],
+      "original_pixel": [
+        465,
+        244
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 60811,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "02e82008b47edeaab86670d8138ab7b39de34e5aee0eec66980ef94f8b4e474e"
+    },
+    {
+      "policy": "strict",
+      "group": "00381",
+      "slot": 1,
+      "image_id": 8680,
+      "path": "semantic_artifacts/external_local_rgb/images/00381/00003.jpg",
+      "u": 69,
+      "v": 4,
+      "GT": 1,
+      "type": "corrected",
+      "predictions": {
+        "source_gt": [
+          25,
+          25,
+          0
+        ],
+        "native_sam": [
+          1,
+          1,
+          1
+        ],
+        "B14_raw": [
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_sha256": "02ee4c5ec0c3eeaecca3de354c2cd0ca6d5b9b15e3c689049f4b187fb4148bab",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct",
+        "strict_global_corrected"
+      ],
+      "case_id": 21,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        694.5,
+        24.8125
+      ],
+      "original_pixel": [
+        695,
+        25
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 35730,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "1607fa860b1cd729f199d2cc891d34c54e46941e5a6ab9940b2bd3da286f8174"
+    },
+    {
+      "policy": "strict",
+      "group": "00042",
+      "slot": 5,
+      "image_id": 980,
+      "path": "semantic_artifacts/external_local_rgb/images/00042/00016.jpg",
+      "u": 21,
+      "v": 3,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          0,
+          1,
+          0
+        ],
+        "native_sam": [
+          0,
+          0,
+          0
+        ],
+        "B14_raw": [
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_sha256": "01368fbe39b58e82e3afe8f368f1e96e8ee5ef5c83e4e051b648caffea7924e1",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 22,
+      "width": 480,
+      "height": 427,
+      "original_center": [
+        80.125,
+        11.17578125
+      ],
+      "original_pixel": [
+        80,
+        11
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 3964,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "60379f0f05a687eb60c7745cdb907322f824c8dddaba7d1606732fe6c63c5afd"
+    },
+    {
+      "policy": "strict",
+      "group": "00565",
+      "slot": 7,
+      "image_id": 12946,
+      "path": "semantic_artifacts/external_local_rgb/images/00565/00019.jpg",
+      "u": 53,
+      "v": 38,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          23
+        ],
+        "native_sam": [
+          1,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "47695857e0078a48c96af7e3f131d3e0f23efc87410d8e61e8497ad78682c527",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 23,
+      "width": 640,
+      "height": 360,
+      "original_center": [
+        267.0,
+        107.78125
+      ],
+      "original_pixel": [
+        267,
+        108
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 55148,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "9aa7a9662619b28ecfcca63f2846df159b7007aa4452b9336bd53a9cb9119918"
+    },
+    {
+      "policy": "strict",
+      "group": "00027",
+      "slot": 0,
+      "image_id": 623,
+      "path": "semantic_artifacts/external_local_rgb/images/00027/00000.jpg",
+      "u": 54,
+      "v": 56,
+      "GT": 1,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          1,
+          1,
+          20
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "06eee1b92b129e0d425f935a5ec1eff90eb974c60a6dd0d0594f49a508c922aa",
+      "selection_reasons": [
+        "strict_group_error_or_all_correct"
+      ],
+      "case_id": 24,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        544.5,
+        317.3125
+      ],
+      "original_pixel": [
+        545,
+        317
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 2667,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "4375b0a872ef31341a17fbcf4579496ecc149f4383c13faa6ea07ad5db21c31f"
+    },
+    {
+      "policy": "strict",
+      "group": "00391",
+      "slot": 2,
+      "image_id": 8901,
+      "path": "semantic_artifacts/external_local_rgb/images/00391/00008.jpg",
+      "u": 46,
+      "v": 35,
+      "GT": 1,
+      "type": "regressed",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          16,
+          25,
+          22
+        ],
+        "B14_raw": [
+          25,
+          0,
+          9
+        ]
+      },
+      "selection_sha256": "082ff9fdb5a3a4865a8a870d5ec4a524bb7e524e481fe1ee60740ae9707387b1",
+      "selection_reasons": [
+        "strict_global_regressed"
+      ],
+      "case_id": 25,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        464.5,
+        199.1875
+      ],
+      "original_pixel": [
+        465,
+        199
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 37218,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "e34df1dd05ff8dcc27c79abfdc55f5f12f586ac283a847347f40b1e5fe29566a"
+    },
+    {
+      "policy": "strict",
+      "group": "00631",
+      "slot": 4,
+      "image_id": 14451,
+      "path": "semantic_artifacts/external_local_rgb/images/00631/00017.jpg",
+      "u": 34,
+      "v": 97,
+      "GT": 1,
+      "type": "both_correct",
+      "predictions": {
+        "source_gt": [
+          1,
+          1,
+          1
+        ],
+        "native_sam": [
+          1,
+          1,
+          1
+        ],
+        "B14_raw": [
+          1,
+          1,
+          1
+        ]
+      },
+      "selection_sha256": "00039c5ea9d18ac34c2246ea9f2d184a691e68f267e306f2035039fe2efeabac",
+      "selection_reasons": [
+        "strict_global_both_correct"
+      ],
+      "case_id": 26,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        344.5,
+        547.9375
+      ],
+      "original_pixel": [
+        345,
+        548
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 60803,
+          "category_id": 773,
+          "name": "person",
+          "mapped": 1,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": 1,
+      "native_point_consensus_label": 1,
+      "image_sha256": "5bbdbccf1001a9fc898413c66e7e0b13564fe7c91b15709aa439fb91bf520bdb"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 0,
+      "image_id": 18714,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00000.jpg",
+      "u": 49,
+      "v": 56,
+      "GT": 2,
+      "type": "corrected",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          2,
+          2,
+          2
+        ],
+        "B14_raw": [
+          15,
+          15,
+          15
+        ]
+      },
+      "selection_sha256": "01850fb866716e0abae71270c7f3de86ffe24bbe2e2b1069b52ce69534d40489",
+      "selection_reasons": [
+        "consensus_Bird_frame_0"
+      ],
+      "case_id": 27,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        494.5,
+        317.3125
+      ],
+      "original_pixel": [
+        495,
+        317
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 77988,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78018,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "82d09e66926f7e1b4f72e4618ccb5b57730d185a8bd2e65ff8a62cf8eb0d2842"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 1,
+      "image_id": 18718,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00004.jpg",
+      "u": 57,
+      "v": 50,
+      "GT": 2,
+      "type": "corrected",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          2,
+          2,
+          2
+        ],
+        "B14_raw": [
+          15,
+          15,
+          2
+        ]
+      },
+      "selection_sha256": "00f83303202815a391f376d4653b954cb38e6a007bc7e14db533e047ad275cd0",
+      "selection_reasons": [
+        "consensus_Bird_frame_1"
+      ],
+      "case_id": 28,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        574.5,
+        283.5625
+      ],
+      "original_pixel": [
+        575,
+        284
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 77992,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78022,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "0c16054e757ec1d82d9bf940f9d912da0d7f029917982bcd4a8aa3bb5465693a"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 2,
+      "image_id": 18722,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00008.jpg",
+      "u": 54,
+      "v": 57,
+      "GT": 2,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          15,
+          2,
+          2
+        ],
+        "B14_raw": [
+          15,
+          15,
+          15
+        ]
+      },
+      "selection_sha256": "0087714e0aaefe039a36bdce1ff304d2570f1e1cd177212e7ed26da00af8d355",
+      "selection_reasons": [
+        "consensus_Bird_frame_2"
+      ],
+      "case_id": 29,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        544.5,
+        322.9375
+      ],
+      "original_pixel": [
+        545,
+        323
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 77996,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78026,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "3a4c392c12d40a2469fa2a947fcb4d5867b28d288ff29de7bba5a18785c5979d"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 3,
+      "image_id": 18726,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00012.jpg",
+      "u": 48,
+      "v": 39,
+      "GT": 2,
+      "type": "persistent_error",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          15,
+          15,
+          15
+        ],
+        "B14_raw": [
+          15,
+          15,
+          15
+        ]
+      },
+      "selection_sha256": "00e8626a1769fe9868d22de23646b3d3fd0ec3dae91b13d6b26e48ac89844092",
+      "selection_reasons": [
+        "consensus_Bird_frame_3"
+      ],
+      "case_id": 30,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        484.5,
+        221.6875
+      ],
+      "original_pixel": [
+        485,
+        222
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 78000,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78030,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "fd6348dc8a240441399e878cae1160810d61304c82c6a093338dbedd3a759a67"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 4,
+      "image_id": 18731,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00017.jpg",
+      "u": 63,
+      "v": 104,
+      "GT": 2,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          15,
+          2,
+          15
+        ],
+        "B14_raw": [
+          15,
+          2,
+          15
+        ]
+      },
+      "selection_sha256": "017f354166c618b37bdced0a61709fba5606a9d2139c133fa8918142293ed3f0",
+      "selection_reasons": [
+        "consensus_Bird_frame_4"
+      ],
+      "case_id": 31,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        634.5,
+        587.3125
+      ],
+      "original_pixel": [
+        635,
+        587
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 78005,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78035,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "61867df69b21caa716595a526fc8123f80a74ae0633e60eb9ee07293d3a3f8cd"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 5,
+      "image_id": 18735,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00021.jpg",
+      "u": 57,
+      "v": 73,
+      "GT": 2,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          15,
+          2,
+          15
+        ],
+        "native_sam": [
+          2,
+          2,
+          2
+        ],
+        "B14_raw": [
+          2,
+          2,
+          15
+        ]
+      },
+      "selection_sha256": "00ecb5dd1ae0bdbc128d9dac019f1f70b083eb3413e798c089082028685990dd",
+      "selection_reasons": [
+        "consensus_Bird_frame_5"
+      ],
+      "case_id": 32,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        574.5,
+        412.9375
+      ],
+      "original_pixel": [
+        575,
+        413
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 78009,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78039,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "2fc04e33e09f6faf30ee38717e867cef103b658cb52b16e14ca2eec458769192"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 6,
+      "image_id": 18739,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00025.jpg",
+      "u": 59,
+      "v": 93,
+      "GT": 2,
+      "type": "corrected",
+      "predictions": {
+        "source_gt": [
+          15,
+          15,
+          15
+        ],
+        "native_sam": [
+          2,
+          2,
+          2
+        ],
+        "B14_raw": [
+          15,
+          15,
+          15
+        ]
+      },
+      "selection_sha256": "057caddef38fb6a81b612c9957bce73e29551efb1ff8bc119c9467384962c480",
+      "selection_reasons": [
+        "consensus_Bird_frame_6"
+      ],
+      "case_id": 33,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        594.5,
+        525.4375
+      ],
+      "original_pixel": [
+        595,
+        525
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 78013,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78043,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "40f94ed9ba90d156aa987c302b2226f39399e75f4622ac04de81f6fb590b7a3e"
+    },
+    {
+      "policy": "consensus",
+      "group": "00821",
+      "slot": 7,
+      "image_id": 18743,
+      "path": "semantic_artifacts/external_local_rgb/images/00821/00029.jpg",
+      "u": 51,
+      "v": 76,
+      "GT": 2,
+      "type": "mixed_seed",
+      "predictions": {
+        "source_gt": [
+          15,
+          2,
+          15
+        ],
+        "native_sam": [
+          2,
+          2,
+          2
+        ],
+        "B14_raw": [
+          15,
+          2,
+          15
+        ]
+      },
+      "selection_sha256": "01a3e92a017b83b751e9818e51e4a1693d6d99733ca710fc6284e2e053c03f53",
+      "selection_reasons": [
+        "consensus_Bird_frame_7"
+      ],
+      "case_id": 34,
+      "width": 1280,
+      "height": 720,
+      "original_center": [
+        514.5,
+        429.8125
+      ],
+      "original_pixel": [
+        515,
+        430
+      ],
+      "original_point_hits": [
+        {
+          "ann_id": 78017,
+          "category_id": 645,
+          "name": "magpie",
+          "mapped": null,
+          "crowd": false
+        },
+        {
+          "ann_id": 78047,
+          "category_id": 107,
+          "name": "bird",
+          "mapped": 2,
+          "crowd": false
+        }
+      ],
+      "native_point_strict_label": -1,
+      "native_point_consensus_label": 2,
+      "image_sha256": "1543b3063c28fac4465ec75f929851c0e4b7d65e6fc71eed2f21cf2caf3600ac"
+    }
+  ],
+  "card_count": 35
+}
