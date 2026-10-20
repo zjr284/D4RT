@@ -1,0 +1,11 @@
+{
+  "summary_sha256": "6bee04458bc8019a192d27107054dea025cfca4390c784eeedca78c494e289d4",
+  "CSV_sha256": "4e6082bf1949b097fadba26faa0f72481f69ffe811bec6f42d1a8c76ada67390",
+  "all36_frozen_outputs_metrics_rebuilt": true,
+  "all12_comparisons_full_leave_one_and_two_recomputed": true,
+  "all_class_contributions_sum_to_pooled_difference": true,
+  "all52_constant_rules_analytically_verified": true,
+  "all40_annotation_and_empty_group_records_verified": true,
+  "all480_CSV_rows_verified": true,
+  "all_source_fingerprints_unchanged": true
+}

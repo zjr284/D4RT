@@ -1,5 +1,7 @@
 # 连续研究当前接续点
 
+第95冻结输出影响与评分范围描述已独立核验：strict全Person使恒Person诊断F1=1，18头F1=2R/(1+R)；14空组无共同映射非crowd标注、Bird00821被重叠过滤。SAM strict/consensus正贡献前两组占65.11%/70.96%；所有留一均差正，留二3/300与1/325反向；该范围不是CI，不删视频。consensus pooled差+.279068中98.30%来自单组Bird。36输出/12对照全部留一留二/52常量规则/40组/480CSV独立核验通过。仅描述，93/94分数和模型保持；图表在reports/analysis。推送后继续整理跨集合SAM证据，不平均不同集合/不同recipe得分，不新增确认或训练。
+
 第94逐类/混淆描述已独立核验：624行26类×6方案×2模式×2GT策略；1872组三seed指标、不同像素/帧/组、320帧独立bitset覆盖全部通过。strict仅Person25组；consensus新增Bird00821单组8帧，GT/SAM Bird F1 .196447/.745084但不可外推；GT Bird→Parrot85.07%、SAM34.60%。缺失24/23前景类与BG无GT标未评价，不能因Person precision1称零误检。40组正式测试与逐类整理两项均完成，结果见OVIS_EXTERNAL_RESERVE_CONFIRMATION_RESULTS.md及OVIS_EXTERNAL_RESERVE_CLASS_AUDIT_RESULTS.md，聚合表results/external_reserve_per_class.csv。用户授权截至10/27；任何后续接续只整理这些证据/补充清晰说明，不重复消费该40、不转入未授权新模型训练。当前无可用自动任务更新工具，唤醒安排未更新，不能承诺无人触发自动继续。
 
 第93原40组冻结确认已独立核验：strict25有效15空、46848点仅Person；consensus26有效14空、49152点仅Person/Bird。主GT32−GT256视频均差−.003684、CI[−.017393,+.007460]跨零；SAM次要CI跨零，B14raw次要Person局部正，不改默认。40已消费不再新确认。独立640GT记录/4手动特征/36输出/12区间/旧指纹通过。推送后立即94冻结输出逐类/混淆/低样本描述，保留缺失类和空组。
