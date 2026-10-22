@@ -1,0 +1,26 @@
+{
+  "round": 100,
+  "summary_sha256": "bd332e8fd1336c46067c0fbe023df0d644c699c5476f7ed3d6486d1f2ed2240d",
+  "verifier_sha256": "aa9b5085a3fa3129b373529056f48060526de8b6122ab8894fc442b4e70d6e52",
+  "all12_training_logits_recomputed_exact": [
+    "A_0",
+    "B_0",
+    "C_0",
+    "D_0",
+    "A_1",
+    "B_1",
+    "C_1",
+    "D_1",
+    "A_2",
+    "B_2",
+    "C_2",
+    "D_2"
+  ],
+  "training_queries_each": 15360,
+  "validation_source_queries_each": 5120,
+  "validation_later_queries_each": 35840,
+  "all36_population_metrics_and_BG_margins_rebuilt": true,
+  "all12_common_FG_source_gaps_verified": true,
+  "all_inputs_models_and_source_scores_unchanged": true,
+  "new_training_or_confirmation": false
+}
