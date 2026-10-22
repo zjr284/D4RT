@@ -1,0 +1,1654 @@
+{
+  "round": 98,
+  "protocol": {
+    "round": 98,
+    "seed": 0,
+    "steps": 5,
+    "query_seed": 20261098,
+    "video_id": 13,
+    "cache_path": "semantic_artifacts/features_ovis/sam/train/13.npz",
+    "teacher_path": "semantic_artifacts/teacher_ovis/13.npz",
+    "schedule": [
+      [
+        93,
+        98,
+        22,
+        112,
+        121,
+        82,
+        75,
+        47,
+        71,
+        24,
+        89,
+        91,
+        0,
+        100,
+        67,
+        49,
+        34,
+        30,
+        10,
+        109,
+        1,
+        125,
+        78,
+        83,
+        9,
+        115,
+        41,
+        119,
+        97,
+        126,
+        70,
+        7,
+        137,
+        159,
+        186,
+        252,
+        226,
+        246,
+        224,
+        230,
+        154,
+        198,
+        222,
+        163,
+        214,
+        234,
+        194,
+        128,
+        135,
+        206,
+        145,
+        229,
+        232,
+        161,
+        193,
+        150,
+        213,
+        165,
+        220,
+        149,
+        175,
+        227,
+        178,
+        212,
+        904,
+        611,
+        1109,
+        828,
+        780,
+        909,
+        275,
+        569,
+        424,
+        794,
+        749,
+        1150,
+        444,
+        988,
+        1144,
+        606,
+        264,
+        330,
+        628,
+        412,
+        1022,
+        641,
+        315,
+        670,
+        590,
+        971,
+        912,
+        845,
+        987,
+        438,
+        879,
+        530
+      ],
+      [
+        7,
+        34,
+        26,
+        1,
+        22,
+        126,
+        85,
+        65,
+        108,
+        0,
+        75,
+        61,
+        127,
+        103,
+        114,
+        100,
+        81,
+        52,
+        28,
+        112,
+        56,
+        121,
+        79,
+        38,
+        66,
+        77,
+        55,
+        45,
+        53,
+        73,
+        119,
+        35,
+        231,
+        244,
+        138,
+        205,
+        213,
+        147,
+        160,
+        187,
+        189,
+        145,
+        158,
+        184,
+        172,
+        201,
+        175,
+        131,
+        143,
+        251,
+        207,
+        183,
+        199,
+        166,
+        157,
+        129,
+        254,
+        247,
+        149,
+        176,
+        252,
+        156,
+        182,
+        188,
+        973,
+        882,
+        315,
+        457,
+        787,
+        775,
+        1110,
+        841,
+        1013,
+        971,
+        596,
+        1040,
+        1100,
+        503,
+        756,
+        1042,
+        1150,
+        294,
+        270,
+        1096,
+        1039,
+        387,
+        931,
+        345,
+        290,
+        272,
+        289,
+        595,
+        1115,
+        273,
+        620,
+        433
+      ],
+      [
+        112,
+        97,
+        7,
+        96,
+        23,
+        92,
+        27,
+        28,
+        119,
+        114,
+        33,
+        116,
+        89,
+        100,
+        55,
+        38,
+        11,
+        48,
+        74,
+        20,
+        9,
+        18,
+        36,
+        10,
+        106,
+        66,
+        52,
+        122,
+        120,
+        45,
+        110,
+        13,
+        219,
+        150,
+        190,
+        165,
+        155,
+        228,
+        131,
+        189,
+        177,
+        239,
+        205,
+        234,
+        161,
+        176,
+        211,
+        193,
+        133,
+        204,
+        197,
+        247,
+        209,
+        132,
+        212,
+        215,
+        171,
+        252,
+        159,
+        186,
+        144,
+        210,
+        157,
+        168,
+        910,
+        1023,
+        1041,
+        953,
+        1105,
+        776,
+        346,
+        1075,
+        1147,
+        981,
+        371,
+        912,
+        338,
+        1138,
+        610,
+        539,
+        711,
+        732,
+        877,
+        734,
+        675,
+        760,
+        859,
+        630,
+        526,
+        1000,
+        1091,
+        795,
+        330,
+        1047,
+        922,
+        1130
+      ],
+      [
+        39,
+        14,
+        122,
+        38,
+        84,
+        69,
+        92,
+        72,
+        66,
+        77,
+        51,
+        78,
+        117,
+        8,
+        62,
+        58,
+        29,
+        60,
+        86,
+        0,
+        99,
+        106,
+        68,
+        85,
+        113,
+        13,
+        57,
+        63,
+        4,
+        95,
+        61,
+        91,
+        218,
+        194,
+        243,
+        173,
+        182,
+        191,
+        245,
+        249,
+        217,
+        197,
+        239,
+        211,
+        186,
+        203,
+        212,
+        219,
+        240,
+        144,
+        139,
+        131,
+        202,
+        226,
+        134,
+        187,
+        185,
+        242,
+        200,
+        252,
+        180,
+        162,
+        176,
+        230,
+        383,
+        922,
+        944,
+        1031,
+        306,
+        546,
+        793,
+        886,
+        946,
+        499,
+        735,
+        852,
+        1126,
+        651,
+        508,
+        528,
+        576,
+        563,
+        801,
+        448,
+        908,
+        906,
+        890,
+        526,
+        745,
+        281,
+        695,
+        779,
+        875,
+        418,
+        674,
+        434
+      ],
+      [
+        29,
+        40,
+        68,
+        64,
+        3,
+        43,
+        60,
+        37,
+        118,
+        49,
+        7,
+        17,
+        55,
+        121,
+        27,
+        48,
+        16,
+        97,
+        61,
+        33,
+        51,
+        111,
+        20,
+        2,
+        81,
+        25,
+        15,
+        92,
+        82,
+        120,
+        99,
+        5,
+        192,
+        173,
+        185,
+        150,
+        184,
+        140,
+        229,
+        249,
+        213,
+        157,
+        153,
+        134,
+        221,
+        189,
+        241,
+        247,
+        142,
+        254,
+        209,
+        162,
+        253,
+        234,
+        186,
+        163,
+        152,
+        201,
+        130,
+        225,
+        144,
+        135,
+        136,
+        148,
+        322,
+        828,
+        982,
+        1050,
+        898,
+        406,
+        855,
+        926,
+        697,
+        829,
+        714,
+        282,
+        336,
+        1136,
+        433,
+        1107,
+        488,
+        544,
+        1145,
+        1137,
+        760,
+        1033,
+        434,
+        833,
+        300,
+        560,
+        934,
+        324,
+        384,
+        1122,
+        903,
+        785
+      ]
+    ],
+    "GT_queries_per_step": 64,
+    "aux_queries_per_step": 32,
+    "loss_coefficients": {
+      "A": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        1.0,
+        0.1,
+        0.0
+      ],
+      "C": [
+        1.0,
+        0.1,
+        0.25
+      ]
+    },
+    "input_sha256": {
+      "/home/kkk/code/D4RT/external/open-d4rt/checkpoints/OpenD4RT_32CLIP_9Dataset_NoAUG/opend4rt.ckpt": "1f63305422fdc2000b057fbbc1d37459ac1a8063bbfcd0e3b7d473f5485943f5",
+      "/home/kkk/code/D4RT/external/open-d4rt/checkpoints/OpenD4RT_32CLIP_9Dataset_NoAUG/model.yaml": "c0b51efbb79ffacc16fdb78e2cf78a5759bc22b2a11a1eb7890d109e4af8f9eb",
+      "semantic_artifacts/manifest.json": "91c51a960b9132a1314830e5c233e3df8a622f5ee7b19e28f766121a20335960",
+      "semantic_artifacts/ovis/annotations_train.json": "1ccf36821df2f2794428f4684dc56ac33f75919172b19e7d3875a64ffad48c38",
+      "semantic_artifacts/features_ovis/sam/metadata.json": "6fbb7e2ed5a5188305a1d2f5c2046215437754b574d6e99833a182ce6678bb51",
+      "semantic_artifacts/features_ovis/sam/train/13.npz": "af87c53891bb9a6325eb50d40dafde81999be9be2c7aac207e600c98fa5d861e",
+      "semantic_artifacts/teacher_ovis/13.npz": "80f247a051bbc509ba3561a6c2ece578cc57dbc002bfb0436633a4d5adb1bdcc",
+      "semantic/model.py": "ca6ebc7b5a4c3fc4077888fc9b692e7ff05ecb1e999d4cb0a3bfa4dfa45c7f62",
+      "tools/load_opend4rt.py": "2abd6b7958c48983feb17cd947407f7fc9bc6db5b3583133eaab1df9bcb3e1ee",
+      "semantic/d4rt_finetune_readiness.py": "f08f24dcd5b24d954c48a7e313527198e419fc9673570707713b22c5dfce35d8",
+      "semantic/OVIS_D4RT_FINETUNE_READINESS_PROTOCOL.md": "36de1c366d6f1525c4be1bbcc028fd61bf977633ba14db3102e022500ebf6bf4"
+    },
+    "no_validation_or_test_scoring": true,
+    "is_performance_experiment": false
+  },
+  "checkpoint_bytes": 13950006682,
+  "base_model_parameters": 1162433293,
+  "GPU": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.14.0+cu130",
+  "seconds": 19.89512334599931,
+  "results": {
+    "A": {
+      "initial_adapter_sha256": {
+        "blocks.0.ff.0.a": "e5080887c6971e6e96412608668c47fbb29149ebbc5ab6dba577005cfe0bbc1d",
+        "blocks.0.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.0.ff.3.a": "a76c60d7ac06917d4d1ecabe67d9141fa30bb241b43a6703e5e07aec6ff69b78",
+        "blocks.0.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "blocks.1.ff.0.a": "91c83d9f5aa8f8a0cbc1d6164201bf5356c81de986af4b1a007a73a3d0f9e243",
+        "blocks.1.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.1.ff.3.a": "a1e5a05318147e39b7865035c07ec643820cdb70345a818485d238e5129634e1",
+        "blocks.1.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "semantic_head.classifier.weight": "0f425aecd90db86a70670ba4d549e2a803e1d81762c5d379853735a50a6bcf3c",
+        "semantic_head.classifier.bias": "c5fecda53efdfda5c05646dae718825ae226fe10e3c48e385a6138b170ab3659"
+      },
+      "final_adapter_sha256": {
+        "blocks.0.ff.0.a": "e5080887c6971e6e96412608668c47fbb29149ebbc5ab6dba577005cfe0bbc1d",
+        "blocks.0.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.0.ff.3.a": "a76c60d7ac06917d4d1ecabe67d9141fa30bb241b43a6703e5e07aec6ff69b78",
+        "blocks.0.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "blocks.1.ff.0.a": "91c83d9f5aa8f8a0cbc1d6164201bf5356c81de986af4b1a007a73a3d0f9e243",
+        "blocks.1.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.1.ff.3.a": "a1e5a05318147e39b7865035c07ec643820cdb70345a818485d238e5129634e1",
+        "blocks.1.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "semantic_head.classifier.weight": "9d04bb9c781e0b375facc392e372520b7b2fd6cc97b6cb12ac588f41ae8eae22",
+        "semantic_head.classifier.bias": "b9c8db641b0a84e198894b4c0b39b89e0cad1e70b1b2ce5b44e7ed7ff3c190b2"
+      },
+      "initial_geometry_max_difference": {
+        "xyz_3d": 0.0,
+        "uv_2d": 0.0,
+        "visibility": 0.0,
+        "displacement": 0.0,
+        "normal": 0.0,
+        "confidence": 0.0
+      },
+      "trainable_parameters": 33306,
+      "frozen_parameters": 36285453,
+      "rows": [
+        {
+          "step": 1,
+          "GT_CE": 3.4158835411071777,
+          "SAM_CE": 3.354400634765625,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.4158835411071777,
+          "gradients": {
+            "semantic_head.classifier.weight": {
+              "l2": 19.405214309692383,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.59553062915802,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 2,
+          "GT_CE": 3.2937331199645996,
+          "SAM_CE": 3.275534152984619,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.2937331199645996,
+          "gradients": {
+            "semantic_head.classifier.weight": {
+              "l2": 19.242761611938477,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5892488956451416,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 3,
+          "GT_CE": 3.197833299636841,
+          "SAM_CE": 3.1542491912841797,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.197833299636841,
+          "gradients": {
+            "semantic_head.classifier.weight": {
+              "l2": 19.0744686126709,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5833756923675537,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 4,
+          "GT_CE": 3.11826229095459,
+          "SAM_CE": 3.0744106769561768,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.11826229095459,
+          "gradients": {
+            "semantic_head.classifier.weight": {
+              "l2": 18.89801597595215,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.576054573059082,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 5,
+          "GT_CE": 3.0100245475769043,
+          "SAM_CE": 2.9843711853027344,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.0100245475769043,
+          "gradients": {
+            "semantic_head.classifier.weight": {
+              "l2": 18.623435974121094,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5684702396392822,
+              "finite": true
+            }
+          }
+        }
+      ],
+      "final_same_queries_geometry_differences": [
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "uv_2d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "visibility": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "displacement": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "normal": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "confidence": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "uv_2d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "visibility": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "displacement": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "normal": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "confidence": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "uv_2d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "visibility": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "displacement": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "normal": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "confidence": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "uv_2d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "visibility": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "displacement": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "normal": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "confidence": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "uv_2d": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "visibility": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "displacement": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "normal": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          },
+          "confidence": {
+            "mean_abs": 0.0,
+            "max_abs": 0.0
+          }
+        }
+      ],
+      "peak_gpu_allocated_bytes": 377815552,
+      "peak_gpu_reserved_bytes": 398458880,
+      "frozen_tail_unchanged": true
+    },
+    "B": {
+      "initial_adapter_sha256": {
+        "blocks.0.ff.0.a": "e5080887c6971e6e96412608668c47fbb29149ebbc5ab6dba577005cfe0bbc1d",
+        "blocks.0.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.0.ff.3.a": "a76c60d7ac06917d4d1ecabe67d9141fa30bb241b43a6703e5e07aec6ff69b78",
+        "blocks.0.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "blocks.1.ff.0.a": "91c83d9f5aa8f8a0cbc1d6164201bf5356c81de986af4b1a007a73a3d0f9e243",
+        "blocks.1.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.1.ff.3.a": "a1e5a05318147e39b7865035c07ec643820cdb70345a818485d238e5129634e1",
+        "blocks.1.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "semantic_head.classifier.weight": "0f425aecd90db86a70670ba4d549e2a803e1d81762c5d379853735a50a6bcf3c",
+        "semantic_head.classifier.bias": "c5fecda53efdfda5c05646dae718825ae226fe10e3c48e385a6138b170ab3659"
+      },
+      "final_adapter_sha256": {
+        "blocks.0.ff.0.a": "6d3379038f1bc3012149ee5f3bdca90be6e368e8c93a450c1e3ce53aeef506d6",
+        "blocks.0.ff.0.b": "ac57e256b74df34d503c907d41986d317bd84e56c1386a895395b1edfeaf1442",
+        "blocks.0.ff.3.a": "063d3e9ec9cab0e8143c08fbf09f9d31b9c5d658210056850013c894269e30ae",
+        "blocks.0.ff.3.b": "cc096e07f4bc12ff8e421504970d79f44bf185bd338bf3489906a95d32bf904d",
+        "blocks.1.ff.0.a": "dd1f88384dfee916fdb9fbe48e9f435781b4a6f74923ce186a6ab940eb00add6",
+        "blocks.1.ff.0.b": "8561f3a81f40ba21f94e0291ef34747b8692b1786b464cc9ee366e60edd9bde1",
+        "blocks.1.ff.3.a": "eef8454c716ed5b45d1d7a65a7dd7bc3cdefaca5a73e25364108190f6df3662c",
+        "blocks.1.ff.3.b": "6ad0b9733d9b6ab590fb0c5e4eb7761054aac76061023fde0227ca2b749d606a",
+        "semantic_head.classifier.weight": "1b3b044608c7cad0d600735b0c423bea72a6583b87864540fe10c56d9f2d2aaa",
+        "semantic_head.classifier.bias": "bd86daf2dc86c124335411650318773df100ee9fed4e15ee87cce3c4e5dc3d44"
+      },
+      "initial_geometry_max_difference": {
+        "xyz_3d": 0.0,
+        "uv_2d": 0.0,
+        "visibility": 0.0,
+        "displacement": 0.0,
+        "normal": 0.0,
+        "confidence": 0.0
+      },
+      "trainable_parameters": 217626,
+      "frozen_parameters": 36101133,
+      "rows": [
+        {
+          "step": 1,
+          "GT_CE": 3.4158835411071777,
+          "SAM_CE": 3.354400634765625,
+          "geometry_smooth_l1": 0.0,
+          "total": 3.4158835411071777,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.03339414671063423,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.01031620055437088,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04155205562710762,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.008990108966827393,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 19.405214309692383,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.59553062915802,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 2,
+          "GT_CE": 3.293062210083008,
+          "SAM_CE": 3.274698257446289,
+          "geometry_smooth_l1": 5.995777883072151e-06,
+          "total": 3.293062925338745,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.010422025807201862,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.03227175027132034,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.002976007293909788,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.010212428867816925,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.01062878966331482,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04023239389061928,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.002675654599443078,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.008907517418265343,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 19.24352264404297,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5892626047134399,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 3,
+          "GT_CE": 3.1959872245788574,
+          "SAM_CE": 3.153050422668457,
+          "geometry_smooth_l1": 6.128494987933664e-06,
+          "total": 3.1959879398345947,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.020593920722603798,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.03398985415697098,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.006099055055528879,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.01345792505890131,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.02112296223640442,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.041968196630477905,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.005474430043250322,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.011791029013693333,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 19.071670532226562,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5833878517150879,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 4,
+          "GT_CE": 3.115025043487549,
+          "SAM_CE": 3.0721168518066406,
+          "geometry_smooth_l1": 5.652700565406121e-06,
+          "total": 3.115025520324707,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.03058558888733387,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.0366751067340374,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.009008045308291912,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.018742844462394714,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.031047273427248,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04457125440239906,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.007786022964864969,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.014758097939193249,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 18.887996673583984,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5759673714637756,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 5,
+          "GT_CE": 3.0049970149993896,
+          "SAM_CE": 2.9808011054992676,
+          "geometry_smooth_l1": 6.042643235559808e-06,
+          "total": 3.004997730255127,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.03974553570151329,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.039064615964889526,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.011873706243932247,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.023465879261493683,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.040879979729652405,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04600243642926216,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.010201296769082546,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.018709370866417885,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 18.615230560302734,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.5683953166007996,
+              "finite": true
+            }
+          }
+        }
+      ],
+      "final_same_queries_geometry_differences": [
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0016527441330254078,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.00072479248046875,
+            "max_abs": 0.0078125
+          },
+          "visibility": {
+            "mean_abs": 0.0021969478111714125,
+            "max_abs": 0.03125
+          },
+          "displacement": {
+            "mean_abs": 0.0009759926469996572,
+            "max_abs": 0.003936767578125
+          },
+          "normal": {
+            "mean_abs": 0.0010538763599470258,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0032552084885537624,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0015379057731479406,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0007476806640625,
+            "max_abs": 0.00390625
+          },
+          "visibility": {
+            "mean_abs": 0.00160757708363235,
+            "max_abs": 0.015625
+          },
+          "displacement": {
+            "mean_abs": 0.0009437727276235819,
+            "max_abs": 0.003444671630859375
+          },
+          "normal": {
+            "mean_abs": 0.000994821428321302,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0042317709885537624,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0016533533344045281,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.000732421875,
+            "max_abs": 0.005859375
+          },
+          "visibility": {
+            "mean_abs": 0.0016795794945210218,
+            "max_abs": 0.015625
+          },
+          "displacement": {
+            "mean_abs": 0.0009990433463826776,
+            "max_abs": 0.0034999847412109375
+          },
+          "normal": {
+            "mean_abs": 0.0010582937393337488,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0035807292442768812,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0012010998325422406,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0005645751953125,
+            "max_abs": 0.0078125
+          },
+          "visibility": {
+            "mean_abs": 0.0017789205303415656,
+            "max_abs": 0.015625
+          },
+          "displacement": {
+            "mean_abs": 0.0009319026139564812,
+            "max_abs": 0.003284454345703125
+          },
+          "normal": {
+            "mean_abs": 0.0009446342592127621,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0029296875,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0015159182948991656,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0005518595571629703,
+            "max_abs": 0.0078125
+          },
+          "visibility": {
+            "mean_abs": 0.002276261802762747,
+            "max_abs": 0.03125
+          },
+          "displacement": {
+            "mean_abs": 0.000947487773373723,
+            "max_abs": 0.00301361083984375
+          },
+          "normal": {
+            "mean_abs": 0.0009857283439487219,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0022786459885537624,
+            "max_abs": 0.0625
+          }
+        }
+      ],
+      "peak_gpu_allocated_bytes": 418899968,
+      "peak_gpu_reserved_bytes": 438304768,
+      "frozen_tail_unchanged": true
+    },
+    "C": {
+      "initial_adapter_sha256": {
+        "blocks.0.ff.0.a": "e5080887c6971e6e96412608668c47fbb29149ebbc5ab6dba577005cfe0bbc1d",
+        "blocks.0.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.0.ff.3.a": "a76c60d7ac06917d4d1ecabe67d9141fa30bb241b43a6703e5e07aec6ff69b78",
+        "blocks.0.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "blocks.1.ff.0.a": "91c83d9f5aa8f8a0cbc1d6164201bf5356c81de986af4b1a007a73a3d0f9e243",
+        "blocks.1.ff.0.b": "805f89516ae3725e591d02cc0594f250fbc9ab74461f1e03faeed1649f24e9a2",
+        "blocks.1.ff.3.a": "a1e5a05318147e39b7865035c07ec643820cdb70345a818485d238e5129634e1",
+        "blocks.1.ff.3.b": "02b1c2234680617802901a77eae606ad02e4ddb4282ccbc60061eac5b2d90bba",
+        "semantic_head.classifier.weight": "0f425aecd90db86a70670ba4d549e2a803e1d81762c5d379853735a50a6bcf3c",
+        "semantic_head.classifier.bias": "c5fecda53efdfda5c05646dae718825ae226fe10e3c48e385a6138b170ab3659"
+      },
+      "final_adapter_sha256": {
+        "blocks.0.ff.0.a": "9c62bb11ca8dc8baf639f2227a3cbba36d54d804eda6c4a2cc84e311e3532f22",
+        "blocks.0.ff.0.b": "bfa1faf115744ee4216fdbf1258e35ff835837829978bca8aeca2e8a86ce8471",
+        "blocks.0.ff.3.a": "0245d2fe050bc38bfa00752a4d57c868741f92576f150dda77bc45c1003a7e32",
+        "blocks.0.ff.3.b": "44b4091874b0cb2857df804f5055e503b9eb8a5b753ed75c1e423aaf29c365cf",
+        "blocks.1.ff.0.a": "78cfceeb75c5bf2c410e5d55fec0f10c71cf143f4c02765c97dcc113a4740ee8",
+        "blocks.1.ff.0.b": "83848993d40f53f2419f747f096f6f62b6e255e0ac4368696a22fef87bd1780a",
+        "blocks.1.ff.3.a": "f459365b77fd78c58d1432904579fc3e07b524251c5ea4f0a2e93a3331a06832",
+        "blocks.1.ff.3.b": "f894cb188d14c2f2e083958f01da2093a37390a9f66df962ffbc6debf07da645",
+        "semantic_head.classifier.weight": "ed939676354fee501bb5d2c6ba0750aded13b46e9f880eec74c3abf2e4a0fd10",
+        "semantic_head.classifier.bias": "e25190c69b26a7fbdedcb193ed567e2fb8045356d51132cad79e3a13f8793478"
+      },
+      "initial_geometry_max_difference": {
+        "xyz_3d": 0.0,
+        "uv_2d": 0.0,
+        "visibility": 0.0,
+        "displacement": 0.0,
+        "normal": 0.0,
+        "confidence": 0.0
+      },
+      "trainable_parameters": 217626,
+      "frozen_parameters": 36101133,
+      "rows": [
+        {
+          "step": 1,
+          "GT_CE": 3.4158835411071777,
+          "SAM_CE": 3.354400634765625,
+          "geometry_smooth_l1": 0.0,
+          "total": 4.254483699798584,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.03914959728717804,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.01176328957080841,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04915193095803261,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.0,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.010877314023673534,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 23.138864517211914,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.7083772420883179,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 2,
+          "GT_CE": 3.2931394577026367,
+          "SAM_CE": 3.2736754417419434,
+          "geometry_smooth_l1": 3.42927751262323e-06,
+          "total": 4.111558437347412,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.012007460929453373,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.037955667823553085,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.0035393466241657734,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.011657043360173702,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.01268072985112667,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04753692075610161,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.0030435065273195505,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.010739164426922798,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 22.80854034423828,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.6975975632667542,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 3,
+          "GT_CE": 3.1959075927734375,
+          "SAM_CE": 3.1504740715026855,
+          "geometry_smooth_l1": 5.959226200502599e-06,
+          "total": 3.9835267066955566,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.023500075563788414,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.03983958810567856,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.007114990148693323,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.01532213855534792,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.02505791187286377,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.04929838329553604,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.006123486440628767,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.013951818458735943,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 22.60449981689453,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.690830409526825,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 4,
+          "GT_CE": 3.1151652336120605,
+          "SAM_CE": 3.0681889057159424,
+          "geometry_smooth_l1": 4.549277036858257e-06,
+          "total": 3.8822128772735596,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.034654710441827774,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.04262179881334305,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.010396701283752918,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.021250737830996513,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.03671899437904358,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.052061308175325394,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.00866181030869484,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.01749083399772644,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 22.28656578063965,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.6796716451644897,
+              "finite": true
+            }
+          }
+        },
+        {
+          "step": 5,
+          "GT_CE": 3.005070447921753,
+          "SAM_CE": 2.9752354621887207,
+          "geometry_smooth_l1": 5.684473308065208e-06,
+          "total": 3.748879909515381,
+          "gradients": {
+            "blocks.0.ff.0.a": {
+              "l2": 0.045388124883174896,
+              "finite": true
+            },
+            "blocks.0.ff.0.b": {
+              "l2": 0.045531440526247025,
+              "finite": true
+            },
+            "blocks.0.ff.3.a": {
+              "l2": 0.013948621228337288,
+              "finite": true
+            },
+            "blocks.0.ff.3.b": {
+              "l2": 0.027124235406517982,
+              "finite": true
+            },
+            "blocks.1.ff.0.a": {
+              "l2": 0.04841611534357071,
+              "finite": true
+            },
+            "blocks.1.ff.0.b": {
+              "l2": 0.05419205501675606,
+              "finite": true
+            },
+            "blocks.1.ff.3.a": {
+              "l2": 0.011577966623008251,
+              "finite": true
+            },
+            "blocks.1.ff.3.b": {
+              "l2": 0.02210344187915325,
+              "finite": true
+            },
+            "semantic_head.classifier.weight": {
+              "l2": 21.92827606201172,
+              "finite": true
+            },
+            "semantic_head.classifier.bias": {
+              "l2": 0.6696310043334961,
+              "finite": true
+            }
+          }
+        }
+      ],
+      "final_same_queries_geometry_differences": [
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0016658041859045625,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0006764730205759406,
+            "max_abs": 0.00390625
+          },
+          "visibility": {
+            "mean_abs": 0.0020532608032226562,
+            "max_abs": 0.03125
+          },
+          "displacement": {
+            "mean_abs": 0.0010638140374794602,
+            "max_abs": 0.0035858154296875
+          },
+          "normal": {
+            "mean_abs": 0.0011599428253248334,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0032552084885537624,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0018291473388671875,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0008646647329442203,
+            "max_abs": 0.00390625
+          },
+          "visibility": {
+            "mean_abs": 0.0021047592163085938,
+            "max_abs": 0.03125
+          },
+          "displacement": {
+            "mean_abs": 0.0010718614794313908,
+            "max_abs": 0.00319671630859375
+          },
+          "normal": {
+            "mean_abs": 0.001198848127387464,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.005533854477107525,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0014130274066701531,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0008366903057321906,
+            "max_abs": 0.005859375
+          },
+          "visibility": {
+            "mean_abs": 0.0015425682067871094,
+            "max_abs": 0.015625
+          },
+          "displacement": {
+            "mean_abs": 0.00111365073826164,
+            "max_abs": 0.00330352783203125
+          },
+          "normal": {
+            "mean_abs": 0.0012040601577609777,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0035807292442768812,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0015464358730241656,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.0006815592641942203,
+            "max_abs": 0.0078125
+          },
+          "visibility": {
+            "mean_abs": 0.0022710165940225124,
+            "max_abs": 0.015625
+          },
+          "displacement": {
+            "mean_abs": 0.0010740285506471992,
+            "max_abs": 0.003177642822265625
+          },
+          "normal": {
+            "mean_abs": 0.0010166929569095373,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0035807292442768812,
+            "max_abs": 0.0625
+          }
+        },
+        {
+          "xyz_3d": {
+            "mean_abs": 0.0017419391078874469,
+            "max_abs": 0.03125
+          },
+          "uv_2d": {
+            "mean_abs": 0.00067138671875,
+            "max_abs": 0.00390625
+          },
+          "visibility": {
+            "mean_abs": 0.0026463072281330824,
+            "max_abs": 0.03125
+          },
+          "displacement": {
+            "mean_abs": 0.0010634262580424547,
+            "max_abs": 0.0030517578125
+          },
+          "normal": {
+            "mean_abs": 0.0009162690839730203,
+            "max_abs": 0.0078125
+          },
+          "confidence": {
+            "mean_abs": 0.0022786459885537624,
+            "max_abs": 0.0625
+          }
+        }
+      ],
+      "peak_gpu_allocated_bytes": 418899968,
+      "peak_gpu_reserved_bytes": 438304768,
+      "frozen_tail_unchanged": true
+    }
+  },
+  "no_validation_or_test_scoring": true,
+  "geometry_truth_accuracy_measured": false,
+  "source_weights_unchanged": true,
+  "artifacts_sha256": {
+    "semantic_artifacts/d4rt_finetune_readiness/C_before_final.pt": "d33b28ec3cd87c28d2950f7c14c4567485879d64b657d291dca6c7263dfb450c",
+    "semantic_artifacts/d4rt_finetune_readiness/A_adapter.pt": "be1b93aa83982c11bf98cce25aa90856ca83606f266389d0ec6d01ee8b2c274a",
+    "semantic_artifacts/d4rt_finetune_readiness/B_before_final.pt": "4f8f230ec1f9808e321b7ad509ce0da5e06d569152e7f507e3cbad013d18c9a1",
+    "semantic_artifacts/d4rt_finetune_readiness/B_adapter.pt": "0fca2488f73426a5e34ec63bc64e83612cc6005cc5771cd12850e4e369472898",
+    "semantic_artifacts/d4rt_finetune_readiness/initial_adapter.pt": "d3aa5e6f7c051815cce00991a7bb2ab114ef40ecae672f0717a08464cbd95667",
+    "semantic_artifacts/d4rt_finetune_readiness/B_step0.pt": "9db2fe616f7f4dad2a41d265373133f531f341bbbad1908290bdd0066b5b7211",
+    "semantic_artifacts/d4rt_finetune_readiness/A_step0.pt": "d1ae8dc2c7e65047460abddb2bfd69590f41cfc9b7e2d16b2e9b207d3c5f4264",
+    "semantic_artifacts/d4rt_finetune_readiness/A_before_final.pt": "3a48f38a5421ba1be243aed6d80dc524cf62f9a1bd6da04c6904dc45339b03f3",
+    "semantic_artifacts/d4rt_finetune_readiness/C_adapter.pt": "1603469673148451fc4a8a94e67278cb05545c6e0aa98c3f04076e5d34a9d493",
+    "semantic_artifacts/d4rt_finetune_readiness/C_step0.pt": "2470ff4d627b1f2dd3959b6c7ae6512d9fd96e92cda90b516ca627005baf6cbd"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "round": 98,
+  "summary_sha256": "d87b9fbffb3e2fd66ac9ed655617047d508888af641b7fde01a292e854d9a35a",
+  "verifier_sha256": "4d3416248a19de4184f8943698d68a1418f7b6ddfb5097554c2c6a8e6e6cbf8b",
+  "source_first_frame_GT_independent_mask_hits_checked": 256,
+  "all_SAM_training_cache_point_labels_match_saved_teacher": true,
+  "all_three_initializations_and_query_schedules_identical": true,
+  "B_C_gradient_difference_confirms_SAM_term_enters_training": true,
+  "arms": {
+    "A": {
+      "trainable_parameters": 33306,
+      "first_gradient_max_abs_replay_error": 0.0,
+      "final_step_parameter_max_abs_replay_error": 0.0,
+      "all_six_geometry_outputs_recomputed_on_five_batches": true,
+      "only_whitelisted_parameters_changed": true
+    },
+    "B": {
+      "trainable_parameters": 217626,
+      "first_gradient_max_abs_replay_error": 0.0,
+      "final_step_parameter_max_abs_replay_error": 0.0,
+      "all_six_geometry_outputs_recomputed_on_five_batches": true,
+      "only_whitelisted_parameters_changed": true
+    },
+    "C": {
+      "trainable_parameters": 217626,
+      "first_gradient_max_abs_replay_error": 0.0,
+      "final_step_parameter_max_abs_replay_error": 0.0,
+      "all_six_geometry_outputs_recomputed_on_five_batches": true,
+      "only_whitelisted_parameters_changed": true
+    }
+  },
+  "original_checkpoint_and_all_source_inputs_unchanged": true,
+  "no_performance_or_geometry_truth_accuracy_claim": true
+}
