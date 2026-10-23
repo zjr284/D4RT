@@ -1,0 +1,13 @@
+{
+  "round": 104,
+  "summary_sha256": "85144b761587f309ba2651c7fc7d57343293fa97eb636c6f0d4ac39f8497d085",
+  "verifier_sha256": "01c4c8005e6d857958d114fa4868dbaced1906e18c9cdd12683a7ffd7c49ef0e",
+  "all24_geometry_outputs_equal_frozen_base_and_before_after": true,
+  "manual_source_canonical_semantics_all24_match_exact": true,
+  "target_camera_semantic_invariance_both_stages_B1_B2": true,
+  "only_tail_gradient_white_list_and_base_no_grad": true,
+  "first_gradient_max_abs_error": 0.0,
+  "last_optimizer_parameter_max_abs_error": 0.0,
+  "base_parameters_and_all_inputs_unchanged": true,
+  "no_accuracy_or_new_confirmation_claim": true
+}
