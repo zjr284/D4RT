@@ -1,0 +1,12 @@
+{
+  "round": 108,
+  "summary_sha256": "d96ec8e183f290cc25f92921f1bda820e24e3566a088aad75067386c6f5347f2",
+  "verifier_sha256": "e425562c9dc7e576e16920119990c6ca669644489a4de583de31a90416c1b7e5",
+  "all60_scaled_logits_negative_threshold_and_erosion_reconstructed_exact": true,
+  "all60_old_positives_and_source_labels_preserved": true,
+  "first_fixed_video_RGB_SAM_scaled_logits_all7_later_frames_recomputed_exact": 13,
+  "all1500_paired_schedules_RNG_and_same_frame_points_exact": true,
+  "all_original_inputs_unchanged": true,
+  "GT_background_diagnostic_sha256": "1ddfb9a9973d706379aada8d60eda74ffbc03523c4651a2ea405a58d3fdfad5a",
+  "new_classifier_training_or_confirmation": false
+}

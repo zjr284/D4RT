@@ -1,0 +1,105 @@
+{
+  "per_seed_draws": {
+    "0": {
+      "selected_BG_draws": 16000,
+      "GT_diagnostic": {
+        "points": 16000,
+        "GT_background": 15967,
+        "GT_foreground": 33,
+        "GT_overlap_ignored": 0,
+        "BG_correct_fraction_among_nonoverlap": 0.9979375,
+        "wrong_foreground_by_category": {
+          "4": 1,
+          "5": 1,
+          "7": 2,
+          "8": 2,
+          "10": 5,
+          "16": 15,
+          "19": 7
+        }
+      }
+    },
+    "1": {
+      "selected_BG_draws": 16000,
+      "GT_diagnostic": {
+        "points": 16000,
+        "GT_background": 15952,
+        "GT_foreground": 48,
+        "GT_overlap_ignored": 0,
+        "BG_correct_fraction_among_nonoverlap": 0.997,
+        "wrong_foreground_by_category": {
+          "5": 1,
+          "7": 1,
+          "8": 5,
+          "10": 3,
+          "16": 28,
+          "17": 1,
+          "19": 7,
+          "23": 1,
+          "25": 1
+        }
+      }
+    },
+    "2": {
+      "selected_BG_draws": 16000,
+      "GT_diagnostic": {
+        "points": 16000,
+        "GT_background": 15958,
+        "GT_foreground": 42,
+        "GT_overlap_ignored": 0,
+        "BG_correct_fraction_among_nonoverlap": 0.997375,
+        "wrong_foreground_by_category": {
+          "6": 1,
+          "7": 1,
+          "8": 2,
+          "10": 2,
+          "16": 30,
+          "19": 4,
+          "25": 2
+        }
+      }
+    }
+  },
+  "all_draws": {
+    "points": 48000,
+    "GT_background": 47877,
+    "GT_foreground": 123,
+    "GT_overlap_ignored": 0,
+    "BG_correct_fraction_among_nonoverlap": 0.9974375,
+    "wrong_foreground_by_category": {
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "7": 4,
+      "8": 9,
+      "10": 10,
+      "16": 73,
+      "17": 1,
+      "19": 18,
+      "23": 1,
+      "25": 3
+    }
+  },
+  "unique_selected_points": {
+    "points": 47714,
+    "GT_background": 47592,
+    "GT_foreground": 122,
+    "GT_overlap_ignored": 0,
+    "BG_correct_fraction_among_nonoverlap": 0.9974430984616675,
+    "wrong_foreground_by_category": {
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "7": 4,
+      "8": 9,
+      "10": 10,
+      "16": 72,
+      "17": 1,
+      "19": 18,
+      "23": 1,
+      "25": 3
+    }
+  },
+  "used_to_filter_or_correct_labels": false,
+  "natural_pixel_precision_evaluated": false
+}

@@ -1,0 +1,1155 @@
+{
+  "round": 108,
+  "protocol_sha256": "1d071e1bd5ad714ef43a8d0533a64c6ed81ba2d9cc6f9541c51c6a36d57327a6",
+  "teachers": [
+    {
+      "video_id": 13,
+      "prompted_objects": 7,
+      "new_background_per_frame": [
+        0,
+        6463,
+        6470,
+        6575,
+        6482,
+        6554,
+        6501,
+        6544
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/13.npz",
+      "sha256": "29ef7899533f846836907042617bd0c0152731fd29e9f0c305535209ca41f7c2"
+    },
+    {
+      "video_id": 19,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        11686,
+        11671,
+        11786,
+        11854,
+        11927,
+        12521,
+        12672
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/19.npz",
+      "sha256": "a4d4110f68a0f664ac07df73761448e35390489d9444bd358a813e438b699089"
+    },
+    {
+      "video_id": 22,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        11213,
+        11346,
+        11560,
+        11660,
+        11557,
+        11346,
+        11376
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/22.npz",
+      "sha256": "3eb9c1311f9c1d98085e4b60f914dd7e2d08861d9d8be12b15de7efaa906a632"
+    },
+    {
+      "video_id": 63,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        14995,
+        14928,
+        14766,
+        14531,
+        14665,
+        14695,
+        14618
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/63.npz",
+      "sha256": "efd3f5544f6aad651a6e95659829ca5c424f1efaf35bacc7917165c8008b3442"
+    },
+    {
+      "video_id": 76,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        10830,
+        11591,
+        11420,
+        10677,
+        10150,
+        9786,
+        9493
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/76.npz",
+      "sha256": "ae17a53695317b0913fc63aba58e1336cf9027a367e1329a6d6526c565d47dc6"
+    },
+    {
+      "video_id": 87,
+      "prompted_objects": 7,
+      "new_background_per_frame": [
+        0,
+        10928,
+        10758,
+        10894,
+        10933,
+        10965,
+        11076,
+        11119
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/87.npz",
+      "sha256": "c1ef5dfd7f3e421194502b1cacdb6dc03d742a43601fece509b979aa05358696"
+    },
+    {
+      "video_id": 97,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        13220,
+        13237,
+        13095,
+        12968,
+        13044,
+        13268,
+        13350
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/97.npz",
+      "sha256": "6cd08ff17423615db5a61bf7bc38f6d7b5685ee58d42b3cfe0976f5e9295bf5d"
+    },
+    {
+      "video_id": 107,
+      "prompted_objects": 8,
+      "new_background_per_frame": [
+        0,
+        12990,
+        12974,
+        12978,
+        12938,
+        12983,
+        12934,
+        12965
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/107.npz",
+      "sha256": "16a460ce41021bf26564e4685af2aac5d20dfcca597d9b1a821bf676c99db609"
+    },
+    {
+      "video_id": 108,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        9572,
+        9617,
+        9740,
+        10235,
+        10326,
+        10615,
+        10782
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/108.npz",
+      "sha256": "2221317749540027d9cfd158632d9a620029429511a2e6102e7e9197b579616a"
+    },
+    {
+      "video_id": 117,
+      "prompted_objects": 7,
+      "new_background_per_frame": [
+        0,
+        14841,
+        14831,
+        14825,
+        14826,
+        14817,
+        14840,
+        14822
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/117.npz",
+      "sha256": "2cbf98267e1310a4df0b13436171a574545898166521d48fbe3e2ab45ee28d4b"
+    },
+    {
+      "video_id": 119,
+      "prompted_objects": 20,
+      "new_background_per_frame": [
+        0,
+        13036,
+        13070,
+        13045,
+        13119,
+        13064,
+        13014,
+        13066
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/119.npz",
+      "sha256": "9f0b5c16379b3ea0f2a50c19daa8d892c5ece57b0ec8132445ec8d10acf4aece"
+    },
+    {
+      "video_id": 120,
+      "prompted_objects": 7,
+      "new_background_per_frame": [
+        0,
+        11265,
+        11435,
+        11439,
+        11409,
+        11398,
+        11389,
+        11367
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/120.npz",
+      "sha256": "b4861e0a4f16344ea30d52c55019011ee04e5f59da37a5674ae0c93049b88f69"
+    },
+    {
+      "video_id": 133,
+      "prompted_objects": 6,
+      "new_background_per_frame": [
+        0,
+        7862,
+        7927,
+        7983,
+        8046,
+        8043,
+        7966,
+        8058
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/133.npz",
+      "sha256": "0f75bbca7a7799a7a024e5524063e0b6bc0b998e4b060706456cb5dde77b6f33"
+    },
+    {
+      "video_id": 139,
+      "prompted_objects": 9,
+      "new_background_per_frame": [
+        0,
+        6111,
+        6044,
+        5921,
+        6044,
+        6123,
+        6208,
+        6373
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/139.npz",
+      "sha256": "d2635afed22a5b169edf6153f479c6cbc9b39c94b97278be0a4a11e84bf4308c"
+    },
+    {
+      "video_id": 145,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        13921,
+        13967,
+        13995,
+        14053,
+        14117,
+        14189,
+        14228
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/145.npz",
+      "sha256": "2383dea1cb848dc309f5932bceac4e336c2f8cc430742a10eb67f758378b5bb1"
+    },
+    {
+      "video_id": 146,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        14080,
+        14072,
+        14085,
+        14123,
+        14140,
+        14162,
+        14183
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/146.npz",
+      "sha256": "3602abeef9fd0f868cece1132e935379b287a5da9096266ad0ba4e1e2753b5c1"
+    },
+    {
+      "video_id": 148,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        14722,
+        14665,
+        14632,
+        14723,
+        14733,
+        14816,
+        14866
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/148.npz",
+      "sha256": "4f974f2d66246ac044a8fa6a7fb23faa01abbf0a8e13a6fdf683e6d8dd1261d1"
+    },
+    {
+      "video_id": 169,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        14512,
+        14377,
+        14194,
+        14160,
+        14075,
+        13816,
+        13714
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/169.npz",
+      "sha256": "251a528a27be8b3d802ef05205a89ddb7d3ab6d84e861f6f1c7fbed015f46740"
+    },
+    {
+      "video_id": 187,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        11038,
+        11204,
+        11408,
+        11722,
+        11453,
+        11932,
+        11534
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/187.npz",
+      "sha256": "86575b804c2c446503d7662c468019970489081fb3e3ea795835b39891717bf6"
+    },
+    {
+      "video_id": 193,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        12194,
+        12239,
+        12134,
+        12154,
+        12121,
+        12132,
+        12086
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/193.npz",
+      "sha256": "ca1b28fb68f18e9b456ec4760992de92929d754b4f3101cde8b3f26e70ebb0a3"
+    },
+    {
+      "video_id": 194,
+      "prompted_objects": 6,
+      "new_background_per_frame": [
+        0,
+        13447,
+        13460,
+        13598,
+        13627,
+        13544,
+        13646,
+        13774
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/194.npz",
+      "sha256": "33e1bae6cd829c935b8c0a2797e633345cd06b80ba9011eb454309cade796627"
+    },
+    {
+      "video_id": 201,
+      "prompted_objects": 6,
+      "new_background_per_frame": [
+        0,
+        14343,
+        14382,
+        14393,
+        14409,
+        14387,
+        14404,
+        14437
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/201.npz",
+      "sha256": "c40b838ba78b363364695aa8fdd6742dfb732da1d144e75cb8810ba5265ad0cb"
+    },
+    {
+      "video_id": 213,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        14490,
+        14367,
+        14216,
+        14237,
+        14316,
+        14380,
+        14461
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/213.npz",
+      "sha256": "d65157d34ab39259674c97330f09330dfadb0a43d8140e800d4c9e56bf333ef5"
+    },
+    {
+      "video_id": 238,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        11959,
+        12010,
+        11694,
+        11510,
+        11631,
+        11670,
+        11697
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/238.npz",
+      "sha256": "ba9fe95d678bab4a84bf897f87eb9e717d5cfe95e35db1914f8c47ad7c925982"
+    },
+    {
+      "video_id": 266,
+      "prompted_objects": 7,
+      "new_background_per_frame": [
+        0,
+        13285,
+        13180,
+        13114,
+        13153,
+        13095,
+        13033,
+        12939
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/266.npz",
+      "sha256": "0f94b4f121cad84e31a199e74e7e2eb294087947eff6c4575a3f3ba31884c676"
+    },
+    {
+      "video_id": 283,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        12440,
+        12362,
+        12248,
+        12380,
+        12561,
+        12411,
+        12733
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/283.npz",
+      "sha256": "3d1fdd462ade6ef3946c96ce8d1398a9422cc4044b91ad10210342ac03f605bd"
+    },
+    {
+      "video_id": 295,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        10056,
+        9907,
+        9780,
+        9509,
+        9520,
+        9489,
+        9467
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/295.npz",
+      "sha256": "bf6139c25e1bf1e5c59a94ae952b7fbaf8bde1abb126ebcb562964ce66625b87"
+    },
+    {
+      "video_id": 300,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        13034,
+        13075,
+        13091,
+        13122,
+        13167,
+        13113,
+        12937
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/300.npz",
+      "sha256": "61b61d0465c90a76fe03877bed80bca761e8f050a064b181e0ee313017c25ec6"
+    },
+    {
+      "video_id": 304,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        15003,
+        14989,
+        14990,
+        14986,
+        14992,
+        14988,
+        14974
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/304.npz",
+      "sha256": "15ac79577a3b17630fd73b61c0c93628f2f30b73d1be080e939f0e44453d52b8"
+    },
+    {
+      "video_id": 310,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        13143,
+        13242,
+        13456,
+        13394,
+        13363,
+        13479,
+        13429
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/310.npz",
+      "sha256": "030d3d11a468defe71a77c70d129e08ef1c121f180c24acbc91fc7686e1bf899"
+    },
+    {
+      "video_id": 315,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        10221,
+        10013,
+        9879,
+        9780,
+        9705,
+        9628,
+        9350
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/315.npz",
+      "sha256": "72cd5f491f5caef865c7e75750af65f57a56d895ad32fdd6f4239de008df164c"
+    },
+    {
+      "video_id": 316,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        12927,
+        13129,
+        13312,
+        13386,
+        13620,
+        13678,
+        13522
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/316.npz",
+      "sha256": "fa9a039f2174cfaadb7bbd0eb2d5e74e260e6d1485ecd4f1db3625124eaa2aed"
+    },
+    {
+      "video_id": 326,
+      "prompted_objects": 1,
+      "new_background_per_frame": [
+        0,
+        11932,
+        11911,
+        11809,
+        11376,
+        10579,
+        10803,
+        10672
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/326.npz",
+      "sha256": "df3058a36d2e84b3153a19d579712e26505ac5b0c2e4c9cbbf448d0aaddf78af"
+    },
+    {
+      "video_id": 330,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        9821,
+        9934,
+        10127,
+        10379,
+        10841,
+        11335,
+        11349
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/330.npz",
+      "sha256": "8e1fe4dfa20030fd41c263f1d1fdf9a6ab0f06b05f96642c3d421e232de1c76b"
+    },
+    {
+      "video_id": 332,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        5725,
+        5537,
+        5402,
+        5078,
+        5052,
+        5153,
+        6300
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/332.npz",
+      "sha256": "994f75e057100e13c390fefbcdb967a668503f8c92295c4c2f944385e16736e9"
+    },
+    {
+      "video_id": 334,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        5802,
+        5760,
+        6984,
+        7499,
+        6497,
+        5730,
+        5256
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/334.npz",
+      "sha256": "1e8f48321e5df87222ba02f7a6d0ed20c5006acb4e4ecc5525773d73f2e5a90c"
+    },
+    {
+      "video_id": 365,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        13822,
+        13896,
+        13838,
+        13940,
+        13767,
+        14149,
+        14184
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/365.npz",
+      "sha256": "3325fe5616f9bab37369f0877c6a8d9ed294e5c2b5a1010c8d861d1f4accbece"
+    },
+    {
+      "video_id": 373,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        14171,
+        14198,
+        14119,
+        14177,
+        14184,
+        14047,
+        13934
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/373.npz",
+      "sha256": "94b074de90aee871fb474fdc070d8fad59afaa1e2be448fcb5594a0b43981a12"
+    },
+    {
+      "video_id": 377,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        14017,
+        14011,
+        14020,
+        14033,
+        14024,
+        14019,
+        14030
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/377.npz",
+      "sha256": "ccb2c6c8aab8a42825b998f5bf6a8f58931be8abc2ce488f1b55dec64334e8f3"
+    },
+    {
+      "video_id": 386,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        11633,
+        11661,
+        11683,
+        11679,
+        11711,
+        11701,
+        11703
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/386.npz",
+      "sha256": "51878c171fa6d8b3e63003e33808583cf7fadc57d7cbf67a9416d50b740f86db"
+    },
+    {
+      "video_id": 404,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        12641,
+        12630,
+        12547,
+        12462,
+        13093,
+        13383,
+        13356
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/404.npz",
+      "sha256": "6b297da9e6a1141fed56ea95767b3d453f6e53b9f882052b2588431944091ae2"
+    },
+    {
+      "video_id": 405,
+      "prompted_objects": 9,
+      "new_background_per_frame": [
+        0,
+        13278,
+        13249,
+        13315,
+        13339,
+        13208,
+        13314,
+        13261
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/405.npz",
+      "sha256": "3306d36328e936e68b0305f2e35ea92e3e79e4dfc3a4067ec201ad0cbdc13071"
+    },
+    {
+      "video_id": 425,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        12717,
+        12923,
+        13183,
+        13419,
+        13514,
+        13609,
+        13699
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/425.npz",
+      "sha256": "88d910e03f7b6545dd0f6580352e0ca8a407932b24176904e85b981cdf571c6f"
+    },
+    {
+      "video_id": 437,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        11032,
+        10599,
+        10560,
+        10371,
+        10604,
+        10450,
+        10745
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/437.npz",
+      "sha256": "345575cbc0c538e5b69d462323e6dbf674379c672dddf458101e1208154ea805"
+    },
+    {
+      "video_id": 447,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        9212,
+        9983,
+        9769,
+        9622,
+        9610,
+        9068,
+        8803
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/447.npz",
+      "sha256": "ddc997a95d31521e6919dd3f217542279e400a65ef98e9ec4c993075f945864e"
+    },
+    {
+      "video_id": 453,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        6266,
+        6160,
+        6026,
+        5546,
+        5499,
+        5571,
+        5938
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/453.npz",
+      "sha256": "05e644ac1923bcb3c53740c7f773cecc545521410fd475a72f161a3ef5342956"
+    },
+    {
+      "video_id": 456,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        10640,
+        10540,
+        10413,
+        10308,
+        10206,
+        10115,
+        10019
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/456.npz",
+      "sha256": "6b88cdd29cdb90200931a9d7ec667cebb67d1befb4d550d259fe1f238bd95954"
+    },
+    {
+      "video_id": 461,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        11937,
+        11824,
+        11833,
+        11733,
+        11835,
+        11795,
+        11729
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/461.npz",
+      "sha256": "9db400e56c81218702830fb73ac6874fe6f8c384b9f625d1bd008ee29c224f64"
+    },
+    {
+      "video_id": 468,
+      "prompted_objects": 8,
+      "new_background_per_frame": [
+        0,
+        13447,
+        13373,
+        13318,
+        13293,
+        13229,
+        13193,
+        13172
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/468.npz",
+      "sha256": "c98839000dc4b48f65ecf63a9af6f426e72689e2a116199a8727b5fd27a15715"
+    },
+    {
+      "video_id": 473,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        12937,
+        13009,
+        12997,
+        12993,
+        13008,
+        13058,
+        13113
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/473.npz",
+      "sha256": "0db1cfea1d3ff3a1dc00be85d34902dfe2925003ea7003b02a563f1dd9e391b6"
+    },
+    {
+      "video_id": 479,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        9990,
+        9864,
+        9421,
+        9066,
+        8951,
+        9704,
+        10830
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/479.npz",
+      "sha256": "92cec2716707668c7749ef4f9bf25668e7eb21f2bcaeba768d3148f7116d2593"
+    },
+    {
+      "video_id": 488,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        9373,
+        9145,
+        9346,
+        9617,
+        9707,
+        9697,
+        9616
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/488.npz",
+      "sha256": "507e80c75f02fdba1fd3a8427bfe5efe8d2487898dd87ec4bbf59a92fa0f3ff0"
+    },
+    {
+      "video_id": 491,
+      "prompted_objects": 2,
+      "new_background_per_frame": [
+        0,
+        9020,
+        8633,
+        9455,
+        8585,
+        9868,
+        9734,
+        10151
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/491.npz",
+      "sha256": "a85a6389a3ef36a260622f47a107c99cd33abcf5088f0b31756237e261701f7c"
+    },
+    {
+      "video_id": 526,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        13023,
+        13025,
+        13070,
+        13080,
+        13043,
+        12774,
+        12649
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/526.npz",
+      "sha256": "e295859dd5cac0eb54a0f31f66226029b89ae7990590fa184d9ee1b2ff05e584"
+    },
+    {
+      "video_id": 548,
+      "prompted_objects": 4,
+      "new_background_per_frame": [
+        0,
+        11582,
+        11281,
+        10912,
+        10888,
+        10583,
+        10971,
+        11403
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/548.npz",
+      "sha256": "913372fc29ad8c158da1fed31b0348b61a175a9745422410e2304edccdf15366"
+    },
+    {
+      "video_id": 566,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        13015,
+        13035,
+        12959,
+        12914,
+        13029,
+        13083,
+        13228
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/566.npz",
+      "sha256": "7b6cb095fb6779cc0212dfa0d922d6ee7751586fc3f36392a6fffa13328dfd87"
+    },
+    {
+      "video_id": 571,
+      "prompted_objects": 6,
+      "new_background_per_frame": [
+        0,
+        14111,
+        14188,
+        14138,
+        14097,
+        14076,
+        14059,
+        14178
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/571.npz",
+      "sha256": "7f7c19289f5d5d60999a8a2c154c0eb0af49ed7cbcc92456d298fb4b230474b1"
+    },
+    {
+      "video_id": 572,
+      "prompted_objects": 3,
+      "new_background_per_frame": [
+        0,
+        7489,
+        7420,
+        7565,
+        7567,
+        7752,
+        8110,
+        8564
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/572.npz",
+      "sha256": "cf3ec3c005852066ff0352d39317a98a707462ce39e8e8855cf63eae6310029e"
+    },
+    {
+      "video_id": 581,
+      "prompted_objects": 5,
+      "new_background_per_frame": [
+        0,
+        7370,
+        6859,
+        6260,
+        6349,
+        6854,
+        7242,
+        7632
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/581.npz",
+      "sha256": "d31b558b829365b0865d53d18b14070b77206c08508107b1b8372552d5aafa06"
+    },
+    {
+      "video_id": 607,
+      "prompted_objects": 6,
+      "new_background_per_frame": [
+        0,
+        12517,
+        12500,
+        12614,
+        12855,
+        12951,
+        12885,
+        12234
+      ],
+      "old_positive_conflicts_with_new_negative_retained": 0,
+      "source_GT_unchanged": true,
+      "all_old_positive_labels_unchanged": true,
+      "path": "semantic_artifacts/sam_confident_background/teachers/607.npz",
+      "sha256": "72b6fbe550a98c7aea095959964c4680304d4dfe0090444fe68edc4f9ab6b40b"
+    }
+  ],
+  "paired_schedules_sha256": "eb9b436c78485e87cfcd948d47a798d07e5c5f5a57b1147e5a8a04159a147421",
+  "eligible_for_separate_matched_training_protocol": true,
+  "missing_steps": 0,
+  "all_old_positive_labels_preserved": true,
+  "new_background_pixels": 4890370,
+  "no_classification_training_or_validation_scoring": true,
+  "GT_later_used_for_generation_or_selection": false,
+  "new_confirmation": false,
+  "default_changed": false
+}
