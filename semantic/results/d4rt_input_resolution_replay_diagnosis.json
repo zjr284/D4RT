@@ -1,0 +1,195 @@
+{
+  "runs": [
+    {
+      "repeat": 0,
+      "GT_CE": [
+        3.631084442138672,
+        2.7785181999206543,
+        2.590362548828125,
+        2.6456458568573,
+        1.2619547843933105,
+        1.0820808410644531,
+        3.154200315475464,
+        3.3286819458007812
+      ],
+      "GT_CE_minus_original": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.86102294921875e-06,
+        7.152557373046875e-07,
+        -1.9550323486328125e-05,
+        -0.0002448558807373047
+      ]
+    },
+    {
+      "repeat": 1,
+      "GT_CE": [
+        3.631084442138672,
+        2.7785181999206543,
+        2.590362548828125,
+        2.6456458568573,
+        1.2619547843933105,
+        1.0820808410644531,
+        3.1541976928710938,
+        3.328683853149414
+      ],
+      "GT_CE_minus_original": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.86102294921875e-06,
+        7.152557373046875e-07,
+        -2.2172927856445312e-05,
+        -0.0002429485321044922
+      ]
+    }
+  ],
+  "repeated_step_comparisons": [
+    {
+      "step": 1,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 7.899507181718946e-08,
+      "differing_parameters": [
+        "blocks.0.ff.0.b"
+      ]
+    },
+    {
+      "step": 2,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 9.062787285074592e-07,
+      "differing_parameters": [
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.b"
+      ]
+    },
+    {
+      "step": 3,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 9.090344974538311e-07,
+      "differing_parameters": [
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b"
+      ]
+    },
+    {
+      "step": 4,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 9.112918633036315e-07,
+      "differing_parameters": [
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b"
+      ]
+    },
+    {
+      "step": 5,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 9.131908882409334e-07,
+      "differing_parameters": [
+        "blocks.0.ff.0.a",
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b"
+      ]
+    },
+    {
+      "step": 6,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 1.0011717677116394e-06,
+      "differing_parameters": [
+        "blocks.0.ff.0.a",
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b",
+        "blocks.1.ff.0.a",
+        "blocks.1.ff.0.b",
+        "blocks.1.ff.3.a",
+        "blocks.1.ff.3.b",
+        "semantic_head.classifier.weight"
+      ]
+    },
+    {
+      "step": 7,
+      "GT_CE_repeat_difference": 2.6226043701171875e-06,
+      "parameter_max_abs_difference": 2.378597855567932e-06,
+      "differing_parameters": [
+        "blocks.0.ff.0.a",
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b",
+        "blocks.1.ff.0.a",
+        "blocks.1.ff.0.b",
+        "blocks.1.ff.3.a",
+        "blocks.1.ff.3.b",
+        "semantic_head.classifier.weight",
+        "semantic_head.classifier.bias"
+      ]
+    },
+    {
+      "step": 8,
+      "GT_CE_repeat_difference": -1.9073486328125e-06,
+      "parameter_max_abs_difference": 4.470348358154297e-06,
+      "differing_parameters": [
+        "blocks.0.ff.0.a",
+        "blocks.0.ff.0.b",
+        "blocks.0.ff.3.a",
+        "blocks.0.ff.3.b",
+        "blocks.1.ff.0.a",
+        "blocks.1.ff.0.b",
+        "blocks.1.ff.3.a",
+        "blocks.1.ff.3.b",
+        "semantic_head.classifier.weight",
+        "semantic_head.classifier.bias"
+      ]
+    }
+  ],
+  "first_gradients_vs_original_max_abs": [
+    {
+      "blocks.0.ff.0.a": 0.0,
+      "blocks.0.ff.0.b": 0.0,
+      "blocks.0.ff.3.a": 0.0,
+      "blocks.0.ff.3.b": 0.0,
+      "blocks.1.ff.0.a": 0.0,
+      "blocks.1.ff.0.b": 0.0,
+      "blocks.1.ff.3.a": 0.0,
+      "blocks.1.ff.3.b": 0.0,
+      "semantic_head.classifier.weight": 0.0,
+      "semantic_head.classifier.bias": 0.0
+    },
+    {
+      "blocks.0.ff.0.a": 0.0,
+      "blocks.0.ff.0.b": 9.5367431640625e-07,
+      "blocks.0.ff.3.a": 0.0,
+      "blocks.0.ff.3.b": 0.0,
+      "blocks.1.ff.0.a": 0.0,
+      "blocks.1.ff.0.b": 0.0,
+      "blocks.1.ff.3.a": 0.0,
+      "blocks.1.ff.3.b": 0.0,
+      "semantic_head.classifier.weight": 0.0,
+      "semantic_head.classifier.bias": 0.0
+    }
+  ],
+  "repeated_training_exact": false,
+  "operators": [
+    "aten::scaled_dot_product_attention",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::_flash_attention_forward",
+    "autograd::engine::evaluate_function: ScaledDotProductFlashAttentionBackward0",
+    "ScaledDotProductFlashAttentionBackward0",
+    "aten::_scaled_dot_product_flash_attention_backward",
+    "aten::_flash_attention_backward"
+  ],
+  "torch": "2.14.0+cu130",
+  "CUDA": "13.0",
+  "GPU": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "deterministic_algorithms": false,
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "cudnn_sdp_enabled": true,
+  "original_outputs_unchanged": true,
+  "diagnosis_protocol_sha256": "8be8a83918d7944b0ff915f1d3594c1de6c30a15f2f095fede7bf41efcabce8e"
+}

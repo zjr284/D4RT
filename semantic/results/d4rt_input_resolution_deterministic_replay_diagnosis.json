@@ -1,0 +1,145 @@
+{
+  "runs": [
+    {
+      "repeat": 0,
+      "GT_CE": [
+        3.631084442138672,
+        2.7785181999206543,
+        2.590362548828125,
+        2.6456458568573,
+        1.2619547843933105,
+        1.0820808410644531,
+        3.154200553894043,
+        3.3286821842193604
+      ],
+      "GT_CE_minus_original": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.86102294921875e-06,
+        7.152557373046875e-07,
+        -1.9311904907226562e-05,
+        -0.0002446174621582031
+      ]
+    },
+    {
+      "repeat": 1,
+      "GT_CE": [
+        3.631084442138672,
+        2.7785181999206543,
+        2.590362548828125,
+        2.6456458568573,
+        1.2619547843933105,
+        1.0820808410644531,
+        3.154200553894043,
+        3.3286821842193604
+      ],
+      "GT_CE_minus_original": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.86102294921875e-06,
+        7.152557373046875e-07,
+        -1.9311904907226562e-05,
+        -0.0002446174621582031
+      ]
+    }
+  ],
+  "repeated_step_comparisons": [
+    {
+      "step": 1,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 2,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 3,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 4,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 5,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 6,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 7,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    },
+    {
+      "step": 8,
+      "GT_CE_repeat_difference": 0.0,
+      "parameter_max_abs_difference": 0.0,
+      "differing_parameters": []
+    }
+  ],
+  "first_gradients_vs_original_max_abs": [
+    {
+      "blocks.0.ff.0.a": 0.0,
+      "blocks.0.ff.0.b": 0.0,
+      "blocks.0.ff.3.a": 0.0,
+      "blocks.0.ff.3.b": 0.0,
+      "blocks.1.ff.0.a": 0.0,
+      "blocks.1.ff.0.b": 0.0,
+      "blocks.1.ff.3.a": 0.0,
+      "blocks.1.ff.3.b": 0.0,
+      "semantic_head.classifier.weight": 0.0,
+      "semantic_head.classifier.bias": 0.0
+    },
+    {
+      "blocks.0.ff.0.a": 0.0,
+      "blocks.0.ff.0.b": 0.0,
+      "blocks.0.ff.3.a": 0.0,
+      "blocks.0.ff.3.b": 0.0,
+      "blocks.1.ff.0.a": 0.0,
+      "blocks.1.ff.0.b": 0.0,
+      "blocks.1.ff.3.a": 0.0,
+      "blocks.1.ff.3.b": 0.0,
+      "semantic_head.classifier.weight": 0.0,
+      "semantic_head.classifier.bias": 0.0
+    }
+  ],
+  "repeated_training_exact": true,
+  "operators": [
+    "aten::scaled_dot_product_attention",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::_flash_attention_forward",
+    "autograd::engine::evaluate_function: ScaledDotProductFlashAttentionBackward0",
+    "ScaledDotProductFlashAttentionBackward0",
+    "aten::_scaled_dot_product_flash_attention_backward",
+    "aten::_flash_attention_backward"
+  ],
+  "torch": "2.14.0+cu130",
+  "CUDA": "13.0",
+  "GPU": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "deterministic_algorithms": true,
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "cudnn_sdp_enabled": true,
+  "original_outputs_unchanged": true,
+  "diagnosis_protocol_sha256": "e34b3457cadfc1129256c1b2de966a144dddf556a896f594271c010b2737ed02"
+}

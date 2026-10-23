@@ -1,0 +1,30 @@
+{
+  "rule": "12 new final states frozen before their validation; 12 old already observed and reused",
+  "adapters_sha256": {
+    "semantic_artifacts/source_query_factorial/source_head_seed0.pt": "f5b2ac25e0b5c76d314e9f6cbb786210b9c72b3f0bef44e0cdb53bc0c2bd4f97",
+    "semantic_artifacts/source_query_factorial/source_head_seed1.pt": "98521b61ab4c3f3be1f9596746db6cfecdab36940c14bad3a2de4bab24293adc",
+    "semantic_artifacts/source_query_factorial/source_head_seed2.pt": "aa891c1dc4d50e39cad3ee72b8b57dfaa52e0f3d5efadc2d55813d8aca2458d2",
+    "semantic_artifacts/d4rt_input_resolution/source_head_seed0.pt": "cdf0a0d3f49551e5a08939b73ddee6de82579b1acebb48ed2797028be3e881ff",
+    "semantic_artifacts/d4rt_input_resolution/source_head_seed1.pt": "01de8bda54dff8ae9ef1306bfb3acffa1a04ae445828d34a9d8ece35298ef9b3",
+    "semantic_artifacts/d4rt_input_resolution/source_head_seed2.pt": "009c5efc94571b0822ea17ce3c92508c70317f1ca8d10229854e53e36961a4b7",
+    "semantic_artifacts/source_query_factorial/source_GT_seed0.pt": "32ee6d123a6c62ffde0552b1980febbb55ffea6530c797f97f86e749cd820911",
+    "semantic_artifacts/source_query_factorial/source_GT_seed1.pt": "e49ae9103ed62a41e88ed056f5719bf27f80888b62cd7f67a75a3fa28f16a8d3",
+    "semantic_artifacts/source_query_factorial/source_GT_seed2.pt": "4cfa687d38dfb4558a76d19a32d08a39a4c29185bea8c9c05ab76bf7c22682dd",
+    "semantic_artifacts/d4rt_input_resolution/source_GT_seed0.pt": "a20d6a0eb488df1f70bbb1963a279609cd931f0b4619bf7bea23d746544de95e",
+    "semantic_artifacts/d4rt_input_resolution/source_GT_seed1.pt": "08e48cc8cdec0bfc7d464841d3b1a3b9d6908fe8a6111275e3b0b2a2ad2f5c65",
+    "semantic_artifacts/d4rt_input_resolution/source_GT_seed2.pt": "696b04661d6886b9b6074781123d717d389f1f97110cf3cb23c500044a9bf9ce",
+    "semantic_artifacts/source_query_factorial/source_SAM_seed0.pt": "25adc79fecee8e6d8ac98eb0d2e05d2a49c76ae333516461641e835ae953d218",
+    "semantic_artifacts/source_query_factorial/source_SAM_seed1.pt": "04b66e4e800443f9a359956e9c3848cf5599293341d8af98ce89c88388c75048",
+    "semantic_artifacts/source_query_factorial/source_SAM_seed2.pt": "3e4adaa39128ce0c0f6c7bddbb8055223a058ab0470e9711fc4ca5ea17ed969b",
+    "semantic_artifacts/d4rt_input_resolution/source_SAM_seed0.pt": "a761e10d6e06462306fe92a51e7eafb900d79ff14a8597bc046f042f98f038af",
+    "semantic_artifacts/d4rt_input_resolution/source_SAM_seed1.pt": "b227705c32e4b6e056821f5cde23f5f2048a275a02b6fc5a39a65301e3602c56",
+    "semantic_artifacts/d4rt_input_resolution/source_SAM_seed2.pt": "e152015d58b9599c99ea3860e99b18ce394a10567d8de65af13f34b47155f0bf",
+    "semantic_artifacts/source_query_factorial/source_extraGT_seed0.pt": "0e73dcfcc9deed61576e897eb298793dcc4df630d213b044925302663334decd",
+    "semantic_artifacts/source_query_factorial/source_extraGT_seed1.pt": "fb386acef0ec3f522162bb34bcfbbf6b949c10afdd5847b07b56df6ea68a04b2",
+    "semantic_artifacts/source_query_factorial/source_extraGT_seed2.pt": "06d6605a765d65cfa6a96886df49535f43711dd5e9b11b5f8761c98801ec1634",
+    "semantic_artifacts/d4rt_input_resolution/source_extraGT_seed0.pt": "59462497da9c05e4e3dce61c6e5ce69d9764e7f5b2612f9cd31d6d3c5b2f7738",
+    "semantic_artifacts/d4rt_input_resolution/source_extraGT_seed1.pt": "da818a7130ee6962432ffa95b74edcf4defed1ab3cfd477485e952ec987c42ba",
+    "semantic_artifacts/d4rt_input_resolution/source_extraGT_seed2.pt": "5de3417b4fdcad396572f862a27a846cf1b1a11a363e3864d7ae259ded6945f0"
+  },
+  "protocol_sha256": "699f81feb87bc3337d8875d87890f19390d05a1e53c778c05a0927855f6cb416"
+}

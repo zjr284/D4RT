@@ -1,0 +1,25 @@
+{
+  "video_id": 13,
+  "shape": [
+    1,
+    8,
+    3,
+    256,
+    256
+  ],
+  "memory_tokens": 1025,
+  "live_prefix_dtype": "torch.float32",
+  "semantic_input_dtype": "torch.bfloat16",
+  "GT_loss_finite": true,
+  "no_optimizer_update": true,
+  "peak_GPU_allocated_bytes": 2610249216,
+  "budget_GPU_allocated_bytes": 7340032000,
+  "geometry_keys": [
+    "confidence",
+    "displacement",
+    "normal",
+    "uv_2d",
+    "visibility",
+    "xyz_3d"
+  ]
+}
