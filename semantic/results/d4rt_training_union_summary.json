@@ -1,0 +1,4495 @@
+{
+  "round": 110,
+  "protocol_sha256": "d8af826b6bd9e60d2f2f725f097e2771e0325595992b207ea87d2ce1c75eeae5",
+  "manifest_sha256": "065e12c0499a23f07a65b73975ffb49f72a7cfe6646f4c88ed28209dd5797411",
+  "video_resources": [
+    {
+      "video_id": 8,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/8.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/8.npz",
+      "queries_sha256": "5ae0479e8b05cb39264188407d70fe3402bf3f8fa2744bc6cddbaee9acf51cbf",
+      "source_FG_classes": [
+        1,
+        9
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 94254,
+      "later_BG_pixels_by_frame": {
+        "1": 13421,
+        "2": 13443,
+        "3": 13435,
+        "4": 13439,
+        "5": 13508,
+        "6": 13543,
+        "7": 13465
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 11,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/11.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/11.npz",
+      "queries_sha256": "1c1d876a815599405470766537862d08e4872af8fe27dc75b959e7d4fec4de94",
+      "source_FG_classes": [
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 66762,
+      "later_BG_pixels_by_frame": {
+        "1": 9729,
+        "2": 9622,
+        "3": 9443,
+        "4": 9473,
+        "5": 9415,
+        "6": 9530,
+        "7": 9550
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 13,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/13.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/13.npz",
+      "queries_sha256": "0c48677a5c7b4bfd6f395f38663d2324b79fc23ac74ffc306cecee2a40c764d6",
+      "source_FG_classes": [
+        1,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 45589,
+      "later_BG_pixels_by_frame": {
+        "1": 6463,
+        "2": 6470,
+        "3": 6575,
+        "4": 6482,
+        "5": 6554,
+        "6": 6501,
+        "7": 6544
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 19,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/19.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/19.npz",
+      "queries_sha256": "7e0149ccf69a15352d6c1fe0eeea9017f71fdda40b5004e7531f6d26e036f500",
+      "source_FG_classes": [
+        2
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 840,
+      "later_BG_pixels": 84117,
+      "later_BG_pixels_by_frame": {
+        "1": 11686,
+        "2": 11671,
+        "3": 11786,
+        "4": 11854,
+        "5": 11927,
+        "6": 12521,
+        "7": 12672
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 20,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/20.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/20.npz",
+      "queries_sha256": "afd8fc588ff86427f0a0861b06ec76aaa53749500ddd86f014c8956057ad1d69",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 67606,
+      "later_BG_pixels_by_frame": {
+        "1": 9645,
+        "2": 9657,
+        "3": 9703,
+        "4": 9635,
+        "5": 9366,
+        "6": 9813,
+        "7": 9787
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 22,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/22.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/22.npz",
+      "queries_sha256": "e6beb459a97395d3535e43d8a76b1cf8cb941836c04c3343d5afc08e1e2b9cf8",
+      "source_FG_classes": [
+        13
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 80058,
+      "later_BG_pixels_by_frame": {
+        "1": 11213,
+        "2": 11346,
+        "3": 11560,
+        "4": 11660,
+        "5": 11557,
+        "6": 11346,
+        "7": 11376
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 26,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/26.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/26.npz",
+      "queries_sha256": "afa9ad57f30b0c8656a747b73ab7ccd91ce2abd27270882cda30931a666b33b1",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 51472,
+      "later_BG_pixels_by_frame": {
+        "1": 7575,
+        "2": 7566,
+        "3": 7572,
+        "4": 7506,
+        "5": 6762,
+        "6": 7352,
+        "7": 7139
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 30,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/30.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/30.npz",
+      "queries_sha256": "6ba023124cc581f47910c26820777dd07e1c1461ff05ec7219fe863716c30369",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 95075,
+      "later_BG_pixels_by_frame": {
+        "1": 13367,
+        "2": 13485,
+        "3": 13459,
+        "4": 13478,
+        "5": 13586,
+        "6": 13817,
+        "7": 13883
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 32,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/32.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/32.npz",
+      "queries_sha256": "04c2157b5378daf0dc1d546084d4cdc2962797b7214c3dd82e7bf7eda954634e",
+      "source_FG_classes": [
+        1,
+        14
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 769,
+      "later_BG_pixels": 85107,
+      "later_BG_pixels_by_frame": {
+        "1": 12180,
+        "2": 11802,
+        "3": 11548,
+        "4": 11009,
+        "5": 10584,
+        "6": 12847,
+        "7": 15137
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 46,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/46.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/46.npz",
+      "queries_sha256": "8b124b2379e7167b29fb25f44d92538af54da0229ad243945f2e36fe1b7c5792",
+      "source_FG_classes": [
+        12
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 320,
+      "later_BG_pixels": 101738,
+      "later_BG_pixels_by_frame": {
+        "1": 14496,
+        "2": 14482,
+        "3": 14504,
+        "4": 14510,
+        "5": 14555,
+        "6": 14583,
+        "7": 14608
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 47,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/47.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/47.npz",
+      "queries_sha256": "be83cd60b5b43b8afbe449724f48e6f0dc5bb925a866dcd71d27d2e9ee300012",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73256,
+      "later_BG_pixels_by_frame": {
+        "1": 10526,
+        "2": 10484,
+        "3": 10443,
+        "4": 10436,
+        "5": 10427,
+        "6": 10434,
+        "7": 10506
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 54,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/54.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/54.npz",
+      "queries_sha256": "48fccca4f75dcce7351b254c47024283cee84e260c77eaddeb5e23ef9ba7640d",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 68473,
+      "later_BG_pixels_by_frame": {
+        "1": 9437,
+        "2": 8457,
+        "3": 8834,
+        "4": 10085,
+        "5": 10352,
+        "6": 10522,
+        "7": 10786
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 61,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/61.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/61.npz",
+      "queries_sha256": "4219bc599b7f9e9201b9c0b6e467eae7b4ccf817da5324e1cb725a9f7758f922",
+      "source_FG_classes": [
+        1,
+        22,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 97603,
+      "later_BG_pixels_by_frame": {
+        "1": 13981,
+        "2": 13950,
+        "3": 13941,
+        "4": 13936,
+        "5": 13930,
+        "6": 13937,
+        "7": 13928
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 63,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/63.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/63.npz",
+      "queries_sha256": "d19a9f1d0b2ffc17dff248b5943675f83ca9b2cc7b3fcbbec7e3a6e0ef666155",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 640,
+      "later_SAM_FG_unique_positions": 135,
+      "later_BG_pixels": 103198,
+      "later_BG_pixels_by_frame": {
+        "1": 14995,
+        "2": 14928,
+        "3": 14766,
+        "4": 14531,
+        "5": 14665,
+        "6": 14695,
+        "7": 14618
+      },
+      "later_SAM_FG_queries_with_BG_frame": 640,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 67,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/67.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/67.npz",
+      "queries_sha256": "97ffe4fd22c2c2fbb6f6190105c52aa6301bdeb63a5486af4406f5764e9782b4",
+      "source_FG_classes": [
+        1,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 405,
+      "later_BG_pixels": 97320,
+      "later_BG_pixels_by_frame": {
+        "1": 13907,
+        "2": 14004,
+        "3": 13697,
+        "4": 13833,
+        "5": 13959,
+        "6": 14003,
+        "7": 13917
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 71,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/71.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/71.npz",
+      "queries_sha256": "e26ade31d70f09397968d883b888b2b111fe35bf5e33a624bc94b628891a8e18",
+      "source_FG_classes": [
+        13
+      ],
+      "later_SAM_FG_queries": 640,
+      "later_SAM_FG_unique_positions": 346,
+      "later_BG_pixels": 104416,
+      "later_BG_pixels_by_frame": {
+        "1": 15237,
+        "2": 15047,
+        "3": 15045,
+        "4": 14941,
+        "5": 14827,
+        "6": 14717,
+        "7": 14602
+      },
+      "later_SAM_FG_queries_with_BG_frame": 640,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 76,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/76.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/76.npz",
+      "queries_sha256": "affc1fa0486d32dd9e03ce06cec213bae15ce9706e4ecd01c91c0fc7b71275e0",
+      "source_FG_classes": [
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73947,
+      "later_BG_pixels_by_frame": {
+        "1": 10830,
+        "2": 11591,
+        "3": 11420,
+        "4": 10677,
+        "5": 10150,
+        "6": 9786,
+        "7": 9493
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 82,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/82.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/82.npz",
+      "queries_sha256": "6b5ce60d7ff504d76e40aa6c4c833a2b47b34a50685433c57468064f0d7a60ea",
+      "source_FG_classes": [
+        5,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 621,
+      "later_BG_pixels": 95167,
+      "later_BG_pixels_by_frame": {
+        "1": 13455,
+        "2": 13496,
+        "3": 13552,
+        "4": 13601,
+        "5": 13667,
+        "6": 13690,
+        "7": 13706
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 87,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/87.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/87.npz",
+      "queries_sha256": "7442921ec9b4a626763c0db2970d789fcb99d9d0009bfc80060e79e8a41dd752",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 76673,
+      "later_BG_pixels_by_frame": {
+        "1": 10928,
+        "2": 10758,
+        "3": 10894,
+        "4": 10933,
+        "5": 10965,
+        "6": 11076,
+        "7": 11119
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 92,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/92.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/92.npz",
+      "queries_sha256": "1c9500b6246bfe3ac772f643d0bf0fe4ed7fb98c96929ffa8b8222f085162967",
+      "source_FG_classes": [
+        23
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 84948,
+      "later_BG_pixels_by_frame": {
+        "1": 12297,
+        "2": 12234,
+        "3": 12211,
+        "4": 12122,
+        "5": 12077,
+        "6": 12012,
+        "7": 11995
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 93,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/93.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/93.npz",
+      "queries_sha256": "d7eb0a9fafbe988700b80fe22c158b316a25a743a7096d17670630d8414a1d4f",
+      "source_FG_classes": [
+        1,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 76947,
+      "later_BG_pixels_by_frame": {
+        "1": 10867,
+        "2": 11004,
+        "3": 10879,
+        "4": 11016,
+        "5": 11061,
+        "6": 11173,
+        "7": 10947
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 97,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/97.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/97.npz",
+      "queries_sha256": "b55b1460b674442adec8095300c83298969a134d1e6e2a6579aab8311a8a8d54",
+      "source_FG_classes": [
+        13
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 92182,
+      "later_BG_pixels_by_frame": {
+        "1": 13220,
+        "2": 13237,
+        "3": 13095,
+        "4": 12968,
+        "5": 13044,
+        "6": 13268,
+        "7": 13350
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 104,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/104.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/104.npz",
+      "queries_sha256": "a174cebd5f1d7f565c1337ebd5cdd33506ba80fa38e218d33c5341f437285d2d",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 0,
+      "later_SAM_FG_unique_positions": 0,
+      "later_BG_pixels": 103973,
+      "later_BG_pixels_by_frame": {
+        "1": 14834,
+        "2": 14839,
+        "3": 14855,
+        "4": 14856,
+        "5": 14850,
+        "6": 14872,
+        "7": 14867
+      },
+      "later_SAM_FG_queries_with_BG_frame": 0,
+      "all_sampled_later_FG_have_same_frame_BG": false
+    },
+    {
+      "video_id": 107,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/107.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/107.npz",
+      "queries_sha256": "b81ce32315993f01620247c7187bf0f1cc504351414bdc1b65353a2a8979c9b6",
+      "source_FG_classes": [
+        6
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 90762,
+      "later_BG_pixels_by_frame": {
+        "1": 12990,
+        "2": 12974,
+        "3": 12978,
+        "4": 12938,
+        "5": 12983,
+        "6": 12934,
+        "7": 12965
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 108,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/108.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/108.npz",
+      "queries_sha256": "f7ec7dc2eaff630b4060c9f8d234e16e8d76e4f4845e823e9044500976c3c140",
+      "source_FG_classes": [
+        1,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 70887,
+      "later_BG_pixels_by_frame": {
+        "1": 9572,
+        "2": 9617,
+        "3": 9740,
+        "4": 10235,
+        "5": 10326,
+        "6": 10615,
+        "7": 10782
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 117,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/117.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/117.npz",
+      "queries_sha256": "8054a0ff5830e697bc5bd8ae86fe2b08b039ffcc55fa8c221ce03028672a19a8",
+      "source_FG_classes": [
+        6
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 55,
+      "later_BG_pixels": 103802,
+      "later_BG_pixels_by_frame": {
+        "1": 14841,
+        "2": 14831,
+        "3": 14825,
+        "4": 14826,
+        "5": 14817,
+        "6": 14840,
+        "7": 14822
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 119,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/119.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/119.npz",
+      "queries_sha256": "f074899880bcc97e52e90e5e3a7a6eca761f8d0c55436d92a56b0d03bb0f35a1",
+      "source_FG_classes": [
+        6,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91414,
+      "later_BG_pixels_by_frame": {
+        "1": 13036,
+        "2": 13070,
+        "3": 13045,
+        "4": 13119,
+        "5": 13064,
+        "6": 13014,
+        "7": 13066
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 120,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/120.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/120.npz",
+      "queries_sha256": "bedeced1f47768da4186a4fd464b964cf0af8900b295bf78526ccb1eefe86cdb",
+      "source_FG_classes": [
+        20
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 79702,
+      "later_BG_pixels_by_frame": {
+        "1": 11265,
+        "2": 11435,
+        "3": 11439,
+        "4": 11409,
+        "5": 11398,
+        "6": 11389,
+        "7": 11367
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 121,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/121.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/121.npz",
+      "queries_sha256": "3af1da7ef37d4a9c8444955faf2169e14446c7082d8cbd9de0cbe90fa408435d",
+      "source_FG_classes": [
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 70286,
+      "later_BG_pixels_by_frame": {
+        "1": 9417,
+        "2": 9456,
+        "3": 10309,
+        "4": 10337,
+        "5": 10403,
+        "6": 10188,
+        "7": 10176
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 122,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/122.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/122.npz",
+      "queries_sha256": "2143f531c9fcfa3978e758becf5ffdb6292c63164c0dd31c580b38f9b2e9bd24",
+      "source_FG_classes": [
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 46534,
+      "later_BG_pixels_by_frame": {
+        "1": 5404,
+        "2": 5873,
+        "3": 6299,
+        "4": 7800,
+        "5": 6552,
+        "6": 6574,
+        "7": 8032
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 124,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/124.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/124.npz",
+      "queries_sha256": "f05e006bd14c941567884680138caf734c3a2f15e321a0f42eae84824fc3b016",
+      "source_FG_classes": [
+        9
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 98101,
+      "later_BG_pixels_by_frame": {
+        "1": 13935,
+        "2": 13960,
+        "3": 14010,
+        "4": 14019,
+        "5": 14046,
+        "6": 14059,
+        "7": 14072
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 126,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/126.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/126.npz",
+      "queries_sha256": "bcc39f99da7a8817d20a7e1b411b640e2f1e43cdfe97c690e425e43139f2e7f7",
+      "source_FG_classes": [
+        1,
+        13
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 75591,
+      "later_BG_pixels_by_frame": {
+        "1": 11341,
+        "2": 10815,
+        "3": 10671,
+        "4": 10828,
+        "5": 10605,
+        "6": 10497,
+        "7": 10834
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 129,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/129.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/129.npz",
+      "queries_sha256": "df15e8a29858dd15ee670fd6e379f647074fd9ce8b0b437791dae51302d1907b",
+      "source_FG_classes": [
+        1,
+        21,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 84516,
+      "later_BG_pixels_by_frame": {
+        "1": 11991,
+        "2": 11795,
+        "3": 11884,
+        "4": 11810,
+        "5": 11975,
+        "6": 12314,
+        "7": 12747
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 133,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/133.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/133.npz",
+      "queries_sha256": "957a00fcadd3d2bc90715e947a2ce3c403799c261408abc211fdccd612f50d1c",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 55885,
+      "later_BG_pixels_by_frame": {
+        "1": 7862,
+        "2": 7927,
+        "3": 7983,
+        "4": 8046,
+        "5": 8043,
+        "6": 7966,
+        "7": 8058
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 139,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/139.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/139.npz",
+      "queries_sha256": "053aaecf3495e63477399a27a24e87ff6a176f5c4f6688264f4bd22e3099595f",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 42824,
+      "later_BG_pixels_by_frame": {
+        "1": 6111,
+        "2": 6044,
+        "3": 5921,
+        "4": 6044,
+        "5": 6123,
+        "6": 6208,
+        "7": 6373
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 142,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/142.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/142.npz",
+      "queries_sha256": "d445d19ac6fed0690f26b886569edff9daf0b6b26935f9f9e95a87e431753667",
+      "source_FG_classes": [
+        8,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 18793,
+      "later_BG_pixels_by_frame": {
+        "1": 3085,
+        "2": 2407,
+        "3": 2457,
+        "4": 2682,
+        "5": 3004,
+        "6": 2667,
+        "7": 2491
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 145,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/145.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/145.npz",
+      "queries_sha256": "05c6cc3177d9024f3ae755e7dcdb67a8350e4dec59d9a270f197fbf7af947e85",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 190,
+      "later_BG_pixels": 98470,
+      "later_BG_pixels_by_frame": {
+        "1": 13921,
+        "2": 13967,
+        "3": 13995,
+        "4": 14053,
+        "5": 14117,
+        "6": 14189,
+        "7": 14228
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 146,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/146.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/146.npz",
+      "queries_sha256": "9acaff3c27462c6cd351fdfef7a071f2792f73983b4d6bc35a204ea2dfb070ec",
+      "source_FG_classes": [
+        1,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 447,
+      "later_BG_pixels": 98845,
+      "later_BG_pixels_by_frame": {
+        "1": 14080,
+        "2": 14072,
+        "3": 14085,
+        "4": 14123,
+        "5": 14140,
+        "6": 14162,
+        "7": 14183
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 148,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/148.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/148.npz",
+      "queries_sha256": "06a748be184c7c3525582be00f32579b6c3e8e3a0449041508e56f6af34f2b21",
+      "source_FG_classes": [
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 795,
+      "later_BG_pixels": 103157,
+      "later_BG_pixels_by_frame": {
+        "1": 14722,
+        "2": 14665,
+        "3": 14632,
+        "4": 14723,
+        "5": 14733,
+        "6": 14816,
+        "7": 14866
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 152,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/152.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/152.npz",
+      "queries_sha256": "ae0994c979e22dd7cf362345826032b11747e6792fd662731e69e41c4e6480a6",
+      "source_FG_classes": [
+        1,
+        12
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 72662,
+      "later_BG_pixels_by_frame": {
+        "1": 10488,
+        "2": 10435,
+        "3": 10464,
+        "4": 10210,
+        "5": 10313,
+        "6": 10499,
+        "7": 10253
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 154,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/154.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/154.npz",
+      "queries_sha256": "57cea8241054245fc9565328d388e26d06e3842cd2a81a06365db0a1d7945f70",
+      "source_FG_classes": [
+        1,
+        21,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93521,
+      "later_BG_pixels_by_frame": {
+        "1": 12212,
+        "2": 13284,
+        "3": 13406,
+        "4": 13496,
+        "5": 13621,
+        "6": 13703,
+        "7": 13799
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 159,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/159.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/159.npz",
+      "queries_sha256": "cc91becac926e0a3f23d8a53c4e4645ded8bc3454174028a0da3e377e601444f",
+      "source_FG_classes": [
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 83820,
+      "later_BG_pixels_by_frame": {
+        "1": 10758,
+        "2": 9974,
+        "3": 10582,
+        "4": 11911,
+        "5": 12873,
+        "6": 13753,
+        "7": 13969
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 161,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/161.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/161.npz",
+      "queries_sha256": "602587ce57e5874ebc5000cc180c6e4c2cd564e7ce27d4b754c097a303ddf0e7",
+      "source_FG_classes": [
+        6,
+        12
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 94639,
+      "later_BG_pixels_by_frame": {
+        "1": 13442,
+        "2": 13472,
+        "3": 13462,
+        "4": 13511,
+        "5": 13566,
+        "6": 13591,
+        "7": 13595
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 163,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/163.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/163.npz",
+      "queries_sha256": "96e0a5f38d104e60509bfdb33dbbd955ccbc16596718cf2fe91c2f7f38a4d993",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91587,
+      "later_BG_pixels_by_frame": {
+        "1": 13231,
+        "2": 13188,
+        "3": 13103,
+        "4": 12977,
+        "5": 13043,
+        "6": 12975,
+        "7": 13070
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 169,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/169.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/169.npz",
+      "queries_sha256": "cf14e3b7a8f0826073db813fb6ccb3b7f643503ebd79b4d136e59e454c7030e5",
+      "source_FG_classes": [
+        4,
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 597,
+      "later_BG_pixels": 98848,
+      "later_BG_pixels_by_frame": {
+        "1": 14512,
+        "2": 14377,
+        "3": 14194,
+        "4": 14160,
+        "5": 14075,
+        "6": 13816,
+        "7": 13714
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 171,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/171.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/171.npz",
+      "queries_sha256": "9edefd92e1a47319c1aeaffdc4e875bd4b8d3489c3aec32f8ccee04623aa9298",
+      "source_FG_classes": [
+        1,
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 89031,
+      "later_BG_pixels_by_frame": {
+        "1": 12399,
+        "2": 12393,
+        "3": 11856,
+        "4": 12099,
+        "5": 12910,
+        "6": 13583,
+        "7": 13791
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 176,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/176.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/176.npz",
+      "queries_sha256": "c04372cefdf2a1d6dcde63cac72dde8b0aa91d0d0b4d32985152c2a5c793cca4",
+      "source_FG_classes": [
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 78113,
+      "later_BG_pixels_by_frame": {
+        "1": 10644,
+        "2": 10636,
+        "3": 10818,
+        "4": 11222,
+        "5": 11313,
+        "6": 11622,
+        "7": 11858
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 181,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/181.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/181.npz",
+      "queries_sha256": "c30b2b211f1d4c20c14bf0453163fd0f81c4df8193419ce654f2f3aafa0df88d",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 95096,
+      "later_BG_pixels_by_frame": {
+        "1": 13408,
+        "2": 13532,
+        "3": 13509,
+        "4": 13461,
+        "5": 13553,
+        "6": 13666,
+        "7": 13967
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 184,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/184.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/184.npz",
+      "queries_sha256": "9cb340f873b4b7088c3d5f0c7ad87a869dbd600eaeba8f52a24db42dd6c0c662",
+      "source_FG_classes": [
+        1,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 90986,
+      "later_BG_pixels_by_frame": {
+        "1": 11813,
+        "2": 12428,
+        "3": 12848,
+        "4": 13254,
+        "5": 13457,
+        "6": 13536,
+        "7": 13650
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 187,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/187.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/187.npz",
+      "queries_sha256": "a4b68f977f7c155883412520a6a4fe01e657b7f488e761a64ee0904f8730b86e",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 80291,
+      "later_BG_pixels_by_frame": {
+        "1": 11038,
+        "2": 11204,
+        "3": 11408,
+        "4": 11722,
+        "5": 11453,
+        "6": 11932,
+        "7": 11534
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 192,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/192.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/192.npz",
+      "queries_sha256": "2821a297ae2f2a11a4e56b1b8c5afc844e70ae148acd6b8a24d26d0170e03e0a",
+      "source_FG_classes": [
+        1,
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 69433,
+      "later_BG_pixels_by_frame": {
+        "1": 8560,
+        "2": 9158,
+        "3": 10251,
+        "4": 10039,
+        "5": 9976,
+        "6": 10453,
+        "7": 10996
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 193,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/193.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/193.npz",
+      "queries_sha256": "d1a381489c021def481c79145a188af9fa6122de7f1001e8ec8d03f01f446024",
+      "source_FG_classes": [
+        15
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 85060,
+      "later_BG_pixels_by_frame": {
+        "1": 12194,
+        "2": 12239,
+        "3": 12134,
+        "4": 12154,
+        "5": 12121,
+        "6": 12132,
+        "7": 12086
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 194,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/194.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/194.npz",
+      "queries_sha256": "e7b548067109fd92eea719d8578042fc837320af9692210d99bf39f7d1123b99",
+      "source_FG_classes": [
+        9
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 95096,
+      "later_BG_pixels_by_frame": {
+        "1": 13447,
+        "2": 13460,
+        "3": 13598,
+        "4": 13627,
+        "5": 13544,
+        "6": 13646,
+        "7": 13774
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 198,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/198.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/198.npz",
+      "queries_sha256": "2fb246a12414b8bc193f60d169b314dbbbf09b0c5e3bbd5fc60acd1912e288b2",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 87363,
+      "later_BG_pixels_by_frame": {
+        "1": 12465,
+        "2": 12481,
+        "3": 12478,
+        "4": 12506,
+        "5": 12512,
+        "6": 12487,
+        "7": 12434
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 200,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/200.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/200.npz",
+      "queries_sha256": "565caf7d339d16b780713bf06f35e0449d45512b3a36f3d2d276384297922278",
+      "source_FG_classes": [
+        2
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 77011,
+      "later_BG_pixels_by_frame": {
+        "1": 10391,
+        "2": 10676,
+        "3": 10884,
+        "4": 11093,
+        "5": 11348,
+        "6": 11226,
+        "7": 11393
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 201,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/201.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/201.npz",
+      "queries_sha256": "fbe91d8489d617a8b9c8e638193129f2db2b1f62a8d9200b2f88e5b0b99c4701",
+      "source_FG_classes": [
+        2
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 299,
+      "later_BG_pixels": 100755,
+      "later_BG_pixels_by_frame": {
+        "1": 14343,
+        "2": 14382,
+        "3": 14393,
+        "4": 14409,
+        "5": 14387,
+        "6": 14404,
+        "7": 14437
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 202,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/202.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/202.npz",
+      "queries_sha256": "a8452456deda10739ae6fb703806d9b752ee15a656334327a3422a9260a864cb",
+      "source_FG_classes": [
+        15,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 57974,
+      "later_BG_pixels_by_frame": {
+        "1": 8345,
+        "2": 8329,
+        "3": 8316,
+        "4": 8297,
+        "5": 8249,
+        "6": 8220,
+        "7": 8218
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 212,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/212.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/212.npz",
+      "queries_sha256": "a0f7e358924bb81c13e5f22170f27b76e8bed07b9178c7e3cea5e9680b988642",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 94345,
+      "later_BG_pixels_by_frame": {
+        "1": 13476,
+        "2": 13493,
+        "3": 13462,
+        "4": 13468,
+        "5": 13447,
+        "6": 13493,
+        "7": 13506
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 213,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/213.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/213.npz",
+      "queries_sha256": "8216668aa7e678539bd8b26f77bbf720e8fa7b0c372d806367116a5330132924",
+      "source_FG_classes": [
+        10,
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 752,
+      "later_BG_pixels": 100467,
+      "later_BG_pixels_by_frame": {
+        "1": 14490,
+        "2": 14367,
+        "3": 14216,
+        "4": 14237,
+        "5": 14316,
+        "6": 14380,
+        "7": 14461
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 220,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/220.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/220.npz",
+      "queries_sha256": "78756744e840228fab76ec100ec9d21d6f9ddcc1f5dc6cf6f72db2686ca19783",
+      "source_FG_classes": [
+        16,
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91506,
+      "later_BG_pixels_by_frame": {
+        "1": 13078,
+        "2": 13074,
+        "3": 13066,
+        "4": 13062,
+        "5": 13078,
+        "6": 13074,
+        "7": 13074
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 223,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/223.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/223.npz",
+      "queries_sha256": "21b44a44141af05bf9e7b3666c325f8eeb8396b460459b87480ff42380a5c05d",
+      "source_FG_classes": [
+        1,
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 51139,
+      "later_BG_pixels_by_frame": {
+        "1": 7253,
+        "2": 7405,
+        "3": 7253,
+        "4": 7136,
+        "5": 7054,
+        "6": 7400,
+        "7": 7638
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 226,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/226.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/226.npz",
+      "queries_sha256": "32ceb5e7abaf022996d0c5a4a572d87b0e51de947805c54bb635fde620fafa8e",
+      "source_FG_classes": [
+        6,
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 52153,
+      "later_BG_pixels_by_frame": {
+        "1": 7435,
+        "2": 7460,
+        "3": 7655,
+        "4": 7587,
+        "5": 7660,
+        "6": 7266,
+        "7": 7090
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 227,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/227.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/227.npz",
+      "queries_sha256": "0846f7bf45d00f7f304efa07ddc6cb68d409ab5150c5bb7d49beed32907afd85",
+      "source_FG_classes": [
+        15
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 83382,
+      "later_BG_pixels_by_frame": {
+        "1": 11826,
+        "2": 11813,
+        "3": 11761,
+        "4": 11843,
+        "5": 11899,
+        "6": 12219,
+        "7": 12021
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 230,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/230.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/230.npz",
+      "queries_sha256": "ab40fb46a77a85e7d0730fb626287343eeb22ee04d8e7d5a3fa3c24c6a89ff5c",
+      "source_FG_classes": [
+        15
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 56371,
+      "later_BG_pixels_by_frame": {
+        "1": 8114,
+        "2": 8091,
+        "3": 8038,
+        "4": 8008,
+        "5": 7979,
+        "6": 8046,
+        "7": 8095
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 235,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/235.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/235.npz",
+      "queries_sha256": "d670def617f61798b0b0dc401ec2359032901b718cc2ec8039123366e776d93c",
+      "source_FG_classes": [
+        12,
+        21
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 89788,
+      "later_BG_pixels_by_frame": {
+        "1": 12865,
+        "2": 12906,
+        "3": 12854,
+        "4": 12854,
+        "5": 12759,
+        "6": 12780,
+        "7": 12770
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 238,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/238.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/238.npz",
+      "queries_sha256": "86ef17d1a50b4825c58857041c365990baffe9fd913dfe58f4115699de7c6394",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 82171,
+      "later_BG_pixels_by_frame": {
+        "1": 11959,
+        "2": 12010,
+        "3": 11694,
+        "4": 11510,
+        "5": 11631,
+        "6": 11670,
+        "7": 11697
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 254,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/254.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/254.npz",
+      "queries_sha256": "0acbd60a6bb534a5ad93a651b28f14bad460da7f4711e4a4ee2bc62eee387d9e",
+      "source_FG_classes": [
+        1,
+        15
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73775,
+      "later_BG_pixels_by_frame": {
+        "1": 10489,
+        "2": 10530,
+        "3": 10574,
+        "4": 10545,
+        "5": 10556,
+        "6": 10510,
+        "7": 10571
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 262,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/262.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/262.npz",
+      "queries_sha256": "447947c8accdbb08b7a72ac6c53dc694305a100314ed205f988f235ec1f60c3f",
+      "source_FG_classes": [
+        1,
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 306,
+      "later_BG_pixels": 102021,
+      "later_BG_pixels_by_frame": {
+        "1": 14558,
+        "2": 14570,
+        "3": 14560,
+        "4": 14572,
+        "5": 14569,
+        "6": 14583,
+        "7": 14609
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 266,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/266.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/266.npz",
+      "queries_sha256": "d85a7c61e2564f63aff20ea37f61e06cd5aec1bef0dbb871489725211c212fb7",
+      "source_FG_classes": [
+        1,
+        23,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91799,
+      "later_BG_pixels_by_frame": {
+        "1": 13285,
+        "2": 13180,
+        "3": 13114,
+        "4": 13153,
+        "5": 13095,
+        "6": 13033,
+        "7": 12939
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 268,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/268.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/268.npz",
+      "queries_sha256": "332bf6828310c36963d6d85a424f2c034499191ce4657d2df26fe2844d5cd520",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 768,
+      "later_SAM_FG_unique_positions": 21,
+      "later_BG_pixels": 104559,
+      "later_BG_pixels_by_frame": {
+        "1": 14976,
+        "2": 14953,
+        "3": 14947,
+        "4": 14964,
+        "5": 14941,
+        "6": 14880,
+        "7": 14898
+      },
+      "later_SAM_FG_queries_with_BG_frame": 768,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 276,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/276.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/276.npz",
+      "queries_sha256": "dd0712436a99cd7d4d661c70cf14b93a42bf7567312e18991d5a6c11e9dfea2d",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 56595,
+      "later_BG_pixels_by_frame": {
+        "1": 7897,
+        "2": 7937,
+        "3": 8013,
+        "4": 8339,
+        "5": 8135,
+        "6": 8002,
+        "7": 8272
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 278,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/278.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/278.npz",
+      "queries_sha256": "15f5f9e551b1bb7dc755bf4d4a29969692a56ca706495deebe71d5373f64d401",
+      "source_FG_classes": [
+        23,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 85970,
+      "later_BG_pixels_by_frame": {
+        "1": 11742,
+        "2": 10846,
+        "3": 11843,
+        "4": 12756,
+        "5": 12590,
+        "6": 12989,
+        "7": 13204
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 283,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/283.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/283.npz",
+      "queries_sha256": "caab8d4629f7da48ffe247321c21c80cb0a0f37ecefb0dfde2c5786b4089e843",
+      "source_FG_classes": [
+        14
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 87135,
+      "later_BG_pixels_by_frame": {
+        "1": 12440,
+        "2": 12362,
+        "3": 12248,
+        "4": 12380,
+        "5": 12561,
+        "6": 12411,
+        "7": 12733
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 291,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/291.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/291.npz",
+      "queries_sha256": "7fd8aa1b88f44c92cad157936d6b6ac79ff378e40274ea91425adc56a211c85e",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 6387,
+      "later_BG_pixels_by_frame": {
+        "1": 957,
+        "2": 748,
+        "3": 1046,
+        "4": 1330,
+        "5": 827,
+        "6": 669,
+        "7": 810
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 293,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/293.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/293.npz",
+      "queries_sha256": "82a1af3452f85d9e5e05f5497773db136cec3d00b2ac9b257a3b9ce34607eb4d",
+      "source_FG_classes": [
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 78355,
+      "later_BG_pixels_by_frame": {
+        "1": 11421,
+        "2": 11339,
+        "3": 11287,
+        "4": 11212,
+        "5": 11117,
+        "6": 11046,
+        "7": 10933
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 295,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/295.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/295.npz",
+      "queries_sha256": "291ae2f45d804fdc6f96cd691347996328ea4f76d270ecf016948e1e9020331f",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 67728,
+      "later_BG_pixels_by_frame": {
+        "1": 10056,
+        "2": 9907,
+        "3": 9780,
+        "4": 9509,
+        "5": 9520,
+        "6": 9489,
+        "7": 9467
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 300,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/300.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/300.npz",
+      "queries_sha256": "5066d899d94341e87f756938458c1311f5a7c8249ba669280efc58cb4fe38d2f",
+      "source_FG_classes": [
+        20
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91539,
+      "later_BG_pixels_by_frame": {
+        "1": 13034,
+        "2": 13075,
+        "3": 13091,
+        "4": 13122,
+        "5": 13167,
+        "6": 13113,
+        "7": 12937
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 304,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/304.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/304.npz",
+      "queries_sha256": "a625d0074f54d77e4cef013460a13ccd04712d8cb6a22dc31206b0d40d432af3",
+      "source_FG_classes": [
+        1,
+        4
+      ],
+      "later_SAM_FG_queries": 256,
+      "later_SAM_FG_unique_positions": 4,
+      "later_BG_pixels": 104922,
+      "later_BG_pixels_by_frame": {
+        "1": 15003,
+        "2": 14989,
+        "3": 14990,
+        "4": 14986,
+        "5": 14992,
+        "6": 14988,
+        "7": 14974
+      },
+      "later_SAM_FG_queries_with_BG_frame": 256,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 307,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/307.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/307.npz",
+      "queries_sha256": "454bd18e7fe402b80f6ce673cea363043f8149b396cb2770282101b961335317",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 83937,
+      "later_BG_pixels_by_frame": {
+        "1": 11985,
+        "2": 11990,
+        "3": 11967,
+        "4": 11974,
+        "5": 11993,
+        "6": 12004,
+        "7": 12024
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 310,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/310.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/310.npz",
+      "queries_sha256": "5176c3234103d9c1770fe0024f1e9fa0d1f1489469192e2a09ac3558c0fe228a",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93506,
+      "later_BG_pixels_by_frame": {
+        "1": 13143,
+        "2": 13242,
+        "3": 13456,
+        "4": 13394,
+        "5": 13363,
+        "6": 13479,
+        "7": 13429
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 315,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/315.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/315.npz",
+      "queries_sha256": "93ad5b1e1aeef2764b5d2837be6c12f81fd47638d4bb8e97ccd71b556bd29f90",
+      "source_FG_classes": [
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 68576,
+      "later_BG_pixels_by_frame": {
+        "1": 10221,
+        "2": 10013,
+        "3": 9879,
+        "4": 9780,
+        "5": 9705,
+        "6": 9628,
+        "7": 9350
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 316,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/316.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/316.npz",
+      "queries_sha256": "d88dac5f8ff20864c5bbe3c7511f0bfea8495e1371dcfffbdd588d78dc4e6724",
+      "source_FG_classes": [
+        1,
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93574,
+      "later_BG_pixels_by_frame": {
+        "1": 12927,
+        "2": 13129,
+        "3": 13312,
+        "4": 13386,
+        "5": 13620,
+        "6": 13678,
+        "7": 13522
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 320,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/320.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/320.npz",
+      "queries_sha256": "e913137e08f51c5eb976dbf51798f99bea31d2b2f6069094ea376f2a5cb7be1f",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 67970,
+      "later_BG_pixels_by_frame": {
+        "1": 9674,
+        "2": 9741,
+        "3": 9658,
+        "4": 9663,
+        "5": 9814,
+        "6": 9697,
+        "7": 9723
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 326,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/326.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/326.npz",
+      "queries_sha256": "51dca575d43467703c398381d9f91bcb773a4c89b7417a554758f6cf7c1e82e7",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 79082,
+      "later_BG_pixels_by_frame": {
+        "1": 11932,
+        "2": 11911,
+        "3": 11809,
+        "4": 11376,
+        "5": 10579,
+        "6": 10803,
+        "7": 10672
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 328,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/328.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/328.npz",
+      "queries_sha256": "be9efafb9cb70be0d7162bdc52e91473d571bbfcbed0305073ef103f7bce2568",
+      "source_FG_classes": [
+        13
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 67052,
+      "later_BG_pixels_by_frame": {
+        "1": 8826,
+        "2": 8910,
+        "3": 9405,
+        "4": 9555,
+        "5": 9607,
+        "6": 10101,
+        "7": 10648
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 330,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/330.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/330.npz",
+      "queries_sha256": "c744d39868382c1ff91f12aa419ce621bb02f7291c8cd2fa774016e63ee8ed68",
+      "source_FG_classes": [
+        1,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73786,
+      "later_BG_pixels_by_frame": {
+        "1": 9821,
+        "2": 9934,
+        "3": 10127,
+        "4": 10379,
+        "5": 10841,
+        "6": 11335,
+        "7": 11349
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 332,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/332.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/332.npz",
+      "queries_sha256": "af90123d7acdc075d450bb0862390c1620b983abf0fa3833ab16924840b6c049",
+      "source_FG_classes": [
+        1,
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 38247,
+      "later_BG_pixels_by_frame": {
+        "1": 5725,
+        "2": 5537,
+        "3": 5402,
+        "4": 5078,
+        "5": 5052,
+        "6": 5153,
+        "7": 6300
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 334,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/334.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/334.npz",
+      "queries_sha256": "1d12937886c4f8345f6990ab8593971631835c0a27f7fded5bb6cbbd5d31407e",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 43528,
+      "later_BG_pixels_by_frame": {
+        "1": 5802,
+        "2": 5760,
+        "3": 6984,
+        "4": 7499,
+        "5": 6497,
+        "6": 5730,
+        "7": 5256
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 337,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/337.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/337.npz",
+      "queries_sha256": "04f29872af4157ba6fd0cd8a0a2bcc2fba992784e729d477436e45e8a9992348",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 0,
+      "later_SAM_FG_unique_positions": 0,
+      "later_BG_pixels": 102770,
+      "later_BG_pixels_by_frame": {
+        "1": 14662,
+        "2": 14653,
+        "3": 14681,
+        "4": 14696,
+        "5": 14691,
+        "6": 14700,
+        "7": 14687
+      },
+      "later_SAM_FG_queries_with_BG_frame": 0,
+      "all_sampled_later_FG_have_same_frame_BG": false
+    },
+    {
+      "video_id": 338,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/338.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/338.npz",
+      "queries_sha256": "8970c5d905543c3a2425387023f0a7d28fb70ce906d6934e1f297be6d605f1d4",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 74384,
+      "later_BG_pixels_by_frame": {
+        "1": 10695,
+        "2": 10732,
+        "3": 10867,
+        "4": 10724,
+        "5": 10632,
+        "6": 10386,
+        "7": 10348
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 343,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/343.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/343.npz",
+      "queries_sha256": "f9e4dc5ccfca94ccd76ac5af5a76881c3d6886bfd6869ed956e474d96704aa6a",
+      "source_FG_classes": [
+        12,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 87707,
+      "later_BG_pixels_by_frame": {
+        "1": 12412,
+        "2": 12478,
+        "3": 12523,
+        "4": 12536,
+        "5": 12583,
+        "6": 12581,
+        "7": 12594
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 346,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/346.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/346.npz",
+      "queries_sha256": "c78e097775737a1ca41076d9adb710373bdb949d65a3c132f2b5312b22b83d06",
+      "source_FG_classes": [
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 48487,
+      "later_BG_pixels_by_frame": {
+        "1": 9740,
+        "2": 9381,
+        "3": 8447,
+        "4": 7279,
+        "5": 4316,
+        "6": 3964,
+        "7": 5360
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 348,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/348.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/348.npz",
+      "queries_sha256": "b9caa3cbb1de67fbdeba43b6292a382b4db15b01e99d6f9e165768f222e7fb5b",
+      "source_FG_classes": [
+        19,
+        20
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 41907,
+      "later_BG_pixels_by_frame": {
+        "1": 6407,
+        "2": 6411,
+        "3": 6000,
+        "4": 6009,
+        "5": 6015,
+        "6": 5533,
+        "7": 5532
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 351,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/351.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/351.npz",
+      "queries_sha256": "a55b0318b4603dc49b75a0d7c3d4ecbbc15117f2232c5c759cdc41aa4a303e58",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 84990,
+      "later_BG_pixels_by_frame": {
+        "1": 12367,
+        "2": 12304,
+        "3": 12235,
+        "4": 12142,
+        "5": 11939,
+        "6": 11839,
+        "7": 12164
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 356,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/356.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/356.npz",
+      "queries_sha256": "9226d8678b8dbfef45c9b262e5fb1ae4340d112ef0ea35f472dc066608eeb628",
+      "source_FG_classes": [
+        2
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73458,
+      "later_BG_pixels_by_frame": {
+        "1": 10128,
+        "2": 10163,
+        "3": 9724,
+        "4": 10546,
+        "5": 10990,
+        "6": 11072,
+        "7": 10835
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 359,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/359.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/359.npz",
+      "queries_sha256": "41f5d1686192dad6a57ec41c0a6b702f4e5d5bd507acf5fcfead5c392abef2df",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 94201,
+      "later_BG_pixels_by_frame": {
+        "1": 13440,
+        "2": 13443,
+        "3": 13464,
+        "4": 13464,
+        "5": 13444,
+        "6": 13451,
+        "7": 13495
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 364,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/364.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/364.npz",
+      "queries_sha256": "a5a37dc06ab2d2884df7275f61d25730b28302dd03a3a12d38211ddc4ba9dcfa",
+      "source_FG_classes": [
+        10,
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 609,
+      "later_BG_pixels": 100354,
+      "later_BG_pixels_by_frame": {
+        "1": 14210,
+        "2": 14191,
+        "3": 14261,
+        "4": 14367,
+        "5": 14390,
+        "6": 14455,
+        "7": 14480
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 365,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/365.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/365.npz",
+      "queries_sha256": "442c23f23465d26f261e159918bbe611722d406de13ca74b1593ef9e6b9f7569",
+      "source_FG_classes": [
+        12,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 97596,
+      "later_BG_pixels_by_frame": {
+        "1": 13822,
+        "2": 13896,
+        "3": 13838,
+        "4": 13940,
+        "5": 13767,
+        "6": 14149,
+        "7": 14184
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 373,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/373.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/373.npz",
+      "queries_sha256": "b89760c7d338f90194311bc8e69cfccb6e94552f29c5971586f4148c6f1a8697",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 98830,
+      "later_BG_pixels_by_frame": {
+        "1": 14171,
+        "2": 14198,
+        "3": 14119,
+        "4": 14177,
+        "5": 14184,
+        "6": 14047,
+        "7": 13934
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 377,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/377.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/377.npz",
+      "queries_sha256": "b99974363a220f121132c4b2e4e83150e23acfeb3dedf14152276eb8cf448dde",
+      "source_FG_classes": [
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 98154,
+      "later_BG_pixels_by_frame": {
+        "1": 14017,
+        "2": 14011,
+        "3": 14020,
+        "4": 14033,
+        "5": 14024,
+        "6": 14019,
+        "7": 14030
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 386,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/386.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/386.npz",
+      "queries_sha256": "812efc5da213719375df29580e38174e7d73e9fce4c8162d65ad30e2d0bb0a40",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 81771,
+      "later_BG_pixels_by_frame": {
+        "1": 11633,
+        "2": 11661,
+        "3": 11683,
+        "4": 11679,
+        "5": 11711,
+        "6": 11701,
+        "7": 11703
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 396,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/396.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/396.npz",
+      "queries_sha256": "25cb6a761e9547c887fae5a4c239fda36a60016ba4b82fcb49ceb29bbd2104b5",
+      "source_FG_classes": [
+        13
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 90735,
+      "later_BG_pixels_by_frame": {
+        "1": 12670,
+        "2": 13078,
+        "3": 13130,
+        "4": 12968,
+        "5": 13047,
+        "6": 12928,
+        "7": 12914
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 397,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/397.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/397.npz",
+      "queries_sha256": "b02b4e52db45fd1ef89fb82ff59ff0ea0a43a676a4c5ffc47314991a002829c5",
+      "source_FG_classes": [
+        2
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 88648,
+      "later_BG_pixels_by_frame": {
+        "1": 13152,
+        "2": 13248,
+        "3": 12692,
+        "4": 12514,
+        "5": 12463,
+        "6": 12398,
+        "7": 12181
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 404,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/404.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/404.npz",
+      "queries_sha256": "991decd3201af093d0b77465738f6525dfbd0894653a3596547365aab91f51d1",
+      "source_FG_classes": [
+        1,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 90112,
+      "later_BG_pixels_by_frame": {
+        "1": 12641,
+        "2": 12630,
+        "3": 12547,
+        "4": 12462,
+        "5": 13093,
+        "6": 13383,
+        "7": 13356
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 405,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/405.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/405.npz",
+      "queries_sha256": "e622038d6440f00c522096723afa593186ab4774277a6aacfc623fff9dbe1f6a",
+      "source_FG_classes": [
+        11
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 223,
+      "later_BG_pixels": 92964,
+      "later_BG_pixels_by_frame": {
+        "1": 13278,
+        "2": 13249,
+        "3": 13315,
+        "4": 13339,
+        "5": 13208,
+        "6": 13314,
+        "7": 13261
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 406,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/406.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/406.npz",
+      "queries_sha256": "5345d44139e6634fbdaa7c1d0833d9c2530766fbad2b846cbf94a629e17b3fa3",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 78289,
+      "later_BG_pixels_by_frame": {
+        "1": 10502,
+        "2": 10628,
+        "3": 10863,
+        "4": 11146,
+        "5": 11490,
+        "6": 11684,
+        "7": 11976
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 418,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/418.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/418.npz",
+      "queries_sha256": "557a16d6635bb45f5fd70d03463ff96c9411a42bedd3962bb0535916ff018d6d",
+      "source_FG_classes": [
+        4,
+        6
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 85252,
+      "later_BG_pixels_by_frame": {
+        "1": 10821,
+        "2": 12970,
+        "3": 12025,
+        "4": 12380,
+        "5": 12475,
+        "6": 12771,
+        "7": 11810
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 419,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/419.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/419.npz",
+      "queries_sha256": "7326c2584a98d44733711b715554abd7bc9e423b238f59673b5a916449d266cd",
+      "source_FG_classes": [
+        4,
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 47159,
+      "later_BG_pixels_by_frame": {
+        "1": 6897,
+        "2": 7189,
+        "3": 7480,
+        "4": 6952,
+        "5": 6259,
+        "6": 6101,
+        "7": 6281
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 425,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/425.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/425.npz",
+      "queries_sha256": "153e43120261b17e364e350520523992e181a65b0568ca56ae21a9c171e2053c",
+      "source_FG_classes": [
+        9
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93064,
+      "later_BG_pixels_by_frame": {
+        "1": 12717,
+        "2": 12923,
+        "3": 13183,
+        "4": 13419,
+        "5": 13514,
+        "6": 13609,
+        "7": 13699
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 428,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/428.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/428.npz",
+      "queries_sha256": "1102760d9aedbdf55dabaad88e724291fa5f4338272f7316c1bd9c93a111a725",
+      "source_FG_classes": [
+        1,
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 848,
+      "later_BG_pixels": 92250,
+      "later_BG_pixels_by_frame": {
+        "1": 13276,
+        "2": 13162,
+        "3": 13119,
+        "4": 12940,
+        "5": 13161,
+        "6": 13298,
+        "7": 13294
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 429,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/429.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/429.npz",
+      "queries_sha256": "80abbbf68c89b58bb9beb16169ad0dc465e11c4399ead264734507dfd31f1ff8",
+      "source_FG_classes": [
+        3,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 71734,
+      "later_BG_pixels_by_frame": {
+        "1": 10012,
+        "2": 10020,
+        "3": 9887,
+        "4": 10028,
+        "5": 10342,
+        "6": 10745,
+        "7": 10700
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 430,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/430.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/430.npz",
+      "queries_sha256": "cd6e33d1fc81f785c2b3f23effcef12ce2347a571c53153dc476b24572f91540",
+      "source_FG_classes": [
+        3,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 80861,
+      "later_BG_pixels_by_frame": {
+        "1": 11203,
+        "2": 11651,
+        "3": 11620,
+        "4": 11472,
+        "5": 11034,
+        "6": 11957,
+        "7": 11924
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 434,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/434.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/434.npz",
+      "queries_sha256": "57ab3911b1fb7abf93e0e275a1382efdb1bdd998c99257ebb849f9d3c560ba25",
+      "source_FG_classes": [
+        1,
+        5,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 79225,
+      "later_BG_pixels_by_frame": {
+        "1": 11014,
+        "2": 11155,
+        "3": 11194,
+        "4": 11169,
+        "5": 11226,
+        "6": 11772,
+        "7": 11695
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 437,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/437.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/437.npz",
+      "queries_sha256": "297fa7d69e746e0379c1a2f5bb71319a00f3ae61f69c97e3fac3117f2fbdc48e",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 74361,
+      "later_BG_pixels_by_frame": {
+        "1": 11032,
+        "2": 10599,
+        "3": 10560,
+        "4": 10371,
+        "5": 10604,
+        "6": 10450,
+        "7": 10745
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 438,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/438.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/438.npz",
+      "queries_sha256": "011803125f5f1d3b961c22e4f68d5caeb02cbfdbce01cfc9ccb3f01f54e599c4",
+      "source_FG_classes": [
+        11
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 82640,
+      "later_BG_pixels_by_frame": {
+        "1": 11659,
+        "2": 11753,
+        "3": 11769,
+        "4": 11835,
+        "5": 11846,
+        "6": 11862,
+        "7": 11916
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 439,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/439.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/439.npz",
+      "queries_sha256": "c3a6bcc1bbbf91b5a965a9de044ece3905a63873b3dd28f21cbc2523020dc6d7",
+      "source_FG_classes": [
+        19,
+        20
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 79169,
+      "later_BG_pixels_by_frame": {
+        "1": 11139,
+        "2": 11147,
+        "3": 11132,
+        "4": 11217,
+        "5": 11400,
+        "6": 11677,
+        "7": 11457
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 441,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/441.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/441.npz",
+      "queries_sha256": "cb8c1afd0ad90daed2674c241b9e58323854467d5e17906ffd9a3a255794a032",
+      "source_FG_classes": [
+        11
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 69552,
+      "later_BG_pixels_by_frame": {
+        "1": 10148,
+        "2": 10039,
+        "3": 9976,
+        "4": 9850,
+        "5": 9801,
+        "6": 9840,
+        "7": 9898
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 447,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/447.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/447.npz",
+      "queries_sha256": "d25be088708929f8f0df55c8144933e32069bb6650eb7a2522d87d41cd43ab97",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 66067,
+      "later_BG_pixels_by_frame": {
+        "1": 9212,
+        "2": 9983,
+        "3": 9769,
+        "4": 9622,
+        "5": 9610,
+        "6": 9068,
+        "7": 8803
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 449,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/449.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/449.npz",
+      "queries_sha256": "4b6be8c5b0868182597b1fe8536c93ce24bf8b2d5f55175e0731dc78fe274b25",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 53152,
+      "later_BG_pixels_by_frame": {
+        "1": 7440,
+        "2": 7557,
+        "3": 7554,
+        "4": 7510,
+        "5": 7579,
+        "6": 7687,
+        "7": 7825
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 452,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/452.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/452.npz",
+      "queries_sha256": "0984d2749152101f72d8f798713cbc23286f80ee367c7d66f29745c9dcc886d8",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 95898,
+      "later_BG_pixels_by_frame": {
+        "1": 13782,
+        "2": 13326,
+        "3": 13737,
+        "4": 13719,
+        "5": 13755,
+        "6": 13763,
+        "7": 13816
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 453,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/453.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/453.npz",
+      "queries_sha256": "c0bf477bd61c4ae108b189964fa3d64a0129323856ae3f3558076f4ac22a942f",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 41006,
+      "later_BG_pixels_by_frame": {
+        "1": 6266,
+        "2": 6160,
+        "3": 6026,
+        "4": 5546,
+        "5": 5499,
+        "6": 5571,
+        "7": 5938
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 456,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/456.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/456.npz",
+      "queries_sha256": "b70927ad6ff6e20f2a4b56b7cc2a0065926c6e93877d151e42091be52e747873",
+      "source_FG_classes": [
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 72241,
+      "later_BG_pixels_by_frame": {
+        "1": 10640,
+        "2": 10540,
+        "3": 10413,
+        "4": 10308,
+        "5": 10206,
+        "6": 10115,
+        "7": 10019
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 461,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/461.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/461.npz",
+      "queries_sha256": "1b217577d647213ba7c1edf42c6d90f2b7091c421be0a6cb77653d67ecce7455",
+      "source_FG_classes": [
+        6
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 82686,
+      "later_BG_pixels_by_frame": {
+        "1": 11937,
+        "2": 11824,
+        "3": 11833,
+        "4": 11733,
+        "5": 11835,
+        "6": 11795,
+        "7": 11729
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 464,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/464.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/464.npz",
+      "queries_sha256": "3747154f89b4c7133844ee2aa73f792eec0efa5d867338b2a889e73f67fb36be",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 53275,
+      "later_BG_pixels_by_frame": {
+        "1": 7861,
+        "2": 7887,
+        "3": 7815,
+        "4": 7592,
+        "5": 7152,
+        "6": 7682,
+        "7": 7286
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 468,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/468.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/468.npz",
+      "queries_sha256": "a1e04413503b819b7e4b8850ea2d72aee3c59f3259f2300ce9bd73cb178c64cf",
+      "source_FG_classes": [
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93025,
+      "later_BG_pixels_by_frame": {
+        "1": 13447,
+        "2": 13373,
+        "3": 13318,
+        "4": 13293,
+        "5": 13229,
+        "6": 13193,
+        "7": 13172
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 473,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/473.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/473.npz",
+      "queries_sha256": "3cfb80141c4e38203903d57e1e300e41f842dcbeb9ba3ce77b9f03875537907f",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91115,
+      "later_BG_pixels_by_frame": {
+        "1": 12937,
+        "2": 13009,
+        "3": 12997,
+        "4": 12993,
+        "5": 13008,
+        "6": 13058,
+        "7": 13113
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 478,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/478.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/478.npz",
+      "queries_sha256": "6b12c6e2776e92d53ebbd5751bd8c60fb0bef04035d22c41eb219dbeee2c6a29",
+      "source_FG_classes": [
+        1,
+        4,
+        21,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 85047,
+      "later_BG_pixels_by_frame": {
+        "1": 12124,
+        "2": 12154,
+        "3": 12158,
+        "4": 12108,
+        "5": 12100,
+        "6": 12179,
+        "7": 12224
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 479,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/479.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/479.npz",
+      "queries_sha256": "388c6a78227c9cbe3b9164bed4a64c06d0a096fd5172144bb598b27357fda9f3",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 67826,
+      "later_BG_pixels_by_frame": {
+        "1": 9990,
+        "2": 9864,
+        "3": 9421,
+        "4": 9066,
+        "5": 8951,
+        "6": 9704,
+        "7": 10830
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 483,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/483.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/483.npz",
+      "queries_sha256": "1a41f0bd572b93465fc18d1fe23afd785235d6741467a8e0c493a8eecec7df32",
+      "source_FG_classes": [
+        1,
+        7
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 356,
+      "later_BG_pixels": 103007,
+      "later_BG_pixels_by_frame": {
+        "1": 14763,
+        "2": 14733,
+        "3": 14731,
+        "4": 14723,
+        "5": 14696,
+        "6": 14697,
+        "7": 14664
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 488,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/488.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/488.npz",
+      "queries_sha256": "0ed342ada74a9ff094a0ccf04771a60833dee782e88a0c29a52d8c61100649e0",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 66501,
+      "later_BG_pixels_by_frame": {
+        "1": 9373,
+        "2": 9145,
+        "3": 9346,
+        "4": 9617,
+        "5": 9707,
+        "6": 9697,
+        "7": 9616
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 491,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/491.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/491.npz",
+      "queries_sha256": "4979e76f445cc77d63c1a4418bcbc5e50e2e6500047ba45eb99b09a0a8acd000",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 65446,
+      "later_BG_pixels_by_frame": {
+        "1": 9020,
+        "2": 8633,
+        "3": 9455,
+        "4": 8585,
+        "5": 9868,
+        "6": 9734,
+        "7": 10151
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 492,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/492.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/492.npz",
+      "queries_sha256": "b1235b49b434bb1adf53579f2b67a29b31a3ce96e04d3771d59003afe5b8e928",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 84304,
+      "later_BG_pixels_by_frame": {
+        "1": 11596,
+        "2": 11783,
+        "3": 11465,
+        "4": 12710,
+        "5": 14456,
+        "6": 10719,
+        "7": 11575
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 497,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/497.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/497.npz",
+      "queries_sha256": "4532c43ae2307d65a871a91d2102dc3c2bc2358d036959bf528d9b79e8bbb1e7",
+      "source_FG_classes": [
+        1,
+        21
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 73871,
+      "later_BG_pixels_by_frame": {
+        "1": 10044,
+        "2": 10319,
+        "3": 10375,
+        "4": 10570,
+        "5": 10768,
+        "6": 10879,
+        "7": 10916
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 499,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/499.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/499.npz",
+      "queries_sha256": "a85f18bf2ccfe3a870c03fc74c4dd78922deab12b74bd954f7887ac2440dbbde",
+      "source_FG_classes": [
+        14
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 69836,
+      "later_BG_pixels_by_frame": {
+        "1": 10304,
+        "2": 9718,
+        "3": 9502,
+        "4": 10058,
+        "5": 10042,
+        "6": 9740,
+        "7": 10472
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 504,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/504.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/504.npz",
+      "queries_sha256": "9b85f23fd550cc00bffccdcb62677a482052e1c8d6bcc98e784480569d0cfcf3",
+      "source_FG_classes": [
+        1,
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 84462,
+      "later_BG_pixels_by_frame": {
+        "1": 12197,
+        "2": 12199,
+        "3": 12149,
+        "4": 11922,
+        "5": 11961,
+        "6": 12047,
+        "7": 11987
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 513,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/513.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/513.npz",
+      "queries_sha256": "3726ad1abfdf617410674c03e803541aa6c4cbeeae0947f687be28a142efc099",
+      "source_FG_classes": [
+        1,
+        22,
+        24
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 79888,
+      "later_BG_pixels_by_frame": {
+        "1": 11677,
+        "2": 11672,
+        "3": 11642,
+        "4": 11525,
+        "5": 11393,
+        "6": 11107,
+        "7": 10872
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 526,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/526.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/526.npz",
+      "queries_sha256": "da5712173d2347cb0c41ee9de7b10dc9191df84d7ba2b323e3ae6af966e64e8c",
+      "source_FG_classes": [
+        18
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 90664,
+      "later_BG_pixels_by_frame": {
+        "1": 13023,
+        "2": 13025,
+        "3": 13070,
+        "4": 13080,
+        "5": 13043,
+        "6": 12774,
+        "7": 12649
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 528,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/528.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/528.npz",
+      "queries_sha256": "e8ed64e335f1a46496b3a09468f9fb51d4129faa05ad5f7389b26d129c3917d1",
+      "source_FG_classes": [
+        19,
+        20
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 85255,
+      "later_BG_pixels_by_frame": {
+        "1": 13149,
+        "2": 12723,
+        "3": 12910,
+        "4": 12417,
+        "5": 11824,
+        "6": 11114,
+        "7": 11118
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 545,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/545.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/545.npz",
+      "queries_sha256": "f67b47305473726fce31494aa48e2cf1feacc9389e8b6acd588fe68c8f9e327d",
+      "source_FG_classes": [
+        23
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 696,
+      "later_BG_pixels": 99383,
+      "later_BG_pixels_by_frame": {
+        "1": 14193,
+        "2": 14179,
+        "3": 14186,
+        "4": 14196,
+        "5": 14202,
+        "6": 14209,
+        "7": 14218
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 547,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/547.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/547.npz",
+      "queries_sha256": "701bbf0d8767b6c8b205ce792fd75af5fcf0db2132e5f100d80f5ac66895b07f",
+      "source_FG_classes": [
+        9
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 77028,
+      "later_BG_pixels_by_frame": {
+        "1": 11093,
+        "2": 11495,
+        "3": 11604,
+        "4": 11082,
+        "5": 10898,
+        "6": 10730,
+        "7": 10126
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 548,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/548.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/548.npz",
+      "queries_sha256": "407f3fa0546c62d25b2ffccc25f5996433836df9b7b08f0b5ed6762255a805af",
+      "source_FG_classes": [
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 77620,
+      "later_BG_pixels_by_frame": {
+        "1": 11582,
+        "2": 11281,
+        "3": 10912,
+        "4": 10888,
+        "5": 10583,
+        "6": 10971,
+        "7": 11403
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 551,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/551.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/551.npz",
+      "queries_sha256": "a3bf9300d7cfbef0c9bedea2a942d1724192763e889edbbffd8e329d2a3b0111",
+      "source_FG_classes": [
+        7,
+        14
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 37073,
+      "later_BG_pixels_by_frame": {
+        "1": 5317,
+        "2": 5313,
+        "3": 5289,
+        "4": 5276,
+        "5": 5290,
+        "6": 5292,
+        "7": 5296
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 552,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/552.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/552.npz",
+      "queries_sha256": "e364fc0671a7c656d5ebdd360475d101af2a93ea7333835530f650ba7353d51a",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 86073,
+      "later_BG_pixels_by_frame": {
+        "1": 12240,
+        "2": 12275,
+        "3": 12140,
+        "4": 12251,
+        "5": 12189,
+        "6": 12274,
+        "7": 12704
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 556,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/556.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/556.npz",
+      "queries_sha256": "9553906e6ab19d23dccbb4d21a5d513b62d762771cc7fb30ffe083bd3c6b1bc3",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 49006,
+      "later_BG_pixels_by_frame": {
+        "1": 7227,
+        "2": 7069,
+        "3": 7023,
+        "4": 6951,
+        "5": 6841,
+        "6": 6899,
+        "7": 6996
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 558,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/558.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/558.npz",
+      "queries_sha256": "0d54580ba34073fdd01ff8af2cfae6c4fab640bd359971c8e5d909c77130de08",
+      "source_FG_classes": [
+        5,
+        21,
+        22
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 56339,
+      "later_BG_pixels_by_frame": {
+        "1": 7833,
+        "2": 7891,
+        "3": 8016,
+        "4": 8198,
+        "5": 8085,
+        "6": 8183,
+        "7": 8133
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 562,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/562.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/562.npz",
+      "queries_sha256": "83b61417ac5f31e6132bdc1543af7abf6d7d7cbf64b97136d6be472a0f69c145",
+      "source_FG_classes": [
+        6,
+        10,
+        11
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 68633,
+      "later_BG_pixels_by_frame": {
+        "1": 10116,
+        "2": 9939,
+        "3": 9792,
+        "4": 9752,
+        "5": 9667,
+        "6": 9653,
+        "7": 9714
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 563,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/563.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/563.npz",
+      "queries_sha256": "4cc27ced0c6862aae7ef3a1c21a6687bf3eef5327401dfa14d236730b66f5e0f",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 68768,
+      "later_BG_pixels_by_frame": {
+        "1": 10753,
+        "2": 11135,
+        "3": 10072,
+        "4": 9755,
+        "5": 9641,
+        "6": 9110,
+        "7": 8302
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 566,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/566.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/566.npz",
+      "queries_sha256": "39ced6a8faae21e136fbbd66032b113c134b6edb7df61e1a45974f46820e9faa",
+      "source_FG_classes": [
+        4
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 91263,
+      "later_BG_pixels_by_frame": {
+        "1": 13015,
+        "2": 13035,
+        "3": 12959,
+        "4": 12914,
+        "5": 13029,
+        "6": 13083,
+        "7": 13228
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 571,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/571.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/571.npz",
+      "queries_sha256": "23cab526bfb5772fb8dadca321bca0191c1444f4349b7f7b9ee875197ed8f339",
+      "source_FG_classes": [
+        4,
+        25
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 834,
+      "later_BG_pixels": 98847,
+      "later_BG_pixels_by_frame": {
+        "1": 14111,
+        "2": 14188,
+        "3": 14138,
+        "4": 14097,
+        "5": 14076,
+        "6": 14059,
+        "7": 14178
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 572,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/572.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/572.npz",
+      "queries_sha256": "aae70571c88e58667807063b5d5120dea3a8a37fe49553a1e608158074a64574",
+      "source_FG_classes": [
+        1,
+        15
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 54467,
+      "later_BG_pixels_by_frame": {
+        "1": 7489,
+        "2": 7420,
+        "3": 7565,
+        "4": 7567,
+        "5": 7752,
+        "6": 8110,
+        "7": 8564
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 577,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/577.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/577.npz",
+      "queries_sha256": "a3ea0abb3a2890be1b13d4bcebfd14690c67a18fd170a3736b3e06c62be49161",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 48599,
+      "later_BG_pixels_by_frame": {
+        "1": 6538,
+        "2": 6584,
+        "3": 6576,
+        "4": 6499,
+        "5": 7004,
+        "6": 7538,
+        "7": 7860
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 581,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/581.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/581.npz",
+      "queries_sha256": "2f15d4848bec2e86800bc129e6aa4bb97959e30e9f1344bdfed8794e1550e2f3",
+      "source_FG_classes": [
+        19
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 48566,
+      "later_BG_pixels_by_frame": {
+        "1": 7370,
+        "2": 6859,
+        "3": 6260,
+        "4": 6349,
+        "5": 6854,
+        "6": 7242,
+        "7": 7632
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 588,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/588.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/588.npz",
+      "queries_sha256": "e0d92163025969edec255a7fb95f6cb7bde3b18b9aaa8366ac56849cecef8a2b",
+      "source_FG_classes": [
+        5
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 93546,
+      "later_BG_pixels_by_frame": {
+        "1": 13540,
+        "2": 13444,
+        "3": 13399,
+        "4": 13354,
+        "5": 13267,
+        "6": 13311,
+        "7": 13231
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 590,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/590.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/590.npz",
+      "queries_sha256": "86dda9b8d0edc4c4242357c35a0e767b71326de997e2c8089f60f7d5b8d9dd37",
+      "source_FG_classes": [
+        11
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 83069,
+      "later_BG_pixels_by_frame": {
+        "1": 11925,
+        "2": 11935,
+        "3": 11978,
+        "4": 11927,
+        "5": 11903,
+        "6": 11755,
+        "7": 11646
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 592,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/592.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/592.npz",
+      "queries_sha256": "2f93f9b5e29d8712f2fc63d607fbf2a9a57663d6f3b42f1dc0c328350faa5a7a",
+      "source_FG_classes": [
+        10
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 96649,
+      "later_BG_pixels_by_frame": {
+        "1": 13824,
+        "2": 13818,
+        "3": 13778,
+        "4": 13771,
+        "5": 13806,
+        "6": 13791,
+        "7": 13861
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 593,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/593.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/593.npz",
+      "queries_sha256": "73a74ce00d7ed96986b3cddb505da41fc1f7759a7eb19387fc63987b994e4761",
+      "source_FG_classes": [
+        1,
+        6
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 36959,
+      "later_BG_pixels_by_frame": {
+        "1": 5541,
+        "2": 5445,
+        "3": 5084,
+        "4": 5098,
+        "5": 5214,
+        "6": 5213,
+        "7": 5364
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 596,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/596.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/596.npz",
+      "queries_sha256": "d5e5587120f7511cbd751c89a71d8189c0e3a7cca946758ea58889e0e92d61a5",
+      "source_FG_classes": [
+        3
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 49529,
+      "later_BG_pixels_by_frame": {
+        "1": 6983,
+        "2": 6836,
+        "3": 8413,
+        "4": 7464,
+        "5": 7009,
+        "6": 6587,
+        "7": 6237
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 597,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/597.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/597.npz",
+      "queries_sha256": "7b92d54436ca3f2ef185b3ec936d3aaf657df116e557d114275d80cff7d4a93f",
+      "source_FG_classes": [
+        8
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 133,
+      "later_BG_pixels": 104836,
+      "later_BG_pixels_by_frame": {
+        "1": 14965,
+        "2": 14985,
+        "3": 14982,
+        "4": 14980,
+        "5": 14984,
+        "6": 14976,
+        "7": 14964
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 605,
+      "start": 0,
+      "group": "additional100",
+      "teacher_path": "semantic_artifacts/video_coverage_intervention/teacher/605.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/605.npz",
+      "queries_sha256": "bea300acf283806fc0820225294baf3548d8e17559f3038a06690a3fa5beee78",
+      "source_FG_classes": [
+        17
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 60227,
+      "later_BG_pixels_by_frame": {
+        "1": 8819,
+        "2": 8810,
+        "3": 8816,
+        "4": 8769,
+        "5": 8597,
+        "6": 7966,
+        "7": 8450
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    },
+    {
+      "video_id": 607,
+      "start": 0,
+      "group": "baseline60",
+      "teacher_path": "semantic_artifacts/sam_confident_background/teachers/607.npz",
+      "queries_path": "semantic_artifacts/d4rt_training_union/queries/607.npz",
+      "queries_sha256": "0723b2f8d656b6f705a00e0cfb024587a25fee3dce7bdeacf9dae59925cfa9fb",
+      "source_FG_classes": [
+        16
+      ],
+      "later_SAM_FG_queries": 896,
+      "later_SAM_FG_unique_positions": 896,
+      "later_BG_pixels": 88556,
+      "later_BG_pixels_by_frame": {
+        "1": 12517,
+        "2": 12500,
+        "3": 12614,
+        "4": 12855,
+        "5": 12951,
+        "6": 12885,
+        "7": 12234
+      },
+      "later_SAM_FG_queries_with_BG_frame": 896,
+      "all_sampled_later_FG_have_same_frame_BG": true
+    }
+  ],
+  "source_GT_support": {
+    "baseline60": {
+      "videos": 60,
+      "queries": 15360,
+      "per_class": {
+        "0": {
+          "queries": 7680,
+          "unique_video_frame_xy": 7680,
+          "videos": 60
+        },
+        "1": {
+          "queries": 522,
+          "unique_video_frame_xy": 522,
+          "videos": 12
+        },
+        "2": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "3": {
+          "queries": 185,
+          "unique_video_frame_xy": 185,
+          "videos": 2
+        },
+        "4": {
+          "queries": 503,
+          "unique_video_frame_xy": 503,
+          "videos": 6
+        },
+        "5": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "6": {
+          "queries": 482,
+          "unique_video_frame_xy": 482,
+          "videos": 4
+        },
+        "7": {
+          "queries": 606,
+          "unique_video_frame_xy": 606,
+          "videos": 5
+        },
+        "8": {
+          "queries": 512,
+          "unique_video_frame_xy": 512,
+          "videos": 4
+        },
+        "9": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "10": {
+          "queries": 498,
+          "unique_video_frame_xy": 498,
+          "videos": 4
+        },
+        "11": {
+          "queries": 128,
+          "unique_video_frame_xy": 128,
+          "videos": 1
+        },
+        "12": {
+          "queries": 3,
+          "unique_video_frame_xy": 3,
+          "videos": 1
+        },
+        "13": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "14": {
+          "queries": 128,
+          "unique_video_frame_xy": 128,
+          "videos": 1
+        },
+        "15": {
+          "queries": 248,
+          "unique_video_frame_xy": 248,
+          "videos": 2
+        },
+        "16": {
+          "queries": 833,
+          "unique_video_frame_xy": 833,
+          "videos": 8
+        },
+        "17": {
+          "queries": 440,
+          "unique_video_frame_xy": 440,
+          "videos": 4
+        },
+        "18": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "19": {
+          "queries": 384,
+          "unique_video_frame_xy": 384,
+          "videos": 3
+        },
+        "20": {
+          "queries": 256,
+          "unique_video_frame_xy": 256,
+          "videos": 2
+        },
+        "21": {
+          "queries": 128,
+          "unique_video_frame_xy": 128,
+          "videos": 2
+        },
+        "22": {
+          "queries": 120,
+          "unique_video_frame_xy": 120,
+          "videos": 1
+        },
+        "23": {
+          "queries": 89,
+          "unique_video_frame_xy": 89,
+          "videos": 1
+        },
+        "24": {
+          "queries": 128,
+          "unique_video_frame_xy": 128,
+          "videos": 1
+        },
+        "25": {
+          "queries": 207,
+          "unique_video_frame_xy": 207,
+          "videos": 4
+        }
+      }
+    },
+    "additional100": {
+      "videos": 100,
+      "queries": 25600,
+      "per_class": {
+        "0": {
+          "queries": 12800,
+          "unique_video_frame_xy": 12800,
+          "videos": 100
+        },
+        "1": {
+          "queries": 1159,
+          "unique_video_frame_xy": 1159,
+          "videos": 26
+        },
+        "2": {
+          "queries": 384,
+          "unique_video_frame_xy": 384,
+          "videos": 3
+        },
+        "3": {
+          "queries": 921,
+          "unique_video_frame_xy": 921,
+          "videos": 8
+        },
+        "4": {
+          "queries": 788,
+          "unique_video_frame_xy": 788,
+          "videos": 8
+        },
+        "5": {
+          "queries": 760,
+          "unique_video_frame_xy": 760,
+          "videos": 7
+        },
+        "6": {
+          "queries": 273,
+          "unique_video_frame_xy": 273,
+          "videos": 5
+        },
+        "7": {
+          "queries": 456,
+          "unique_video_frame_xy": 456,
+          "videos": 5
+        },
+        "8": {
+          "queries": 639,
+          "unique_video_frame_xy": 639,
+          "videos": 5
+        },
+        "9": {
+          "queries": 341,
+          "unique_video_frame_xy": 341,
+          "videos": 3
+        },
+        "10": {
+          "queries": 687,
+          "unique_video_frame_xy": 687,
+          "videos": 6
+        },
+        "11": {
+          "queries": 434,
+          "unique_video_frame_xy": 434,
+          "videos": 4
+        },
+        "12": {
+          "queries": 243,
+          "unique_video_frame_xy": 243,
+          "videos": 5
+        },
+        "13": {
+          "queries": 444,
+          "unique_video_frame_xy": 347,
+          "videos": 4
+        },
+        "14": {
+          "queries": 161,
+          "unique_video_frame_xy": 161,
+          "videos": 3
+        },
+        "15": {
+          "queries": 354,
+          "unique_video_frame_xy": 354,
+          "videos": 4
+        },
+        "16": {
+          "queries": 445,
+          "unique_video_frame_xy": 445,
+          "videos": 5
+        },
+        "17": {
+          "queries": 829,
+          "unique_video_frame_xy": 829,
+          "videos": 8
+        },
+        "18": {
+          "queries": 422,
+          "unique_video_frame_xy": 422,
+          "videos": 4
+        },
+        "19": {
+          "queries": 580,
+          "unique_video_frame_xy": 580,
+          "videos": 7
+        },
+        "20": {
+          "queries": 316,
+          "unique_video_frame_xy": 316,
+          "videos": 3
+        },
+        "21": {
+          "queries": 471,
+          "unique_video_frame_xy": 471,
+          "videos": 9
+        },
+        "22": {
+          "queries": 207,
+          "unique_video_frame_xy": 207,
+          "videos": 7
+        },
+        "23": {
+          "queries": 280,
+          "unique_video_frame_xy": 280,
+          "videos": 3
+        },
+        "24": {
+          "queries": 565,
+          "unique_video_frame_xy": 565,
+          "videos": 5
+        },
+        "25": {
+          "queries": 641,
+          "unique_video_frame_xy": 641,
+          "videos": 8
+        }
+      }
+    },
+    "union160": {
+      "videos": 160,
+      "queries": 40960,
+      "per_class": {
+        "0": {
+          "queries": 20480,
+          "unique_video_frame_xy": 20480,
+          "videos": 160
+        },
+        "1": {
+          "queries": 1681,
+          "unique_video_frame_xy": 1681,
+          "videos": 38
+        },
+        "2": {
+          "queries": 640,
+          "unique_video_frame_xy": 640,
+          "videos": 5
+        },
+        "3": {
+          "queries": 1106,
+          "unique_video_frame_xy": 1106,
+          "videos": 10
+        },
+        "4": {
+          "queries": 1291,
+          "unique_video_frame_xy": 1291,
+          "videos": 14
+        },
+        "5": {
+          "queries": 1016,
+          "unique_video_frame_xy": 1016,
+          "videos": 9
+        },
+        "6": {
+          "queries": 755,
+          "unique_video_frame_xy": 755,
+          "videos": 9
+        },
+        "7": {
+          "queries": 1062,
+          "unique_video_frame_xy": 1062,
+          "videos": 10
+        },
+        "8": {
+          "queries": 1151,
+          "unique_video_frame_xy": 1151,
+          "videos": 9
+        },
+        "9": {
+          "queries": 597,
+          "unique_video_frame_xy": 597,
+          "videos": 5
+        },
+        "10": {
+          "queries": 1185,
+          "unique_video_frame_xy": 1185,
+          "videos": 10
+        },
+        "11": {
+          "queries": 562,
+          "unique_video_frame_xy": 562,
+          "videos": 5
+        },
+        "12": {
+          "queries": 246,
+          "unique_video_frame_xy": 246,
+          "videos": 6
+        },
+        "13": {
+          "queries": 700,
+          "unique_video_frame_xy": 603,
+          "videos": 6
+        },
+        "14": {
+          "queries": 289,
+          "unique_video_frame_xy": 289,
+          "videos": 4
+        },
+        "15": {
+          "queries": 602,
+          "unique_video_frame_xy": 602,
+          "videos": 6
+        },
+        "16": {
+          "queries": 1278,
+          "unique_video_frame_xy": 1278,
+          "videos": 13
+        },
+        "17": {
+          "queries": 1269,
+          "unique_video_frame_xy": 1269,
+          "videos": 12
+        },
+        "18": {
+          "queries": 678,
+          "unique_video_frame_xy": 678,
+          "videos": 6
+        },
+        "19": {
+          "queries": 964,
+          "unique_video_frame_xy": 964,
+          "videos": 10
+        },
+        "20": {
+          "queries": 572,
+          "unique_video_frame_xy": 572,
+          "videos": 5
+        },
+        "21": {
+          "queries": 599,
+          "unique_video_frame_xy": 599,
+          "videos": 11
+        },
+        "22": {
+          "queries": 327,
+          "unique_video_frame_xy": 327,
+          "videos": 8
+        },
+        "23": {
+          "queries": 369,
+          "unique_video_frame_xy": 369,
+          "videos": 4
+        },
+        "24": {
+          "queries": 693,
+          "unique_video_frame_xy": 693,
+          "videos": 6
+        },
+        "25": {
+          "queries": 848,
+          "unique_video_frame_xy": 848,
+          "videos": 12
+        }
+      }
+    }
+  },
+  "all160_source_GT_labels_match": true,
+  "all160_later_auxiliary_pools_same_frame_pairable": false,
+  "new_teacher_generation_or_model_training_or_scoring": false,
+  "all607_videos_previously_research_used": true,
+  "default_changed": false
+}
