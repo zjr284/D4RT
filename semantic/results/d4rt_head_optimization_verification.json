@@ -1,0 +1,38 @@
+{
+  "round": 101,
+  "summary_sha256": "17958f355073d3ed327ed9e0b505d5074bf89cf25bf16be75b18a7ac181825b8",
+  "verifier_sha256": "83680adb28ec1cf9313e56d328672628a60fde1ce9644ed31f39d224a805ef22",
+  "all1500_schedule_features_and_labels_recomputed_exact": true,
+  "all_six_full500_step_optimizers_replayed": {
+    "low_0": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    },
+    "high_0": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    },
+    "low_1": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    },
+    "high_1": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    },
+    "low_2": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    },
+    "high_2": {
+      "all500_optimizer_steps_replayed": true,
+      "parameter_max_abs_replay_error": 0.0
+    }
+  },
+  "all_three_low_lr_heads_reproduce_R99_A_within_fixed_tolerance": true,
+  "low_lr_all_original_validation_logits_exact": true,
+  "all12_train_validation_logits_and_metrics_recomputed_exact": true,
+  "all_feature_inputs_and_original_outputs_unchanged": true,
+  "contrast_and_next_control_eligibility_verified": true,
+  "new_confirmation": false
+}
