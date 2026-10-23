@@ -1,0 +1,9 @@
+{
+  "source_CSV_sha256": "5d4b591dac94e54d3e6b435d0fcb571cceebf42ed58b4a54f63237597f471d80",
+  "published_LF_CSV_sha256": "9b45362841c865f838e92c5c92f8034f31738959b721fd5a95358c36d5a1961d",
+  "rows_excluding_header": 1872,
+  "only_CRLF_to_LF_changed": true,
+  "all_CSV_cells_equal": true,
+  "original_verified_outputs_unchanged": true,
+  "export_code_sha256": "81bc5fa7b627510f22df29cb428b106839c3cdd221f194284ce7551ea67569c6"
+}
