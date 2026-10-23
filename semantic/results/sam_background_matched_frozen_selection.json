@@ -1,0 +1,21 @@
+{
+  "rule": "all15 new final states frozen before old validation scoring",
+  "adapters_sha256": {
+    "semantic_artifacts/sam_background_matched/GT_seed0.pt": "6d9fc1a87349fbdcb4a89f9bc49876ff57c37e1a22c442c067fab9dbdbb7288f",
+    "semantic_artifacts/sam_background_matched/GT_seed1.pt": "c6f8dbdb0d3e99adf790f046e88659cde66af0e4bc84c2dd0c253aeac6877a9f",
+    "semantic_artifacts/sam_background_matched/GT_seed2.pt": "a316178a905f0a9532f922c69f4dbd65b78d6b7738ce456c1b22135621b91c47",
+    "semantic_artifacts/sam_background_matched/SAM_FG_seed0.pt": "9f77d7c160ba8eaf7d4bfd48ee0fd7be7d9bfd69da5e92c15f90cf36f86195c3",
+    "semantic_artifacts/sam_background_matched/SAM_FG_seed1.pt": "6d306bb694bf7ea6d02ffb009e69a774d170abc9b85e413aee04b6360dedf4c2",
+    "semantic_artifacts/sam_background_matched/SAM_FG_seed2.pt": "52abd7fe1aa3b5fc3adee1a008c3d32e310004295fb41cbaeff5f7b7a8dea3c6",
+    "semantic_artifacts/sam_background_matched/SAM_FG_double_seed0.pt": "203470e500a1a215aec72075afe96d686a4c4cf06d90bf3080387cbcde8d222e",
+    "semantic_artifacts/sam_background_matched/SAM_FG_double_seed1.pt": "47d1d2996eb6a6aaf92a2b322956237cc7feaa627b1230b4b2356bb5109abe38",
+    "semantic_artifacts/sam_background_matched/SAM_FG_double_seed2.pt": "a28b2af2b78a613373883c5d6ab9b94ba86afa2646e90afb08e1d35429d9565a",
+    "semantic_artifacts/sam_background_matched/SAM_FGBG_seed0.pt": "56e1edf20bc4be52c413fa027bffa320dfec1ad43cabd3dfbd9e968b40e6330b",
+    "semantic_artifacts/sam_background_matched/SAM_FGBG_seed1.pt": "649d0394d7baf6ddbc9bc8895666f2ed99c96ef6415aa52d03471dcfcff933b9",
+    "semantic_artifacts/sam_background_matched/SAM_FGBG_seed2.pt": "233ac35cb4e727f855e0b29051f89ef995e1c410edf701c809e2792098268db8",
+    "semantic_artifacts/sam_background_matched/GTextra_FGBG_seed0.pt": "688e7d42fdf6155bf57ae5cedab7bfb9cc3332f60fd7d0cd073b082c404839b3",
+    "semantic_artifacts/sam_background_matched/GTextra_FGBG_seed1.pt": "bc10ceafff8226b19301c6c8735bb218ad0753cda88a9979e0719bdc6239ba66",
+    "semantic_artifacts/sam_background_matched/GTextra_FGBG_seed2.pt": "7834b0b04ada58ef622ec68a55fe7a9562aabed6d0f308aa3ff8618544647860"
+  },
+  "protocol_sha256": "d2c82284ce0c48a598a00ca3929599282d412465d0089a02c9814ecbb71ba015"
+}
