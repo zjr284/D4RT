@@ -1,3 +1,5 @@
+第105源查询×SAM六臂三seed已独立核验：原查询GT/源GT/原SAM/源SAM/源仅头/源extraGT宏均.060043/.055877/.048727/.043245/.051132/.054972。源SAM−GT三负，整体均−.012631、视频均−.153888；对extraGT亦三负，未获外测资格。源GT−仅头汇总三正但视频均负，规范源查询不宣称准确率提高。80RGB/query/全部新prefix、18首梯度/末AdamW、18完整验证、108手工接口通过；几何逐值同冻结base，非真值精度。原接口维度错误与首次恢复数值错误均保留；实时FP32prefix对训练BF16输入的契约缺口已以新增模块显式转BF16修复，模型/分数不变，恢复父子SHA保留。原9000步loss未落盘已丢失，trace=null，不伪造；预算以保存step499及末步重放核验，冻结清单多含3初始状态不算评分模型。105单独发布后立即106原8帧128/256分辨率控制：source四臂128十二模型复用，仅新256十二模型，同初始化/日程/预算，先资源门槛，不重评旧test20/外部40/换默认。协议OVIS_D4RT_INPUT_RESOLUTION_PROTOCOL.md；本地权重配置32帧256，不把空间尺寸匹配当完整复现。
+
 # 连续研究当前接续点
 
 第104新源查询语义支路已独立核验：SourceQuerySemanticD4RT几何base冻结原query，独立semantic_tail LoRA217626参数，canonical tgt/cam=src，共享视频memory。训练13/19、B1/B2×四变体×前后=24例几何逐值原base且前后相同；目标/相机语义分数不变；5GT步更新LoRA/头、base无梯度/参数不变、存储隔离。手工canonical重解码、首梯度/末AdamW误差0、输入指纹通过。峰值2489.88MiB/预留2686MiB。不是F1/真值几何/新确认，仍读整段memory，默认不改；预检坐标center/128与原u/127不同不声称旧缓存复现。104独立发布后立即105固定原u/127/原query重建，raw/canonical同轮共源特征和几何主路冻结，GT/SAM匹配并加canonical head-only与extraGT，共六臂三seed500步，分组lr1e-3/1e-4，不混几何保持loss；通过因子对比隔离canonical与SAM，不把跨102变化唯一归因一项。

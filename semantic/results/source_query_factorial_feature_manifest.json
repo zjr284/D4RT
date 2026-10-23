@@ -1,0 +1,726 @@
+{
+  "sha256": {
+    "semantic_artifacts/source_query_factorial/features/train/13.npz": "bc5751bb830513f4cada34c40e7d6738dc7b28b29f4eb755bab657ea1672bc6b",
+    "semantic_artifacts/source_query_factorial/features/train/19.npz": "ae4a5a310da2b046e52fdcbfa4e04cf1c7fcd4eddcf26d27042d3c65d2a08afd",
+    "semantic_artifacts/source_query_factorial/features/train/22.npz": "3ac98758b27f9ec563b5d644826e8c57514bdfd713f7b13992b6b12794e7bbbd",
+    "semantic_artifacts/source_query_factorial/features/train/63.npz": "c690425db887922d3d0878249ee7a519cd0d6354a46a92d864e7362d481ef342",
+    "semantic_artifacts/source_query_factorial/features/train/76.npz": "cdda20e5101daa602ee8fb0f22ac8e1038a457a1efc53da4d4bf3e92dc856df3",
+    "semantic_artifacts/source_query_factorial/features/train/87.npz": "ff7eec468b44d2a2d5ca53a453da945d31b7215ef13ee9a953a53ab546fa34f9",
+    "semantic_artifacts/source_query_factorial/features/train/97.npz": "0bcc3653a3f388c23f31ffeb7e6fffc0440d22d7986767ec66897dfd3f72aa72",
+    "semantic_artifacts/source_query_factorial/features/train/107.npz": "5a7fa23cb254561abbc5d2487ccf35e7621039f4ea6e787e11a462056cdab9a8",
+    "semantic_artifacts/source_query_factorial/features/train/108.npz": "a5882956620e2fd3fb9a3dddf58586fc243623d587c5270689c79f0926948f96",
+    "semantic_artifacts/source_query_factorial/features/train/117.npz": "572a4735a92c298d7c2d06c22a543c3045cc550ad72ba7fd6befe2168598a355",
+    "semantic_artifacts/source_query_factorial/features/train/119.npz": "a2a7e0bb10aa8b7930f6cfa63b21041b883251d40468bad852345b334f5c0436",
+    "semantic_artifacts/source_query_factorial/features/train/120.npz": "795ef4198eca1ebe2cdbb2b26e0b70fdb6b8d581df1dc5c25af20fd11ad3df0e",
+    "semantic_artifacts/source_query_factorial/features/train/133.npz": "b60e60d644736542dea7a55f359cff323868006f89c21eaaca667089b536d774",
+    "semantic_artifacts/source_query_factorial/features/train/139.npz": "c84f282bc5288b5e08924568d1b09683cbea79f011a6591741f1159100052fd1",
+    "semantic_artifacts/source_query_factorial/features/train/145.npz": "8d8c9cdf9780ea2c68ce6ae826d4869837b5ec8ca7eb632f56b9b9df3fe6e21d",
+    "semantic_artifacts/source_query_factorial/features/train/146.npz": "9de5753cca0e7141e113f3b571af2c0e930ae68279799e48b5deb9484a5559cf",
+    "semantic_artifacts/source_query_factorial/features/train/148.npz": "15a50b432e13f465bf235bb0385111aef3eaf7f7a838de2a35c07566220c5e40",
+    "semantic_artifacts/source_query_factorial/features/train/169.npz": "8e8b8dac635290931633944a6e82e26f413f3420727fe316b6d42f5a7e8c8d71",
+    "semantic_artifacts/source_query_factorial/features/train/187.npz": "3f2c037416be19f4e1840b93d8d4fade571b59c973090bd6d64ce98d33ce4dcd",
+    "semantic_artifacts/source_query_factorial/features/train/193.npz": "c0d8f4564e5d8369b04af35243723d43906c75e8b726ae97ace43ba4952e8c4b",
+    "semantic_artifacts/source_query_factorial/features/train/194.npz": "6dbec9a2b722ed718afbcfb1b899314d13865846c47eac2becb566125ff72cc4",
+    "semantic_artifacts/source_query_factorial/features/train/201.npz": "52db37e5750866901dbbb400efe5c3b2f93636f34f12c043bf27a57e25e0fe1a",
+    "semantic_artifacts/source_query_factorial/features/train/213.npz": "7a2f48c418871f7092005ef8285cf1d94413b714578b47fb8b163fb409e68dfd",
+    "semantic_artifacts/source_query_factorial/features/train/238.npz": "22d2e0b91becdbbd64bb8aeb2cb41585ffdeecdf0fe852e813ca4916871c7730",
+    "semantic_artifacts/source_query_factorial/features/train/266.npz": "773f3106792f3a9f00f468d7185cbd895908185d0740e39596799df042109a68",
+    "semantic_artifacts/source_query_factorial/features/train/283.npz": "4b20c6669ec129d1ac1a1ec4facfafac54df43b4ca9836a59fa65e6b0f0fd869",
+    "semantic_artifacts/source_query_factorial/features/train/295.npz": "5393925ba54f1767d4f1f2a12e69a6e9c461037f3192ce61fef1365dbe497a29",
+    "semantic_artifacts/source_query_factorial/features/train/300.npz": "ba3ba91f48df2725cdab82d063ba9ecc8e2ed94617f85b4386eced9518a29ee6",
+    "semantic_artifacts/source_query_factorial/features/train/304.npz": "7ab7bcd35652c73d650aaaacb7adf2a8704d15763806e83391a0f6aac13f5310",
+    "semantic_artifacts/source_query_factorial/features/train/310.npz": "c24f8c05ab816fc3395281770ad9ba6ba4c3603139b37f7b5dc46c7978ad7154",
+    "semantic_artifacts/source_query_factorial/features/train/315.npz": "07ce768cf5d64f80928948b3f118d0608ed2924325a42e86b7320aaf174e805f",
+    "semantic_artifacts/source_query_factorial/features/train/316.npz": "817c271f2348fbeb140be4e20328d467f63b9b5408892ba7b285035080c74d33",
+    "semantic_artifacts/source_query_factorial/features/train/326.npz": "91e245d089790b48595cd512c4292a63b501cc8bd8af381986cd6f502b8972af",
+    "semantic_artifacts/source_query_factorial/features/train/330.npz": "53981d526a1440831e8e8d42282879ea60a27ad6aae88d7d866c0f90ca59af0f",
+    "semantic_artifacts/source_query_factorial/features/train/332.npz": "84f499ec8a835aec42ccac207de129ccde70cc96c0fcc11796301080c1522d4f",
+    "semantic_artifacts/source_query_factorial/features/train/334.npz": "54562e32692a46a66e5ac6874aff1938e4b09e604b299e920eac6ed92c452b81",
+    "semantic_artifacts/source_query_factorial/features/train/365.npz": "09d72ab1ec29eb22d6ef74800bef1cfbf38e29094b38c19f8977bb016f5d61e5",
+    "semantic_artifacts/source_query_factorial/features/train/373.npz": "6a1ee975380084773651b6531589e291c5bba7123f785702f87afb3916f8a868",
+    "semantic_artifacts/source_query_factorial/features/train/377.npz": "eed0196b24777f05dc37b7b573655fb082b3cd5d99cf8014c4d0c093436f611b",
+    "semantic_artifacts/source_query_factorial/features/train/386.npz": "96df220edeee972dbdf1c65ccbb2a9bfe21995c4ecb86eeeb76c34ad487e7192",
+    "semantic_artifacts/source_query_factorial/features/train/404.npz": "9b0ae4a90b63b20225d73671b5f52ee947e8c30feb387734ab975db4a3c5cc0c",
+    "semantic_artifacts/source_query_factorial/features/train/405.npz": "31051a6eba1cb6e993e9d75592418dca724d67db2c6097b8196d1e00a7fd1490",
+    "semantic_artifacts/source_query_factorial/features/train/425.npz": "d9fc5976191f1d8cf7c60b973aa6e463d138bc40e1f01a5e0fa24d11c20e85db",
+    "semantic_artifacts/source_query_factorial/features/train/437.npz": "fef3e0800fb726b1da422a6689f4ccf5b102aadd6da878234c6c45770c26d543",
+    "semantic_artifacts/source_query_factorial/features/train/447.npz": "e8683798a9777da2a01330d9714ed0f8dbdf8a146fa813c62421dc70cb84ac96",
+    "semantic_artifacts/source_query_factorial/features/train/453.npz": "fc67643e3fb9c2369b11bab4f83cbe6f263edca681f4c08628f2d6030993e63b",
+    "semantic_artifacts/source_query_factorial/features/train/456.npz": "64cca1abca32b41d88d714d1648fe241692d62ceb400862c5a6238bef3eb5020",
+    "semantic_artifacts/source_query_factorial/features/train/461.npz": "ca042dd57fc12b6628e0f40f51c121533def3c546ea6419ba8fdca6067572638",
+    "semantic_artifacts/source_query_factorial/features/train/468.npz": "dbdfe1c83ce579c5ddac94379201f2332f368818a35a1f6d5d544b80d5538107",
+    "semantic_artifacts/source_query_factorial/features/train/473.npz": "196f79f3cf4537e0299627f6bd970e1a430e403f4effd3c63987f3ac741cf7f3",
+    "semantic_artifacts/source_query_factorial/features/train/479.npz": "b9edc2f073af7d1d6d5bbec8599f0bd1b1aa2ce43e6c23af18795e48d853d5a4",
+    "semantic_artifacts/source_query_factorial/features/train/488.npz": "2479c55c6f610c7d18333ae5efe653f68c705edbc45400c3db867a0fcefe9f3b",
+    "semantic_artifacts/source_query_factorial/features/train/491.npz": "cf0a3119d845bc5a1d19c252ef4d68e8777be41cc0cb08590f89d176a60077ec",
+    "semantic_artifacts/source_query_factorial/features/train/526.npz": "254e4b524487ba4053fad69093b7cfbb8e261757a6c99a417a18c7380c96f9c1",
+    "semantic_artifacts/source_query_factorial/features/train/548.npz": "8acda55b88943d1702ba0b2b1c0d6fa2c4250aa6ffba3026acf7dba141da6476",
+    "semantic_artifacts/source_query_factorial/features/train/566.npz": "66313cf214237df8db0e814519a36aa4b16495b28221f3017ffa94a51033b2ae",
+    "semantic_artifacts/source_query_factorial/features/train/571.npz": "82c6a8b16bd87e1c4d194bf99ad79cf0cba218d1f318c509aaebbccba0f963c3",
+    "semantic_artifacts/source_query_factorial/features/train/572.npz": "f281eb06c2af451f537d7653252e3d7f27d93b3cdd22351245e03fc3e71c1d78",
+    "semantic_artifacts/source_query_factorial/features/train/581.npz": "f11b87163811bee17aa52c9fcae2fbb1e4c82badb5c86f9ec983dba8ba76adcd",
+    "semantic_artifacts/source_query_factorial/features/train/607.npz": "85bd5876d4e22072fd17669ea74251529ceba56b39cf73f15a9b1a3546835cde",
+    "semantic_artifacts/source_query_factorial/features/val/23.npz": "e66027376b14f74f2f71e299cd238602ff71e15ae7237b2c9aea0d44ded58813",
+    "semantic_artifacts/source_query_factorial/features/val/60.npz": "3ad9c2ba552c49255703a505944e6029177ee4976087fe5180b7052f47dd57f9",
+    "semantic_artifacts/source_query_factorial/features/val/75.npz": "4b94d0d12d0acdd243d41a3111907c11e716ae841634063b1c7ae5d698df760c",
+    "semantic_artifacts/source_query_factorial/features/val/84.npz": "83ec80b71e0a24424a59da07cd738e514052bcea6c3d1c89c3b0ae1b0dd7e554",
+    "semantic_artifacts/source_query_factorial/features/val/89.npz": "6686e60cfa14cb506af1c3f8026526da68ce292f66d03b08d578bccc1998df8b",
+    "semantic_artifacts/source_query_factorial/features/val/138.npz": "23de9987b1ba838f0edb1f30a631d1fe4d20df7014608120659dc47737b80ce1",
+    "semantic_artifacts/source_query_factorial/features/val/173.npz": "adcdb3a4083d14cdfc2c27f24d12cf3fa8732a00968076d7338cc84b29b254ed",
+    "semantic_artifacts/source_query_factorial/features/val/178.npz": "eeefc7655d5cfcbbf0955e24d10931a0f8fe108ff827c7fd9789dcb173a2958c",
+    "semantic_artifacts/source_query_factorial/features/val/236.npz": "8c10f1fa61fec297ac2eec230bfcdce81a228115a04dc3269883a0294c60572f",
+    "semantic_artifacts/source_query_factorial/features/val/252.npz": "1b22faaff95fdca4dafdcdc9ba1c5025a7fad2eabdedbd2f35ad1b717d01aada",
+    "semantic_artifacts/source_query_factorial/features/val/305.npz": "8d4aeb0016d56ee54d617766def48924c8665c85734a87f1a51e030663015b6c",
+    "semantic_artifacts/source_query_factorial/features/val/314.npz": "3ad3bc7341c541bbb5035879a4661e8748935113178ac6aaa9dddaf3bb27dd17",
+    "semantic_artifacts/source_query_factorial/features/val/318.npz": "2b7068eb176d6868730e4a88b892a0cf52a0ff29af81e246d1dbf82215aaeb6a",
+    "semantic_artifacts/source_query_factorial/features/val/355.npz": "7eb8593594cf1711cbf66717ffabd5125045e8bfb563f0ad7161964a912fe8b4",
+    "semantic_artifacts/source_query_factorial/features/val/361.npz": "6597bed527059054a4a617776527a2739c012e65e81257222d73ee414193846c",
+    "semantic_artifacts/source_query_factorial/features/val/401.npz": "e214f925fdb60e9a5fde59a044f1db3d5a2745c727f4d11f8b03e8a81e442659",
+    "semantic_artifacts/source_query_factorial/features/val/442.npz": "5c5625d502ad9c56ed7bcff1cdf5787cec3f1bb6f8d82bf887d6a871a570c875",
+    "semantic_artifacts/source_query_factorial/features/val/502.npz": "3f1f5cd8c21689932e4127360dad79daa3063dd7a5967999540ed49759fe67ea",
+    "semantic_artifacts/source_query_factorial/features/val/586.npz": "c3c995675cf43bf7af02214258758e01944bcd8ed79d07fd57786a1d1af69b90",
+    "semantic_artifacts/source_query_factorial/features/val/587.npz": "1f3ed2c31b15bdb61548184e97fff561c4e7d3c379696411a15564a0fb6b8bed"
+  },
+  "old_cache_differences": [
+    {
+      "split": "train",
+      "video_id": 13,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01556396484375,
+      "memory_vs_old_max_abs": 2.2351741790771484e-08,
+      "raw_vs_source_prefix_max_abs": 11.974884033203125
+    },
+    {
+      "split": "train",
+      "video_id": 19,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01558685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.656010627746582
+    },
+    {
+      "split": "train",
+      "video_id": 22,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01558685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 12.005517959594727
+    },
+    {
+      "split": "train",
+      "video_id": 63,
+      "queries": 896,
+      "raw_pre_vs_old_max_abs": 0.00780487060546875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.510601997375488
+    },
+    {
+      "split": "train",
+      "video_id": 76,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 8.684318542480469
+    },
+    {
+      "split": "train",
+      "video_id": 87,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078029632568359375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.0361967086792
+    },
+    {
+      "split": "train",
+      "video_id": 97,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.182458877563477
+    },
+    {
+      "split": "train",
+      "video_id": 107,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.120235443115234
+    },
+    {
+      "split": "train",
+      "video_id": 108,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0155792236328125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.584040641784668
+    },
+    {
+      "split": "train",
+      "video_id": 117,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0155792236328125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 12.15028190612793
+    },
+    {
+      "split": "train",
+      "video_id": 119,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0134124755859375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.903852462768555
+    },
+    {
+      "split": "train",
+      "video_id": 120,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015621185302734375,
+      "memory_vs_old_max_abs": 7.450580596923828e-09,
+      "raw_vs_source_prefix_max_abs": 12.435163497924805
+    },
+    {
+      "split": "train",
+      "video_id": 133,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.183835983276367
+    },
+    {
+      "split": "train",
+      "video_id": 139,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01560211181640625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.263711929321289
+    },
+    {
+      "split": "train",
+      "video_id": 145,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.590166091918945
+    },
+    {
+      "split": "train",
+      "video_id": 146,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01389312744140625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.806144714355469
+    },
+    {
+      "split": "train",
+      "video_id": 148,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015613555908203125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.406513214111328
+    },
+    {
+      "split": "train",
+      "video_id": 169,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015514373779296875,
+      "memory_vs_old_max_abs": 1.4901161193847656e-08,
+      "raw_vs_source_prefix_max_abs": 10.086769104003906
+    },
+    {
+      "split": "train",
+      "video_id": 187,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.067422866821289
+    },
+    {
+      "split": "train",
+      "video_id": 193,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01560211181640625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 8.577571868896484
+    },
+    {
+      "split": "train",
+      "video_id": 194,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.469212532043457
+    },
+    {
+      "split": "train",
+      "video_id": 201,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.335512161254883
+    },
+    {
+      "split": "train",
+      "video_id": 213,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.675037384033203
+    },
+    {
+      "split": "train",
+      "video_id": 238,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0156097412109375,
+      "memory_vs_old_max_abs": 0.0,
+      "raw_vs_source_prefix_max_abs": 21.119152069091797
+    },
+    {
+      "split": "train",
+      "video_id": 266,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01338958740234375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.798379898071289
+    },
+    {
+      "split": "train",
+      "video_id": 283,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.353215217590332
+    },
+    {
+      "split": "train",
+      "video_id": 295,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.358956336975098
+    },
+    {
+      "split": "train",
+      "video_id": 300,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.2351741790771484e-08,
+      "raw_vs_source_prefix_max_abs": 9.75868034362793
+    },
+    {
+      "split": "train",
+      "video_id": 304,
+      "queries": 512,
+      "raw_pre_vs_old_max_abs": 0.015415191650390625,
+      "memory_vs_old_max_abs": 1.4901161193847656e-08,
+      "raw_vs_source_prefix_max_abs": 9.89687728881836
+    },
+    {
+      "split": "train",
+      "video_id": 310,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.315863609313965
+    },
+    {
+      "split": "train",
+      "video_id": 315,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.00780487060546875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 8.024788856506348
+    },
+    {
+      "split": "train",
+      "video_id": 316,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01555633544921875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.718931198120117
+    },
+    {
+      "split": "train",
+      "video_id": 326,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.014789581298828125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.695947647094727
+    },
+    {
+      "split": "train",
+      "video_id": 330,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 1.1175870895385742e-08,
+      "raw_vs_source_prefix_max_abs": 10.66218376159668
+    },
+    {
+      "split": "train",
+      "video_id": 332,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.061043739318848
+    },
+    {
+      "split": "train",
+      "video_id": 334,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.00780487060546875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.507491111755371
+    },
+    {
+      "split": "train",
+      "video_id": 365,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.014560699462890625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.376303672790527
+    },
+    {
+      "split": "train",
+      "video_id": 373,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01560211181640625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.820531845092773
+    },
+    {
+      "split": "train",
+      "video_id": 377,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01544952392578125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.067516326904297
+    },
+    {
+      "split": "train",
+      "video_id": 386,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0155029296875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.921382904052734
+    },
+    {
+      "split": "train",
+      "video_id": 404,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.041313171386719
+    },
+    {
+      "split": "train",
+      "video_id": 405,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.00780487060546875,
+      "memory_vs_old_max_abs": 2.2351741790771484e-08,
+      "raw_vs_source_prefix_max_abs": 6.921639442443848
+    },
+    {
+      "split": "train",
+      "video_id": 425,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01558685302734375,
+      "memory_vs_old_max_abs": 1.4901161193847656e-08,
+      "raw_vs_source_prefix_max_abs": 8.110858917236328
+    },
+    {
+      "split": "train",
+      "video_id": 437,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01519012451171875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 8.008654594421387
+    },
+    {
+      "split": "train",
+      "video_id": 447,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.900264739990234
+    },
+    {
+      "split": "train",
+      "video_id": 453,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 1.1175870895385742e-08,
+      "raw_vs_source_prefix_max_abs": 9.334832191467285
+    },
+    {
+      "split": "train",
+      "video_id": 456,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 12.902881622314453
+    },
+    {
+      "split": "train",
+      "video_id": 461,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.00780487060546875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.661809921264648
+    },
+    {
+      "split": "train",
+      "video_id": 468,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015594482421875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.8707275390625
+    },
+    {
+      "split": "train",
+      "video_id": 473,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01554107666015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.342872619628906
+    },
+    {
+      "split": "train",
+      "video_id": 479,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.066995620727539
+    },
+    {
+      "split": "train",
+      "video_id": 488,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 1.4901161193847656e-08,
+      "raw_vs_source_prefix_max_abs": 9.012413024902344
+    },
+    {
+      "split": "train",
+      "video_id": 491,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0077991485595703125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.2029032707214355
+    },
+    {
+      "split": "train",
+      "video_id": 526,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.440102577209473
+    },
+    {
+      "split": "train",
+      "video_id": 548,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078067779541015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.559785842895508
+    },
+    {
+      "split": "train",
+      "video_id": 566,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0156097412109375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.595586776733398
+    },
+    {
+      "split": "train",
+      "video_id": 571,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.0078029632568359375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.248311996459961
+    },
+    {
+      "split": "train",
+      "video_id": 572,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.2351741790771484e-08,
+      "raw_vs_source_prefix_max_abs": 10.154888153076172
+    },
+    {
+      "split": "train",
+      "video_id": 581,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.01544952392578125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.0579833984375
+    },
+    {
+      "split": "train",
+      "video_id": 607,
+      "queries": 1152,
+      "raw_pre_vs_old_max_abs": 0.015613555908203125,
+      "memory_vs_old_max_abs": 2.2351741790771484e-08,
+      "raw_vs_source_prefix_max_abs": 10.706987380981445
+    },
+    {
+      "split": "val",
+      "video_id": 23,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0156097412109375,
+      "memory_vs_old_max_abs": 0.0,
+      "raw_vs_source_prefix_max_abs": 11.472431182861328
+    },
+    {
+      "split": "val",
+      "video_id": 60,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.015613555908203125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.664051055908203
+    },
+    {
+      "split": "val",
+      "video_id": 75,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 6.865766525268555
+    },
+    {
+      "split": "val",
+      "video_id": 84,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078067779541015625,
+      "memory_vs_old_max_abs": 0.0,
+      "raw_vs_source_prefix_max_abs": 7.634756088256836
+    },
+    {
+      "split": "val",
+      "video_id": 89,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.124813079833984
+    },
+    {
+      "split": "val",
+      "video_id": 138,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.01462554931640625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.299417495727539
+    },
+    {
+      "split": "val",
+      "video_id": 173,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.494264602661133
+    },
+    {
+      "split": "val",
+      "video_id": 178,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078105926513671875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.91193675994873
+    },
+    {
+      "split": "val",
+      "video_id": 236,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0155792236328125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.680598258972168
+    },
+    {
+      "split": "val",
+      "video_id": 252,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.01560211181640625,
+      "memory_vs_old_max_abs": 0.0,
+      "raw_vs_source_prefix_max_abs": 8.87710189819336
+    },
+    {
+      "split": "val",
+      "video_id": 305,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.01561737060546875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.348995208740234
+    },
+    {
+      "split": "val",
+      "video_id": 314,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.01544952392578125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.466907501220703
+    },
+    {
+      "split": "val",
+      "video_id": 318,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.01560211181640625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.334318161010742
+    },
+    {
+      "split": "val",
+      "video_id": 355,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078067779541015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.127989768981934
+    },
+    {
+      "split": "val",
+      "video_id": 361,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.015621185302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 9.437827110290527
+    },
+    {
+      "split": "val",
+      "video_id": 401,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.007808685302734375,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 8.44234848022461
+    },
+    {
+      "split": "val",
+      "video_id": 442,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.015625,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.57596206665039
+    },
+    {
+      "split": "val",
+      "video_id": 502,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.0078125,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 7.035119533538818
+    },
+    {
+      "split": "val",
+      "video_id": 586,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.015594482421875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 11.204780578613281
+    },
+    {
+      "split": "val",
+      "video_id": 587,
+      "queries": 2048,
+      "raw_pre_vs_old_max_abs": 0.015544891357421875,
+      "memory_vs_old_max_abs": 2.9802322387695312e-08,
+      "raw_vs_source_prefix_max_abs": 10.388961791992188
+    }
+  ]
+}

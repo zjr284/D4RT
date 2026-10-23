@@ -1,0 +1,10 @@
+{
+  "video_id": 23,
+  "live_prefix_dtype": "torch.float32",
+  "cached_training_prefix_dtype": "torch.bfloat16",
+  "memory_max_difference": 0.0,
+  "unquantized_prefix_max_difference": 0.12432861328125,
+  "explicit_BF16_boundary_max_difference": 0.0,
+  "explicit_BF16_logits_exact_saved_validation": true,
+  "diagnostic_code_sha256": "b04fd234bfe0bd2379b9e54c69718ba559ef40eccac57e873b64d8637a06cb09"
+}
